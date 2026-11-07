@@ -1,0 +1,1163 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="report-date" content="2026-10-23">
+<title>今日深度复盘与明日实战预案 · 2026-10-26</title><style>
+:root {
+  --bg-primary: #0d1117;
+  --bg-card: #161b22;
+  --bg-card-sub: #0f141c;
+  --border-color: #30363d;
+  --border-hover: #58a6ff;
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+  --accent-red: #f85149;
+  --accent-green: #3fb950;
+  --accent-blue: #58a6ff;
+  --accent-yellow: #d29922;
+  --accent-purple: #bc8cff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg-primary);
+  color: #c9d1d9;
+  font: 14px/1.65 -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+.wrap { max-width: 1140px; margin: 0 auto; padding: 24px 20px 60px; }
+.back-link { margin-bottom: 16px; }
+.back-link a { color: var(--accent-blue); text-decoration: none; font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
+.back-link a:hover { text-decoration: underline; }
+
+/* Hero Header */
+.hero {
+  background: linear-gradient(135deg, rgba(88, 166, 255, 0.12) 0%, rgba(210, 153, 34, 0.08) 50%, rgba(248, 81, 73, 0.12) 100%);
+  border: 1px solid rgba(88, 166, 255, 0.3);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+.hero-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 14px; }
+.hero-title { font-size: 24px; font-weight: 800; color: #f0f6fc; margin: 0 0 6px; }
+.hero-sub { color: var(--text-secondary); font-size: 13px; margin: 0; }
+.pulse-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700;
+  background: rgba(248, 81, 73, 0.15); color: #f85149; border: 1px solid rgba(248, 81, 73, 0.4);
+}
+.pulse-dot {
+  width: 8px; height: 8px; border-radius: 50%; background: #f85149;
+  box-shadow: 0 0 0 0 rgba(248, 81, 73, 0.7);
+  animation: pulse-ring 2s infinite;
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(248, 81, 73, 0.7); }
+  70% { box-shadow: 0 0 0 8px rgba(248, 81, 73, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(248, 81, 73, 0); }
+}
+
+h2 {
+  font-size: 16px; margin: 32px 0 12px; color: #f0f6fc;
+  border-left: 3px solid var(--accent-blue); padding-left: 10px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.sub { color: var(--text-secondary); font-size: 12.5px; margin: -4px 0 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 14px 16px; min-width: 0; }
+.card:hover { border-color: rgba(88, 166, 255, 0.4); }
+.k { color: var(--text-secondary); font-size: 11.5px; margin-bottom: 2px; }
+.v { font-size: 20px; font-weight: 800; color: #f0f6fc; }
+.gate h3 { margin: 0 0 6px; font-size: 13.5px; color: var(--text-primary); }
+.gate .hl { font-weight: 700; color: #f0f6fc; font-size: 15px; margin-bottom: 4px; }
+.gate .chk { color: var(--text-secondary); font-size: 12px; margin-top: 8px; padding-top: 6px; border-top: 1px dashed #21262d; }
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 8px 10px; border-bottom: 1px solid #21262d; text-align: left; vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; font-size: 12px; background: rgba(0, 0, 0, 0.2); }
+.tw { overflow-x: auto; }
+.up { color: var(--accent-red); font-weight: 600; }
+.down { color: var(--accent-green); font-weight: 600; }
+.muted { color: #8b949e; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11.5px; border: 1px solid var(--border-color); font-weight: 600; }
+.primary { border-color: #d29922; background: rgba(210, 153, 34, 0.05); }
+.primary .tag { color: #d29922; border-color: #d29922; }
+ul { margin: 6px 0 0; padding-left: 18px; }
+li { margin-bottom: 4px; }
+.phase { margin-top: 8px; background: var(--bg-card-sub); padding: 8px 12px; border-radius: 6px; border-left: 3px solid var(--accent-blue); }
+.phase b { color: var(--accent-blue); font-weight: 600; margin-right: 8px; display: inline-block; min-width: 72px; }
+
+/* Tactical Breakdown & Priority Matrix */
+.law-card {
+  background: rgba(22, 27, 34, 0.95); border: 1px solid rgba(248, 81, 73, 0.35); border-left: 4px solid var(--accent-red);
+  border-radius: 8px; padding: 14px 18px; margin-bottom: 12px;
+}
+.law-title { font-weight: 700; color: #f0f6fc; font-size: 14px; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+.law-desc { color: #c9d1d9; font-size: 13px; line-height: 1.6; }
+.law-rule { color: var(--accent-red); font-weight: 600; margin-top: 6px; font-size: 12.5px; }
+
+.pm-card {
+  background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px;
+  padding: 14px 18px; margin-bottom: 12px; border-left: 4px solid var(--border-color);
+}
+.pm-p0 { border-left-color: var(--accent-red); }
+.pm-p1 { border-left-color: var(--accent-yellow); }
+.pm-p2 { border-left-color: var(--accent-blue); }
+.pm-p3 { border-left-color: var(--accent-purple); }
+.pm-black { border-left-color: #da3633; background: rgba(218, 54, 51, 0.08); border-color: rgba(218, 54, 51, 0.3); }
+
+.pm-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.pm-badge { font-size: 11.5px; font-weight: 700; padding: 2px 10px; border-radius: 12px; }
+.pm-p0 .pm-badge { background: rgba(248, 81, 73, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+.pm-p1 .pm-badge { background: rgba(210, 153, 34, 0.2); color: var(--accent-yellow); border: 1px solid var(--accent-yellow); }
+.pm-p2 .pm-badge { background: rgba(88, 166, 255, 0.2); color: var(--accent-blue); border: 1px solid var(--accent-blue); }
+.pm-p3 .pm-badge { background: rgba(188, 140, 255, 0.2); color: var(--accent-purple); border: 1px solid var(--accent-purple); }
+.pm-black .pm-badge { background: rgba(248, 81, 73, 0.25); color: #ff7b72; border: 1px solid #da3633; }
+
+.checklist-table td { padding: 9px 12px; }
+.time-tag { background: rgba(88, 166, 255, 0.15); color: var(--accent-blue); border: 1px solid rgba(88, 166, 255, 0.3); padding: 2px 8px; border-radius: 4px; font-weight: 700; font-size: 12px; }
+
+/* 移动端表格首列吸顶冻结 */
+.tw table th:first-child,
+.tw table td:first-child {
+  position: sticky;
+  left: 0;
+  background: var(--bg-card);
+  z-index: 2;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.25);
+}
+.tw table th:first-child {
+  background: #1c2128;
+}
+
+.copy-btn {
+  background: #238636; color: #ffffff; border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 14px; border-radius: 6px; font-size: 12.5px; font-weight: 700;
+  cursor: pointer; display: inline-flex; align-items: center; gap: 5px;
+  transition: all 0.2s ease;
+}
+.copy-btn:hover { background: #2ea043; transform: translateY(-1px); }
+.melt-banner {
+  background: linear-gradient(135deg, rgba(218, 54, 51, 0.22) 0%, rgba(248, 81, 73, 0.12) 100%);
+  border: 1px solid #f85149; border-left: 5px solid #da3633; border-radius: 8px;
+  padding: 10px 16px; margin-bottom: 16px; display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 8px; box-shadow: 0 4px 14px rgba(218,54,51,0.25);
+}
+
+a { color: var(--accent-blue); }
+footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 12px; text-align: center; }
+</style></head><body><div class="wrap">
+<!-- 统一全功能快捷导航条 -->
+<div class="top-nav" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:20px;padding:10px 16px;background:rgba(22,27,34,0.85);border:1px solid #30363d;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.25)">
+  <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+    <a href="本地导航入口.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">🏠 导航门户</a>
+    <span style="color:#30363d">|</span>
+    <a href="主线强度追踪.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">📊 主线追踪大报告</a>
+    <span style="color:#30363d">|</span>
+    <a href="site/dashboards/latest.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">📈 决策看板</a>
+    <span style="color:#30363d">|</span>
+    <a href="今日复盘与明日预案_最新.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">⚔️ 今日复盘与明日预案</a>
+    <span style="color:#30363d">|</span>
+    <a href="强势板块回调跟踪_最新.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">🌊 强势板块回调跟踪</a>
+    <span style="color:#30363d">|</span>
+    <a href="site/dragon/latest.html" style="color:#58a6ff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">🐉 龙头接替谱系</a>
+    <span style="color:#30363d">|</span>
+    <a href="zhao个股追踪_最新.html" style="color:#bc8cff;text-decoration:none;font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:4px">🎯 属于zhao的个股追踪</a>
+  </div>
+  <div style="font-size:12px;color:#8b949e">数据基准日：2026-10-23</div>
+</div>
+
+<!-- Hero Header -->
+<div class="hero">
+  <div class="hero-top">
+    <div>
+      <div class="hero-title">今日深度复盘 · 明日实战预案</div>
+      <div class="hero-sub">实战操盘手册 · 优先级作战矩阵 × 分时段检查表 × 风险熔断底线 · 基于 2026-10-23 真实数据</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+      <span class="pulse-dot" style="background:#3fb950;box-shadow:0 0 0 0 rgba(63,185,80,0.7)"></span>🟢 顺势进攻 · 梯队接力 (涨停 82 家)
+      <button class="copy-btn" onclick="copyMorningPlanDigest()">📋 一键复制晨会操盘卡片</button>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 🎯 【明日操盘实战总决策 · 核心结论作战看板】(Executive Tactical Action Brief) -->
+
+<!-- ======================================================================= -->
+<!-- 🎯 【明日操盘实战总决策 · 核心结论作战看板】 (Executive Tactical Action Brief) -->
+<!-- ======================================================================= -->
+<section class="executive-action-brief" style="margin:24px 0 32px 0;background:linear-gradient(135deg, rgba(22,27,34,0.98) 0%, rgba(13,17,23,1) 100%);border:2px solid #58a6ff;border-radius:14px;padding:24px 26px;box-shadow:0 12px 40px rgba(0,0,0,0.6)">
+
+  <!-- 头部核心横幅 -->
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:14px;margin-bottom:20px;border-bottom:1px solid #30363d;padding-bottom:16px">
+    <div>
+      <div style="font-size:22px;font-weight:900;color:#f0f6fc;display:flex;align-items:center;gap:10px">
+        <span style="background:#1f6feb;color:#ffffff;padding:3px 10px;border-radius:8px;font-size:13px;font-weight:800">结论先行</span>
+        <span>🎯 明日操盘实战总决策 · 核心结论作战看板</span>
+      </div>
+      <div style="color:#8b949e;font-size:13px;margin-top:6px;line-height:1.5">
+        拒绝含糊模棱两可与冗余哲学分析 · 基于 <b style="color:#f0f6fc">2026-10-23</b> 真实盘面与历史推演 · 目标交易日：<b style="color:#58a6ff">2026-10-26</b> · 实操总仓位指导：<b style="color:#3fb950">1.5 成</b>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+      <span style="background:rgba(63,185,80,0.15);color:#3fb950;border:1px solid #3fb950;padding:6px 14px;border-radius:8px;font-size:12.5px;font-weight:700">涨停 82 家 · 跌停 6 家</span>
+      <span style="background:rgba(88,166,255,0.15);color:#58a6ff;border:1px solid #58a6ff;padding:6px 14px;border-radius:8px;font-size:12.5px;font-weight:700">主线聚焦率 60.8%</span>
+    </div>
+  </div>
+
+  <!-- 模块一：明日必关注核心板块全景红绿榜 -->
+  <div style="font-size:15px;font-weight:800;color:#e3b341;margin-bottom:12px;display:flex;align-items:center;gap:8px">
+    <span>🧭 一、明日必关注核心板块 · 进退红绿榜</span>
+    <span style="font-size:11.5px;color:#8b949e;font-weight:normal">（主线进攻 / 协同副线 / 独立观察 / 绝对做空雷区）</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:14px;margin-bottom:24px">
+    
+    <!-- 主攻板块 1 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-top:4px solid #f85149;border-radius:10px;padding:14px 16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b style="font-size:14.5px;color:#f0f6fc">🔴 绝对第一主线：机器人</b>
+        <span style="background:rgba(248,81,73,0.2);color:#f85149;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;border:1px solid #f85149">主攻战场</span>
+      </div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.6;margin-bottom:8px">
+        <b>【量化事实】</b>日内掀起 <b style="color:#f85149">35 家涨停潮</b>，总成交超 <b style="color:#f85149">323.2 亿</b>，占全市场做多资金 42.7%！空间龙头大业股份 6 连板，兆威机电、赛福天、襄阳轴承等 8 家 2 板形成极度健康接力梯队，大容量中军宇树科技 (47.7亿) 爆发。<br>
+        <b>【实战指令】</b><b style="color:#3fb950">顺势进攻！</b> 明日核心胜率最高方向。关注大业股份 6 进 7 换手确认，精选 2 进 3 弱转强首板/二板接力，容量中军逢分时回踩均线低吸。
+      </div>
+      <div style="font-size:11px;color:#58a6ff;background:rgba(0,0,0,0.3);padding:6px 10px;border-radius:6px">
+        🎯 必看标的: 大业股份 (6板)、兆威机电 (2板)、赛福天 (2板)、宇树科技-W (47.7亿)
+      </div>
+    </div>
+
+    <!-- 协同板块 2 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-top:4px solid #58a6ff;border-radius:10px;padding:14px 16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b style="font-size:14.5px;color:#f0f6fc">🟠 强共振副线：AI应用</b>
+        <span style="background:rgba(88,166,255,0.2);color:#58a6ff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;border:1px solid #58a6ff">中军承接</span>
+      </div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.6;margin-bottom:8px">
+        <b>【量化事实】</b>日内贡献 <b style="color:#58a6ff">11 家涨停</b>，成交超 400 亿。利亚德 (42.2亿)、粤芯半导-U (36.2亿)、歌尔股份 (28.7亿) 批量放量涨停，与机器人形成“软硬件协同”双核驱动，筑牢指数流动性底。<br>
+        <b>【实战指令】</b><b style="color:#58a6ff">协同承接！</b> 适合大资金容量操作，聚焦具身智能端侧算力与机器视觉芯片中军低吸，不盲目追急拉。
+      </div>
+      <div style="font-size:11px;color:#58a6ff;background:rgba(0,0,0,0.3);padding:6px 10px;border-radius:6px">
+        🎯 必看标的: 利亚德 (42.2亿)、歌尔股份 (28.7亿)、达实智能、绿盟科技
+      </div>
+    </div>
+
+    <!-- 独立板块 3: 军工航天 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-top:4px solid #d29922;border-radius:10px;padding:14px 16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b style="font-size:14.5px;color:#f0f6fc">🟡 独立轮动：军工航天</b>
+        <span style="background:rgba(210,153,34,0.2);color:#d29922;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;border:1px solid #d29922">情绪雷达</span>
+      </div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.6;margin-bottom:8px">
+        <b>【量化事实】</b>海洋王晋级 6 连板与大业股份并列空间最高身位，但下方梯队断层（0+0结构），板块内缺乏后排连板助攻群，属于资金孤峰试探。<br>
+        <b>【实战指令】</b><b style="color:#d29922">只作参照！</b> 仅作全市场情绪连板温度计与身位竞争标杆，在缺乏板块助攻前，切忌盲目接力孤峰。
+      </div>
+      <div style="font-size:11px;color:#e3b341;background:rgba(0,0,0,0.3);padding:6px 10px;border-radius:6px">
+        🎯 必看标的: 海洋王 (6板孤峰 · 风险雷达)
+      </div>
+    </div>
+
+    <!-- 绝对回避板块 4: 断板与跌停踩踏 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-top:4px solid #da3633;border-radius:10px;padding:14px 16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <b style="font-size:14.5px;color:#ff7b72">⛔ 绝对回避：高位断板与踩踏雷区</b>
+        <span style="background:rgba(218,54,51,0.25);color:#ff7b72;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;border:1px solid #da3633">一票否决</span>
+      </div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.6;margin-bottom:8px">
+        <b>【量化事实】</b>星光股份 (昨3板)、三峡新材 (昨3板)、东方嘉盛 (断板大跌-6.67%) 等高位标的断板出清，历史回测显示高位断板次日反包率仅 7.6%！<br>
+        <b>【实战指令】</b><b style="color:#f85149">坚决拉黑！</b> 严禁抄底首阴、严禁盲目搏反包，次日盘中任何拉升一律视为主力诱多自救，坚决执行 0 仓位回避！
+      </div>
+      <div style="font-size:11px;color:#ff7b72;background:rgba(0,0,0,0.3);padding:6px 10px;border-radius:6px">
+        🎯 禁买名单: 星光股份、三峡新材、海量数据、东方嘉盛、跌停踩踏群
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 模块二：明日必关注核心个股作战清单 -->
+  <div style="font-size:15px;font-weight:800;color:#58a6ff;margin-bottom:12px;display:flex;align-items:center;gap:8px">
+    <span>📋 二、明日必关注核心个股实战清单 · 优先级作战矩阵</span>
+    <span style="font-size:11.5px;color:#8b949e;font-weight:normal">（精确标的 · 竞价门槛 · 买入触发 · 仓位风控 · 止损底线）</span>
+  </div>
+
+  <div style="overflow-x:auto;background:#0d1117;border:1px solid #30363d;border-radius:10px;margin-bottom:24px">
+    <table style="width:100%;border-collapse:collapse;font-size:12.5px;text-align:left">
+      <thead>
+        <tr style="background:#161b22;color:#8b949e;border-bottom:1px solid #30363d">
+          <th style="padding:10px 12px">优先级 / 标的名称</th>
+          <th style="padding:10px 12px">代码 / 身位现价</th>
+          <th style="padding:10px 12px">所属板块 / 属性</th>
+          <th style="padding:10px 12px">09:25 集合竞价确认门槛</th>
+          <th style="padding:10px 12px">盘中实战买入触发条件</th>
+          <th style="padding:10px 12px;text-align:center">仓位上限</th>
+          <th style="padding:10px 12px">止损撤退底线</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(248,81,73,0.2);color:#f85149;border:1px solid #f85149">P0 空间总龙</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">大业股份</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh603278</div>
+            <div style="color:#e3b341;font-weight:700">6板 ¥15.96</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 (最高空间标杆)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">高开 +3%~+5%，竞价成交额破亿，无万手巨单压盘</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">9:30~9:35 快速放量推升封死 7 板，确立全市场空间向上打开</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.5 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">盘中炸板下杀破分时均线且翻绿即走，绝不格局</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(248,81,73,0.2);color:#f85149;border:1px solid #f85149">P0 空间孤峰</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">海洋王</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sz002724</div>
+            <div style="color:#e3b341;font-weight:700">6板 ¥12.33</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">军工 (最高空间标杆)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">平开或小幅高开，竞价量比&gt;1.2</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">与大业股份展开身位竞争；若竞价走弱则放弃接力，仅作风向标</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">盘中炸板下杀破分时均线且翻绿即走，绝不格局</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(210,153,34,0.2);color:#d29922;border:1px solid #d29922">P1 中位破局</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">上海九百</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh600838</div>
+            <div style="color:#e3b341;font-weight:700">3板 ¥11.00</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">其它 (唯一中位标杆)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">红开 +2%~+4%，竞价量比 &gt; 1.5，成交额 &gt; 4000 万</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">9:30~9:40 承接充分，换手封 4 板突破中位断层</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">盘中跌破昨日收盘支撑或封板无力即撤</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(88,166,255,0.2);color:#58a6ff;border:1px solid #58a6ff">P2 梯队接力</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">襄阳轴承</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sz000678</div>
+            <div style="color:#e3b341;font-weight:700">2板 ¥13.23</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 (梯队确认)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">高开 +1.5%~+3%，分时平稳</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">主线走强时率先放量封 3 板，极轻仓试错</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">跌破昨日收盘支撑即止损</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(88,166,255,0.2);color:#58a6ff;border:1px solid #58a6ff">P2 梯队接力</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">多伦科技</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh603528</div>
+            <div style="color:#e3b341;font-weight:700">2板 ¥8.14</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 (梯队确认)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">高开 +1.5%~+3%，分时平稳</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">主线走强时率先放量封 3 板，极轻仓试错</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">跌破昨日收盘支撑即止损</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(88,166,255,0.2);color:#58a6ff;border:1px solid #58a6ff">P2 梯队接力</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">正裕工业</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh603089</div>
+            <div style="color:#e3b341;font-weight:700">2板 ¥11.89</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 (梯队确认)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">高开 +1.5%~+3%，分时平稳</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">主线走强时率先放量封 3 板，极轻仓试错</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">跌破昨日收盘支撑即止损</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(88,166,255,0.2);color:#58a6ff;border:1px solid #58a6ff">P2 梯队接力</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">南方路机</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh603280</div>
+            <div style="color:#e3b341;font-weight:700">2板 ¥31.97</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 (梯队确认)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">高开 +1.5%~+3%，分时平稳</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">主线走强时率先放量封 3 板，极轻仓试错</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.0 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">跌破昨日收盘支撑即止损</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(188,140,255,0.2);color:#bc8cff;border:1px solid #bc8cff">P-中军容量</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">宇树科技-W / 利亚德 / 粤芯半导-U</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sh688836 / sz300296 / sz301660</div>
+            <div style="color:#e3b341;font-weight:700">大成交涨停 </div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">机器人 / 半导体 (大容量中军战场)</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">成交活跃，大买单挂单支撑良好</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">20亿~40亿巨量大军回踩日线5日线或分时均线企稳低吸，绝不追高打板</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">1.5 成</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">跌破日内分时均线且主力净流出超3亿立即离场</td>
+        </tr>
+        
+        <tr style="border-bottom:1px solid #21262d">
+          <td style="padding:10px 12px;white-space:nowrap">
+            <span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700;background:rgba(218,54,51,0.3);color:#ff7b72;border:1px solid #da3633">P-Black 禁买</span>
+            <div style="font-weight:700;color:#f0f6fc;font-size:13.5px;margin-top:4px">星光股份 / 三峡新材 / 海量数据 / 出版传媒</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e">
+            <div>sz002076 / sh600293 / sh603138 / sh601999</div>
+            <div style="color:#e3b341;font-weight:700">断板 / 破位 ¥2.49</div>
+          </td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;font-weight:600">高位断板与跌停踩踏雷区</td>
+          <td style="padding:10px 12px;font-size:12px;color:#8b949e;line-height:1.5">任何竞价冲高诱多一律不买</td>
+          <td style="padding:10px 12px;font-size:12px;color:#c9d1d9;line-height:1.5"><b style="color:#3fb950">⛔ 一票否决！严禁开仓！严禁抄底首阴！冲高一律视为主力诱多出逃！</b></td>
+          <td style="padding:10px 12px;font-size:12px;text-align:center;font-weight:700;color:#f0f6fc">0 仓位</td>
+          <td style="padding:10px 12px;font-size:11.5px;color:#f85149;line-height:1.4">已持有的趁冲高全力斩仓出局</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 模块三：明日操盘核心注意要点与临盘熔断法则 -->
+  <div style="font-size:15px;font-weight:800;color:#f85149;margin-bottom:12px;display:flex;align-items:center;gap:8px">
+    <span>🛡️ 三、明日三大核心操盘要点与临盘一键熔断法则</span>
+    <span style="font-size:11.5px;color:#8b949e;font-weight:normal">（临盘生死线 · 严禁凭感觉交易）</span>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:14px">
+    
+    <!-- 要点 1: 09:25 集合竞价定性三雷达 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #58a6ff;border-radius:8px;padding:12px 14px">
+      <div style="font-size:13.5px;font-weight:700;color:#f0f6fc;margin-bottom:6px">
+        ⚡ 1. 早盘 09:25 集合竞价定性三雷达
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.6">
+        • <b>跌停家数警戒：</b> 全市场跌停家数必须 &le; 6 家；若竞价跌停迅速飙升至 &gt; 15 家，表明踩踏重燃，全天一律不开新仓！<br>
+        • <b>空间双龙决战：</b> 大业股份 与 海洋王 必须至少有一家红开高举高打且成交破亿；若两只同时大幅低开或被砸，全天彻底空仓！<br>
+        • <b>机器人开盘溢价率：</b> 机器人 35 只涨停中，次日竞价红开率必须 &ge; 70%，中位前排无恶性低开抢跑。
+      </div>
+    </div>
+
+    <!-- 要点 2: 09:35~10:00 盘中关键验证 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #d29922;border-radius:8px;padding:12px 14px">
+      <div style="font-size:13.5px;font-weight:700;color:#f0f6fc;margin-bottom:6px">
+        🛡️ 2. 09:35~10:00 盘中防伪与分时验证
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.6">
+        • <b>严防假冲天炮诱多：</b> 开盘前 15 分钟只看不买，严禁盲目打无题材跟随的秒板。<br>
+        • <b>黄白线分化确认：</b> 观察黄线（中小盘指数）是否同步向上。若黄线大幅掉头向下而白线拉升，说明权重诱多出逃，严禁追高。<br>
+        • <b>梯队助攻确认：</b> 目标股冲板时，细分题材内必须有 &ge; 2 只首板跟随助攻，否则一律视为孤立脉冲。
+      </div>
+    </div>
+
+    <!-- 要点 3: 临盘一键熔断指令 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:8px;padding:12px 14px">
+      <div style="font-size:13.5px;font-weight:700;color:#ff7b72;margin-bottom:6px">
+        🛑 3. 临盘一键风险熔断指令 (Circuit Breaker)
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.6">
+        • <b>总龙破位熔断：</b> 若大业股份盘中炸板放量下杀翻绿，全天所有买入计划立即失效撤单！<br>
+        • <b>跌停激增熔断：</b> 盘中若跌停家数突然突破 20 家，触发系统级避险，禁止任何低吸！<br>
+        • <b>持仓减仓铁律：</b> 已持仓标的若跌破分时均线且 5 分钟未能收回，立即分批止盈/止损出局，保全本金！
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- 深度复盘解构 -->
+<h2>今日盘面深度解构（大盘体检 · 板块博弈 · 资金流动）</h2>
+<div class="grid" style="margin-bottom:12px">
+  <div class="card" style="padding:12px 14px">
+    <div class="k">大盘全景体检</div>
+    <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">📊 市场微观体检 (涨停 82 / 跌停 6)</div>
+    <div style="font-size:12px;color:#8b949e;line-height:1.5">
+      上涨占比 83.3%，连板晋级率 36.4%，盘面中性震荡分化。
+    </div>
+  </div>
+  <div class="card" style="padding:12px 14px">
+    <div class="k">主线分化与博弈</div>
+    <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">高标决裂 (大业股份、海洋王 6 板独苗 vs 高位断板大跌)</div>
+    <div style="font-size:12px;color:#8b949e;line-height:1.5">
+      高位断板标的 (星光股份、三峡新材、海量数据、出版传媒、哈空调) 风险出清，亏钱效应释放，严禁抄底。
+    </div>
+  </div>
+</div>
+
+<!-- 宏观舆情与热点新闻全景映射作战室 -->
+
+<!-- ======================================================================= -->
+<!-- 🌐 宏观舆情与热点新闻 · 核心主线全景映射与共振作战室 (全动态生成) -->
+<!-- ======================================================================= -->
+<section class="holiday-sentiment-dossier" style="margin:28px 0;background:linear-gradient(180deg, rgba(22,27,34,0.95) 0%, rgba(13,17,23,0.98) 100%);border:1px solid #30363d;border-radius:12px;padding:22px 24px;box-shadow:0 8px 32px rgba(0,0,0,0.45)">
+  
+  <!-- 标题与状态标签 -->
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px;border-bottom:1px solid #21262d;padding-bottom:14px">
+    <div>
+      <div style="font-size:18px;font-weight:800;color:#f0f6fc;display:flex;align-items:center;gap:8px">
+        <span>🌐 宏观舆情与热点新闻 · 核心主线全景映射作战室</span>
+        <span style="font-size:11.5px;background:rgba(88,166,255,0.15);color:#58a6ff;border:1px solid rgba(88,166,255,0.35);padding:2px 8px;border-radius:12px;font-weight:700">全动态穿透 × 板块承接 × 资金抱团</span>
+      </div>
+      <div style="color:#8b949e;font-size:12.5px;margin-top:4px">
+        跌停家数收敛 (6家) × 机器人爆出35家涨停 × 大容量中军放量支撑 × 大业股份 / 海洋王 6板空间突破
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;font-size:12px">
+      <span style="background:rgba(63,185,80,0.15);color:#3fb950;border:1px solid rgba(63,185,80,0.4);padding:4px 10px;border-radius:6px;font-weight:700">上涨占比 83.3% · 涨停 82 家</span>
+      <span style="background:rgba(56,139,253,0.15);color:#58a6ff;border:1px solid rgba(56,139,253,0.4);padding:4px 10px;border-radius:6px;font-weight:700">数据基准: 2026-10-23</span>
+    </div>
+  </div>
+
+  <!-- 一、 四大核心舆情与新闻引擎结构卡片 -->
+  <div style="font-size:13.5px;font-weight:700;color:#e3b341;margin-bottom:10px;display:flex;align-items:center;gap:6px">
+    <span>⚡ 四大宏观/产业舆情引擎与A股盘面穿透映射</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:12px;margin-bottom:20px">
+    
+    <!-- 引擎 1: 第一主线爆发 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:8px;padding:12px 14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <b style="font-size:13px;color:#f0f6fc">① 最强主线：机器人 产业链强爆发</b>
+        <span style="font-size:10.5px;padding:1px 6px;border-radius:8px;background:rgba(248,81,73,0.15);color:#f85149;border:1px solid #f85149">主线爆发 (35板)</span>
+      </div>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-bottom:6px">
+        <b>【产业催化】</b>产业落地与重大政策密集发布，主力资金全天狂飙掀起 <b>35 家涨停潮</b>，成交总额超 <b>323.2 亿</b>，成为全市场唯一兼具高辨识度与极强承接力的核心主线。<br>
+        <b>【盘面映射】</b>空间总龙头 <b>大业股份 / 海洋王 (6板)</b> 打开短线压制，中位梯队与首板爆发多梯队良性向上。
+      </div>
+      <div style="font-size:11px;color:#f85149;background:rgba(0,0,0,0.3);padding:4px 8px;border-radius:4px">
+        🎯 关联标的: 大业股份 / 海洋王 (6板)、机器人前排梯队群
+      </div>
+    </div>
+
+    <!-- 引擎 2: 协同副线与容量中军 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:8px;padding:12px 14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <b style="font-size:13px;color:#f0f6fc">② 强共振副线：AI应用 容量中军放量</b>
+        <span style="font-size:10.5px;padding:1px 6px;border-radius:8px;background:rgba(63,185,80,0.15);color:#3fb950;border:1px solid #3fb950">容量托底 (11板)</span>
+      </div>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-bottom:6px">
+        <b>【热点舆情】</b>算力军备竞赛与终端应用需求井喷，硬科技大容量中军拔地而起。<br>
+        <b>【盘面映射】</b>国内大容量中军批量爆量涨停：宇树科技-W (47.7亿·1板)、利亚德 (42.2亿·1板)、粤芯半导-U (36.2亿·1板)、歌尔股份 (28.7亿·1板)；大成交容量标的支撑指数流动性底，与主线形成极佳的“软硬兼备”做多共振。
+      </div>
+      <div style="font-size:11px;color:#3fb950;background:rgba(0,0,0,0.3);padding:4px 8px;border-radius:4px">
+        🎯 核心容量标的: 宇树科技-W (47.7亿·1板)、利亚德 (42.2亿·1板)、粤芯半导-U (36.2亿·1板)、歌尔股份 (28.7亿·1板)
+      </div>
+    </div>
+
+    <!-- 引擎 3: 连板空间天花板破局 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #58a6ff;border-radius:8px;padding:12px 14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <b style="font-size:13px;color:#f0f6fc">③ 连板空间天花板破局与换手接力</b>
+        <span style="font-size:10.5px;padding:1px 6px;border-radius:8px;background:rgba(88,166,255,0.15);color:#58a6ff;border:1px solid #58a6ff">空间向上 (6板)</span>
+      </div>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-bottom:6px">
+        <b>【情绪舆情】</b>前期高标出清释放后，市场投机偏好全面向新周期新题材迁徙。<br>
+        <b>【盘面映射】</b><b>大业股份 / 海洋王</b> 强势走出 <b>6 连板破局</b>，打破近期短线空间压制；中位 <b>上海九百 (3板)</b> 展开卡位晋级，连板梯队结构良性向上展开。
+      </div>
+      <div style="font-size:11px;color:#58a6ff;background:rgba(0,0,0,0.3);padding:4px 8px;border-radius:4px">
+        🎯 空间与中位: 大业股份 / 海洋王 (6板)、上海九百 (3板)
+      </div>
+    </div>
+
+    <!-- 引擎 4: 跌停潮收窄与断板退潮出清 -->
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #d29922;border-radius:8px;padding:12px 14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <b style="font-size:13px;color:#f0f6fc">④ 跌停收窄至6家与断板风险出清</b>
+        <span style="font-size:10.5px;padding:1px 6px;border-radius:8px;background:rgba(210,153,34,0.15);color:#d29922;border:1px solid #d29922">亏钱收敛/严禁抄底</span>
+      </div>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-bottom:6px">
+        <b>【风险出清】</b>全市场跌停家数收窄至 <b>6 家</b>，做空踩踏动能大幅衰竭；但历史数据显示断板次日冲高反包率仅 7.6%！<br>
+        <b>【盘面映射】</b>昨日断板出局群（星光股份(昨3板断板)、三峡新材(昨3板断板)、海量数据(昨2板断板)、出版传媒(昨2板断板)）继续释放补跌动能；老周期高位断板票严禁左侧接飞刀，防守资金坚决拥抱低位新梯队。
+      </div>
+      <div style="font-size:11px;color:#d29922;background:rgba(0,0,0,0.3);padding:4px 8px;border-radius:4px">
+        🎯 回避标的: 星光股份(昨3板断板)、三峡新材(昨3板断板)、海量数据(昨2板断板)、出版传媒(昨2板断板)、跌停出清群
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 二、 舆情共振与主线强度可视化图表 -->
+  <div style="font-size:13.5px;font-weight:700;color:#58a6ff;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between">
+    <span>📊 核心板块【舆情催化 × 资金承接 × 梯队强度】量化综合打分与可视化</span>
+    <span style="font-size:11.5px;color:#8b949e;font-weight:normal">百分制量化加权算法 · 红色高强 / 绿色回踩 / 橙色退潮</span>
+  </div>
+
+  <div style="background:#0f141c;border:1px solid #21262d;border-radius:8px;padding:16px 18px;margin-bottom:20px">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:4px">
+          <span style="color:#f0f6fc;font-weight:600">🤖 机器人 (日内 35 家涨停大爆发 · 323.2 亿成交)</span>
+          <span style="color:#f85149;font-weight:800;font-family:Consolas,monospace">96 分 · 日内最强板块共振 [绝对主攻]</span>
+        </div>
+        <div style="background:#21262d;border-radius:4px;height:8px;overflow:hidden">
+          <div style="width:96%;height:100%;background:linear-gradient(90deg, #f85149, #ff7b72)"></div>
+        </div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:4px">
+          <span style="color:#f0f6fc;font-weight:600">💻 AI应用 / 硬科技芯片 (11 家涨停 · 大容量中军承接)</span>
+          <span style="color:#3fb950;font-weight:800;font-family:Consolas,monospace">83 分 · 大容量中军托底 [协同共振]</span>
+        </div>
+        <div style="background:#21262d;border-radius:4px;height:8px;overflow:hidden">
+          <div style="width:83%;height:100%;background:linear-gradient(90deg, #238636, #3fb950)"></div>
+        </div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:4px">
+          <span style="color:#f0f6fc;font-weight:600">🚀 空间突破与连板接力 (大业股份 / 海洋王 6板破局 / 上海九百)</span>
+          <span style="color:#58a6ff;font-weight:800;font-family:Consolas,monospace">83 分 · 连板梯队健康扩容 [空间向上]</span>
+        </div>
+        <div style="background:#21262d;border-radius:4px;height:8px;overflow:hidden">
+          <div style="width:83%;height:100%;background:linear-gradient(90deg, #1f6feb, #58a6ff)"></div>
+        </div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:12.5px;margin-bottom:4px">
+          <span style="color:#f0f6fc;font-weight:600">📉 退潮断板与跌停出清 (跌停大幅收敛至 6 家 · 星光股份(昨3板断板)、三峡新材(昨3板断板)、海量数据(昨)</span>
+          <span style="color:#8b949e;font-weight:800;font-family:Consolas,monospace">27 分 · 亏钱效应衰竭 [严禁接飞刀]</span>
+        </div>
+        <div style="background:#21262d;border-radius:4px;height:8px;overflow:hidden">
+          <div style="width:27%;height:100%;background:#484f58"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- 指数阶段 × 板块共振与四象限研判 -->
+
+    <div style="background:rgba(0,0,0,0.5);border:2px solid #58a6ff;border-radius:12px;
+                padding:20px;margin-bottom:30px;box-shadow:0 0 15px #58a6ff40;">
+      <div style="color:#8b949e;font-size:13px;font-weight:bold;text-transform:uppercase;margin-bottom:8px;">
+        🔀 指数阶段 × 板块共振 (Phase Resonance) · 阶段自动识别
+      </div>
+      <div style="display:flex;gap:18px;flex-wrap:wrap;align-items:baseline;margin-bottom:10px;"><div><span style="color:#8b949e;font-size:12px;">阶段起点(顶)</span> <b style="color:#e6edf3;">2026-09-22 3952</b></div><div><span style="color:#8b949e;font-size:12px;">最低收盘(底)</span> <b style="color:#3fb950;">2026-10-22 3658</b><span style="color:#8b949e;font-size:11px;"> (盘中最低 3574)</span></div><div><span style="color:#8b949e;font-size:12px;">最大回撤</span> <b style="color:#3fb950;">-7.44%</b></div><div><span style="color:#8b949e;font-size:12px;">最新</span> <b style="color:#e6edf3;">2026-10-23 3690</b></div></div><div style="color:#e6edf3;font-size:13px;margin-bottom:12px;"><b>见底后形态:</b> <span style="color:#58a6ff;font-weight:bold;">反弹趋势段 (探底回升, 区间 3658~3690, 累计反弹 0.89%)</span></div><div style="color:#e6edf3;font-size:13px;margin:-6px 0 12px;min-width:0;overflow-wrap:anywhere;"><b>小阶段 (最新一刀):</b> <span style="color:#d29922;font-weight:bold;">创阶段新高</span><span style="color:#8b949e;font-size:12px;"> — 阶段高 2026-10-23 3690, 距高 +0.00%, 破位线 3658</span><div style="color:#8b949e;font-size:12px;margin-top:2px;">怎么操作: 阶段高就是今天 (3690) —— 持有为主, 新高当日不追高不打板; 等回撤段成形再谈加仓, 跌破 3658 才谈把大段结论降一档。</div></div>
+      
+    <style>
+      .phase-turning-summary {margin:4px 0 16px;border-top:1px solid rgba(48,54,61,.8);border-bottom:1px solid rgba(48,54,61,.8);}
+      .phase-turning-grid {display:grid;grid-template-columns:repeat(var(--phase-cols),minmax(0,1fr));}
+      .phase-turning-col {min-width:0;padding:14px 16px;overflow-wrap:anywhere;}
+      .phase-turning-col + .phase-turning-col {border-left:1px solid rgba(48,54,61,.8);}
+      .phase-turning-kicker {color:#8b949e;font-size:11px;font-weight:700;margin-bottom:8px;}
+      .phase-turning-stage {color:#e6edf3;font-size:20px;font-weight:800;line-height:1.2;}
+      .phase-turning-detail {color:#8b949e;font-size:12px;line-height:1.6;margin-top:5px;}
+      .phase-turning-meta,.phase-turning-index {color:#8b949e;font-size:11px;line-height:1.6;margin-top:7px;}
+      .phase-turning-sub {color:#d29922;font-size:12px;font-weight:600;line-height:1.6;margin-top:7px;min-width:0;overflow-wrap:anywhere;}
+      .phase-turning-sub-act {color:#8b949e;font-size:11px;line-height:1.6;margin-top:2px;min-width:0;overflow-wrap:anywhere;}
+      .phase-turning-index span {font-weight:800;}
+      .phase-turning-row {display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:5px 0;color:#e6edf3;font-size:12px;}
+      .phase-turning-row > span:first-child {min-width:0;}
+      .phase-turning-row b {display:inline-block;width:18px;color:#6e7681;font-size:10px;}
+      .phase-turning-row small {display:block;margin-left:18px;color:#6e7681;font-size:10px;}
+      .phase-turning-row i {margin-left:5px;color:#d29922;font-size:9px;font-style:normal;font-weight:800;}
+      .phase-turning-row > span:last-child {flex:none;font-weight:800;white-space:nowrap;}
+      .phase-turning-hint {padding:0 16px 10px;color:#6e7681;font-size:11px;}
+      @media (max-width:760px) {
+        .phase-turning-grid {grid-template-columns:minmax(0,1fr);}
+        .phase-turning-col + .phase-turning-col {border-left:0;border-top:1px solid rgba(48,54,61,.8);}
+      }
+    </style>
+    <div class="phase-turning-summary">
+      <div class="phase-turning-grid" style="--phase-cols:3;">
+      <div class="phase-turning-col">
+        <div class="phase-turning-kicker">当前阶段</div>
+        <div class="phase-turning-stage">反弹趋势段</div>
+        <div class="phase-turning-detail">探底回升, 区间 3658~3690, 累计反弹 0.89%</div>
+        <div class="phase-turning-sub">小阶段 <b>创阶段新高</b> · 距阶段高 +0.00% · 破位线 3658</div><div class="phase-turning-sub-act">怎么操作: 阶段高就是今天 (3690) —— 持有为主, 新高当日不追高不打板; 等回撤段成形再谈加仓, 跌破 3658 才谈把大段结论降一档。</div>
+        <div class="phase-turning-meta">主要转折 2026-10-22 · 至 2026-10-23 · 2 个交易日</div>
+        <div class="phase-turning-index">上证区间 <span style="color:#f85149;">+0.9%</span></div>
+      </div><div class="phase-turning-col"><div class="phase-turning-kicker">转折以来领涨板块</div><div class="phase-turning-row"><span><b>1</b>电机</span><span style="color:#f85149;">+5.3%</span></div><div class="phase-turning-row"><span><b>2</b>自动化设备</span><span style="color:#f85149;">+5.1%</span></div><div class="phase-turning-row"><span><b>3</b>软件开发</span><span style="color:#f85149;">+4.9%</span></div></div><div class="phase-turning-col"><div class="phase-turning-kicker">转折以来领涨个股</div><div class="phase-turning-row"><span><b>1</b>众诚科技<small>bj920207</small></span><span style="color:#f85149;">+30.0%</span></div><div class="phase-turning-row"><span><b>2</b>大鹏工业<small>bj920091</small></span><span style="color:#f85149;">+30.0%</span></div><div class="phase-turning-row"><span><b>3</b>海辰药业<small>sz300584</small></span><span style="color:#f85149;">+20.0%</span></div><div class="phase-turning-row"><span><b>4</b>利亚德<small>sz300296</small></span><span style="color:#f85149;">+20.0%</span></div><div class="phase-turning-row"><span><b>5</b>明月镜片<small>sz301101</small></span><span style="color:#f85149;">+20.0%</span></div></div></div>
+      
+    </div>
+      
+    <style>
+      .micro-cycle-section{margin:0 0 16px;border-top:1px solid rgba(48,54,61,.8);border-bottom:1px solid rgba(48,54,61,.8);padding:16px 0;overflow-wrap:anywhere;}
+      .micro-cycle-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin:0 16px 14px;}
+      .micro-cycle-head h3{margin:0;color:#e6edf3;font-size:16px;letter-spacing:0;}
+      .micro-cycle-head b{color:#58a6ff;font-size:20px;}
+      .micro-cycle-head small,.micro-cycle-hint{color:#8b949e;font-size:11px;}
+      .micro-cycle-timeline{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:1px solid rgba(48,54,61,.7);border-bottom:1px solid rgba(48,54,61,.7);}
+      .micro-cycle-event{min-width:0;padding:12px 10px;display:flex;flex-direction:column;gap:4px;}
+      .micro-cycle-event+.micro-cycle-event{border-left:1px solid rgba(48,54,61,.7);}
+      .micro-cycle-event b{color:#58a6ff;font-size:13px;}.micro-cycle-event span{color:#e6edf3;font-size:12px;font-weight:700;}
+      .micro-cycle-event small{color:#8b949e;font-size:11px;line-height:1.45;}
+      .micro-signal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;margin-top:14px;border-top:1px solid rgba(48,54,61,.7);border-bottom:1px solid rgba(48,54,61,.7);background:rgba(48,54,61,.7);}
+      .micro-signal-card{min-width:0;background:#0d1117;padding:0 0 8px;}
+      .micro-subhead{margin:0;padding:10px 16px 8px;color:#8b949e;font-size:11px;font-weight:800;letter-spacing:.06em;}
+      .micro-mainline-row{padding:9px 16px;border-top:1px solid rgba(48,54,61,.45);}
+      .micro-mainline-row>div:first-child{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap;}
+      .micro-mainline-row b{color:#d29922;font-size:10px;}.micro-mainline-row strong{color:#e6edf3;font-size:13px;}
+      .micro-mainline-row small{color:#8b949e;font-size:10px;}
+      .micro-leaders{display:flex;gap:6px 12px;align-items:center;flex-wrap:wrap;margin-top:6px;padding:0 16px;}
+      .micro-mainline-row .micro-leaders{padding:0;margin-top:6px;}
+      .micro-leader{display:inline-flex;gap:5px;align-items:baseline;color:#e6edf3;font-size:12px;flex-wrap:wrap;}
+      .micro-leader small{font-size:9px;}.micro-leader i{font-size:11px;font-style:normal;font-weight:700;}
+      .micro-core-card>.micro-leaders{padding-bottom:7px;}
+      .micro-cycle-hint{margin:9px 16px 0;}
+      @media(max-width:760px){.micro-cycle-head{align-items:flex-start;flex-direction:column;}.micro-cycle-timeline{grid-template-columns:1fr;}.micro-cycle-event+.micro-cycle-event{border-left:0;border-top:1px solid rgba(48,54,61,.55);}.micro-signal-grid{grid-template-columns:1fr;}}
+    </style>
+    <section class="micro-cycle-section">
+      <div class="micro-cycle-head"><div><h3>短周期结构</h3><b>探底未完成</b></div>
+      </div>
+      <div class="micro-cycle-timeline"></div>
+      
+      
+    </section>
+      
+    <div class="phase-timeline-wrap" style="max-width:100%;overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:rgba(255,255,255,0.02);border-radius:8px;overflow:hidden;font-size:13px;">
+      <tr style="background:rgba(255,255,255,0.05);">
+        <th style="padding:8px 10px;text-align:left;color:#8b949e;font-size:12px;">阶段</th>
+        <th style="padding:8px 10px;text-align:left;color:#8b949e;font-size:12px;">区间</th>
+        <th style="padding:8px 10px;text-align:right;color:#8b949e;font-size:12px;">上证</th>
+        <th style="padding:8px 10px;text-align:right;color:#8b949e;font-size:12px;">个股中位</th>
+        <th style="padding:8px 10px;text-align:right;color:#8b949e;font-size:12px;">上涨占比</th>
+      </tr>
+      <tr style="border-bottom:1px solid rgba(48,54,61,0.5);"><td style="padding:7px 10px;color:#e6edf3;font-weight:bold;white-space:nowrap;">下跌段</td><td style="padding:7px 10px;color:#8b949e;font-size:12px;white-space:nowrap;">2026-09-22 → 2026-10-22</td><td style="padding:7px 10px;color:#3fb950;font-weight:bold;text-align:right;">-7.44%</td><td style="padding:7px 10px;color:#3fb950;text-align:right;">-9.79%</td><td style="padding:7px 10px;color:#8b949e;text-align:right;">11%</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.5);"><td style="padding:7px 10px;color:#e6edf3;font-weight:bold;white-space:nowrap;">见底段</td><td style="padding:7px 10px;color:#8b949e;font-size:12px;white-space:nowrap;">2026-10-22 → 2026-10-23</td><td style="padding:7px 10px;color:#f85149;font-weight:bold;text-align:right;">+0.89%</td><td style="padding:7px 10px;color:#f85149;text-align:right;">+1.54%</td><td style="padding:7px 10px;color:#8b949e;text-align:right;">81%</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.5);"><td style="padding:7px 10px;color:#e6edf3;font-weight:bold;white-space:nowrap;">最新日</td><td style="padding:7px 10px;color:#8b949e;font-size:12px;white-space:nowrap;">2026-10-22 → 2026-10-23</td><td style="padding:7px 10px;color:#f85149;font-weight:bold;text-align:right;">+0.89%</td><td style="padding:7px 10px;color:#f85149;text-align:right;">+1.54%</td><td style="padding:7px 10px;color:#8b949e;text-align:right;">81%</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.5);"><td style="padding:7px 10px;color:#e6edf3;font-weight:bold;white-space:nowrap;">底部至今</td><td style="padding:7px 10px;color:#8b949e;font-size:12px;white-space:nowrap;">2026-10-22 → 2026-10-23</td><td style="padding:7px 10px;color:#f85149;font-weight:bold;text-align:right;">+0.89%</td><td style="padding:7px 10px;color:#f85149;text-align:right;">+1.54%</td><td style="padding:7px 10px;color:#8b949e;text-align:right;">81%</td></tr>
+    </table>
+    </div>
+      <div style="color:#8b949e;font-size:12px;font-weight:bold;margin:14px 0 2px;">
+        📊 各阶段领涨 —— 横向对比就能看出是不是同一批人接力
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0;"><div style="flex:1;min-width:190px;background:rgba(255,255,255,0.03);border:1px solid rgba(48,54,61,0.8);border-radius:8px;padding:10px 12px;"><div style="color:#58a6ff;font-size:12px;font-weight:bold;margin-bottom:6px;">下跌段 领涨</div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">银行<span style="color:#8b949e;font-size:11px;"> 量比1.55</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+0.3%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">公路铁路运输<span style="color:#8b949e;font-size:11px;"> 量比1.19</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-0.4%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">影视院线<span style="color:#8b949e;font-size:11px;"> 量比1.17</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-2.0%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">厨卫电器<span style="color:#8b949e;font-size:11px;"> 量比1.35</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-2.6%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">小家电<span style="color:#8b949e;font-size:11px;"> 量比1.40</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-2.7%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">电机<span style="color:#8b949e;font-size:11px;"> 量比4.05</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-3.1%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">白酒<span style="color:#8b949e;font-size:11px;"> 量比1.64</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-3.2%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">文化传媒<span style="color:#8b949e;font-size:11px;"> 量比1.15</span></span><span style="color:#3fb950;font-size:12px;font-weight:bold;">-3.2%</span></div></div><div style="flex:1;min-width:190px;background:rgba(255,255,255,0.03);border:1px solid rgba(48,54,61,0.8);border-radius:8px;padding:10px 12px;"><div style="color:#58a6ff;font-size:12px;font-weight:bold;margin-bottom:6px;">见底段 领涨</div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">电机<span style="color:#8b949e;font-size:11px;"> 量比4.05</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+5.3%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">自动化设备<span style="color:#8b949e;font-size:11px;"> 量比1.64</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+5.1%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">软件开发<span style="color:#8b949e;font-size:11px;"> 量比1.96</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.9%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">影视院线<span style="color:#8b949e;font-size:11px;"> 量比1.17</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.1%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">IT服务<span style="color:#8b949e;font-size:11px;"> 量比1.60</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.0%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">半导体<span style="color:#8b949e;font-size:11px;"> 量比1.36</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">电池<span style="color:#8b949e;font-size:11px;"> 量比1.18</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">游戏<span style="color:#8b949e;font-size:11px;"> 量比1.41</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div></div><div style="flex:1;min-width:190px;background:rgba(255,255,255,0.03);border:1px solid rgba(48,54,61,0.8);border-radius:8px;padding:10px 12px;"><div style="color:#58a6ff;font-size:12px;font-weight:bold;margin-bottom:6px;">最新日 领涨</div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">电机<span style="color:#8b949e;font-size:11px;"> 量比4.05</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+5.3%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">自动化设备<span style="color:#8b949e;font-size:11px;"> 量比1.64</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+5.1%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">软件开发<span style="color:#8b949e;font-size:11px;"> 量比1.96</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.9%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">影视院线<span style="color:#8b949e;font-size:11px;"> 量比1.17</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.1%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">IT服务<span style="color:#8b949e;font-size:11px;"> 量比1.60</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+4.0%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">半导体<span style="color:#8b949e;font-size:11px;"> 量比1.36</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">电池<span style="color:#8b949e;font-size:11px;"> 量比1.18</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div><div style="display:flex;justify-content:space-between;gap:8px;padding:3px 0;"><span style="color:#e6edf3;font-size:12px;">游戏<span style="color:#8b949e;font-size:11px;"> 量比1.41</span></span><span style="color:#f85149;font-size:12px;font-weight:bold;">+3.6%</span></div></div></div>
+      <div style="color:#8b949e;font-size:12px;font-weight:bold;margin:14px 0 2px;">
+        🎯 四象限 (下跌段抗跌性 × 底部至今强度) —— 格式: 下跌段 → 底部至今
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0;"><div style="flex:1;min-width:230px;background:rgba(255,255,255,0.03);border-left:3px solid #3fb950;border-radius:6px;padding:10px 12px;"><div style="color:#3fb950;font-size:13px;font-weight:bold;">独立主线 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(抗跌 + 领涨)</span></div><div style="color:#8b949e;font-size:11px;margin:3px 0 7px;">真正的新方向, 资金主动选择</div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">电机</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-3.1</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+5.3%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">软件开发</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+4.9%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">影视院线</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-2.0</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+4.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">游戏</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.7</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.6%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">工程机械</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-4.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.5%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">白酒</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-3.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+2.5%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">文化传媒</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-3.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+2.1%</span></span></div></div><div style="flex:1;min-width:230px;background:rgba(255,255,255,0.03);border-left:3px solid #d29922;border-radius:6px;padding:10px 12px;"><div style="color:#d29922;font-size:13px;font-weight:bold;">超跌反弹 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(跌深 + 弹猛)</span></div><div style="color:#8b949e;font-size:11px;margin:3px 0 7px;">弹性来自跌幅, 不是新逻辑</div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">自动化设备</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-13.3</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+5.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">IT服务</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-8.3</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+4.0%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">半导体</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-22.5</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.6%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">电池</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-12.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.6%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">黑色家电</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-8.6</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.2%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">消费电子</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-16.1</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">通用设备</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-11.4</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">其他电子</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-18.6</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.0%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">计算机设备</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-9.3</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+3.0%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">军工电子</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-12.1</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+2.9%</span></span></div><div style="color:#8b949e;font-size:11px;margin-top:4px;">…共 21 个</div></div><div style="flex:1;min-width:230px;background:rgba(255,255,255,0.03);border-left:3px solid #8b949e;border-radius:6px;padding:10px 12px;"><div style="color:#8b949e;font-size:13px;font-weight:bold;">防御退潮 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(抗跌 但 涨不动)</span></div><div style="color:#8b949e;font-size:11px;margin:3px 0 7px;">下跌段的避风港, 现在是死钱</div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">轨交设备</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-3.7</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.9%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">中药</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.5</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.9%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">医药商业</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-5.5</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.8%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">农产品加工</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-7.1</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.4%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">油气开采及服务</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-4.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.2%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">港口航运</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.2%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">建筑材料</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">钢铁</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-6.4</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">公路铁路运输</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-0.4</span><span style="color:#8b949e;"> → </span><span style="color:#3fb950;font-weight:bold;">-0.1%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">石油加工贸易</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-7.3</span><span style="color:#8b949e;"> → </span><span style="color:#3fb950;font-weight:bold;">-0.1%</span></span></div><div style="color:#8b949e;font-size:11px;margin-top:4px;">…共 12 个</div></div><div style="flex:1;min-width:230px;background:rgba(255,255,255,0.03);border-left:3px solid #f85149;border-radius:6px;padding:10px 12px;"><div style="color:#f85149;font-size:13px;font-weight:bold;">深度受损 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(跌深 且 没修复)</span></div><div style="color:#8b949e;font-size:11px;margin:3px 0 7px;">逻辑被破坏, 反弹最弱</div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">化学制品</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-11.8</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.9%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">造纸</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-10.7</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.8%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">包装印刷</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-10.6</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.8%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">环境治理</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-11.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.8%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">贵金属</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-15.6</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.7%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">教育</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-14.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.7%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">养殖业</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-8.0</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.7%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">建筑装饰</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-9.4</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.6%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">贸易</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-7.5</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.4%</span></span></div><div style="display:flex;justify-content:space-between;gap:6px;padding:2px 0;"><span style="color:#e6edf3;font-size:12px;">煤炭开采加工</span><span style="font-size:11px;white-space:nowrap;"><span style="color:#3fb950;">-10.2</span><span style="color:#8b949e;"> → </span><span style="color:#f85149;font-weight:bold;">+0.3%</span></span></div><div style="color:#8b949e;font-size:11px;margin-top:4px;">…共 15 个</div></div></div>
+      <details style="margin-top:12px;background:#161b22;border:1px solid #30363d;border-radius:8px;padding:10px 14px;">
+        <summary style="cursor:pointer;font-weight:600;font-size:12.5px;color:#58a6ff;user-select:none;display:flex;align-items:center;justify-content:space-between;">
+          <span>👥 展开查看：四象限全市场重点个股代表明细表 (按抗跌性与反弹强度分层)</span>
+          <span style="font-size:11px;color:#8b949e;background:#21262d;padding:2px 8px;border-radius:6px;border:1px solid #30363d;">点击展开/折叠明细 ▾</span>
+        </summary>
+        <div style="margin-top:10px;overflow-x:auto;">
+          
+      <div style="color:#8b949e;font-size:12px;font-weight:bold;margin:16px 0 2px;">
+        👥 四象限个股代表 —— 全市场 5538 只按同一套象限定义直接分类
+      </div>
+      <div style="color:#6e7681;font-size:11px;margin-bottom:6px;">
+        角色: <span style="color:#f85149;">龙头</span>=区间内有涨停 ·
+        <span style="color:#58a6ff;">中军</span>=市值≥100亿且无涨停 ·
+        <span style="color:#8b949e;">弹性</span>=其余 ｜
+        象限阈值: 抗跌线 -7.4% · 强 ≥2.59% · 弱 &lt;0.67% · 代表股市值 ≥50亿 (滤掉垄断榜单的妖股, 阈值仍按全市场算) ｜
+        行业为证监会分类(单标签), 仅作标注不参与计算
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;"><div style="flex:1;min-width:340px;background:rgba(255,255,255,0.03);border-left:3px solid #3fb950;border-radius:6px;padding:10px 12px;"><div style="color:#3fb950;font-size:13px;font-weight:bold;margin-bottom:6px;">独立主线 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(抗跌 + 领涨)</span></div><table style="width:100%;border-collapse:collapse;"><tr style="color:#6e7681;font-size:10px;"><td style="padding:2px 7px;">个股</td><td style="padding:2px 7px;">角色</td><td style="padding:2px 7px;">行业</td><td style="padding:2px 7px;text-align:right;">下跌段</td><td style="padding:2px 7px;text-align:right;">底部至今</td><td style="padding:2px 7px;text-align:right;">涨停</td><td style="padding:2px 7px;text-align:right;">市值</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">利亚德<span style="color:#6e7681;font-size:10px;"> sz300296</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">计算机通信电子设</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+23.0</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">185亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">明月镜片<span style="color:#6e7681;font-size:10px;"> sz301101</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">专用设备</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-4.6</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">75亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">慈星股份<span style="color:#6e7681;font-size:10px;"> sz300307</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">专用设备</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+1.4</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">75亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">海天瑞声<span style="color:#6e7681;font-size:10px;"> sh688787</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">软件和信息技术服</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+26.4</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">88亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">奥比中光<span style="color:#6e7681;font-size:10px;"> sh688322</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">计算机通信电子设</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+0.3</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+19.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">454亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">利元亨<span style="color:#6e7681;font-size:10px;"> sh688499</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">专用设备</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+9.8</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+16.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">78亿</td></tr></table></div><div style="flex:1;min-width:340px;background:rgba(255,255,255,0.03);border-left:3px solid #d29922;border-radius:6px;padding:10px 12px;"><div style="color:#d29922;font-size:13px;font-weight:bold;margin-bottom:6px;">超跌反弹 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(跌深 + 弹猛)</span></div><table style="width:100%;border-collapse:collapse;"><tr style="color:#6e7681;font-size:10px;"><td style="padding:2px 7px;">个股</td><td style="padding:2px 7px;">角色</td><td style="padding:2px 7px;">行业</td><td style="padding:2px 7px;text-align:right;">下跌段</td><td style="padding:2px 7px;text-align:right;">底部至今</td><td style="padding:2px 7px;text-align:right;">涨停</td><td style="padding:2px 7px;text-align:right;">市值</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">晶丰明源<span style="color:#6e7681;font-size:10px;"> sh688368</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">软件和信息技术服</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-39.5</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">186亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">奥普特<span style="color:#6e7681;font-size:10px;"> sh688686</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">仪器仪表</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-9.6</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+20.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">179亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">上纬新材<span style="color:#6e7681;font-size:10px;"> sh688585</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">化学原料和化学制</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-22.9</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+15.9%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">611亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">伟创电气<span style="color:#6e7681;font-size:10px;"> sh688698</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">仪器仪表</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-17.7</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+15.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">85亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">峰岹科技<span style="color:#6e7681;font-size:10px;"> sh688279</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">软件和信息技术服</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-22.9</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+14.7%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">224亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">赛意信息<span style="color:#6e7681;font-size:10px;"> sz300687</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">软件和信息技术服</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-18.0</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-weight:bold;font-size:12px;">+14.3%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">114亿</td></tr></table></div><div style="flex:1;min-width:340px;background:rgba(255,255,255,0.03);border-left:3px solid #8b949e;border-radius:6px;padding:10px 12px;"><div style="color:#8b949e;font-size:13px;font-weight:bold;margin-bottom:6px;">防御退潮 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(抗跌 但 涨不动)</span></div><table style="width:100%;border-collapse:collapse;"><tr style="color:#6e7681;font-size:10px;"><td style="padding:2px 7px;">个股</td><td style="padding:2px 7px;">角色</td><td style="padding:2px 7px;">行业</td><td style="padding:2px 7px;text-align:right;">下跌段</td><td style="padding:2px 7px;text-align:right;">底部至今</td><td style="padding:2px 7px;text-align:right;">涨停</td><td style="padding:2px 7px;text-align:right;">市值</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">华测导航<span style="color:#6e7681;font-size:10px;"> sz300627</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">计算机通信电子设</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-4.1</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-10.6%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">171亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">郑中设计<span style="color:#6e7681;font-size:10px;"> sz002811</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">专技术服务</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+44.1</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-10.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">62亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">地铁设计<span style="color:#6e7681;font-size:10px;"> sz003013</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">专技术服务</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+1.8</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-9.5%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">76亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">长鸿高科<span style="color:#6e7681;font-size:10px;"> sh605008</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">化学原料和化学制</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-5.5</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-9.1%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">74亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">天威视讯<span style="color:#6e7681;font-size:10px;"> sz002238</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">电信广播电视和卫</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+4.9</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-8.9%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">54亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">三峡新材<span style="color:#6e7681;font-size:10px;"> sh600293</span></td><td style="padding:5px 7px;"><span style="color:#f85149;font-size:11px;font-weight:bold;">龙头</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">非金属矿物制品</td><td style="padding:5px 7px;color:#f85149;text-align:right;font-size:12px;">+55.7</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-6.1%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">1次/3板</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">51亿</td></tr></table></div><div style="flex:1;min-width:340px;background:rgba(255,255,255,0.03);border-left:3px solid #f85149;border-radius:6px;padding:10px 12px;"><div style="color:#f85149;font-size:13px;font-weight:bold;margin-bottom:6px;">深度受损 <span style="color:#8b949e;font-size:11px;font-weight:normal;">(跌深 且 没修复)</span></div><table style="width:100%;border-collapse:collapse;"><tr style="color:#6e7681;font-size:10px;"><td style="padding:2px 7px;">个股</td><td style="padding:2px 7px;">角色</td><td style="padding:2px 7px;">行业</td><td style="padding:2px 7px;text-align:right;">下跌段</td><td style="padding:2px 7px;text-align:right;">底部至今</td><td style="padding:2px 7px;text-align:right;">涨停</td><td style="padding:2px 7px;text-align:right;">市值</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">强一股份<span style="color:#6e7681;font-size:10px;"> sh688809</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">计算机通信电子设</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-25.3</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-28.3%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">467亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">华锦股份<span style="color:#6e7681;font-size:10px;"> sz000059</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">石油煤炭其他燃料</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-8.9</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-10.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">73亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">奥士康<span style="color:#6e7681;font-size:10px;"> sz002913</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">计算机通信电子设</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-8.5</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-10.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">207亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">万里石<span style="color:#6e7681;font-size:10px;"> sz002785</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">非金属矿物制品</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-25.8</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-10.0%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">64亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">盛视科技<span style="color:#6e7681;font-size:10px;"> sz002990</span></td><td style="padding:5px 7px;"><span style="color:#58a6ff;font-size:11px;font-weight:bold;">中军</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">软件和信息技术服</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-11.2</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-9.9%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">109亿</td></tr><tr style="border-bottom:1px solid rgba(48,54,61,0.4);"><td style="padding:5px 7px;color:#e6edf3;white-space:nowrap;">九鼎新材<span style="color:#6e7681;font-size:10px;"> sz002201</span></td><td style="padding:5px 7px;"><span style="color:#8b949e;font-size:11px;font-weight:bold;">弹性</span></td><td style="padding:5px 7px;color:#8b949e;font-size:11px;white-space:nowrap;">非金属矿物制品</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-size:12px;">-11.3</td><td style="padding:5px 7px;color:#3fb950;text-align:right;font-weight:bold;font-size:12px;">-8.5%</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">0次</td><td style="padding:5px 7px;color:#8b949e;text-align:right;font-size:11px;white-space:nowrap;">51亿</td></tr></table></div></div>
+    
+        </div>
+      </details>
+      <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:12px;margin-top:12px;">
+        <div style="color:#8b949e;font-size:12px;font-weight:bold;margin-bottom:6px;">🧭 结论</div>
+        <div style="color:#e6edf3;font-size:13px;line-height:1.75;">下跌段跌幅 vs 反弹涨幅 相关系数 <b>-0.118</b> (弱相关) —— 超跌修复与独立主线<b>并行</b>, 需按板块分开看, 不能一刀切<div style="margin-top:6px;">🏆 <b>已收复/超越下跌段起点</b>(区分"真新高"与"只是修复"): 影视院线 +2.1%、电机 +2.0%</div></div>
+      </div>
+    </div>
+    
+
+<!-- 游资实战战法升维 -->
+<h2>游资实战战法升维 · 两大血泪铁律</h2>
+<div class="law-card" style="padding:10px 14px;margin-bottom:8px">
+  <div class="law-title" style="font-size:13.5px;margin-bottom:4px">🚨 铁律一 · 断板反包禁令（次日反包率仅 7.6%，冲高一律诱多）</div>
+  <div class="law-rule" style="margin-top:2px;font-size:12px">操盘军规：严禁低吸、抄底、搏首阴！拉黑标的：星光股份、三峡新材、海量数据、出版传媒、哈空调、天洋新材。</div>
+</div>
+<div class="law-card" style="padding:10px 14px;margin-bottom:12px;border-left-color:var(--accent-yellow)">
+  <div class="law-title" style="font-size:13.5px;margin-bottom:4px;color:#f0f6fc">⚠️ 铁律二 · 冰点修复陷阱（无题材共振脉冲多为假冲天炮）</div>
+  <div class="law-rule" style="margin-top:2px;font-size:12px;color:#e3b341">操盘军规：存量出逃诱多只看不追，早盘 10:00 前严禁盲目开仓！</div>
+</div>
+
+<!-- 核心标的关注及优先级分层矩阵 -->
+<h2>核心标的关注及优先级分层作战矩阵 (Priority Matrix)</h2>
+<p class="sub">总仓位严格限制在 0~1 成。优先级层级由高至低执行，绝不越级；黑名单标的盘中坚决回避。</p>
+
+<div class="pm-card pm-p0" style="padding:11px 15px;margin-bottom:8px">
+  <div class="pm-header" style="margin-bottom:4px">
+    <div><span class="tag">P0 空间独苗</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">大业股份 / 海洋王 · 6 进 7</b></div>
+    <span class="pm-badge">最高身位 · 空间竞争先锋</span>
+  </div>
+  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+    <b>【触发】</b>9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻<br>
+    <b>【止损】</b>炸板>3分钟不回封或跌破分时均线立即放弃/止损
+  </div>
+</div>
+
+<div class="pm-card pm-p1" style="padding:11px 15px;margin-bottom:8px">
+  <div class="pm-header" style="margin-bottom:4px">
+    <div><span class="tag">P1 中位换手</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">上海九百 · 3 进 4</b></div>
+    <span class="pm-badge">身位卡位先锋 & 换手活口</span>
+  </div>
+  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+    <b>【触发】</b>9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成<br>
+    <b>【止损】</b>开盘快速跳水翻绿或冲高无量即放弃
+  </div>
+</div>
+
+<div class="pm-card pm-p2" style="padding:11px 15px;margin-bottom:8px">
+  <div class="pm-header" style="margin-bottom:4px">
+    <div><span class="tag">P2 低位防守</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">赛福天 / 正裕工业 / 南方路机 / 多伦科技 / 睿能科技 / 襄阳轴承 · 2 进 3</b></div>
+    <span class="pm-badge">低位防御分支</span>
+  </div>
+  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+    <b>【触发】</b>细分题材出现≥2只首板助攻，放量回封极轻仓套利观察<br>
+    <b>【止损】</b>跌破昨收且无板块跟随立即撤退
+  </div>
+</div>
+
+<div class="pm-card pm-p3" style="padding:11px 15px;margin-bottom:8px">
+  <div class="pm-header" style="margin-bottom:4px">
+    <div><span class="tag">P3 风险熔断</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">星光股份 / 三峡新材 / 海量数据 / 出版传媒</b></div>
+    <span class="pm-badge">跌停封单风向标</span>
+  </div>
+  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+    <b>【监控】</b>9:25 若 星光股份 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位
+  </div>
+</div>
+
+<div class="pm-card pm-black" style="padding:11px 15px;margin-bottom:12px">
+  <div class="pm-header" style="margin-bottom:4px">
+    <div><span class="tag" style="border-color:#da3633;color:#ff7b72">P-Black 禁买雷区</span> <b style="color:#ff7b72;font-size:13.5px;margin-left:6px">星光股份、三峡新材、海量数据、出版传媒、哈空调、天洋新材</b></div>
+    <span class="pm-badge">绝对禁止开仓</span>
+  </div>
+  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+    <b>【禁令】</b>昨日断板股与跌停破位股，次日冲高一律诱多，严禁低吸、抄底、追反包
+  </div>
+</div>
+
+<!-- 量化事实与规则面板 -->
+<h2>今日盘面事实</h2>
+<div class="grid"><div class='card' style='padding:10px 14px'><div class='k'>上涨占比</div><div class='v' style='font-size:18px'>83.3%</div></div><div class='card' style='padding:10px 14px'><div class='k'>涨停 / 跌停</div><div class='v' style='font-size:18px'>82 / 6</div></div><div class='card' style='padding:10px 14px'><div class='k'>晋级率</div><div class='v' style='font-size:18px'>36.4%</div></div><div class='card' style='padding:10px 14px'><div class='k'>明日仓位上限</div><div class='v' style='font-size:18px'>—</div></div></div>
+<div class='card tw' style='margin-top:10px'><table><tr><th>连板高度</th><th>标的</th></tr><tr><td>6 板</td><td>大业股份、海洋王</td></tr><tr><td>3 板</td><td>上海九百</td></tr><tr><td>2 板</td><td>赛福天、正裕工业、南方路机、多伦科技、睿能科技、襄阳轴承</td></tr></table></div>
+
+<h2>明日三道开关</h2>
+<p class="sub">默认动作：不开新仓 · 条件未确认前不执行</p>
+<div class="grid"><div class='card' style='padding:10px 14px;font-size:12.5px;color:#f85149;border-left:3px solid #f85149'><b>市场状态：防守熔断</b> · 跌停潮未收敛前，默认执行不开新仓，无需等待细分开关</div></div>
+<div class='card tw' style='margin-top:10px'><table><tr><th>候选</th><th>角色</th><th>触发条件</th><th>失效 / 止损</th></tr><tr><td>大业股份 <span class='muted'>sh603278</span></td><td>风险锚</td><td>9:25 集合竞价溢价高开且成交破亿，9:35前换手封板确认</td><td>竞价低开翻绿或盘中炸板下杀破分时均线立即撤退</td></tr><tr><td>海洋王 <span class='muted'>sz002724</span></td><td>风险锚</td><td>9:25 集合竞价溢价高开且成交破亿，9:35前换手封板确认</td><td>竞价低开翻绿或盘中炸板下杀破分时均线立即撤退</td></tr><tr><td>上海九百 <span class='muted'>sh600838</span></td><td>进攻观察</td><td>9:25 竞价量比&gt;1.5且红开，9:35前率先换手封板突破</td><td>高开低走破分时均线且量能衰竭即放弃</td></tr><tr><td>赛福天 <span class='muted'>sh603028</span></td><td>确认观察</td><td>主线板块大幅高开走强，分时站稳均线上方率先回封极轻仓确认</td><td>跌破昨日收盘支撑或无同题材首板助攻即撤退</td></tr><tr><td>正裕工业 <span class='muted'>sh603089</span></td><td>确认观察</td><td>主线板块大幅高开走强，分时站稳均线上方率先回封极轻仓确认</td><td>跌破昨日收盘支撑或无同题材首板助攻即撤退</td></tr><tr><td>南方路机 <span class='muted'>sh603280</span></td><td>确认观察</td><td>主线板块大幅高开走强，分时站稳均线上方率先回封极轻仓确认</td><td>跌破昨日收盘支撑或无同题材首板助攻即撤退</td></tr><tr><td>多伦科技 <span class='muted'>sh603528</span></td><td>确认观察</td><td>主线板块大幅高开走强，分时站稳均线上方率先回封极轻仓确认</td><td>跌破昨日收盘支撑或无同题材首板助攻即撤退</td></tr></table></div>
+
+<h2>情景推演</h2>
+<div class='card primary' style='margin-bottom:8px;padding:12px 14px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px'><div><span class='tag'>主情景</span> <b style='color:#f0f6fc;margin-left:6px'>风险优先：等待盘面重新给出方向</b></div><span class='muted' style='font-size:12px'>仓位上限 30%</span></div><div style='font-size:12px;color:#8b949e;margin-bottom:4px'><b>前提：</b>市场广度=strong；接力质量=neutral；高位反馈=mixed ｜ <b style='color:#ff7b72'>失效：</b>跌停扩张并伴随高位负反馈；接力继续恶化</div><div style='font-size:12px;color:#c9d1d9;margin-bottom:4px;background:rgba(0,0,0,0.2);padding:6px 8px;border-radius:4px'><b>竞价 9:25</b>: 竞价只做状态观察；不把单一高开视为趋势确认 ｜ <b>开盘 9:35</b>: 9:35 前观察涨跌家数和核心反馈；记录是否出现批量负反馈 ｜ <b>确认 10:00</b>: 10:00 前必须同时看到宽度和接力改善；否则维持防守 ｜ <b>午后</b>: 午后只跟踪修复是否扩散；不满足条件不启动交易候选</div><div style='font-size:11.5px;color:#8b949e'><b>观察池：</b>赛福天（2板）、正裕工业（2板）、南方路机（2板）、多伦科技（2板）、睿能科技（2板）、襄阳轴承（2板）、兆威机电（2板）、华阳智能（2板）</div></div><div class='card ' style='margin-bottom:8px;padding:12px 14px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px'><div><span class='tag'>备选</span> <b style='color:#f0f6fc;margin-left:6px'>修复候选：等待结构从局部到整体</b></div><span class='muted' style='font-size:12px'>仓位上限 35%</span></div><div style='font-size:12px;color:#8b949e;margin-bottom:4px'><b>前提：</b>当前状态存在修复可能；修复必须经过时间窗确认 ｜ <b style='color:#ff7b72'>失效：</b>10:00 前没有结构性改善；跌停和炸板同步增加</div><div style='font-size:12px;color:#c9d1d9;margin-bottom:4px;background:rgba(0,0,0,0.2);padding:6px 8px;border-radius:4px'><b>竞价 9:25</b>: 核心不再低开破位；中位梯队出现承接 ｜ <b>开盘 9:35</b>: 9:35 前负反馈收敛；上涨家数不继续恶化 ｜ <b>确认 10:00</b>: 10:00 前核心与中位同时稳定；晋级或回封出现改善 ｜ <b>午后</b>: 午后扩散成立才提高仓位；单点脉冲不计为修复</div><div style='font-size:11.5px;color:#8b949e'><b>观察池：</b>赛福天（2板）、正裕工业（2板）、南方路机（2板）、多伦科技（2板）、睿能科技（2板）、襄阳轴承（2板）、兆威机电（2板）、华阳智能（2板）</div></div>
+
+<h2>不追名单</h2>
+<div class="card" style="padding:10px 14px">
+  <p class="sub" style="margin:0 0 6px">断板次日冲高一律视为主力自救诱多，次日严禁追板与抄底：</p>
+  <ul><li style='margin-bottom:2px'><b>星光股份</b>（昨 3 板，今日断板）</li><li style='margin-bottom:2px'><b>三峡新材</b>（昨 3 板，今日断板）</li><li style='margin-bottom:2px'><b>海量数据</b>（昨 2 板，今日断板）</li><li style='margin-bottom:2px'><b>出版传媒</b>（昨 2 板，今日断板）</li><li style='margin-bottom:2px'><b>哈空调</b>（昨 2 板，今日断板）</li><li style='margin-bottom:2px'><b>天洋新材</b>（昨 2 板，今日断板）</li></ul>
+</div>
+
+<!-- 分时段操盘执行检查表 -->
+<h2>分时段操盘执行检查表 (Checklist)</h2>
+<div class="card tw">
+  <table class="checklist-table">
+    <tr><th>时间节点</th><th>监控焦点</th><th>量化通过门槛</th><th>熔断动作</th></tr>
+    <tr>
+      <td><span class="time-tag">09:25 集合竞价</span></td>
+      <td>全市场跌停家数、高标溢价率</td>
+      <td>跌停家数 &le; 10 家，大业股份红开 +2% 以上且成交 &gt; 1.2 亿</td>
+      <td>跌停 &gt; 15 家，或星光股份大单焊死跌停：全天禁止开新仓</td>
+    </tr>
+    <tr>
+      <td><span class="time-tag">09:35 开盘前10分</span></td>
+      <td>跌停封单变化、黄白线分化</td>
+      <td>上涨家数不再恶化，跌停板无新增扩散，有承接盘撬板</td>
+      <td>出现高标快速拉高天地板跳水：判定为出货诱多，立即放弃参与</td>
+    </tr>
+    <tr>
+      <td><span class="time-tag">10:00 盘中确认</span></td>
+      <td>梯队晋级情况、市场宽度回暖</td>
+      <td>上涨家数回升至 2000 家以上，有明确主流题材走出 2 只连板</td>
+      <td>上涨家数 &lt; 1500 家且无板块合力：全天彻底锁定空仓</td>
+    </tr>
+    <tr>
+      <td><span class="time-tag">14:00 午后防守</span></td>
+      <td>尾盘流动性与抢筹真实度</td>
+      <td>尾盘无大规模砸盘，主流板块有持续大买单护盘</td>
+      <td>无增量资金进场严禁尾盘博弈次日抢筹，防范次日低开埋人</td>
+    </tr>
+  </table>
+</div>
+
+
+    <!-- 强势板块放量上涨后·回调一笔量化跟踪面板 -->
+    <section class="pullback-tactic-tracker" id="sec-pullback-tracker" style="margin:26px 0 32px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;">
+      
+      <!-- 标题栏 -->
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid #30363d;padding-bottom:10px;">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <h2 class="section-title" style="margin:0;font-size:18px;color:#f0f6fc;display:flex;align-items:center;gap:8px;">
+            <span>🌊 强势板块·放量主升回调一笔·量化战法跟踪作战室</span>
+          </h2>
+          <span style="font-size:11.5px;background:rgba(56,139,253,0.15);color:#58a6ff;border:1px solid rgba(56,139,253,0.3);padding:2px 8px;border-radius:12px;font-weight:600;">
+            二波蓄势 × 缩量鉴别 × 战法结合
+          </span>
+        </div>
+        <div style="font-size:12px;color:#8b949e;">基于 2026-10-23 真实数据 · 严守四维量化红线</div>
+      </div>
+
+      <!-- 四大量化规则展示卡片 -->
+      <div style="margin-bottom:18px;">
+        <div style="font-size:13px;font-weight:700;color:#58a6ff;margin-bottom:8px;display:flex;align-items:center;gap:6px;">
+          <span>📐 固化四大定量规则标准 (Fixed Quantitative Standards)</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:12px;">
+          
+    <div style='background:#1c2128;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:8px;padding:12px 14px;'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;'>
+        <b style='font-size:13.5px;color:#f0f6fc;'>规则一 · 放量主升甄别规则 (Impulse Expansion)</b>
+        <span style='font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(63,185,80,0.12);color:#3fb950;border:1px solid #3fb950;'>主升门槛</span>
+      </div>
+      <div style='font-size:12px;line-height:1.5;margin-bottom:6px;'><div style='margin-bottom:3px'><b style='color:#c9d1d9'>观察窗口：</b><span style='color:#8b949e'>过去 15 个交易日</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>超额收益：</b><span style='color:#8b949e'>相对大盘强弱比 RS ≥ 115% 且累计涨幅 ≥ +8.0%</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>成交量放量：</b><span style='color:#8b949e'>主升浪单日成交额突破 20 日均量的 1.30 倍以上</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>领涨代表：</b><span style='color:#8b949e'>出过 ≥ 3 连板前排龙头，或拥有百亿级放量大阳容量中军</span></div></div>
+      <div style='font-size:11.5px;color:#8b949e;background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:4px;border-left:2px solid #3fb950;'>
+        💡 <b>核心要点：</b>主力介入深且成本清晰，放量主升后的缩量回调具备高盈亏比反弹价值。
+      </div>
+    </div>
+    
+    <div style='background:#1c2128;border:1px solid #30363d;border-left:4px solid #58a6ff;border-radius:8px;padding:12px 14px;'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;'>
+        <b style='font-size:13.5px;color:#f0f6fc;'>规则二 · 健康缩量回调一笔规则 (Healthy Pullback)</b>
+        <span style='font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(88,166,255,0.12);color:#58a6ff;border:1px solid #58a6ff;'>回调尺度</span>
+      </div>
+      <div style='font-size:12px;line-height:1.5;margin-bottom:6px;'><div style='margin-bottom:3px'><b style='color:#c9d1d9'>空间回撤：</b><span style='color:#8b949e'>从主升波段最高点回撤 3.5% ~ 11.0% (控制在 0.382~0.5 黄金分割位)</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>缩量特征：</b><span style='color:#8b949e'>回调日成交量较主升峰值量能萎缩 ≥ 30% (30%~60% 最佳，浮筹锁死)</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>支撑依托：</b><span style='color:#8b949e'>当前价格距离 10日/20日均线或前期突破颈线在 ±2.5% 范围内</span></div><div style='margin-bottom:3px'><b style='color:#c9d1d9'>形态止跌：</b><span style='color:#8b949e'>回调末端收出缩量十字星、小阴线或长下影探底企稳 K 线</span></div></div>
+      <div style='font-size:11.5px;color:#8b949e;background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:4px;border-left:2px solid #58a6ff;'>
+        💡 <b>核心要点：</b>缩量表明无恐慌踩踏，属于良性洗盘；放量下杀坚决剔除。
+      </div>
+    </div>
+    
+    <div style='background:#1c2128;border:1px solid #30363d;border-left:4px solid #bc8cff;border-radius:8px;padding:12px 14px;'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;'>
+        <b style='font-size:13.5px;color:#f0f6fc;'>规则三 · 三级健康度与量化战法匹配规则 (Tactical Mapping)</b>
+        <span style='font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(188,140,255,0.12);color:#bc8cff;border:1px solid #bc8cff;'>战法匹配</span>
+      </div>
+      <div style='line-height:1.5;margin-bottom:6px;'><div style='margin-bottom:4px;font-size:11.5px;'><span style='color:#3fb950;font-weight:700;'>[Level A] 蓄势待发 · 二波主升候选</span>：<span style='color:#c9d1d9'>缩量极致(量比&lt;0.65) + 守住20日生命线 + 核心中军大单托底 + 无跌停核按钮</span></div><div style='margin-bottom:4px;font-size:11.5px;'><span style='color:#d29922;font-weight:700;'>[Level B] 中继整理 · 分时观察分支</span>：<span style='color:#c9d1d9'>正常缩量回踩，未破箱体下沿，但板块缺乏多股集群助攻，面临退潮分化或长假抽血</span></div><div style='margin-bottom:4px;font-size:11.5px;'><span style='color:#f85149;font-weight:700;'>[Level C] 破位风险 · 严格剔除雷区</span>：<span style='color:#c9d1d9'>放量跌穿 20 日生命线 / 板块内出现批量一字跌停 / 相对强度 RS 破位下行</span></div></div>
+      <div style='font-size:11.5px;color:#8b949e;background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:4px;border-left:2px solid #bc8cff;'>
+        💡 <b>核心要点：</b>A级博二波、B级做套利、C级防破位A杀，严格对应不同操盘策略。
+      </div>
+    </div>
+    
+    <div style='background:#1c2128;border:1px solid #30363d;border-left:4px solid #e3b341;border-radius:8px;padding:12px 14px;'>
+      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;'>
+        <b style='font-size:13.5px;color:#f0f6fc;'>规则四 · 分时执行与风控熔断规则 (Actionable Triggers)</b>
+        <span style='font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(227,179,65,0.12);color:#e3b341;border:1px solid #e3b341;'>操盘军规</span>
+      </div>
+      <div style='font-size:12px;line-height:1.5;margin-bottom:6px;'><div style='margin-bottom:3px'><b style='color:#e3b341'>09:25 集合竞价：</b><span style='color:#c9d1d9'>观察核心标的量比是否 &gt; 1.5，红开 +1% ~ +3%，且同板块无跌停开盘</span></div><div style='margin-bottom:3px'><b style='color:#e3b341'>09:35 开盘前10分：</b><span style='color:#c9d1d9'>分时回踩均价线获得支撑，核心中军出现万手级主动性买单推升</span></div><div style='margin-bottom:3px'><b style='color:#e3b341'>10:00 盘中确认：</b><span style='color:#c9d1d9'>板块内出现至少 2 只连板或首板涨停助攻，确认板块集群共振</span></div><div style='margin-bottom:3px'><b style='color:#e3b341'>风控熔断底线：</b><span style='color:#c9d1d9'>分时放量跌穿昨日收盘价超过 2% 且 3 分钟不回升，或高标炸板跳水，立即放弃/止损离场</span></div></div>
+      <div style='font-size:11.5px;color:#8b949e;background:rgba(0,0,0,0.25);padding:4px 8px;border-radius:4px;border-left:2px solid #e3b341;'>
+        💡 <b>核心要点：</b>买点必须由分时右侧客观触发，不达标坚决空仓防守。
+      </div>
+    </div>
+    
+        </div>
+      </div>
+
+      <!-- 当前真实板块跟踪与战法结合对账 -->
+      <div>
+        <div style="font-size:13px;font-weight:700;color:#e3b341;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;">
+          <span>🎯 现状个股板块与战法结合实战对账池 (Current Market Focus &amp; Action Conclusions)</span>
+          <span style="font-size:11.5px;color:#8b949e;font-weight:normal;">严格区分【待观察】与【交易候选】· 无右侧触发绝不进场</span>
+        </div>
+        <div>
+          
+        <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
+          <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
+            <div style='display:flex;align-items:center;gap:10px;'>
+              <b style='font-size:14.5px;color:#f0f6fc;'>机器人 / 自动化与高端装备</b>
+              <span style='font-size:11px;color:#3fb950;background:rgba(255,255,255,0.06);border:1px solid #3fb950;padding:2px 8px;border-radius:10px;font-weight:700;'>Level A</span>
+            </div>
+            <div style='font-size:12px;color:#8b949e;'>绝对主攻大爆发 · 35家涨停集群 (大业股份 6连板 15.96元 · 兆威机电 2板 91.73元)</div>
+          </div>
+          
+          <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
+            <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>日内掀起35家涨停潮，成交超320亿，占全市场做多资金42.7%，形成极度健康完整梯队</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>空间总龙大业股份6连板引领，兆威机电、赛福天、襄阳轴承等8家2板跟进，未现大面积炸板</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>大业股份 (603278 · 6板 15.96元)、兆威机电 (003021 · 2板 91.73元)、赛福天 (603028 · 2板 8.54元)、宇树科技-W (47.7亿)</span></div>
+          </div>
+
+          <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <div><b style='color:#3fb950;'>🎯 战法映射：</b>战法 C (板块集群启动与模仿扩散战法) · 低位新主线确立律</div>
+            <span style='color:#6e7681;'>|</span>
+            <div style='color:#8b949e;'>高标退潮出清后，主力资金以机器人为主攻方向大举建仓，多身位梯队良性向上展开。</div>
+          </div>
+
+          <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #3fb950;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <b style='font-size:12.5px;color:#3fb950;white-space:nowrap;'>【顺势进攻 · 精选2进3接力与中军低吸】</b>
+            <span style='font-size:12px;color:#c9d1d9;'>重点关注大业股份6进7空间拓展，以及兆威机电、赛福天等2进3弱转强换手接力；大容量中军逢分时均线回踩企稳低吸。</span>
+          </div>
+        </div>
+        
+        <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
+          <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
+            <div style='display:flex;align-items:center;gap:10px;'>
+              <b style='font-size:14.5px;color:#f0f6fc;'>连板空间高度破局 / 军工航天独立身位</b>
+              <span style='font-size:11px;color:#3fb950;background:rgba(255,255,255,0.06);border:1px solid #3fb950;padding:2px 8px;border-radius:10px;font-weight:700;'>Level A</span>
+            </div>
+            <div style='font-size:12px;color:#8b949e;'>空间双龙并驾齐驱 (大业股份 6板 · 海洋王 6板 12.33元)</div>
+          </div>
+          
+          <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
+            <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>大业股份、海洋王双双晋级 6 连板，收于 15.96 元与 12.33 元，打破前期空间压制</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>大业股份主线属性强劲；海洋王下方梯队断层孤峰独苗，展开身位竞争博弈</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>大业股份 (603278 · 6板空间总龙 15.96元)、海洋王 (002724 · 6板军工孤峰 12.33元)</span></div>
+          </div>
+
+          <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <div><b style='color:#3fb950;'>🎯 战法映射：</b>战法 A (龙头高度突破战法) · 空间板试错律</div>
+            <span style='color:#6e7681;'>|</span>
+            <div style='color:#8b949e;'>两只高标并列6板竞争短线天花板，大业股份依托机器人大板块有强合力，海洋王孤峰独苗易受分歧冲击。</div>
+          </div>
+
+          <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #3fb950;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <b style='font-size:12.5px;color:#3fb950;white-space:nowrap;'>【紧盯竞价身位强弱 · 弱者果断放弃】</b>
+            <span style='font-size:12px;color:#c9d1d9;'>早盘9:25竞价高开且成交破亿者胜出；若海洋王竞价弱于大业股份则放弃接力，大业股份回封方可轻仓参与。</span>
+          </div>
+        </div>
+        
+        <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #d29922;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
+          <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
+            <div style='display:flex;align-items:center;gap:10px;'>
+              <b style='font-size:14.5px;color:#f0f6fc;'>中位换手破局 / 唯一3板突破</b>
+              <span style='font-size:11px;color:#d29922;background:rgba(255,255,255,0.06);border:1px solid #d29922;padding:2px 8px;border-radius:10px;font-weight:700;'>Level B</span>
+            </div>
+            <div style='font-size:12px;color:#8b949e;'>唯一中位标杆 (上海九百 3板 11.00元)</div>
+          </div>
+          
+          <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
+            <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>上海九百走出独立换手 3 连板，成为全市场唯一 3 板中位标杆</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>早盘换手充分，分时均线上方稳健承接，承接高位流出资金</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>上海九百 (600838 · 3板 11.00元)</span></div>
+          </div>
+
+          <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <div><b style='color:#d29922;'>🎯 战法映射：</b>战法 B (龙头梯队接力与中位卡位律) · 同身位PK胜出律</div>
+            <span style='color:#6e7681;'>|</span>
+            <div style='color:#8b949e;'>全市场唯一3板中位，承上启下，若高标出现分歧，中位有望产生卡位龙。</div>
+          </div>
+
+          <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #d29922;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <b style='font-size:12.5px;color:#d29922;white-space:nowrap;'>【竞价红开确认 · 换手封板试错】</b>
+            <span style='font-size:12px;color:#c9d1d9;'>9:25 竞价量比&gt;1.5且红开+2%~+4%，9:35前换手封4板方可参与，仓位上限1成。</span>
+          </div>
+        </div>
+        
+        <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
+          <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
+            <div style='display:flex;align-items:center;gap:10px;'>
+              <b style='font-size:14.5px;color:#f0f6fc;'>大容量核心中军 / 算力半导体与具身硬件</b>
+              <span style='font-size:11px;color:#3fb950;background:rgba(255,255,255,0.06);border:1px solid #3fb950;padding:2px 8px;border-radius:10px;font-weight:700;'>Level A</span>
+            </div>
+            <div style='font-size:12px;color:#8b949e;'>数十亿大成交涨停托底 (利亚德 42.2亿 7.32元 · 歌尔股份 28.7亿 23.11元)</div>
+          </div>
+          
+          <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
+            <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>利亚德、歌尔股份、粤芯半导-U 等数十亿大容量中军强势涨停，托底指数流动性</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>大资金在核心多头中枢呈现良性量价承接，与机器人主线形成软硬协同共振</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>利亚德 (300296 · 42.2亿 7.32元)、歌尔股份 (002241 · 28.7亿 23.11元)、粤芯半导-U (36.2亿)</span></div>
+          </div>
+
+          <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <div><b style='color:#3fb950;'>🎯 战法映射：</b>战法 F (容量中军放量主升与趋势承接战法) · 容量中军压舱石律</div>
+            <span style='color:#6e7681;'>|</span>
+            <div style='color:#8b949e;'>大容量中军稳健放量，有效托底指数并限制空头蔓延，为新周期行情提供充沛流动性支撑。</div>
+          </div>
+
+          <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #3fb950;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <b style='font-size:12.5px;color:#3fb950;white-space:nowrap;'>【中军走趋势重在均线低吸 · 绝不追急拉冲刺】</b>
+            <span style='font-size:12px;color:#c9d1d9;'>大成交容量中军依托 5日线或分时均线低吸，以底仓享受主线趋势溢价。</span>
+          </div>
+        </div>
+        
+        <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
+          <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
+            <div style='display:flex;align-items:center;gap:10px;'>
+              <b style='font-size:14.5px;color:#f0f6fc;'>高位断板与退潮出清群 (当日跌停收敛至 6 家)</b>
+              <span style='font-size:11px;color:#f85149;background:rgba(255,255,255,0.06);border:1px solid #f85149;padding:2px 8px;border-radius:10px;font-weight:700;'>Level C</span>
+            </div>
+            <div style='font-size:12px;color:#8b949e;'>高位断板核按钮杀跌 (星光股份断板 · 三峡新材断板)</div>
+          </div>
+          
+          <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
+            <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>前期走出 3 连板等中位加速，获利盘集中兑现</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>昨日连板今日竞价低开抢跑下杀断板；跌停收窄至 6 家 (通达创智、闽发铝业、郑中设计、奥士康)</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>星光股份 (002076 · 断板)、三峡新材 (600293 · 断板)、海量数据 (603138 · 断板)、东方嘉盛 (002889)</span></div>
+          </div>
+
+          <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <div><b style='color:#f85149;'>🎯 战法映射：</b>战法 E (接力退潮防守与断板空间塌陷战法) · 断板即防守律</div>
+            <span style='color:#6e7681;'>|</span>
+            <div style='color:#8b949e;'>高位断板次日冲高反包率仅 7.6%，断板次日冲高一律诱多出逃，严禁左侧接飞刀。</div>
+          </div>
+
+          <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #f85149;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
+            <b style='font-size:12.5px;color:#f85149;white-space:nowrap;'>【P-Black 禁买黑名单 · 严禁低吸抄底】</b>
+            <span style='font-size:12px;color:#c9d1d9;'>断板大跌标的坚决不抄底、不搏反抽；严防主力假反抽自救诱多，坚决执行 0 仓位回避！</span>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+
+    </section>
+    
+
+<h2>昨日预案对账</h2>
+<p class='sub'>对照 2026-10-22 收盘后发布的预案（主情景：风险观察：等待宽度与接力同时止跌），用 2026-10-23 收盘价逐只记分，涨跌停按前收盘价精确重建，全部列出、不挑样本。观察池 66 只：31 只收涨、33 只收跌，等权 +1.18%</p><div class='grid'><div class='card tw'><table><tr><th>市场指标</th><th>2026-10-22</th><th>2026-10-23</th></tr><tr><td>上涨占比</td><td>9.2%</td><td>83.3%</td></tr><tr><td>涨停家数</td><td>33</td><td>82</td></tr><tr><td>跌停家数</td><td>49</td><td>6</td></tr><tr><td>晋级率</td><td>18.0%</td><td>36.4%</td></tr></table></div><div class='card'><div class='k'>昨日主情景的失效条件</div><ul><li>跌停继续增加</li><li>负反馈向中位梯队扩散</li></ul></div></div><div class='card tw' style='margin-top:10px'><div class='k'>核心标的（进攻 / 确认 / 风险锚）</div><table><tr><th>标的</th><th>角色</th><th>当日涨跌</th><th>涨跌停</th></tr><tr><td>敏芯股份 <span class='muted'>sh688286</span></td><td>风险锚</td><td class='up'>+16.09%</td><td></td></tr><tr><td>中广天择 <span class='muted'>sh603721</span></td><td>风险锚</td><td class='up'>+10.01%</td><td>涨停 · 1 板</td></tr><tr><td>上海九百 <span class='muted'>sh600838</span></td><td>进攻观察</td><td class='up'>+10.00%</td><td>涨停 · 3 板</td></tr><tr><td>大业股份 <span class='muted'>sh603278</span></td><td>确认观察</td><td class='up'>+9.99%</td><td>涨停 · 6 板</td></tr><tr><td>海洋王 <span class='muted'>sz002724</span></td><td>确认观察</td><td class='up'>+9.99%</td><td>涨停 · 6 板</td></tr><tr><td>泰尔股份 <span class='muted'>sz002347</span></td><td>风险锚</td><td class='up'>+4.74%</td><td></td></tr><tr><td>百洋股份 <span class='muted'>sz002696</span></td><td>风险锚</td><td class='up'>+4.49%</td><td></td></tr><tr><td>安记食品 <span class='muted'>sh603696</span></td><td>风险锚</td><td class='up'>+4.30%</td><td></td></tr><tr><td>三维天地 <span class='muted'>sz301159</span></td><td>风险锚</td><td class='up'>+3.06%</td><td></td></tr><tr><td>福建水泥 <span class='muted'>sh600802</span></td><td>风险锚</td><td class='up'>+2.56%</td><td></td></tr><tr><td>苏州龙杰 <span class='muted'>sh603332</span></td><td>风险锚</td><td class='up'>+0.73%</td><td></td></tr><tr><td>东瑞股份 <span class='muted'>sz001201</span></td><td>风险锚</td><td class='up'>+0.45%</td><td></td></tr><tr><td>北大医药 <span class='muted'>sz000788</span></td><td>风险锚</td><td class=''>+0.00%</td><td></td></tr><tr><td>日海智能 <span class='muted'>sz002313</span></td><td>风险锚</td><td class='down'>-0.77%</td><td></td></tr><tr><td>通宇通讯 <span class='muted'>sz002792</span></td><td>风险锚</td><td class='down'>-0.77%</td><td></td></tr><tr><td>九阳股份 <span class='muted'>sz002242</span></td><td>风险锚</td><td class='down'>-0.83%</td><td></td></tr><tr><td>雪人集团 <span class='muted'>sz002639</span></td><td>风险锚</td><td class='down'>-1.13%</td><td></td></tr><tr><td>移远通信 <span class='muted'>sh603236</span></td><td>风险锚</td><td class='down'>-1.56%</td><td></td></tr><tr><td>文投控股 <span class='muted'>sh600715</span></td><td>风险锚</td><td class='down'>-1.70%</td><td></td></tr><tr><td>粤 传 媒 <span class='muted'>sz002181</span></td><td>风险锚</td><td class='down'>-1.89%</td><td></td></tr><tr><td>利通电子 <span class='muted'>sh603629</span></td><td>风险锚</td><td class='down'>-2.16%</td><td></td></tr><tr><td>顺灏股份 <span class='muted'>sz002565</span></td><td>风险锚</td><td class='down'>-2.48%</td><td></td></tr><tr><td>恒大高新 <span class='muted'>sz002591</span></td><td>风险锚</td><td class='down'>-2.58%</td><td></td></tr><tr><td>南威软件 <span class='muted'>sh603636</span></td><td>风险锚</td><td class='down'>-2.95%</td><td></td></tr><tr><td>均瑶健康 <span class='muted'>sh605388</span></td><td>风险锚</td><td class='down'>-3.15%</td><td></td></tr><tr><td>莱美药业 <span class='muted'>sz300006</span></td><td>风险锚</td><td class='down'>-3.69%</td><td></td></tr><tr><td>四环生物 <span class='muted'>sz000518</span></td><td>风险锚</td><td class='down'>-3.91%</td><td></td></tr><tr><td>九牧王 <span class='muted'>sh601566</span></td><td>风险锚</td><td class='down'>-4.07%</td><td></td></tr><tr><td>兆讯传媒 <span class='muted'>sz301102</span></td><td>风险锚</td><td class='down'>-4.86%</td><td></td></tr><tr><td>中恒集团 <span class='muted'>sh600252</span></td><td>风险锚</td><td class='down'>-5.33%</td><td></td></tr><tr><td>东安动力 <span class='muted'>sh600178</span></td><td>风险锚</td><td class='down'>-6.10%</td><td></td></tr><tr><td>三峡新材 <span class='muted'>sh600293</span></td><td>确认观察</td><td class='down'>-6.12%</td><td>断板（昨 3 板）</td></tr><tr><td>永达股份 <span class='muted'>sz001239</span></td><td>风险锚</td><td class='down'>-6.25%</td><td></td></tr><tr><td>东方海洋 <span class='muted'>sz002086</span></td><td>风险锚</td><td class='down'>-6.28%</td><td></td></tr><tr><td>天洋新材 <span class='muted'>sh603330</span></td><td>进攻观察</td><td class='down'>-6.31%</td><td>断板（昨 2 板）</td></tr><tr><td>读者传媒 <span class='muted'>sh603999</span></td><td>风险锚</td><td class='down'>-6.99%</td><td></td></tr><tr><td>出版传媒 <span class='muted'>sh601999</span></td><td>进攻观察</td><td class='down'>-7.34%</td><td>断板（昨 2 板）</td></tr><tr><td>星光股份 <span class='muted'>sz002076</span></td><td>确认观察</td><td class='down'>-7.78%</td><td>断板（昨 3 板）</td></tr><tr><td>同为股份 <span class='muted'>sz002835</span></td><td>风险锚</td><td class='down'>-7.85%</td><td></td></tr><tr><td>海量数据 <span class='muted'>sh603138</span></td><td>进攻观察</td><td class='down'>-8.69%</td><td>断板（昨 2 板）</td></tr><tr><td>天威视讯 <span class='muted'>sz002238</span></td><td>风险锚</td><td class='down'>-8.90%</td><td></td></tr><tr><td>哈空调 <span class='muted'>sh600202</span></td><td>进攻观察</td><td class='down'>-9.95%</td><td>跌停</td></tr></table></div><details class='card tw' style='margin-top:10px'><summary>其余观察池 24 只（展开）</summary><table><tr><th>标的</th><th>角色</th><th>当日涨跌</th><th>涨跌停</th></tr><tr><td>华阳智能 <span class='muted'>sz301502</span></td><td>观察池</td><td class='up'>+20.00%</td><td>涨停 · 2 板</td></tr><tr><td>林州重机 <span class='muted'>sz002535</span></td><td>观察池</td><td class='up'>+10.18%</td><td>涨停 · 2 板</td></tr><tr><td>赛福天 <span class='muted'>sh603028</span></td><td>观察池</td><td class='up'>+10.05%</td><td>涨停 · 2 板</td></tr><tr><td>南方路机 <span class='muted'>sh603280</span></td><td>观察池</td><td class='up'>+10.01%</td><td>涨停 · 2 板</td></tr><tr><td>兆威机电 <span class='muted'>sz003021</span></td><td>观察池</td><td class='up'>+10.00%</td><td>涨停 · 2 板</td></tr><tr><td>多伦科技 <span class='muted'>sh603528</span></td><td>观察池</td><td class='up'>+10.00%</td><td>涨停 · 2 板</td></tr><tr><td>正裕工业 <span class='muted'>sh603089</span></td><td>观察池</td><td class='up'>+9.99%</td><td>涨停 · 2 板</td></tr><tr><td>睿能科技 <span class='muted'>sh603933</span></td><td>观察池</td><td class='up'>+9.98%</td><td>涨停 · 2 板</td></tr><tr><td>襄阳轴承 <span class='muted'>sz000678</span></td><td>观察池</td><td class='up'>+9.98%</td><td>涨停 · 2 板</td></tr><tr><td>鸣志电器 <span class='muted'>sh603728</span></td><td>观察池</td><td class='up'>+9.97%</td><td>断板（昨 1 板）</td></tr><tr><td>奕帆传动 <span class='muted'>sz301023</span></td><td>观察池</td><td class='up'>+7.64%</td><td>断板（昨 1 板）</td></tr><tr><td>大洋电机 <span class='muted'>sz002249</span></td><td>观察池</td><td class='up'>+7.37%</td><td>断板（昨 1 板）</td></tr><tr><td>华新精科 <span class='muted'>sh603370</span></td><td>观察池</td><td class='up'>+4.88%</td><td>断板（昨 1 板）</td></tr><tr><td>山河智能 <span class='muted'>sz002097</span></td><td>观察池</td><td class='up'>+4.55%</td><td>断板（昨 1 板）</td></tr><tr><td>安乃达 <span class='muted'>sh603350</span></td><td>观察池</td><td class='up'>+3.12%</td><td>断板（昨 1 板）</td></tr><tr><td>芯瑞达 <span class='muted'>sz002983</span></td><td>观察池</td><td class='up'>+2.48%</td><td>断板（昨 1 板）</td></tr><tr><td>长城电工 <span class='muted'>sh600192</span></td><td>观察池</td><td class='up'>+2.40%</td><td>断板（昨 1 板）</td></tr><tr><td>北新路桥 <span class='muted'>sz002307</span></td><td>观察池</td><td class='up'>+2.06%</td><td>断板（昨 1 板）</td></tr><tr><td>冰山冷热 <span class='muted'>sz000530</span></td><td>观察池</td><td class='up'>+0.42%</td><td>断板（昨 1 板）</td></tr><tr><td>湖南天雁 <span class='muted'>sh600698</span></td><td>观察池</td><td class='down'>-1.19%</td><td>断板（昨 1 板）</td></tr><tr><td>博汇股份 <span class='muted'>sz300839</span></td><td>观察池</td><td class='down'>-3.56%</td><td>断板（昨 1 板）</td></tr><tr><td>南矿集团 <span class='muted'>sz001360</span></td><td>观察池</td><td class='down'>-3.77%</td><td>断板（昨 1 板）</td></tr><tr><td>阳光照明 <span class='muted'>sh600261</span></td><td>观察池</td><td class='down'>-4.17%</td><td>断板（昨 1 板）</td></tr><tr><td>沈鼓集团 <span class='muted'>sh601091</span></td><td>观察池</td><td class=''>0.00% (停牌/平盘)</td><td>断板（昨 1 板）</td></tr></table></details>
+
+<h2>AI 补充 · 竞价风向标</h2><p class="sub">由智能研判基于当日真实行情生成，属于推演而非事实；与上文规则结论冲突时以规则为准。</p><div class='card' style='margin-bottom:8px'><b>雷达 1：空间总龙晋级测试 (6进7)</b><div style='font-size:12.5px;color:#c9d1d9;margin-top:4px'>大业股份 (sh603278) · 机器人 / 海洋王 (sz002724) · 军工航天 ｜ 早盘 09:25 集合竞价成交额 &gt; 1.8 亿元，竞价涨幅维持在 +3% 至 +6%，开盘分时快速换手封死涨停。 ｜ 若大业股份超预期高开并快速秒板，确认空间压制被打破，连板情绪进入高潮主升；若大幅低开 &lt;-2% 或开盘炸板下杀，预警高位全线分化，严格放弃接力。</div></div><div class='card' style='margin-bottom:8px'><b>雷达 2：核心辨识度卡位测试 (3进4)</b><div style='font-size:12.5px;color:#c9d1d9;margin-top:4px'>上海九百 (sh600838) · 3连板 ｜ 早盘 09:25 竞价成交额 &gt; 5000 万元，量比 &gt; 2.0，竞价涨幅 &gt; +2.5%，开盘 5 分钟换手承接不破均线。 ｜ 检验中位梯队在空间龙带动下的承接力。若能弱转强晋级4板，形成完整阶梯保护；若大幅跳水翻绿，则中位出现断层，防范中位股分化退潮。</div></div><div class='card' style='margin-bottom:8px'><b>雷达 3：市场情绪承接与跌停风向标</b><div style='font-size:12.5px;color:#c9d1d9;margin-top:4px'>全市场跌停家数 / 连板晋级率 / 昨日断板高标反馈 ｜ 早盘 09:25 全市场跌停封单 ≤ 5 家，涨停 ≥ 50 家，上涨家数占比维持在 &gt; 55%。 ｜ 若星光股份、三峡新材等昨日断板票未现极端大单核按钮，且跌停未扩大，市场良性；若跌停扩张至 &gt;10 家，立即收紧仓位，执行防守。</div></div>
+
+<footer>数据自动跑批生成 · 规则结论来自报告同一套上下文 · 仅供研究参考，不构成投资建议</footer>
+</div>
+<script>
+function copyMorningPlanDigest() {
+  const text = `【晨会操盘内参 · 核心作战卡片】\n` +
+    `基准日期：2026-10-23 ｜ 目标交易日：2026-10-26\n` +
+    `定性军规：📊 市场微观体检 (涨停 82 / 跌停 6)\n` +
+    `仓位上限：0~1 成 (默认动作：不开新仓)\n\n` +
+    `【优先级作战矩阵】\n` +
+    `P0 空间先锋：大业股份 / 海洋王 · 6 进 7\n` +
+    `- 触发：9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻\n` +
+    `- 止损：炸板>3分钟不回封或跌破分时均线立即放弃/止损\n\n` +
+    `P1 中位卡位：上海九百 · 3 进 4\n` +
+    `- 触发：9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成\n\n` +
+    `P2 低位防守：赛福天 / 正裕工业 / 南方路机 / 多伦科技 / 睿能科技 / 襄阳轴承 · 2 进 3\n` +
+    `- 触发：细分题材出现≥2只首板助攻，放量回封极轻仓套利观察\n\n` +
+    `P3 风险熔断：星光股份 / 三峡新材 / 海量数据 / 出版传媒\n` +
+    `- 监控：9:25 若 星光股份 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位\n\n` +
+    `P-Black 禁买雷区：星光股份、三峡新材、海量数据、出版传媒、哈空调、天洋新材\n` +
+    `- 禁令：严禁低吸、抄底、追反包！\n\n` +
+    `【分时熔断底线】\n` +
+    `- 09:25 竞价：跌停>15家或星光股份焊死跌停，全天彻底空仓\n` +
+    `- 10:00 盘中：上涨家数<1500家无合力，严禁开新仓`;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function() {
+      alert("✅ 晨会操盘卡片已成功复制到剪贴板！");
+    }).catch(function() {
+      prompt("请手动复制操盘卡片文本：", text);
+    });
+  } else {
+    prompt("请手动复制操盘卡片文本：", text);
+  }
+}
+</script>
+</body></html>
