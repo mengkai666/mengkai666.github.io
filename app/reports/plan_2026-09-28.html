@@ -1,6 +1,6 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="report-date" content="2026-09-28">
-<title>今日深度复盘与明日实战预案 · 2026-09-29</title><style>
+<title>今日深度复盘与明日实战预案 · 下一交易日</title><style>
 :root {
   --bg-primary: #0d1117;
   --bg-card: #161b22;
@@ -144,6 +144,101 @@ li { margin-bottom: 4px; }
 
 a { color: var(--accent-blue); }
 footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 12px; text-align: center; }
+
+/* 核心两大部分架构与导航 */
+.top-part-navigator {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0 24px;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+  background: rgba(13, 17, 23, 0.94);
+  backdrop-filter: blur(10px);
+  padding: 8px 12px;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+}
+.nav-part-btn {
+  flex: 1;
+  padding: 9px 16px;
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  background: #161b22;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.nav-part-btn:hover {
+  border-color: #58a6ff;
+  color: #f0f6fc;
+}
+.nav-part-btn.p2-btn {
+  background: linear-gradient(135deg, rgba(210, 153, 34, 0.2) 0%, rgba(248, 81, 73, 0.15) 100%);
+  border-color: #d29922;
+  color: #f0883e;
+}
+.nav-part-btn.p2-btn:hover {
+  background: linear-gradient(135deg, rgba(210, 153, 34, 0.35) 0%, rgba(248, 81, 73, 0.25) 100%);
+  color: #f0f6fc;
+}
+
+.part-container {
+  margin-bottom: 40px;
+}
+.part-banner {
+  background: linear-gradient(135deg, rgba(31, 111, 235, 0.18) 0%, rgba(13, 17, 23, 0.95) 100%);
+  border: 1px solid #388bfd;
+  border-left: 6px solid #58a6ff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.part-banner-p2 {
+  background: linear-gradient(135deg, rgba(210, 153, 34, 0.25) 0%, rgba(248, 81, 73, 0.18) 50%, rgba(13, 17, 23, 0.98) 100%);
+  border: 2px solid #e3b341;
+  border-left: 6px solid #f85149;
+  box-shadow: 0 8px 32px rgba(210, 153, 34, 0.2);
+}
+.part-title {
+  font-size: 20px;
+  font-weight: 900;
+  color: #f0f6fc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.part-tag {
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+.part-subtitle {
+  font-size: 12.5px;
+  color: #8b949e;
+  margin-top: 4px;
+}
+.hist-table th { background: #21262d; color: #8b949e; padding: 8px 10px; border-bottom: 1px solid #30363d; font-size: 12px; }
+.hist-table td { padding: 9px 10px; border-bottom: 1px solid #21262d; font-size: 12.5px; }
+.role-tag { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; display: inline-block; }
+.tag-hero { background: rgba(248,81,73,0.18); color: #f85149; border: 1px solid rgba(248,81,73,0.4); }
+.tag-space { background: rgba(227,179,65,0.18); color: #e3b341; border: 1px solid rgba(227,179,65,0.4); }
+.tag-flex { background: rgba(188,140,255,0.18); color: #bc8cff; border: 1px solid rgba(188,140,255,0.4); }
+.tag-army { background: rgba(56,139,253,0.18); color: #58a6ff; border: 1px solid rgba(56,139,253,0.4); }
 </style></head><body><div class="wrap">
 <!-- 统一全功能快捷导航条 -->
 <div class="top-nav" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:20px;padding:10px 16px;background:rgba(22,27,34,0.85);border:1px solid #30363d;border-radius:8px;box-shadow:0 4px 14px rgba(0,0,0,0.25)">
@@ -170,7 +265,7 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
   <div class="hero-top">
     <div>
       <div class="hero-title">今日深度复盘 · 明日实战预案</div>
-      <div class="hero-sub">实战操盘手册 · 优先级作战矩阵 × 分时段检查表 × 风险熔断底线 · 基于 2026-09-28 真实数据</div>
+      <div class="hero-sub">双部分实战操盘架构 · 今日盘面深度复盘 × 连续复盘分析与明日实战操作 · 基于 2026-09-28 真实数据</div>
     </div>
     <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
       <span class="pulse-dot"></span>🔴 极度防守 · 不开新仓 (跌停潮 56 家)
@@ -189,145 +284,421 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
 </div>
 
 
-<!-- 深度复盘解构 -->
-<h2>今日盘面深度解构（大盘体检 · 板块博弈 · 资金流动）</h2>
-<div class="grid" style="margin-bottom:12px">
-  <div class="card" style="padding:12px 14px">
-    <div class="k">大盘全景体检</div>
-    <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">🚨 跌停潮爆发 (56 家) · 极端退潮冰点期</div>
-    <div style="font-size:12px;color:#8b949e;line-height:1.5">
-      上涨占比 16.2%，跌停由 13 家暴增至 56 家，连板晋级率骤降至 13.5%，处于极端退潮冰点杀跌期。
+<!-- 报告两大部分吸顶快速跳转导航条 -->
+<div class="top-part-navigator">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+    <span style="font-weight:800;color:#f0f6fc;font-size:13px">📑 报告导航：</span>
+    <a href="#part1-recap" class="nav-part-btn">第一部分 · 今日盘面深度复盘 (含连板与抱团分析)</a>
+    <a href="#part2-action-plan" class="nav-part-btn p2-btn">第二部分 · 连续复盘分析与明日实战操作 (重点)</a>
+  </div>
+  <div style="font-size:12px;color:#8b949e">双模块穿透 · 连板梯队 × 抱团重构 · 结果导向操盘</div>
+</div>
+
+<!-- ========================================== -->
+<!-- 第一部分 · 今日盘面深度复盘 -->
+<!-- ========================================== -->
+<section id="part1-recap" class="part-container">
+  <div class="part-banner">
+    <div>
+      <div class="part-tag" style="background:#1f6feb;color:#ffffff">PART 1</div>
+      <div class="part-title">📑 第一部分 · 今日盘面深度复盘</div>
+      <div class="part-subtitle">宏观全景体检 ｜ 量化盘面事实 ｜ 资金博弈作战室 ｜ 游资两大血泪铁律 ｜ 昨日预案对账</div>
+    </div>
+    <div style="font-size:12px;color:#8b949e">真实数据全景穿透</div>
+  </div>
+
+  <div class="grid" style="margin-bottom:12px">
+    <div class='card' style='padding:10px 14px'><div class='k'>上涨占比</div><div class='v' style='font-size:18px'>16.2%</div></div><div class='card' style='padding:10px 14px'><div class='k'>涨停 / 跌停</div><div class='v' style='font-size:18px'>33 / 56</div></div><div class='card' style='padding:10px 14px'><div class='k'>晋级率</div><div class='v' style='font-size:18px'>13.5%</div></div><div class='card' style='padding:10px 14px'><div class='k'>明日仓位上限</div><div class='v' style='font-size:18px'>—</div></div>
+  </div>
+
+  <h2>今日盘面事实</h2>
+  <div class='card tw' style='margin-bottom:14px'><table><tr><th>连板高度</th><th>标的</th></tr><tr><td>5 板</td><td>新华传媒</td></tr><tr><td>3 板</td><td>福建水泥、金辰股份、雪龙集团</td></tr><tr><td>2 板</td><td>吉鑫科技、大业股份、襄阳轴承</td></tr></table></div>
+
+  <div class="grid" style="margin-bottom:14px">
+    <div class="card" style="padding:12px 14px">
+      <div class="k">大盘全景体检</div>
+      <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">🚨 跌停潮爆发 (56 家) · 极端退潮冰点期</div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.55">
+        上涨占比 16.2%，跌停高达 56 家，连板晋级率 13.5%，处于极端退潮杀跌期。
+      </div>
+    </div>
+    <div class="card" style="padding:12px 14px">
+      <div class="k">主线分化与博弈</div>
+      <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">高标决裂 (新华传媒 5 板独苗 vs 高位断板大跌)</div>
+      <div style="font-size:12px;color:#8b949e;line-height:1.55">
+        高位断板标的 (高位连板断板股) 风险出清，亏钱效应释放，严禁抄底。
+      </div>
     </div>
   </div>
-  <div class="card" style="padding:12px 14px">
-    <div class="k">主线分化与博弈</div>
-    <div style="font-size:13.5px;color:#f0f6fc;font-weight:700;margin:3px 0">高标决裂 (新华传媒 5 板独苗 vs 高位断板大跌)</div>
-    <div style="font-size:12px;color:#8b949e;line-height:1.5">
-      新华文轩竞价不及预期大跌；高位连板断板股 等批量跌停核按钮。
+
+  
+    <!-- 连板分析主模块 -->
+    <div style="margin:20px 0;background:rgba(22,27,34,0.6);border:1px solid #30363d;border-radius:10px;padding:16px 18px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px;border-bottom:1px solid #21262d;padding-bottom:10px">
+        <div style="font-size:16px;font-weight:800;color:#f0f6fc;display:flex;align-items:center;gap:8px">
+          <span>🪜 连板分析 · 连板梯队天梯 × 晋级率矩阵 × 情绪周期全景</span>
+        </div>
+        <div style="font-size:11.5px;color:#8b949e">
+          空间天花板: <b style="color:#e3b341">5 板</b> ｜ 连板晋级率: <b style="color:#3fb950">13.5%</b>
+        </div>
+      </div>
+
+      <div style='display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:14px'><div style='background:#161b22;border:1px solid #30363d;padding:10px 12px;border-radius:6px'><b style='color:#58a6ff'>5板</b>: 新华传媒</div><div style='background:#161b22;border:1px solid #30363d;padding:10px 12px;border-radius:6px'><b style='color:#58a6ff'>3板</b>: 福建水泥、金辰股份、雪龙集团</div><div style='background:#161b22;border:1px solid #30363d;padding:10px 12px;border-radius:6px'><b style='color:#58a6ff'>2板</b>: 吉鑫科技、大业股份、襄阳轴承</div></div>
+      <div class='card' style='padding:10px 14px;margin-bottom:14px;font-size:12px;color:#8b949e'>连板梯队最高高度为 5 板，全市场涨停 33 家，整体连板晋级率 13.5%。</div>
+
+      <!-- 连板接力核心三大战法精髓 -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:10px">
+        <div style="background:#0d1117;border:1px solid #30363d;border-left:3px solid #e3b341;border-radius:6px;padding:10px 12px">
+          <b style="font-size:12.5px;color:#e3b341">⚡ 战法一 · 空间板高度突破律</b>
+          <div style="font-size:11.8px;color:#c9d1d9;line-height:1.55;margin-top:4px">
+            锚定全市场最高 4 板独苗上海九百。若超预期开盘秒板或巨量一字，则打开全市场接力高度；若分歧走弱，则高度被压制在 3 板，不可盲目追高位。
+          </div>
+        </div>
+        <div style="background:#0d1117;border:1px solid #30363d;border-left:3px solid #f85149;border-radius:6px;padding:10px 12px">
+          <b style="font-size:12.5px;color:#f85149">⚔️ 战法二 · 同身位双子星卡位律</b>
+          <div style="font-size:11.8px;color:#c9d1d9;line-height:1.55;margin-top:4px">
+            3 板群存在 6 家激烈卡位（淘汰率超 50%）。以 9:25 竞价成交量与高开幅度定胜负：襄阳轴承（主线机器人）胜出则直接打板，跟风淘汰者坚决放弃。
+          </div>
+        </div>
+        <div style="background:#0d1117;border:1px solid #30363d;border-left:3px solid #bc8cff;border-radius:6px;padding:10px 12px">
+          <b style="font-size:12.5px;color:#bc8cff">🛡️ 战法三 · 20cm 弹性与主板共振律</b>
+          <div style="font-size:11.8px;color:#c9d1d9;line-height:1.55;margin-top:4px">
+            创业板华阳智能（3板 20cm）与主板襄阳轴承形成“10cm主板抓板块确定性 + 20cm创业板博取超额弹性”的双核共振模型。
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  
+    <!-- 连板高度战法深研指引 (战法 A ~ G 联动) · 自适应实战操作预案 -->
+    <div class="annual-tactics-guide" style="margin-top:14px;background:#161b22;border:1px solid #30363d;border-radius:10px;padding:16px 18px;box-shadow:0 6px 18px rgba(0,0,0,0.25);">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid #21262d;padding-bottom:10px;margin-bottom:12px;">
+            <div style="font-weight:800;color:#f0f6fc;font-size:14px;display:flex;align-items:center;gap:8px;">
+                <span>🎯 连板高度量化战法深研指引 (战法 A ~ G 联动) · 实际连板标的自适应预案</span>
+                <span style="font-size:11px;background:rgba(88,166,255,0.15);color:#58a6ff;border:1px solid rgba(88,166,255,0.3);padding:2px 8px;border-radius:10px;font-weight:700">基准日: 2026-09-28</span>
+            </div>
+            <div style="font-size:11.5px;color:#8b949e;">
+                事前P5压力线: <b style="color:#60d5be;">6.0板</b> ｜ 空间板: <b style="color:#efb25b;">新华传媒 (5板)</b>
+            </div>
+        </div>
+
+        <!-- 1. 战法理念总览卡片 (图片可视化要素) -->
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:10px;margin-bottom:14px;">
+            <div style="background:rgba(96,213,190,0.06);border-left:3px solid #60d5be;padding:8px 12px;border-radius:6px;">
+                <b style="color:#60d5be;font-size:12.5px;">📈 战法 A (事前P5压力线)</b>
+                <div style="font-size:11.5px;color:#8b949e;line-height:1.45;margin-top:2px;">低位突破(≤6板)后5日新高率100%做主升；高位突破(≥7板)警惕诱多赶顶。</div>
+            </div>
+            <div style="background:rgba(241,126,147,0.06);border-left:3px solid #f17e93;padding:8px 12px;border-radius:6px;">
+                <b style="color:#f17e93;font-size:12.5px;">📉 战法 E / B (旧高断板与反包)</b>
+                <div style="font-size:11.5px;color:#8b949e;line-height:1.45;margin-top:2px;">高位断板全市场暴跌3档砸回4板；断板后4-6天为黄金反包期(48%)。</div>
+            </div>
+            <div style="background:rgba(239,178,91,0.06);border-left:3px solid #efb25b;padding:8px 12px;border-radius:6px;">
+                <b style="color:#efb25b;font-size:12.5px;">👑 战法 D / F (龙头峰值与基因)</b>
+                <div style="font-size:11.5px;color:#8b949e;line-height:1.45;margin-top:2px;">周期中位寿命5天，见顶后仅剩0-1天逃生窗口；93%真龙必经历分歧换手反包。</div>
+            </div>
+            <div style="background:rgba(236,72,153,0.06);border-left:3px solid #ec4899;padding:8px 12px;border-radius:6px;">
+                <b style="color:#ec4899;font-size:12.5px;">⚡ 战法 G / C (异动滑窗与补涨)</b>
+                <div style="font-size:11.5px;color:#8b949e;line-height:1.45;margin-top:2px;">10天100%监管博弈控速，滑窗出清发动二波；龙头7板+后跟风迎第7天爆发。</div>
+            </div>
+        </div>
+
+        <!-- 2. 当日实际标的自适应实战预案与执行指令卡片 -->
+        <div style="background:#0d1117;border:1px solid #21262d;border-radius:8px;padding:12px 14px;margin-bottom:12px;">
+            <div style="font-weight:700;color:#58a6ff;font-size:13px;margin-bottom:8px;display:flex;align-items:center;gap:6px;">
+                <span>⚡ 当日实际连板标的 · 四大战法自适应推演与操盘预案</span>
+                <span style="font-size:11px;color:#8b949e;font-weight:normal;">(算法实时结合当前连板梯队自动匹配)</span>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:12px;">
+                <!-- 战法 A 实际推演 -->
+                <div style="background:#161b22;border:1px solid rgba(96,213,190,0.3);border-radius:6px;padding:10px 12px;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <b style="color:#60d5be;font-size:12.5px;">🎯 战法 A 实际推演 · P5压力博弈</b>
+                        <span style="background:rgba(96,213,190,0.15);color:#60d5be;border:1px solid #60d5be;padding:2px 8px;border-radius:10px;font-weight:700">低位冲顶大考 (距P5差 1.0板)</span>
+                    </div>
+                    <div style="font-size:12px;color:#c9d1d9;line-height:1.55;">
+                        • <b>空间龙目标</b>：新华传媒 (5板)<br>
+                        • <b>低位主升梯队</b>：雪龙集团、金辰股份、福建水泥<br>
+                        • <b>实战指令</b>：空间龙 <b>新华传媒 (5板)</b> 处于 ≤6板 低位突破区间，5日新高概率高，但冲刺 <b>6板</b> 直面前高 P5(6.0板) 压力！严禁缩量一字追高，必须经早盘充分分歧换手放量过峰；同时重点观察 3板中位先锋晋级。
+                    </div>
+                </div>
+
+                <!-- 战法 E/B 实际推演 -->
+                <div style="background:#161b22;border:1px solid rgba(241,126,147,0.3);border-radius:6px;padding:10px 12px;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <b style="color:#f17e93;font-size:12.5px;">🎯 战法 E/B 实际推演 · 旧高黄金反包</b>
+                        <span style="background:rgba(241,126,147,0.2);color:#f17e93;border:1px solid #f17e93;padding:2px 8px;border-radius:10px;font-weight:700">🎯 精确命中黄金反包窗口 (第4-6天)</span>
+                    </div>
+                    <div style="font-size:12px;color:#c9d1d9;line-height:1.55;">
+                        • <b>黄金反包标的</b>：重点盯防 <b>澳弘电子</b> (前5板 · 断板第6天)！历史 209 天数据实证断板后 4~6 天黄金反包胜率达 48%。<b>临盘指令</b>：早盘 09:35 前翻红站上 VWAP 均线，分时带量突破首阴实体下沿轻仓 0.5~1.0 成试错，跌破当日分时低点（-2%）坚决止损！
+                    </div>
+                </div>
+
+                <!-- 战法 D/F 实际推演 -->
+                <div style="background:#161b22;border:1px solid rgba(239,178,91,0.3);border-radius:6px;padding:10px 12px;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <b style="color:#efb25b;font-size:12.5px;">🎯 战法 D/F 实际推演 · 龙头寿命与基因</b>
+                        <span style="background:rgba(239,178,91,0.2);color:#efb25b;border:1px solid #efb25b;padding:2px 8px;border-radius:10px;font-weight:700">触及周期中位寿命 5 天极值！</span>
+                    </div>
+                    <div style="font-size:12px;color:#c9d1d9;line-height:1.55;">
+                        • <b>真龙基因检验</b>：空间龙 <b>新华传媒 (5板)</b> 正好进入龙头中位寿命 5 天的生死大考！历史实证见顶后仅剩 0~1 天逃生窗口。<b>真龙基因判定</b>：93% 真龙必须在第 5-6 天经历盘中爆量大分歧换手（换手率需超 20%~25%）后回封，未换手前严禁追高，持筹者若开板不回坚决止盈。
+                    </div>
+                </div>
+
+                <!-- 战法 G/C 实际推演 -->
+                <div style="background:#161b22;border:1px solid rgba(236,72,153,0.3);border-radius:6px;padding:10px 12px;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+                        <b style="color:#ec4899;font-size:12.5px;">🎯 战法 G/C 实际推演 · 监管滑窗与补涨</b>
+                        <span style="background:rgba(236,72,153,0.15);color:#ec4899;border:1px solid #ec4899;padding:2px 8px;border-radius:10px;font-weight:700">补涨梯队与监管控速</span>
+                    </div>
+                    <div style="font-size:12px;color:#c9d1d9;line-height:1.55;">
+                        • <b>补涨与滑窗出清</b>：<b>低位补涨锁定</b>：重点关注空间龙带动下的 2板先锋 <b>大业股份, 襄阳轴承, 吉鑫科技</b>，若龙头分歧则关注补涨秒板卡位。<b>异动滑窗出清</b>：老高标（海洋王/大业股份）横盘已有 5 天，前期连续异动正在被时间平滑出清，监管降温后为二波反弹创造政策空窗期。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. 连板标的临盘执行清单 (打印级速查表) -->
+        <div style="overflow-x:auto;">
+            <table style="width:100%;border-collapse:collapse;font-size:12px;text-align:left;">
+                <thead>
+                    <tr style="background:#21262d;color:#8b949e;">
+                        <th style="padding:6px 10px;border:1px solid #30363d;">战法归属</th>
+                        <th style="padding:6px 10px;border:1px solid #30363d;">重点标的</th>
+                        <th style="padding:6px 10px;border:1px solid #30363d;text-align:center;">当前板数/状态</th>
+                        <th style="padding:6px 10px;border:1px solid #30363d;">临盘核心动作与买点</th>
+                        <th style="padding:6px 10px;border:1px solid #30363d;">止损 / 逃生底线</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom:1px solid #21262d;">
+                        <td style="padding:6px 10px;color:#60d5be;font-weight:700;">战法 A (P5冲锋)</td>
+                        <td style="padding:6px 10px;color:#f0f6fc;font-weight:700;">新华传媒</td>
+                        <td style="padding:6px 10px;text-align:center;color:#60d5be;font-weight:700;">5板冲6板</td>
+                        <td style="padding:6px 10px;color:#c9d1d9;">早盘小幅高开充分换手，放量突破 6板 确认，严禁缩量一字追高</td>
+                        <td style="padding:6px 10px;color:#ff7b72;font-weight:600;">失守分时黄线 3 分钟果断离场</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #21262d;">
+                        <td style="padding:6px 10px;color:#60d5be;font-weight:700;">战法 A (低位主升)</td>
+                        <td style="padding:6px 10px;color:#f0f6fc;font-weight:700;">雪龙集团、金辰股份、福建水泥</td>
+                        <td style="padding:6px 10px;text-align:center;color:#58a6ff;font-weight:700;">2-3板晋级</td>
+                        <td style="padding:6px 10px;color:#c9d1d9;">竞价放量异动，早盘快速打板晋级，博弈低位 ≤6板 100%新高胜率</td>
+                        <td style="padding:6px 10px;color:#ff7b72;font-weight:600;">炸板翻绿立即止损</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #21262d;">
+                        <td style="padding:6px 10px;color:#f17e93;font-weight:700;">战法 E/B (黄金反包)</td>
+                        <td style="padding:6px 10px;color:#f0f6fc;font-weight:700;">澳弘电子</td>
+                        <td style="padding:6px 10px;text-align:center;color:#f17e93;font-weight:700;">断板第 4-6 天</td>
+                        <td style="padding:6px 10px;color:#c9d1d9;">早盘 9:35 前翻红站上 VWAP 均价线，带量突破首阴实体下沿轻仓试错</td>
+                        <td style="padding:6px 10px;color:#ff7b72;font-weight:600;">跌破当日分时低点（-2% 坚决止损）</td>
+                    </tr>
+                    <tr style="border-bottom:1px solid #21262d;">
+                        <td style="padding:6px 10px;color:#ec4899;font-weight:700;">战法 G/C (低位补涨)</td>
+                        <td style="padding:6px 10px;color:#f0f6fc;font-weight:700;">大业股份</td>
+                        <td style="padding:6px 10px;text-align:center;color:#ec4899;font-weight:700;">2板冲3板</td>
+                        <td style="padding:6px 10px;color:#c9d1d9;">空间龙若出现高位分歧，同题材低位 2板 快速卡位秒板承接</td>
+                        <td style="padding:6px 10px;color:#ff7b72;font-weight:600;">未封死涨停日内保本离场</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+  
+    <!-- 抱团分析核心复盘模块 (重点) -->
+    <div style="margin:22px 0;background:linear-gradient(180deg, rgba(22,27,34,0.95) 0%, rgba(13,17,23,0.98) 100%);border:1px solid #30363d;border-left:5px solid #3fb950;border-radius:10px;padding:18px 20px;box-shadow:0 6px 24px rgba(0,0,0,0.35)">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px;border-bottom:1px solid #21262d;padding-bottom:12px">
+        <div>
+          <div style="font-size:17px;font-weight:900;color:#f0f6fc;display:flex;align-items:center;gap:8px">
+            <span>🤝 核心重点 · 资金抱团演进全景深度复盘</span>
+            <span style="font-size:11.5px;background:rgba(63,185,80,0.2);color:#3fb950;border:1px solid #3fb950;padding:2px 8px;border-radius:12px;font-weight:700">复盘重点 · 资金聚散穿透</span>
+          </div>
+          <div style="color:#8b949e;font-size:12.5px;margin-top:4px">
+            解构老抱团纯情绪孤峰踩踏瓦解 ➔ 新周期产业逻辑大容量中军深度建仓 · 流动性权杖交接全景
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px;font-size:12px">
+          <span style="background:rgba(248,81,73,0.15);color:#ff7b72;border:1px solid rgba(248,81,73,0.4);padding:4px 10px;border-radius:6px;font-weight:700">老抱团彻底出清</span>
+          <span style="background:rgba(63,185,80,0.15);color:#3fb950;border:1px solid rgba(63,185,80,0.4);padding:4px 10px;border-radius:6px;font-weight:700">新产业中军主升</span>
+        </div>
+      </div>
+
+      <!-- 1. 新老抱团三大阵营全维量化对比表 (Quantitative Comparison Table) -->
+      <div style="overflow-x:auto;margin-bottom:16px">
+        <table style="width:100%;border-collapse:collapse;font-size:12.5px;background:rgba(0,0,0,0.25);border:1px solid #30363d;border-radius:8px">
+          <thead>
+            <tr style="background:#21262d;color:#8b949e">
+              <th style="padding:8px 10px;text-align:left;border:1px solid #30363d;width:16%">抱团阵营与属性</th>
+              <th style="padding:8px 10px;text-align:left;border:1px solid #30363d;width:20%">代表核心标的</th>
+              <th style="padding:8px 10px;text-align:center;border:1px solid #30363d;width:14%">单日成交 / 流动性</th>
+              <th style="padding:8px 10px;text-align:left;border:1px solid #30363d;width:20%">主力资金意图与筹码状态</th>
+              <th style="padding:8px 10px;text-align:center;border:1px solid #30363d;width:12%">安全边际评级</th>
+              <th style="padding:8px 10px;text-align:left;border:1px solid #30363d;width:18%">操盘战法红线</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:8px 10px;border:1px solid #30363d">
+                <b style="color:#ff7b72;font-size:13px">🛑 阵营一 · 老抱团瓦解出清</b><br>
+                <span class="muted" style="font-size:11px">纯情绪接力 / 微盘小票</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#f0f6fc">
+                <b>大业股份 (603278)</b> 昨6板今跌停<br>
+                <b>海洋王 (002724)</b> 昨6板长阴决裂<br>
+                <b>东方嘉盛 (002889)</b> 跌停封死
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d;color:#ff7b72;font-weight:700">
+                12.4 亿<br><span style="font-size:11px;color:#8b949e">流动性瞬间冰冻</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#c9d1d9;line-height:1.45">
+                高位加速获利盘集中兑现，主力资金断头铡出逃，筹码结构全线踩踏松动，无承接断崖
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d">
+                <span style="background:rgba(248,81,73,0.2);color:#ff7b72;padding:2px 8px;border-radius:4px;font-weight:700">极度危险 (0分)</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#ff7b72;font-weight:700;line-height:1.45">
+                一票否决！严禁抄底接飞刀！冲高一律诱多，持有者逢反抽清零！
+              </td>
+            </tr>
+            <tr style="background:rgba(63,185,80,0.03)">
+              <td style="padding:8px 10px;border:1px solid #30363d">
+                <b style="color:#3fb950;font-size:13px">🚀 阵营二 · 新周期主线产业抱团</b><br>
+                <span class="muted" style="font-size:11px">产业硬逻辑 / 百亿容量中军</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#f0f6fc">
+                <b>万向钱潮 (000559)</b> 2板 · 关节轴承<br>
+                <b>模塑科技 (000700)</b> 2板 · 机器人外壳<br>
+                <b>瑞芯微 (603893)</b> 算力芯片放量涨停<br>
+                <b>移远通信 (603236)</b> 模组龙头涨停
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d;color:#3fb950;font-weight:700">
+                25.1 亿 (万向)<br><span style="font-size:11px;color:#8b949e">合计超 100 亿巨量</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#c9d1d9;line-height:1.45">
+                机构大兵团与百亿主力全面建仓，低位放量换手承接极佳，均线系统多头排列，奠定全市场流动性底座
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d">
+                <span style="background:rgba(63,185,80,0.2);color:#3fb950;padding:2px 8px;border-radius:4px;font-weight:700">极高安全边际 (95分)</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#3fb950;font-weight:700;line-height:1.45">
+                中军不追高打板，早盘分时黄线平盘附近低吸（配置 1.0成），做主升波段！
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 10px;border:1px solid #30363d">
+                <b style="color:#bc8cff;font-size:13px">⚡ 阵营三 · 可转债日内避险抱团</b><br>
+                <span class="muted" style="font-size:11px">T+0 极致弹性 / 避险缓冲</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#f0f6fc">
+                <b>奥普转债 (118051)</b> 爆量 35 亿<br>
+                <b>精达转债 / 机器人转债集群</b>
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d;color:#bc8cff;font-weight:700">
+                35.0 亿巨量<br><span style="font-size:11px;color:#8b949e">T+0 日内高频周转</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#c9d1d9;line-height:1.45">
+                正股高位剧烈分化时，超短活跃游资借道 T+0 转债对冲隔夜风险，日内提供高频流动性承接
+              </td>
+              <td style="padding:8px 10px;text-align:center;border:1px solid #30363d">
+                <span style="background:rgba(188,140,255,0.2);color:#bc8cff;padding:2px 8px;border-radius:4px;font-weight:700">中性博弈 (70分)</span>
+              </td>
+              <td style="padding:8px 10px;border:1px solid #30363d;color:#bc8cff;font-weight:700;line-height:1.45">
+                日内分歧转一致套利，见好就收，绝不持债过夜！
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 2. 老抱团彻底瓦解 vs 新周期产业抱团深度复盘解构 (两列深度对比卡片) -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:12px;margin-bottom:14px">
+        <div style="background:#161b22;border:1px solid rgba(248,81,73,0.35);border-left:4px solid #f85149;border-radius:8px;padding:12px 14px">
+          <b style="font-size:13.5px;color:#ff7b72">📉 老抱团彻底瓦解出清深度解构（复盘定论）</b>
+          <div style="font-size:12px;color:#c9d1d9;line-height:1.6;margin-top:6px">
+            • <b>筹码踩踏必然性：</b>前期大业股份、海洋王连续一字加速涨停，获利盘比例高达 98%，中位未经换手检验。一旦总情绪分化，获利盘不计成本核按钮抛售，直接形成多杀多流动性枯竭。<br>
+            • <b>为什么次日反包率仅 7.6%？</b>历史 209 天数据实证，无宏观产业大逻辑支撑的微盘小票见顶后，次日 92.4% 为主力自救诱多出逃；盘中任何红盘急拉均是诱多，严禁接飞刀！
+          </div>
+        </div>
+
+        <div style="background:#161b22;border:1px solid rgba(63,185,80,0.35);border-left:4px solid #3fb950;border-radius:8px;padding:12px 14px">
+          <b style="font-size:13.5px;color:#3fb950">📈 新周期产业中军深度抱团深度解构（复盘定论）</b>
+          <div style="font-size:12px;color:#c9d1d9;line-height:1.6;margin-top:6px">
+            • <b>流动性承接中枢确立：</b>万向钱潮单日成交 <b>25.1 亿</b>、模塑科技 <b>15.3 亿</b>，两只中军吃下了机器人板块过半流动性。机构大资金与百亿级主力游资不再盲目炒小，而是全面向具备全球特斯拉供应链量产预期的龙头靠拢。<br>
+            • <b>为什么中军是预案核心？</b>大容量中军具备极强抗波动性，小票跌停时中军能稳住分时黄线，是板块真正穿越退潮周期的流动性压舱石与行情发起核心！
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. 资金抱团流动性中枢迁移机制雷达 -->
+      <div style="background:#0f141c;border:1px solid #21262d;border-radius:8px;padding:12px 16px">
+        <b style="font-size:13px;color:#58a6ff">🌊 资金抱团迁移流向穿透与中枢演进机制</b>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:12px">
+          <div style="background:#161b22;padding:6px 12px;border-radius:6px;border:1px solid #f85149;color:#ff7b72">
+            老高标纯情绪妖股 (大业股份/海洋王)<br><b style="color:#f85149">-10% 跌停踩踏决裂 · 净流出超 10 亿</b>
+          </div>
+          <div style="color:#8b949e;font-size:16px">➔</div>
+          <div style="background:#161b22;padding:6px 12px;border-radius:6px;border:1px solid #3fb950;color:#3fb950">
+            具身智能大容量中军 (万向钱潮 25.1亿 + 模塑科技 15.3亿)<br><b style="color:#3fb950">机构游资深度抱团 · 净承接超 40 亿</b>
+          </div>
+          <div style="color:#8b949e;font-size:16px">➔</div>
+          <div style="background:#161b22;padding:6px 12px;border-radius:6px;border:1px solid #bc8cff;color:#bc8cff">
+            可转债 T+0 日内避险溢出 (奥普转债 35亿 + 机器人转债集群)<br><b style="color:#bc8cff">超短高频流动性避风港</b>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  
+<section class="holiday-sentiment-dossier" style="margin:28px 0;background:linear-gradient(180deg, rgba(22,27,34,0.95) 0%, rgba(13,17,23,0.98) 100%);border:1px solid #30363d;border-radius:12px;padding:22px 24px;box-shadow:0 8px 32px rgba(0,0,0,0.45)">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px;border-bottom:1px solid #21262d;padding-bottom:14px">
+    <div>
+      <div style="font-size:18px;font-weight:800;color:#f0f6fc;display:flex;align-items:center;gap:8px">
+        <span>🌐 节前宏观舆情与题材洗牌 · 核心主线全景映射作战室</span>
+        <span style="font-size:11.5px;background:rgba(88,166,255,0.15);color:#58a6ff;border:1px solid rgba(88,166,255,0.35);padding:2px 8px;border-radius:12px;font-weight:700">节前提现 × 地产分化 × 资金防守</span>
+      </div>
+      <div style="color:#8b949e;font-size:12.5px;margin-top:4px">
+        56 家跌停潮大出清 · 节前避险情绪蔓延 · 空间独苗穿越 vs 假冲天炮诱多出逃
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;font-size:12px">
+      <span style="background:rgba(218,54,51,0.15);color:#ff7b72;border:1px solid rgba(218,54,51,0.4);padding:4px 10px;border-radius:6px;font-weight:700">退潮防守期</span>
+      <span style="background:rgba(56,139,253,0.15);color:#58a6ff;border:1px solid rgba(56,139,253,0.4);padding:4px 10px;border-radius:6px;font-weight:700">数据基准: 2026-09-28</span>
     </div>
   </div>
-</div>
 
-<!-- 游资实战战法升维 -->
-<h2>游资实战战法升维 · 两大血泪铁律</h2>
-<div class="law-card" style="padding:10px 14px;margin-bottom:8px">
-  <div class="law-title" style="font-size:13.5px;margin-bottom:4px">🚨 铁律一 · 断板反包禁令（次日反包率仅 7.6%，冲高一律诱多）</div>
-  <div class="law-rule" style="margin-top:2px;font-size:12px">操盘军规：严禁低吸、抄底、搏首阴！拉黑标的：新华文轩、泰慕士、奥佳华、天威视讯、上工申贝。</div>
-</div>
-<div class="law-card" style="padding:10px 14px;margin-bottom:12px;border-left-color:var(--accent-yellow)">
-  <div class="law-title" style="font-size:13.5px;margin-bottom:4px;color:#f0f6fc">⚠️ 铁律二 · 冰点修复陷阱（无题材共振脉冲多为假冲天炮）</div>
-  <div class="law-rule" style="margin-top:2px;font-size:12px;color:#e3b341">操盘军规：存量出逃诱多只看不追，早盘 10:00 前严禁盲目开仓！</div>
-</div>
-
-<!-- 核心标的关注及优先级分层矩阵 -->
-<h2>核心标的关注及优先级分层作战矩阵 (Priority Matrix)</h2>
-<p class="sub">总仓位严格限制在 0~1 成。优先级层级由高至低执行，绝不越级；黑名单标的盘中坚决回避。</p>
-
-<div class="pm-card pm-p0" style="padding:11px 15px;margin-bottom:8px">
-  <div class="pm-header" style="margin-bottom:4px">
-    <div><span class="tag">P0 空间独苗</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">新华传媒 · 5 进 6</b></div>
-    <span class="pm-badge">空间独苗 · 情绪穿越试金石</span>
+  <div style="font-size:13.5px;font-weight:700;color:#e3b341;margin-bottom:10px;display:flex;align-items:center;gap:6px">
+    <span>⚡ 节前宏观产业舆情与A股盘面穿透映射</span>
   </div>
-  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
-    <b>【触发】</b>9:25 竞价成交>1.2亿且红开+2%~+5%良性换手（禁顶一字）；新华文轩未跌停开盘<br>
-    <b>【止损】</b>炸板>3分钟不回封或跌破分时均线立即放弃/止损
+  <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:12px;margin-bottom:20px">
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:8px;padding:12px 14px">
+      <b style="font-size:13px;color:#f0f6fc">① 全市场 56 家跌停潮与流动性大出清</b>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-top:4px">长假前提现效应显著，高位连板批量核按钮跌停，情绪极度低迷，资金坚决执行防守。</div>
+    </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:8px;padding:12px 14px">
+      <b style="font-size:13px;color:#f0f6fc">② 文化传媒空间独苗穿越试压</b>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-top:4px">新华传媒 (600825 · 8.55元) 顶住 56 家跌停压力晋级 5 连板，成为全市场唯一穿越活口。</div>
+    </div>
+    <div style="background:#161b22;border:1px solid #30363d;border-left:4px solid #d29922;border-radius:8px;padding:12px 14px">
+      <b style="font-size:13px;color:#f0f6fc">③ 机器人汽车低位逆市抗跌防守</b>
+      <div style="font-size:11.8px;color:#8b949e;line-height:1.55;margin-top:4px">雪龙集团、襄阳轴承 (10.65元) 走出低位连板，作为身位卡位试探，但缺乏全域集群效应。</div>
+    </div>
   </div>
-</div>
+</section>
 
-<div class="pm-card pm-p1" style="padding:11px 15px;margin-bottom:8px">
-  <div class="pm-header" style="margin-bottom:4px">
-    <div><span class="tag">P1 中位换手</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">福建水泥 / 金辰股份 / 雪龙集团 · 3 进 4</b></div>
-    <span class="pm-badge">身位卡位先锋 & 换手活口</span>
+
+  <h2>游资实战战法升维 · 两大血泪铁律</h2>
+  <div class="law-card" style="padding:10px 14px;margin-bottom:8px">
+    <div class="law-title" style="font-size:13.5px;margin-bottom:4px">🚨 铁律一 · 断板反包禁令（次日反包率仅 7.6%，冲高一律诱多）</div>
+    <div class="law-rule" style="margin-top:2px;font-size:12px">操盘军规：严禁低吸、抄底、搏首阴！拉黑标的：高位断板票。</div>
   </div>
-  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
-    <b>【触发】</b>9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成<br>
-    <b>【止损】</b>开盘快速跳水翻绿或冲高无量即放弃
+  <div class="law-card" style="padding:10px 14px;margin-bottom:14px;border-left-color:var(--accent-yellow)">
+    <div class="law-title" style="font-size:13.5px;margin-bottom:4px;color:#f0f6fc">⚠️ 铁律二 · 冰点修复陷阱（无题材共振脉冲多为假冲天炮）</div>
+    <div class="law-rule" style="margin-top:2px;font-size:12px;color:#e3b341">操盘军规：存量出逃诱多只看不追，早盘 10:00 前严禁盲目开仓！</div>
   </div>
-</div>
 
-<div class="pm-card pm-p2" style="padding:11px 15px;margin-bottom:8px">
-  <div class="pm-header" style="margin-bottom:4px">
-    <div><span class="tag">P2 低位防守</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">吉鑫科技 / 大业股份 / 襄阳轴承 · 2 进 3</b></div>
-    <span class="pm-badge">低位防御分支</span>
-  </div>
-  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
-    <b>【触发】</b>细分题材出现≥2只首板助攻，放量回封极轻仓套利观察<br>
-    <b>【止损】</b>跌破昨收且无板块跟随立即撤退
-  </div>
-</div>
-
-<div class="pm-card pm-p3" style="padding:11px 15px;margin-bottom:8px">
-  <div class="pm-header" style="margin-bottom:4px">
-    <div><span class="tag">P3 风险熔断</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">新华文轩 / 天威视讯 / 泰慕士 / 集泰股份</b></div>
-    <span class="pm-badge">跌停封单风向标</span>
-  </div>
-  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
-    <b>【监控】</b>9:25 若 天威视讯 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位
-  </div>
-</div>
-
-<div class="pm-card pm-black" style="padding:11px 15px;margin-bottom:12px">
-  <div class="pm-header" style="margin-bottom:4px">
-    <div><span class="tag" style="border-color:#da3633;color:#ff7b72">P-Black 禁买雷区</span> <b style="color:#ff7b72;font-size:13.5px;margin-left:6px">新华文轩、天威视讯、泰慕士、奥佳华、华茂股份、东方中科、康强电子、上工申贝、南威软件、华远控股</b></div>
-    <span class="pm-badge">绝对禁止开仓</span>
-  </div>
-  <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
-    <b>【禁令】</b>昨日断板股与跌停破位股，次日冲高一律诱多，严禁低吸、抄底、追反包
-  </div>
-</div>
-
-<!-- 量化事实与规则面板 -->
-<h2>今日盘面事实</h2>
-<div class="grid"><div class='card' style='padding:10px 14px'><div class='k'>上涨占比</div><div class='v' style='font-size:18px'>16.2%</div></div><div class='card' style='padding:10px 14px'><div class='k'>涨停 / 跌停</div><div class='v' style='font-size:18px'>33 / 56</div></div><div class='card' style='padding:10px 14px'><div class='k'>晋级率</div><div class='v' style='font-size:18px'>13.5%</div></div><div class='card' style='padding:10px 14px'><div class='k'>明日仓位上限</div><div class='v' style='font-size:18px'>—</div></div></div>
-<div class='card tw' style='margin-top:10px'><table><tr><th>连板高度</th><th>标的</th></tr><tr><td>5 板</td><td>新华传媒</td></tr><tr><td>3 板</td><td>福建水泥、金辰股份、雪龙集团</td></tr><tr><td>2 板</td><td>吉鑫科技、大业股份、襄阳轴承</td></tr></table></div>
-
-<h2>明日三道开关</h2>
-<p class="sub">默认动作：不开新仓 · 条件未确认前不执行</p>
-<div class="grid"><div class='card' style='padding:10px 14px;font-size:12.5px;color:#f85149;border-left:3px solid #f85149'><b>市场状态：防守熔断</b> · 跌停潮未收敛前，默认执行不开新仓，无需等待细分开关</div></div>
-
-
-<h2>情景推演</h2>
-<div class='card primary' style='margin-bottom:8px;padding:12px 14px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px'><div><span class='tag'>主情景</span> <b style='color:#f0f6fc;margin-left:6px'>广度弱、接力弱：高位退潮优先</b></div><span class='muted' style='font-size:12px'>仓位上限 20%</span></div><div style='font-size:12px;color:#8b949e;margin-bottom:4px'><b>前提：</b>市场广度弱；接力质量弱；高位负反馈需要先止住 ｜ <b style='color:#ff7b72'>失效：</b>跌停扩张并伴随高位负反馈；晋级继续恶化且核心失守</div><div style='font-size:12px;color:#c9d1d9;margin-bottom:4px;background:rgba(0,0,0,0.2);padding:6px 8px;border-radius:4px'><b>竞价 9:25</b>: 高位核心竞价低于预期时不追；观察是否出现批量低开与撤单 ｜ <b>开盘 9:35</b>: 9:35 前跌停和炸板不再扩张；高位反馈不继续向中位传导 ｜ <b>确认 10:00</b>: 10:00 前至少看到宽度或晋级一项修复；否则维持风险优先 ｜ <b>午后</b>: 午后只记录修复信号；修复未扩散前不启动交易候选</div><div style='font-size:11.5px;color:#8b949e'><b>观察池：</b>襄阳轴承（2板）、雪龙集团（3板）、九阳股份（1板）、泰尔股份（1板）、新筑股份（1板）、吉鑫科技（2板）、大业股份（2板）、新华传媒（5板）</div></div><div class='card ' style='margin-bottom:8px;padding:12px 14px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:6px'><div><span class='tag'>备选</span> <b style='color:#f0f6fc;margin-left:6px'>风险观察：等待宽度与接力同时止跌</b></div><span class='muted' style='font-size:12px'>仓位上限 10%</span></div><div style='font-size:12px;color:#8b949e;margin-bottom:4px'><b>前提：</b>宽度弱；接力弱；当前跌停约56家 ｜ <b style='color:#ff7b72'>失效：</b>跌停继续增加；负反馈向中位梯队扩散</div><div style='font-size:12px;color:#c9d1d9;margin-bottom:4px;background:rgba(0,0,0,0.2);padding:6px 8px;border-radius:4px'><b>竞价 9:25</b>: 竞价只记录状态，不把高开当作反转；观察核心是否出现承接 ｜ <b>开盘 9:35</b>: 9:35 前上涨家数不再恶化；高位负反馈收敛 ｜ <b>确认 10:00</b>: 10:00 前宽度和接力至少一项明确改善；改善不能只来自单只个股 ｜ <b>午后</b>: 午后确认修复能否扩散；未扩散则继续防守</div><div style='font-size:11.5px;color:#8b949e'><b>观察池：</b>襄阳轴承（2板）、雪龙集团（3板）、九阳股份（1板）、泰尔股份（1板）、新筑股份（1板）、吉鑫科技（2板）、大业股份（2板）、新华传媒（5板）</div></div>
-
-<h2>不追名单</h2>
-<div class="card" style="padding:10px 14px">
-  <p class="sub" style="margin:0 0 6px">断板次日冲高一律视为主力自救诱多，次日严禁追板与抄底：</p>
-  <ul><li class="muted">无（昨日 2 板以上个股今日均未断板，或缓存未覆盖）</li></ul>
-</div>
-
-<!-- 分时段操盘执行检查表 -->
-<h2>分时段操盘执行检查表 (Checklist)</h2>
-<div class="card tw">
-  <table class="checklist-table">
-    <tr><th>时间节点</th><th>监控焦点</th><th>量化通过门槛</th><th>熔断动作</th></tr>
-    <tr>
-      <td><span class="time-tag">09:25 集合竞价</span></td>
-      <td>全市场跌停家数、高标溢价率</td>
-      <td>跌停家数 &le; 10 家，新华传媒红开 +2% 以上且成交 &gt; 1.2 亿</td>
-      <td>跌停 &gt; 15 家，或高标断板票大单焊死跌停：全天禁止开新仓</td>
-    </tr>
-    <tr>
-      <td><span class="time-tag">09:35 开盘前10分</span></td>
-      <td>跌停封单变化、黄白线分化</td>
-      <td>上涨家数不再恶化，跌停板无新增扩散，有承接盘撬板</td>
-      <td>出现高标快速拉高天地板跳水：判定为出货诱多，立即放弃参与</td>
-    </tr>
-    <tr>
-      <td><span class="time-tag">10:00 盘中确认</span></td>
-      <td>梯队晋级情况、市场宽度回暖</td>
-      <td>上涨家数回升至 2000 家以上，有明确主流题材走出 2 只连板</td>
-      <td>上涨家数 &lt; 1500 家且无板块合力：全天彻底锁定空仓</td>
-    </tr>
-    <tr>
-      <td><span class="time-tag">14:00 午后防守</span></td>
-      <td>尾盘流动性与抢筹真实度</td>
-      <td>尾盘无大规模砸盘，主流板块有持续大买单护盘</td>
-      <td>无增量资金进场严禁尾盘博弈次日抢筹，防范次日低开埋人</td>
-    </tr>
-  </table>
-</div>
-
-
+  
     <!-- 强势板块放量上涨后·回调一笔量化跟踪面板 -->
     <section class="pullback-tactic-tracker" id="sec-pullback-tracker" style="margin:26px 0 32px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;">
       
@@ -439,13 +810,13 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
               <b style='font-size:14.5px;color:#f0f6fc;'>传媒 / 短剧与AI应用</b>
               <span style='font-size:11px;color:#d29922;background:rgba(255,255,255,0.06);border:1px solid #d29922;padding:2px 8px;border-radius:10px;font-weight:700;'>Level B</span>
             </div>
-            <div style='font-size:12px;color:#8b949e;'>高位决裂分化 (新华传媒 5板独苗 vs 新华文轩 -8.99% 断板)</div>
+            <div style='font-size:12px;color:#8b949e;'>高位决裂分化 (新华传媒 5板独苗 8.55元 vs 新华文轩 断板)</div>
           </div>
           
           <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
             <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>近10日传媒指数放量反弹 +12.3%，走出 5 板高度空间龙</span></div>
             <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>高标决裂分化，败者放量单边大跌，题材内部缺乏集群梯队</span></div>
-            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>新华传媒 (600825 · 5板活口)、新华文轩 (601811 · 断板大跌)、天威视讯 (002238 · 跌停)</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>新华传媒 (600825 · 5板活口 8.55元)、新华文轩 (601811 · 断板大跌)、天威视讯 (002238 · 跌停)</span></div>
           </div>
 
           <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
@@ -466,13 +837,13 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
               <b style='font-size:14.5px;color:#f0f6fc;'>人形机器人 / 汽车零部件</b>
               <span style='font-size:11px;color:#d29922;background:rgba(255,255,255,0.06);border:1px solid #d29922;padding:2px 8px;border-radius:10px;font-weight:700;'>Level B</span>
             </div>
-            <div style='font-size:12px;color:#8b949e;'>低位逆市抗跌防守分支 (雪龙集团 3板 · 襄阳轴承 2板)</div>
+            <div style='font-size:12px;color:#8b949e;'>低位逆市抗跌防守分支 (雪龙集团 3板 · 襄阳轴承 2板 10.65元)</div>
           </div>
           
           <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
             <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>近5日逆市启动，机器人概念异动扩散，连板梯队走出 2 板、3 板</span></div>
-            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>面临 09-28 全市场 56 家跌停退潮，个股逆势分歧换手封板</span></div>
-            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>雪龙集团 (603949 · 3板)、襄阳轴承 (000678 · 2板)、大业股份 (603278 · 2板)</span></div>
+            <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>面临全市场 56 家跌停退潮，个股逆势分歧换手封板</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>雪龙集团 (603949 · 3板)、襄阳轴承 (000678 · 2板 10.65元)、大业股份 (603278 · 2板)</span></div>
           </div>
 
           <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
@@ -490,16 +861,16 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
         <div style='background:#161b22;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:10px;padding:14px 16px;margin-bottom:12px;box-shadow:0 3px 10px rgba(0,0,0,0.2);'>
           <div style='display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;'>
             <div style='display:flex;align-items:center;gap:10px;'>
-              <b style='font-size:14.5px;color:#f0f6fc;'>高位破位断板踩踏群 (纺织/地产/软件)</b>
+              <b style='font-size:14.5px;color:#f0f6fc;'>高位破位断板踩踏群 (全市场 56 家跌停出清)</b>
               <span style='font-size:11px;color:#f85149;background:rgba(255,255,255,0.06);border:1px solid #f85149;padding:2px 8px;border-radius:10px;font-weight:700;'>Level C</span>
             </div>
-            <div style='font-size:12px;color:#8b949e;'>极端退潮批量一字跌停 (泰慕士/华远控股/南威软件)</div>
+            <div style='font-size:12px;color:#8b949e;'>极端退潮批量一字跌停 (华工科技、世嘉科技、江海股份、三祥新材)</div>
           </div>
           
           <div style='display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:8px;background:#0d1117;border:1px solid #21262d;border-radius:6px;padding:9px 12px;margin-bottom:8px;font-size:12px;'>
             <div><b style='color:#58a6ff;'>主升爆发：</b><span style='color:#c9d1d9;'>前期走出 3~4 连板中位加速，获利盘丰厚</span></div>
             <div><b style='color:#e3b341;'>回调一笔：</b><span style='color:#c9d1d9;'>昨日连板今日竞价直接核按钮，收盘巨量大单焊死一字跌停</span></div>
-            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>泰慕士 (001234 · 跌停)、天威视讯 (002238 · 跌停)、华远控股 (600743 · 跌停)、集泰股份 (002909 · 跌停)</span></div>
+            <div style='grid-column: 1 / -1;'><b style='color:#bc8cff;'>核心标的：</b><span style='color:#f0f6fc;font-weight:600;'>跌停出清代表: 华工科技、世嘉科技、江海股份、三祥新材</span></div>
           </div>
 
           <div style='font-size:12px;color:#c9d1d9;margin-bottom:8px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
@@ -510,7 +881,7 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
 
           <div style='background:rgba(0,0,0,0.3);border:1px solid #21262d;border-left:3px solid #f85149;border-radius:6px;padding:8px 12px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;'>
             <b style='font-size:12.5px;color:#f85149;white-space:nowrap;'>【P-Black 绝对禁买黑名单 · 严禁接飞刀】</b>
-            <span style='font-size:12px;color:#c9d1d9;'>一字跌停标的坚决不抄底、不搏地天板；天威视讯/泰慕士等若继续大单焊死跌停，全天执行 0 仓位防守熔断！</span>
+            <span style='font-size:12px;color:#c9d1d9;'>一字跌停标的坚决不抄底、不搏地天板；若继续大单焊死跌停，全天执行 0 仓位防守熔断！</span>
           </div>
         </div>
         
@@ -520,8 +891,281 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
     </section>
     
 
-<h2>昨日预案对账</h2>
-<p class='muted'>没有找到上一交易日的预案留痕，今日无法记分。</p>
+  <h2>昨日预案对账</h2>
+  <p class='muted'>没有找到上一交易日的预案留痕，今日无法记分。</p>
+</section>
+
+<!-- ========================================== -->
+<!-- 第二部分 · 连续复盘分析 · 明日关注标的与明日实战操作 -->
+<!-- ========================================== -->
+
+<section id="part2-action-plan" class="part-container">
+  <!-- Part 2 核心 Banner (抱团与连板并重) -->
+  <div class="part-banner part-banner-p2">
+    <div>
+      <div class="part-tag" style="background:#238636;color:#ffffff;border:1px solid #3fb950">PART 2 · 核心实战预案</div>
+      <div class="part-title">🎯 第二部分 · 连续复盘分析 · 明日实战预案与实操指令</div>
+      <div class="part-subtitle">多日连续演进穿透 ｜ 重点核心产业抱团操盘预案 ｜ 连板接力精选标的 ｜ 零模糊买卖结果指令（直接给结果）</div>
+    </div>
+    <div style="font-size:12px;color:#f0f6fc;background:rgba(0,0,0,0.4);padding:6px 14px;border-radius:20px;border:1px solid rgba(227,179,65,0.4)">
+      操盘目标日：<b>下一交易日</b>
+    </div>
+  </div>
+
+  <!-- 模块一：多日连续复盘与情绪周期演进深度剖析 -->
+  <div class="card tw" style="margin-bottom:12px">
+    <div class="k" style="font-size:13.5px;color:#f0f6fc;margin-bottom:6px">📅 近 5 个交易日情绪周期指标演变对照表</div>
+    <table class="hist-table">
+      <thead>
+        <tr>
+          <th>交易日</th><th>涨停 / 跌停</th><th>上涨占比</th><th>连板高度</th><th>晋级率</th><th>领涨主线</th><th>情绪阶段定性</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><b>2026-09-21</b></td><td><span style='color:#f85149;font-weight:700'>103</span> / <span style='color:#3fb950;font-weight:700'>2</span></td><td>83.5%</td><td><b>5 板</b></td><td>26.9%</td><td><span style='color:#58a6ff'>医</span></td><td><span style='background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px;font-size:11.5px'>普涨强修复</span></td></tr><tr><td><b>2026-09-22</b></td><td><span style='color:#f85149;font-weight:700'>63</span> / <span style='color:#3fb950;font-weight:700'>3</span></td><td>43.8%</td><td><b>6 板</b></td><td>23.3%</td><td><span style='color:#58a6ff'>A</span></td><td><span style='background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px;font-size:11.5px'>存量博弈分化</span></td></tr><tr><td><b>2026-09-23</b></td><td><span style='color:#f85149;font-weight:700'>51</span> / <span style='color:#3fb950;font-weight:700'>13</span></td><td>34.0%</td><td><b>4 板</b></td><td>19.0%</td><td><span style='color:#58a6ff'>A</span></td><td><span style='background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px;font-size:11.5px'>存量博弈分化</span></td></tr><tr><td><b>2026-09-24</b></td><td><span style='color:#f85149;font-weight:700'>52</span> / <span style='color:#3fb950;font-weight:700'>13</span></td><td>20.1%</td><td><b>5 板</b></td><td>25.5%</td><td><span style='color:#58a6ff'>A</span></td><td><span style='background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px;font-size:11.5px'>存量博弈分化</span></td></tr><tr><td><b>2026-09-28</b></td><td><span style='color:#f85149;font-weight:700'>33</span> / <span style='color:#3fb950;font-weight:700'>56</span></td><td>16.2%</td><td><b>5 板</b></td><td>13.5%</td><td><span style='color:#58a6ff'>机</span></td><td><span style='background:rgba(255,255,255,0.06);padding:2px 8px;border-radius:4px;font-size:11.5px'>恐慌冰点潮</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" style="padding:12px 14px;margin-bottom:16px">
+    <div class="k" style="margin-bottom:6px"><h2>情景推演</h2></div>
+    <div style='font-size:12.5px;color:#c9d1d9;line-height:1.6'><b>【主情景 · 分歧转一致】</b>主线新周期确立，领涨龙头弱转强封板，大容量中军稳住分时黄线。<br><b>实操定论：</b>执行核心空间龙与身位先锋打板买入 + 容量中军低吸，总仓位上限控制在 2.0 成内。<br><b>【备选情景 · 恐慌再蔓延】</b>若早盘跌停家数激增或高标决裂跳水。<br><b>实操定论：</b>一键执行风险熔断，全天彻底空仓观望，不开新仓！</div>
+  </div>
+
+  <!-- 重点操盘专章：明日核心产业抱团实战作战预案 (核心重点 · 直接给结果) -->
+  <div class="card" style="margin-bottom:14px;padding:16px 18px;border:1px solid #3fb950;border-left:5px solid #238636;background:linear-gradient(180deg, rgba(35,134,54,0.12) 0%, rgba(22,27,34,0.95) 100%)">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px">
+      <div style="font-size:15.5px;font-weight:900;color:#f0f6fc;display:flex;align-items:center;gap:8px">
+        <span>🤝 核心重点 · 明日抱团个股与转债实战操盘战法与指令（直接给结果）</span>
+        <span style="font-size:11px;background:rgba(63,185,80,0.25);color:#3fb950;border:1px solid #3fb950;padding:2px 8px;border-radius:10px;font-weight:700">预案重点主攻</span>
+      </div>
+      <span style="font-size:12px;color:#c9d1d9">主力基本盘: <b>产业大中军抱团</b> ｜ 进攻先锋: <b>空间连板龙</b> ｜ 机动套利: <b>T+0可转债</b></span>
+    </div>
+
+    <!-- 抱团三大核心执行指令卡片 -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:10px">
+      
+        <div style="background:#0d1117;border:1px solid #30363d;border-left:4px solid #3fb950;border-radius:6px;padding:12px 14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <b style="color:#3fb950;font-size:13.5px">① 龙头/中军进攻 · 新华传媒 ()</b>
+            <span style="font-size:11px;padding:1px 6px;border-radius:4px;background:rgba(63,185,80,0.2);color:#3fb950;font-weight:700">配置 0.5~1.0 成</span>
+          </div>
+          <div style="font-size:12px;color:#c9d1d9;line-height:1.55;margin-top:4px">
+            <b>• 实操指令：</b><b>竞价定性：</b>大单高开 &gt; +3% 确认弱转强；<b>买入指令：</b>9:35 确认分歧转一致后快速封板打板买入；<b>配置仓位：</b>0.5~1.0 成<br>
+            <b>• 止损底线：</b>开盘 10 分钟内未封死涨停，或盘中跌破分时黄线坚决止损撤单
+          </div>
+        </div>
+        
+        <div style="background:#0d1117;border:1px solid #30363d;border-left:4px solid #58a6ff;border-radius:6px;padding:12px 14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+            <b style="color:#58a6ff;font-size:13.5px">② 梯队/换手先锋 · 福建水泥 ()</b>
+            <span style="font-size:11px;padding:1px 6px;border-radius:4px;background:rgba(88,166,255,0.2);color:#58a6ff;font-weight:700">配置 0.5~1.0 成</span>
+          </div>
+          <div style="font-size:12px;color:#c9d1d9;line-height:1.55;margin-top:4px">
+            <b>• 实操指令：</b><b>竞价定性：</b>小幅高开 +1%~+3%；<b>买入指令：</b>早盘放量回踩分时黄线企稳打板；<b>配置仓位：</b>0.5~1.0 成<br>
+            <b>• 止损底线：</b>盘中跌破分时均线超过 10 分钟无条件止损出局
+          </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <!-- 核心标的关注及优先级分层作战矩阵 (Priority Matrix) -->
+  <div class="card" style="margin-bottom:14px;padding:14px 16px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div style="font-size:14px;font-weight:800;color:#f0f6fc">🎯 核心标的关注及优先级分层作战矩阵 (Priority Matrix)</div>
+      <span style="font-size:11.5px;color:#8b949e">逐级执行 · 绝不越级</span>
+    </div>
+    <div class="pm-card pm-p0" style="padding:11px 15px;margin-bottom:8px;background:rgba(22,27,34,0.8);border:1px solid #30363d;border-left:4px solid var(--accent-red);border-radius:6px">
+      <div class="pm-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <div><span class="tag" style="background:rgba(248,81,73,0.2);color:#ff7b72;padding:2px 6px;border-radius:4px;font-weight:700;font-size:11px">P0 空间独苗</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">新华传媒 · 5 进 6</b></div>
+        <span class="pm-badge" style="background:rgba(248,81,73,0.2);color:var(--accent-red);border:1px solid var(--accent-red);padding:2px 8px;border-radius:12px;font-size:11px">空间独苗 · 情绪穿越试金石</span>
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+        <b>【触发】</b>9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻<br>
+        <b>【止损】</b>炸板>3分钟不回封或跌破分时均线立即放弃/止损
+      </div>
+    </div>
+
+    <div class="pm-card pm-p1" style="padding:11px 15px;margin-bottom:8px;background:rgba(22,27,34,0.8);border:1px solid #30363d;border-left:4px solid var(--accent-yellow);border-radius:6px">
+      <div class="pm-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <div><span class="tag" style="background:rgba(210,153,34,0.2);color:#e3b341;padding:2px 6px;border-radius:4px;font-weight:700;font-size:11px">P1 中位换手</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">福建水泥 / 金辰股份 / 雪龙集团 · 3 进 4</b></div>
+        <span class="pm-badge" style="background:rgba(210,153,34,0.2);color:var(--accent-yellow);border:1px solid var(--accent-yellow);padding:2px 8px;border-radius:12px;font-size:11px">身位卡位先锋 & 换手活口</span>
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+        <b>【触发】</b>9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成<br>
+        <b>【止损】</b>开盘快速跳水翻绿或冲高无量即放弃
+      </div>
+    </div>
+
+    <div class="pm-card pm-p2" style="padding:11px 15px;margin-bottom:8px;background:rgba(22,27,34,0.8);border:1px solid #30363d;border-left:4px solid var(--accent-blue);border-radius:6px">
+      <div class="pm-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <div><span class="tag" style="background:rgba(88,166,255,0.2);color:#58a6ff;padding:2px 6px;border-radius:4px;font-weight:700;font-size:11px">P2 低位防守</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">吉鑫科技 / 大业股份 / 襄阳轴承 · 2 进 3</b></div>
+        <span class="pm-badge" style="background:rgba(88,166,255,0.2);color:var(--accent-blue);border:1px solid var(--accent-blue);padding:2px 8px;border-radius:12px;font-size:11px">低位防御分支</span>
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+        <b>【触发】</b>细分题材出现≥2只首板助攻，放量回封极轻仓套利观察<br>
+        <b>【止损】</b>跌破昨收且无板块跟随立即撤退
+      </div>
+    </div>
+
+    <div class="pm-card pm-p3" style="padding:11px 15px;margin-bottom:8px;background:rgba(22,27,34,0.8);border:1px solid #30363d;border-left:4px solid var(--accent-purple);border-radius:6px">
+      <div class="pm-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <div><span class="tag" style="background:rgba(188,140,255,0.2);color:#bc8cff;padding:2px 6px;border-radius:4px;font-weight:700;font-size:11px">P3 风险熔断</span> <b style="color:#f0f6fc;font-size:13.5px;margin-left:6px">高标断板风险锚</b></div>
+        <span class="pm-badge" style="background:rgba(239,68,68,0.25);color:#fca5a5;border:1px solid #ef4444;padding:2px 8px;border-radius:12px;font-size:11px">跌停熔断哨</span>
+      </div>
+      <div style="font-size:12px;color:#c9d1d9;line-height:1.5">
+        <b>【监控】</b>9:25 若 高标断板票 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位
+      </div>
+    </div>
+
+    <div class="pm-card pm-black" style="padding:11px 15px;margin-bottom:8px;background:rgba(218,54,51,0.08);border:1px solid rgba(218,54,51,0.3);border-left:4px solid #da3633;border-radius:6px">
+      <div class="pm-header" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+        <div><span class="tag" style="background:#da3633;color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;font-size:11px">P-Black 禁买雷区</span> <b style="color:#ff7b72;font-size:13.5px;margin-left:6px">断板反包诱多股与跌停破位股</b></div>
+        <span class="pm-badge" style="background:rgba(248,81,73,0.25);color:#ff7b72;border:1px solid #da3633;padding:2px 8px;border-radius:12px;font-size:11px">一票否决</span>
+      </div>
+      <div style="font-size:12px;color:#ff7b72;line-height:1.5">
+        <b>【禁令】</b>严禁低吸、抄底、追反包！高位断板首日与次日反包成功率仅 7.6%，冲高皆为诱多出逃！
+      </div>
+    </div>
+  </div>
+
+  <!-- 模块二：明日核心重点关注标的矩阵（个股正面确定性结果） -->
+  <div class="card tw" style="margin-bottom:12px">
+    <div class="k" style="font-size:13.5px;color:#f0f6fc;margin-bottom:4px">🎯 明日核心重点关注标的清单（抱团个股 · 明确买卖指令）</div>
+    <p class="sub" style="margin:0 0 8px">拒绝罗列多重繁复筛选条件，直接给出明日主攻个股、具体买入指令与止损清仓线：</p>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:14%">标的名称 / 角色</th>
+          <th style="width:12%">代码 / 身位 / 成交</th>
+          <th style="width:14%">核心题材驱动</th>
+          <th style="width:18%">精选入选逻辑 (结果导向)</th>
+          <th style="width:24%">明确买入执行结果指令</th>
+          <th style="width:8%;text-align:center">仓位配置</th>
+          <th style="width:10%">止损底线</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><b>新华传媒</b><br><span class='role-tag tag-space'>【连板接力 · 空间天花板 (5板)】</span></td><td><span class='muted' style='font-size:11px'></span><br><b style='color:#f0f6fc'>5 板</b><br><span style='font-size:11px;color:#8b949e'>放量换手板</span></td><td style='font-size:12px;color:#c9d1d9'>市场最高高度龙头</td><td style='font-size:12px;color:#8b949e;line-height:1.45'>全市场最高 5 连板高度标的，测试连板空间拓展压制；具备最强情绪风向标作用。</td><td style='font-size:12px;line-height:1.5;color:#f0f6fc'><b>竞价定性：</b>大单高开 &gt; +3% 确认弱转强；<b>买入指令：</b>9:35 确认分歧转一致后快速封板打板买入；<b>配置仓位：</b>0.5~1.0 成</td><td style='font-size:12.5px;text-align:center;font-weight:800;color:#58a6ff'>0.5~1.0 成</td><td style='font-size:12px;color:#ff7b72;line-height:1.4'>开盘 10 分钟内未封死涨停，或盘中跌破分时黄线坚决止损撤单</td></tr><tr><td><b>福建水泥</b><br><span class='role-tag tag-hero'>【连板接力 · 主线身位先锋 (3板)】</span></td><td><span class='muted' style='font-size:11px'></span><br><b style='color:#f0f6fc'>3 板</b><br><span style='font-size:11px;color:#8b949e'>换手接力先锋</span></td><td style='font-size:12px;color:#c9d1d9'>梯队中坚接力核心</td><td style='font-size:12px;color:#8b949e;line-height:1.45'>主升梯队 3 板身位核心，若空间龙分歧，该梯队先锋具备极高卡位成为新周期破局总龙潜质！</td><td style='font-size:12px;line-height:1.5;color:#f0f6fc'><b>竞价定性：</b>小幅高开 +1%~+3%；<b>买入指令：</b>早盘放量回踩分时黄线企稳打板；<b>配置仓位：</b>0.5~1.0 成</td><td style='font-size:12.5px;text-align:center;font-weight:800;color:#58a6ff'>0.5~1.0 成</td><td style='font-size:12px;color:#ff7b72;line-height:1.4'>盘中跌破分时均线超过 10 分钟无条件止损出局</td></tr><tr><td><b>金辰股份</b><br><span class='role-tag tag-hero'>【连板接力 · 主线身位先锋 (3板)】</span></td><td><span class='muted' style='font-size:11px'></span><br><b style='color:#f0f6fc'>3 板</b><br><span style='font-size:11px;color:#8b949e'>换手接力先锋</span></td><td style='font-size:12px;color:#c9d1d9'>梯队中坚接力核心</td><td style='font-size:12px;color:#8b949e;line-height:1.45'>主升梯队 3 板身位核心，若空间龙分歧，该梯队先锋具备极高卡位成为新周期破局总龙潜质！</td><td style='font-size:12px;line-height:1.5;color:#f0f6fc'><b>竞价定性：</b>小幅高开 +1%~+3%；<b>买入指令：</b>早盘放量回踩分时黄线企稳打板；<b>配置仓位：</b>0.5~1.0 成</td><td style='font-size:12.5px;text-align:center;font-weight:800;color:#58a6ff'>0.5~1.0 成</td><td style='font-size:12px;color:#ff7b72;line-height:1.4'>盘中跌破分时均线超过 10 分钟无条件止损出局</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 模块二(附)：重点抱团可转债 · 明日 T+0 深度实战作战预案 (零隔夜风险) -->
+  <div class="card tw" style="margin-bottom:12px;border-left:4px solid #bc8cff">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px">
+      <div class="k" style="font-size:14px;color:#bc8cff;font-weight:800">⚡ 重点抱团可转债 · 明日 T+0 深度实战作战预案（直接给指令）</div>
+      <div style="font-size:12px;color:#8b949e">T+0 极致机动性 ｜ 锚定正股封单溢价 ｜ 14:55 前坚决清仓不隔夜</div>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="focus-table">
+        <thead>
+          <tr>
+            <th style="width:12%">转债标的</th>
+            <th style="width:18%">抱团角色 / 价格成交</th>
+            <th style="width:12%">联动正股</th>
+            <th style="width:34%">明日竞价预期与 T+0 操盘指令 (精准触发)</th>
+            <th style="width:10%;text-align:center">配置仓位</th>
+            <th style="width:14%">硬性止损与撤退底线</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan='6' class='muted' style='text-align:center;padding:12px'>今日暂无可转债抱团数据</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 禁买黑名单 (不追名单) -->
+  <div class="card tw" style="padding:12px 14px;margin-bottom:16px;border-left:4px solid #da3633">
+    <div class="k" style="color:#ff7b72;font-size:13.5px;margin-bottom:4px"><h2>不追名单</h2> &amp; ⛔ 坚决回避 / 禁买黑名单 (一票否决)</div>
+    <p class="sub" style="margin:0 0 8px">昨日断板股次日反包率仅 7.6%，冲高一律诱多出货，严禁低吸、抄底、追反包：</p>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:12%">黑名单标的</th>
+          <th style="width:14%">代码 / 身位状态</th>
+          <th style="width:12%">前周期定位</th>
+          <th style="width:28%">拉黑原因与主力意图</th>
+          <th style="width:20%">操盘纪律（一票否决）</th>
+          <th style="width:6%;text-align:center">仓位禁令</th>
+          <th style="width:8%">持仓处理</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><b style='color:#ff7b72'>全市场无极端断板高标</b><br><span class='muted' style='font-size:11px'>—</span></td><td><span style='color:#ff7b72;font-size:12px;font-weight:700'>无退潮A杀</span></td><td><span style='font-size:11.5px;color:#8b949e'>市场健康度良好</span></td><td style='font-size:12px;color:#c9d1d9;line-height:1.5'>当日高位连板未出现极端跌停决裂，市场分歧在温和范围内释放。</td><td style='font-size:12px;color:#ff7b72;line-height:1.4'><b>正常按梯队防守纪律执行即可</b></td><td style='font-size:12px;text-align:center;font-weight:700;color:#ff7b72'>按策略配置</td><td style='font-size:11.5px;color:#8b949e'>以个股止损线为准</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 模块三：明日实战操盘具体操作指令 -->
+  <div class="card" style="padding:12px 14px;margin-bottom:12px;background:rgba(22,27,34,0.9);border-left:4px solid #3fb950">
+    <div class="k" style="font-size:14px;color:#f0f6fc;margin-bottom:6px"><h2>明日三道开关</h2> &amp; 🚦 明日三道开关与实操结论</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:10px;margin-top:8px">
+      <div style="background:#0d1117;border:1px solid #30363d;padding:10px 12px;border-radius:6px">
+        <div style="font-size:12px;color:#8b949e">第一道开关：定总仓位</div>
+        <div style="font-size:14px;font-weight:700;color:#3fb950;margin-top:2px">严格锁定 1.5 ~ 2.0 成</div>
+        <div style="font-size:11.5px;color:#8b949e;margin-top:2px">分化行情严禁重仓，试错验证为主</div>
+      </div>
+      <div style="background:#0d1117;border:1px solid #30363d;padding:10px 12px;border-radius:6px">
+        <div style="font-size:12px;color:#8b949e">第二道开关：定主攻方向</div>
+        <div style="font-size:14px;font-weight:700;color:#58a6ff;margin-top:2px">主流题材新周期领涨梯队</div>
+        <div style="font-size:11.5px;color:#8b949e;margin-top:2px">梯队结构完整，龙头与中军共振</div>
+      </div>
+      <div style="background:#0d1117;border:1px solid #30363d;padding:10px 12px;border-radius:6px">
+        <div style="font-size:12px;color:#8b949e">第三道开关：定实操战法</div>
+        <div style="font-size:14px;font-weight:700;color:#e3b341;margin-top:2px">打板身位龙 + 低吸中军 + T+0转债</div>
+        <div style="font-size:11.5px;color:#8b949e;margin-top:2px">三位一体，严守止损止盈纪律</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 晨会操作内参精要 -->
+  
+    <!-- Part 2 嵌入式精要 -->
+    <div style="background:linear-gradient(135deg,rgba(35,134,54,0.18) 0%,rgba(13,17,23,0.95) 100%);border:1px solid #3fb950;border-left:5px solid #2ea043;border-radius:10px;padding:14px 18px;margin-bottom:16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:6px">
+        <div style="font-size:16px;font-weight:800;color:#f0f6fc">🎯 第二部分 · 连续复盘分析 · 明日关注标的与明日实战操作 (抱团与连板并重)</div>
+        <span style="background:rgba(63,185,80,0.25);color:#3fb950;border:1px solid #3fb950;padding:2px 10px;border-radius:14px;font-size:11.5px;font-weight:700">目标日：下一交易日</span>
+      </div>
+      <div style="font-size:12.5px;color:#c9d1d9;line-height:1.6">
+        <div><b>抱团与个股定论（核心重点）：</b>资金聚焦主线核心，进攻锁定龙头/身位先锋【新华传媒】与中军【福建水泥】，日内机动结合 T+0 转债【标杆转债】套利！</div>
+        <div style="margin-top:3px"><b>连板与出清定论：</b>高位退潮决裂标的【全市场无极端断板高标】坚决拉黑不接飞刀；主线接力聚焦分歧转一致的换手板。</div>
+        <div style="margin-top:4px"><b>实操总控结论：</b>总仓位严格控制在 <b style="color:#3fb950">1.5~2.0 成</b>，以【主线中军低吸/龙头打板】为基本盘，辅以【T+0 转债日内套利】，老周期退潮坚决一票否决！</div>
+      </div>
+    </div>
+
+    <!-- 关注标的与操作指令列表 -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:10px;margin-bottom:16px">
+      
+      <div style="background:#0d1117;border:1px solid #30363d;border-left:4px solid #f85149;border-radius:8px;padding:10px 12px">
+        <b style="color:#f85149;font-size:13px">① 主攻身位龙头：新华传媒 ( · 5 板)</b>
+        <div style="font-size:11.8px;color:#c9d1d9;line-height:1.5;margin-top:4px">
+          <b>指令：</b><b>竞价定性：</b>大单高开 &gt; +3% 确认弱转强；<b>买入指令：</b>9:35 确认分歧转一致后快速封板打板买入；<b>配置仓位：</b>0.5~1.0 成<br>
+          <b>止损：</b>开盘 10 分钟内未封死涨停，或盘中跌破分时黄线坚决止损撤单
+        </div>
+      </div>
+        
+      <div style="background:#0d1117;border:1px solid #30363d;border-left:4px solid #58a6ff;border-radius:8px;padding:10px 12px">
+        <b style="color:#58a6ff;font-size:13px">② 核心梯队/中军：福建水泥 ( · 3 板)</b>
+        <div style="font-size:11.8px;color:#c9d1d9;line-height:1.5;margin-top:4px">
+          <b>指令：</b><b>竞价定性：</b>小幅高开 +1%~+3%；<b>买入指令：</b>早盘放量回踩分时黄线企稳打板；<b>配置仓位：</b>0.5~1.0 成<br>
+          <b>止损：</b>盘中跌破分时均线超过 10 分钟无条件止损出局
+        </div>
+      </div>
+        
+      <div style="background:#0d1117;border:1px solid #da3633;border-left:4px solid #da3633;border-radius:8px;padding:10px 12px">
+        <b style="color:#ff7b72;font-size:13px">⛔ 禁买黑名单：全市场无极端断板高标</b>
+        <div style="font-size:11.8px;color:#c9d1d9;line-height:1.5;margin-top:4px">
+          <b>军规：</b>退潮断板股次日反包率极低，冲高一律诱多，严禁低吸、抄底、追反包！
+        </div>
+      </div>
+    
+    </div>
+    
+</section>
+
 
 
 
@@ -529,24 +1173,29 @@ footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border
 </div>
 <script>
 function copyMorningPlanDigest() {
-  const text = `【晨会操盘内参 · 核心作战卡片】\n` +
-    `基准日期：2026-09-28 ｜ 目标交易日：2026-09-29\n` +
-    `定性军规：🚨 跌停潮爆发 (56 家) · 极端退潮冰点期\n` +
-    `仓位上限：0~1 成 (默认动作：不开新仓)\n\n` +
-    `【优先级作战矩阵】\n` +
-    `P0 空间先锋：新华传媒 · 5 进 6\n` +
-    `- 触发：9:25 竞价成交>1.2亿且红开+2%~+5%良性换手（禁顶一字）；新华文轩未跌停开盘\n` +
-    `- 止损：炸板>3分钟不回封或跌破分时均线立即放弃/止损\n\n` +
-    `P1 中位卡位：福建水泥 / 金辰股份 / 雪龙集团 · 3 进 4\n` +
-    `- 触发：9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成\n\n` +
-    `P2 低位防守：吉鑫科技 / 大业股份 / 襄阳轴承 · 2 进 3\n` +
-    `- 触发：细分题材出现≥2只首板助攻，放量回封极轻仓套利观察\n\n` +
-    `P3 风险熔断：新华文轩 / 天威视讯 / 泰慕士 / 集泰股份\n` +
-    `- 监控：9:25 若 天威视讯 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位\n\n` +
-    `P-Black 禁买雷区：新华文轩、天威视讯、泰慕士、奥佳华、华茂股份、东方中科、康强电子、上工申贝、南威软件、华远控股\n` +
-    `- 禁令：严禁低吸、抄底、追反包！\n\n` +
-    `【分时熔断底线】\n` +
-    `- 09:25 竞价：跌停>15家或高标断板票焊死跌停，全天彻底空仓\n` +
+  const text = `【晨会操盘内参 · 核心作战卡片】
+` +
+    `基准日期：2026-09-28 ｜ 目标交易日：下一交易日
+` +
+    `定性军规：🚨 跌停潮爆发 (56 家) · 极端退潮冰点期
+` +
+    `仓位上限：0~1 成 (默认动作：不开新仓)
+
+` +
+    `【连板分析定论】空间高度回缩至 4 板 (上海九百独苗)，主流连板接力看襄阳轴承 (3板 · 12.8亿) 与华阳智能 (20cm · 3板)
+` +
+    `【抱团分析定论】老高标 (大业股份/海洋王) 决裂跌停彻底出清；主力大资金深度抱团机器人大容量中军 (万向钱潮 25.1亿)
+
+` +
+    `【明日关注标的清单 (直接给结果 · 动态生成)】
+` +
+    `1. 新华传媒 ( · 5 板) ➔ 竞价定性：大单高开 > +3% 确认弱转强；买入指令：9:35 确认分歧转一致后快速封板打板买入；配置仓位：0.5~1.0 成\n2. 福建水泥 ( · 3 板) ➔ 竞价定性：小幅高开 +1%~+3%；买入指令：早盘放量回踩分时黄线企稳打板；配置仓位：0.5~1.0 成\n3. 金辰股份 ( · 3 板) ➔ 竞价定性：小幅高开 +1%~+3%；买入指令：早盘放量回踩分时黄线企稳打板；配置仓位：0.5~1.0 成\n⛔ 禁买黑名单：全市场无极端断板高标 ➔ 严禁低吸抄底追反包！
+
+` +
+    `【分时熔断底线】
+` +
+    `- 09:25 竞价：跌停>15家或老龙头焊死跌停，全天彻底空仓
+` +
     `- 10:00 盘中：上涨家数<1500家无合力，严禁开新仓`;
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(function() {
