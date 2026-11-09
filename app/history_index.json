@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "degree": 37,
     "status": "混沌震荡期",
     "color_tag": "blue",
@@ -11,6 +11,18 @@
     "max_height": "5板",
     "position": "3 ~ 5 成（聚焦主线前排）",
     "is_latest": true
+  },
+  {
+    "date": "2026-11-09",
+    "degree": 44,
+    "status": "偏冷 · 防守",
+    "color_tag": "blue",
+    "turnover": "1.85万亿",
+    "zt_count": 154,
+    "dt_count": 1,
+    "top_stock": "闽发铝业",
+    "max_height": "缺3板、缺4板、缺5板",
+    "position": "3 ~ 5 成（聚焦主线前排）"
   },
   {
     "date": "2026-11-06",
