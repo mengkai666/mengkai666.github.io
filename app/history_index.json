@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-09",
-    "degree": 41,
+    "degree": 44,
     "status": "混沌震荡期",
     "color_tag": "blue",
-    "turnover": "9431亿",
+    "turnover": "1.01万亿",
     "zt_count": 32,
     "dt_count": 15,
     "top_stock": "闽发铝业",
     "max_height": "5板",
-    "position": "0 仓位 · 风向标观察",
+    "position": "1 ~ 3 成（基准1成·弱转强加至3成）",
     "is_latest": true
   },
   {
@@ -22,7 +22,7 @@
     "dt_count": 15,
     "top_stock": "浙文影业",
     "max_height": "5板",
-    "position": "0 仓位 · 风向标观察"
+    "position": "1 ~ 3 成（基准1成·弱转强加至3成）"
   },
   {
     "date": "2026-11-05",
@@ -34,7 +34,7 @@
     "dt_count": 0,
     "top_stock": "浙文影业",
     "max_height": "4板",
-    "position": "0 仓位 · 风向标观察"
+    "position": "5 ~ 7 成（主升共振进攻）"
   },
   {
     "date": "2026-11-04",

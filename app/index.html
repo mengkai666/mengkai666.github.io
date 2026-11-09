@@ -1345,13 +1345,13 @@
         currentDate = targetDate;
         updateDateHeaders(targetDate, false);
 
-        // 尝试从内存或 localStorage 恢复该日（校验 1.2.0 预案标的字段完整性）
-        const cacheKey = 'quant_bundle_v12_' + targetDate;
+        // 尝试从内存或 localStorage 恢复该日（校验 1.3.0 逐股深度战法字段完整性）
+        const cacheKey = 'quant_bundle_v13_' + targetDate;
         const localCached = localStorage.getItem(cacheKey);
         if (localCached) {
           try {
             const parsedHist = JSON.parse(localCached);
-            if (parsedHist && parsedHist.tab_strategy && parsedHist.tab_strategy.baotuan_stock_targets && parsedHist.tab_strategy.baotuan_stock_targets[0] && parsedHist.tab_strategy.baotuan_stock_targets[0].name) {
+            if (parsedHist && parsedHist.tab_strategy && parsedHist.tab_strategy.baotuan_stock_targets && parsedHist.tab_strategy.baotuan_stock_targets[0] && Array.isArray(parsedHist.tab_strategy.baotuan_stock_targets[0].stock_details)) {
               appData = parsedHist;
               renderAll(appData);
               if (statusPill) {
@@ -1394,15 +1394,15 @@
       // 2. 加载今日/最新数据
       currentDate = null; // 切回最新状态
       
-      // 离线首选渲染：自动淘汰低于 1.2.0 或缺失具体标的/异动雷达的历史脏缓存
-      const BUNDLE_SCHEMA_VERSION = '1.2.0';
+      // 离线首选渲染：自动淘汰低于 1.3.0 或缺失逐股战法/异动雷达的历史脏缓存
+      const BUNDLE_SCHEMA_VERSION = '1.3.0';
       const hasRichStrategy = (b) => Boolean(
         b && b.meta && b.meta.version === BUNDLE_SCHEMA_VERSION &&
         b.tab_strategy &&
         Array.isArray(b.tab_strategy.abnormal_radar) &&
         Array.isArray(b.tab_strategy.baotuan_stock_targets) &&
         b.tab_strategy.baotuan_stock_targets[0] &&
-        b.tab_strategy.baotuan_stock_targets[0].name
+        Array.isArray(b.tab_strategy.baotuan_stock_targets[0].stock_details)
       );
 
       let latestData = null;
@@ -1454,10 +1454,10 @@
           if (res.ok) {
             const fresh = await res.json();
             if (fresh && fresh.meta) {
-              // 若远端包缺少新版具象预案或异动雷达，用内置最新包补齐，防止降级覆盖
+              // 若远端包缺少新版逐股战法或异动雷达，用内置最新包补齐，防止降级覆盖
               if (window.__INITIAL_BUNDLE__ && window.__INITIAL_BUNDLE__.tab_strategy) {
                 const initStrat = window.__INITIAL_BUNDLE__.tab_strategy;
-                if (!fresh.tab_strategy || !(fresh.tab_strategy.baotuan_stock_targets && fresh.tab_strategy.baotuan_stock_targets[0] && fresh.tab_strategy.baotuan_stock_targets[0].name)) {
+                if (!fresh.tab_strategy || !(fresh.tab_strategy.baotuan_stock_targets && fresh.tab_strategy.baotuan_stock_targets[0] && Array.isArray(fresh.tab_strategy.baotuan_stock_targets[0].stock_details))) {
                   fresh.tab_strategy = JSON.parse(JSON.stringify(initStrat));
                 } else if (!Array.isArray(fresh.tab_strategy.abnormal_radar) || (!fresh.tab_strategy.abnormal_radar.length && Array.isArray(initStrat.abnormal_radar) && initStrat.abnormal_radar.length)) {
                   fresh.tab_strategy.abnormal_radar = initStrat.abnormal_radar;
@@ -2819,33 +2819,33 @@
         }
       }
 
-      // 动态切换个股与转债模块右上角模式标签（区分进攻执行 vs 熔断风向标观察）
-      const isGlobalDefensive = Boolean(strategy.is_melt || (strategy.recommended_position || '').includes('0 仓位') || (strategy.action_slogan || '').includes('不开新仓'));
+      // 动态切换个股与转债模块右上角模式标签（区分条件开仓执行 vs 极端0仓位观察）
+      const isGlobalZeroPos = Boolean((strategy.recommended_position || '').startsWith('0 仓位'));
       const stocksModeTag = document.getElementById('plan-stocks-mode-tag');
       if (stocksModeTag) {
-        stocksModeTag.textContent = isGlobalDefensive ? '风向标锚点 · 默认0仓位观察' : '精准执行 · 板块标的直指';
-        stocksModeTag.style.color = isGlobalDefensive ? '#FCD34D' : '#38BDF8';
+        stocksModeTag.textContent = isGlobalZeroPos ? '风向标锚点 · 冰点观察' : '逐股深度定性 · 条件触发开仓';
+        stocksModeTag.style.color = isGlobalZeroPos ? '#FCD34D' : '#38BDF8';
       }
       const cbModeTag = document.getElementById('plan-cb-mode-tag');
       if (cbModeTag) {
-        cbModeTag.textContent = isGlobalDefensive ? '同日收盘快照 · 仅T+0观察' : 'T+0 极致机动 · 锚定正股';
-        cbModeTag.style.color = isGlobalDefensive ? '#FCD34D' : '#A78BFA';
+        cbModeTag.textContent = isGlobalZeroPos ? '同日收盘快照 · T+0观察' : 'T+0 极致机动 · 逐债价格锚';
+        cbModeTag.style.color = isGlobalZeroPos ? '#FCD34D' : '#A78BFA';
       }
 
-      // 3.1 重点抱团个股实战预案（显式渲染指向板块 + 具体个股代码/连板/均线标签）
+      // 3.1 重点抱团个股实战预案（显式渲染指向板块 + 逐股精准判断/买点/止损）
       const bStocksBox = document.getElementById('plan-baotuan-stocks');
       if (bStocksBox) {
         const sList = strategy.baotuan_stock_targets || [];
         if (sList.length > 0) {
           bStocksBox.innerHTML = sList.map(s => {
             const isBlack = (s.role || '').includes('禁买') || (s.role || '').includes('⛔') || s.tag === 'avoid_black';
-            const posText = s.pos || (isGlobalDefensive ? '0 仓位 · 风向标观察' : '0');
-            const isObserveOnly = !isBlack && (isGlobalDefensive || posText.includes('0 仓位') || posText.includes('观察'));
+            const posText = s.pos || '0.5~1.0 成';
+            const isObserveOnly = !isBlack && posText.startsWith('0 仓位');
             const bgCol = isBlack ? 'rgba(239,68,68,0.1)' : 'var(--card-sub)';
             const borderCol = isBlack ? 'rgba(239,68,68,0.35)' : (isObserveOnly ? 'rgba(56,189,248,0.28)' : 'rgba(16,185,129,0.32)');
             const badgeCol = s.badge_color || (isBlack ? '#EF4444' : '#38BDF8');
-            const posBadgeCol = isBlack ? '#FCA5A5' : (isObserveOnly ? '#7DD3FC' : '#FCD34D');
-            const posBadgeBg = isBlack ? 'rgba(239,68,68,0.18)' : (isObserveOnly ? 'rgba(56,189,248,0.14)' : 'rgba(245,158,11,0.15)');
+            const posBadgeCol = isBlack ? '#FCA5A5' : (isObserveOnly ? '#7DD3FC' : '#34D399');
+            const posBadgeBg = isBlack ? 'rgba(239,68,68,0.18)' : (isObserveOnly ? 'rgba(56,189,248,0.14)' : 'rgba(16,185,129,0.15)');
 
             // 构建具体标的胶囊列表
             let targetsArr = Array.isArray(s.targets) ? s.targets : [];
@@ -2882,8 +2882,45 @@
               </div>
             ` : '';
 
-            const actionLabel = isBlack ? '禁买风控铁律：' : (isObserveOnly ? '盘中风向标核验：' : '买入执行指令：');
-            const stopLabel = isObserveOnly ? '失效与风控边界：' : '硬性止损底线：';
+            // 渲染逐股深度结合子卡片（若包含 stock_details）
+            const detailsArr = Array.isArray(s.stock_details) ? s.stock_details : [];
+            const stockDetailsHtml = detailsArr.length > 0 ? `
+              <div style="display:flex; flex-direction:column; gap:6px; margin-top:2px;">
+                ${detailsArr.map(d => {
+                  const isDangerStock = d.risk_tag === 'danger' || isBlack;
+                  const subBorder = isDangerStock ? 'rgba(239,68,68,0.35)' : 'rgba(56,189,248,0.22)';
+                  const subBg = isDangerStock ? 'rgba(239,68,68,0.08)' : 'rgba(15,23,42,0.6)';
+                  return `
+                    <div style="background:${subBg}; border:1px solid ${subBorder}; border-radius:8px; padding:8px 10px; display:flex; flex-direction:column; gap:4px;">
+                      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+                        <div>
+                          <b style="font-size:12.5px; color:#FFF;">🎯 ${d.name}</b>
+                          <span style="font-size:10.5px; color:#94A3B8; font-family:monospace; margin-left:4px;">${d.code || ''}</span>
+                          <span style="font-size:10.5px; color:#FCD34D; background:rgba(245,158,11,0.14); padding:1px 6px; border-radius:4px; margin-left:5px;">${d.badge || ''}</span>
+                        </div>
+                        <span style="font-size:10.5px; color:#CBD5E1;">${d.metrics || ''}</span>
+                      </div>
+                      <div style="font-size:11.5px; color:#E2E8F0; line-height:1.45;">
+                        <b style="color:#FBBF24;">• 准确判断：</b>${d.judgment || ''}
+                      </div>
+                      <div style="font-size:11.5px; color:#BAE6FD; line-height:1.45;">
+                        <b style="color:#38BDF8;">• 买点指令：</b>${d.buy_trigger || ''}
+                      </div>
+                      <div style="font-size:11px; color:#FCA5A5; line-height:1.4;">
+                        <b style="color:#F87171;">• 止损底线：</b>${d.stop_loss || ''}
+                      </div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            ` : `
+              <div style="font-size:12.5px; color:#E2E8F0; line-height:1.5; background:rgba(0,0,0,0.22); padding:6px 8px; border-radius:6px; border-left:3px solid ${badgeCol};">
+                <span style="color:${isBlack ? '#F87171' : '#38BDF8'}; font-weight:700;">${isBlack ? '禁买风控铁律：' : '买入执行指令：'}</span>${s.action || '--'}
+              </div>
+              <div style="font-size:12px; color:#FCA5A5; line-height:1.4;">
+                <span style="color:#F87171; font-weight:700;">硬性止损底线：</span>${s.stop || '--'}
+              </div>
+            `;
 
             return `
               <div style="background:${bgCol}; border:1px solid ${borderCol}; border-radius:10px; padding:10px 12px; display:flex; flex-direction:column; gap:7px;">
@@ -2894,14 +2931,9 @@
                 ${sectorBarHtml}
                 ${targetChipsHtml}
                 <div style="font-size:12px; color:var(--muted); line-height:1.45;">
-                  <span style="color:#94A3B8; font-weight:600;">筛选逻辑：</span>${s.logic || '--'}
+                  <span style="color:#94A3B8; font-weight:600;">梯队与筛选逻辑：</span>${s.logic || '--'}
                 </div>
-                <div style="font-size:12.5px; color:#E2E8F0; line-height:1.5; background:rgba(0,0,0,0.22); padding:6px 8px; border-radius:6px; border-left:3px solid ${badgeCol};">
-                  <span style="color:${isBlack ? '#F87171' : '#38BDF8'}; font-weight:700;">${actionLabel}</span>${s.action || '--'}
-                </div>
-                <div style="font-size:12px; color:#FCA5A5; line-height:1.4;">
-                  <span style="color:#F87171; font-weight:700;">${stopLabel}</span>${s.stop || '--'}
-                </div>
+                ${stockDetailsHtml}
               </div>
             `;
           }).join('');
@@ -2917,7 +2949,7 @@
         if (cList.length > 0) {
           bCbBox.innerHTML = cList.map(c => {
             const isBlack = (c.role || '').includes('破位') || (c.role || '').includes('一票否决') || (c.role || '').includes('禁买');
-            const isObserveCb = !isBlack && ((c.pos || '').includes('0') || isGlobalDefensive);
+            const isObserveCb = !isBlack && ((c.pos || '').startsWith('0 仓位') || isGlobalZeroPos);
             const bgCol = isBlack ? 'rgba(239,68,68,0.1)' : 'var(--card-sub)';
             const borderCol = isBlack ? 'rgba(239,68,68,0.35)' : (isObserveCb ? 'rgba(56,189,248,0.26)' : 'rgba(167,139,250,0.28)');
             const badgeCol = c.badge_color || (isBlack ? '#EF4444' : '#A78BFA');
@@ -4008,7 +4040,7 @@
     }
 
     // ================= 后台静默 OTA 热更新引擎 (数据 + 界面双通道自动升级) =================
-    const APP_UI_BUILD = '1.2.3419792cdd';
+    const APP_UI_BUILD = '1.2.6eb4063f94';
     let _otaChecking = false;
 
     async function checkCloudOTAUpdate(silent = true) {
