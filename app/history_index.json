@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-11-09",
-    "degree": 44,
+    "degree": 37,
     "status": "混沌震荡期",
     "color_tag": "blue",
-    "turnover": "1.01万亿",
-    "zt_count": 32,
-    "dt_count": 15,
+    "turnover": "1.48万亿",
+    "zt_count": 54,
+    "dt_count": 1,
     "top_stock": "闽发铝业",
     "max_height": "5板",
-    "position": "1 ~ 3 成（基准1成·弱转强加至3成）",
+    "position": "3 ~ 5 成（聚焦主线前排）",
     "is_latest": true
   },
   {
@@ -359,17 +359,5 @@
     "top_stock": "--",
     "max_height": "缺4板",
     "position": "2 ~ 4 成轮动试错"
-  },
-  {
-    "date": "2026-09-16",
-    "degree": 93,
-    "status": "亢奋 · 主升",
-    "color_tag": "rose",
-    "turnover": "1.85万亿",
-    "zt_count": 189,
-    "dt_count": 4,
-    "top_stock": "--",
-    "max_height": "缺5板",
-    "position": "5 ~ 7 成顺势进攻"
   }
 ]
