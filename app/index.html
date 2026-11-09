@@ -1242,12 +1242,13 @@
 
     // ================= 历史索引加载与渲染 =================
     async function loadHistoryIndex() {
-      // 候选端点
+      // 候选端点（APK file:// 模式下优先拉取云端最新归档索引，网页同源模式下 ./ 即为云端）
+      const isFileProto = (window.location.protocol === 'file:');
       const endpoints = [
-        './history_index.json',
-        'https://mengkai666.github.io/app/history_index.json',
         (customServer ? customServer + '/api/history_index.json' : null),
-        (customServer ? customServer + '/mobile_app/history_index.json' : null)
+        (customServer ? customServer + '/mobile_app/history_index.json' : null),
+        (isFileProto ? 'https://mengkai666.github.io/app/history_index.json' : './history_index.json'),
+        (isFileProto ? './history_index.json' : 'https://mengkai666.github.io/app/history_index.json')
       ].filter(Boolean);
 
       for (const url of endpoints) {
@@ -1361,12 +1362,13 @@
           } catch (e) {}
         }
 
-        // 候选历史端点
+        // 候选历史端点（APK file:// 模式下云端优先，离线兜底）
+        const isFileHist = (window.location.protocol === 'file:');
         const histCandidates = [
-          `./history/bundle_${targetDate}.json`,
-          `https://mengkai666.github.io/app/history/bundle_${targetDate}.json`,
           (customServer ? `${customServer}/api/history/bundle_${targetDate}.json` : null),
-          (customServer ? `${customServer}/mobile_app/history/bundle_${targetDate}.json` : null)
+          (customServer ? `${customServer}/mobile_app/history/bundle_${targetDate}.json` : null),
+          (isFileHist ? `https://mengkai666.github.io/app/history/bundle_${targetDate}.json` : `./history/bundle_${targetDate}.json`),
+          (isFileHist ? `./history/bundle_${targetDate}.json` : `https://mengkai666.github.io/app/history/bundle_${targetDate}.json`)
         ].filter(Boolean);
 
         for (const url of histCandidates) {
@@ -1426,15 +1428,17 @@
         renderAll(appData);
       }
 
-      // 候选最新数据端点列表（当前同源 ./bundle.json 与官方 /app/bundle.json 优先，彻底杜绝旧 gh-pages 脏包覆盖）
+      // 候选最新数据端点列表（APK file:// 模式下云端 /app/bundle.json 优先于内置静态资产，确保装包后自动拉取最新每日复盘）
+      const isFileBundle = (window.location.protocol === 'file:');
       const candidates = [
         (customServer ? `${customServer}/api/bundle.json` : null),
         (customServer ? `${customServer}/mobile_app/bundle.json` : null),
-        './bundle.json',
+        (isFileBundle ? 'https://mengkai666.github.io/app/bundle.json' : './bundle.json'),
         'https://mengkai666.github.io/app/bundle.json',
         'http://192.168.1.7:8088/mobile_app/bundle.json',
-        'http://10.0.2.2:8088/mobile_app/bundle.json'
-      ].filter(Boolean);
+        'http://10.0.2.2:8088/mobile_app/bundle.json',
+        './bundle.json'
+      ].filter((v, idx, arr) => Boolean(v) && arr.indexOf(v) === idx);
 
       let fetched = false;
       for (const url of candidates) {
@@ -1759,12 +1763,12 @@
       _isSyncingManifest = true;
       const isFileProto = (window.location.protocol === 'file:');
       const endpoints = [
-        (isFileProto ? './reports/manifest.json' : null),
         (customServer ? `${customServer}/mobile_app/reports/manifest.json` : null),
         (customServer ? `${customServer}/reports/manifest.json` : null),
-        './reports/manifest.json',
-        'https://mengkai666.github.io/app/reports/manifest.json'
-      ].filter(Boolean);
+        (isFileProto ? 'https://mengkai666.github.io/app/reports/manifest.json' : './reports/manifest.json'),
+        'https://mengkai666.github.io/app/reports/manifest.json',
+        './reports/manifest.json'
+      ].filter((v, idx, arr) => Boolean(v) && arr.indexOf(v) === idx);
 
       for (const url of endpoints) {
         try {
@@ -4003,8 +4007,88 @@
       return '<div class="dp-sec"><div class="dp-empty">暂无数据</div></div>';
     }
 
-    // 页面加载即运行
-    window.addEventListener('DOMContentLoaded', () => { loadHistoryIndex(); loadData(); });
+    // ================= 后台静默 OTA 热更新引擎 (数据 + 界面双通道自动升级) =================
+    const APP_UI_BUILD = '1.2.3419792cdd';
+    let _otaChecking = false;
+
+    async function checkCloudOTAUpdate(silent = true) {
+      if (_otaChecking) return;
+      _otaChecking = true;
+      try {
+        const isFileProto = (window.location.protocol === 'file:');
+        const verCandidates = [
+          (customServer ? `${customServer}/mobile_app/version.json` : null),
+          (isFileProto ? 'https://mengkai666.github.io/app/version.json' : './version.json'),
+          'https://mengkai666.github.io/app/version.json'
+        ].filter((v, idx, arr) => Boolean(v) && arr.indexOf(v) === idx);
+
+        let remoteVer = null;
+        for (const url of verCandidates) {
+          try {
+            const ctrl = new AbortController();
+            const tid = setTimeout(() => ctrl.abort(), 3500);
+            const resp = await fetch(url + '?_t=' + Date.now(), { cache: 'no-store', signal: ctrl.signal });
+            clearTimeout(tid);
+            if (resp.ok) {
+              remoteVer = await resp.json();
+              if (remoteVer && remoteVer.ui_build) break;
+            }
+          } catch (e) {}
+        }
+
+        if (!remoteVer) {
+          _otaChecking = false;
+          return;
+        }
+
+        // 1. 检测界面/功能版本变更 (APP_UI_BUILD)
+        if (remoteVer.ui_build && remoteVer.ui_build !== APP_UI_BUILD) {
+          const lastUpgradedBuild = sessionStorage.getItem('quant_upgraded_ui_build');
+          if (lastUpgradedBuild !== remoteVer.ui_build) {
+            sessionStorage.setItem('quant_upgraded_ui_build', remoteVer.ui_build);
+            localStorage.removeItem('quant_bundle_latest');
+            showToast(`🚀 发现新版本界面 (${remoteVer.ui_build})，正在后台自动热更新...`);
+            setTimeout(() => {
+              if (window.location.protocol === 'file:') {
+                // 安卓原生 APK 直接在内部全屏 WebView 热切换至最新云端版本，免重装 APK
+                window.location.replace('https://mengkai666.github.io/app/?v=' + encodeURIComponent(remoteVer.ui_build));
+              } else {
+                const base = window.location.pathname || '/app/';
+                window.location.replace(base + '?v=' + encodeURIComponent(remoteVer.ui_build));
+              }
+            }, 900);
+            _otaChecking = false;
+            return;
+          }
+        }
+
+        // 2. 检测数据包/研报后台更新 (bundle_updated_at)
+        const curUpdatedAt = (appData && appData.meta && appData.meta.updated_at) || '';
+        if (!currentDate && remoteVer.bundle_updated_at && curUpdatedAt && remoteVer.bundle_updated_at > curUpdatedAt) {
+          localStorage.removeItem('quant_bundle_latest');
+          await loadData(true, null);
+          await loadHistoryIndex();
+          await syncReportsManifestRemote(false);
+          showToast(`✨ 已后台自动更新至最新复盘 (${remoteVer.bundle_date || '最新'})`);
+        }
+      } catch (e) {
+      } finally {
+        _otaChecking = false;
+      }
+    }
+
+    // 页面加载即运行 + 切回前台自动巡检 + 每 3 分钟后台静默热更新巡检
+    window.addEventListener('DOMContentLoaded', () => {
+      loadHistoryIndex();
+      loadData();
+      setTimeout(() => checkCloudOTAUpdate(true), 3500);
+      setInterval(() => checkCloudOTAUpdate(true), 180000);
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') {
+        checkCloudOTAUpdate(true);
+      }
+    });
   </script>
 
   <!-- 历史交易日选择弹层 -->
