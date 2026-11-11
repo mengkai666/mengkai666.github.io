@@ -89,1480 +89,7 @@
     ],
     "tuyeres": [],
     "fund_heat": [],
-    "local_cycles": [
-      {
-        "id": "medicine",
-        "title": "医药旧团 / 8月前史",
-        "start": "2026-08-08",
-        "end": "2026-08-28",
-        "codes": [
-          "sh600721",
-          "sh600664",
-          "sh600613",
-          "sz002412"
-        ],
-        "origin": "复盘补充样本，不宣称线性接替",
-        "members": [
-          {
-            "code": "sh600721",
-            "name": "百花医药",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-08",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -36.09,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 8,
-            "max_height": 7.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh600664",
-            "name": "哈药股份",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-08",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -26.34,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 4,
-            "max_height": 3.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh600613",
-            "name": "神奇制药",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-08",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -34.68,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 8,
-            "max_height": 4.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sz002412",
-            "name": "汉森制药",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-08",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -38.16,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 5,
-            "max_height": 5.0,
-            "role": "截图/复盘样本，非事前推荐"
-          }
-        ],
-        "assessment": {
-          "date": "2026-10-19",
-          "stage": "数据不足",
-          "weak_share": null,
-          "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-        },
-        "history": [
-          {
-            "date": "2026-08-19",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-20",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-21",
-            "stage": "分歧",
-            "weak_share": 0.25,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-08-24",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-25",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-26",
-            "stage": "强化",
-            "weak_share": 0.25,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-27",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-28",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-08-31",
-            "stage": "瓦解",
-            "weak_share": 0.75,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-01",
-            "stage": "瓦解",
-            "weak_share": 0.75,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-02",
-            "stage": "瓦解",
-            "weak_share": 0.75,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-03",
-            "stage": "瓦解",
-            "weak_share": 0.75,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-04",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-07",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-08",
-            "stage": "瓦解观察",
-            "weak_share": 0.5,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-09",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-10",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-11",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-14",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-15",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-16",
-            "stage": "瓦解观察",
-            "weak_share": 0.75,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-17",
-            "stage": "瓦解观察",
-            "weak_share": 0.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-18",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-21",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-22",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-23",
-            "stage": "出清观察",
-            "weak_share": 0.25,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-24",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-28",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-29",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-30",
-            "stage": "瓦解观察",
-            "weak_share": 0.5,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-08",
-            "stage": "出清观察",
-            "weak_share": 0.75,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-10-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-12",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-13",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-19",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          }
-        ],
-        "next_step": "停止把反抽自动视为新周期，逐股核对破位与修复。"
-      },
-      {
-        "id": "farm",
-        "title": "农业 / 同一周期内部轮动",
-        "start": "2026-08-31",
-        "end": "2026-09-15",
-        "codes": [
-          "sh600371",
-          "sh600108",
-          "sh600127"
-        ],
-        "origin": "截图1：万向德农 → 亚盛集团、金健米业",
-        "members": [
-          {
-            "code": "sh600371",
-            "name": "万向德农",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -25.69,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 7,
-            "max_height": 6.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh600108",
-            "name": "亚盛集团",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -32.22,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 4,
-            "max_height": 4.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh600127",
-            "name": "金健米业",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -21.55,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 6,
-            "max_height": 3.0,
-            "role": "截图/复盘样本，非事前推荐"
-          }
-        ],
-        "assessment": {
-          "date": "2026-10-19",
-          "stage": "数据不足",
-          "weak_share": null,
-          "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-        },
-        "history": [
-          {
-            "date": "2026-08-31",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-01",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-02",
-            "stage": "分歧",
-            "weak_share": 0.0,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-03",
-            "stage": "分歧",
-            "weak_share": 0.0,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-04",
-            "stage": "分歧",
-            "weak_share": 0.0,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-07",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-08",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-09",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-10",
-            "stage": "分歧",
-            "weak_share": 0.333,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-11",
-            "stage": "分歧",
-            "weak_share": 0.333,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-14",
-            "stage": "瓦解",
-            "weak_share": 0.667,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-15",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-16",
-            "stage": "瓦解观察",
-            "weak_share": 0.667,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-17",
-            "stage": "瓦解观察",
-            "weak_share": 0.333,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-18",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-21",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-22",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-23",
-            "stage": "出清观察",
-            "weak_share": 0.333,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-24",
-            "stage": "瓦解观察",
-            "weak_share": 0.333,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-28",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-29",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-30",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-08",
-            "stage": "瓦解观察",
-            "weak_share": 0.667,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-12",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-13",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-19",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          }
-        ],
-        "next_step": "停止把反抽自动视为新周期，逐股核对破位与修复。"
-      },
-      {
-        "id": "consumer",
-        "title": "消费 / 核心切换",
-        "start": "2026-08-31",
-        "end": "2026-09-15",
-        "codes": [
-          "sh601086",
-          "sh600865",
-          "sz000978"
-        ],
-        "origin": "截图1：国芳集团 → 百大集团 → 桂林旅游",
-        "members": [
-          {
-            "code": "sh601086",
-            "name": "国芳集团",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -26.6,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 9,
-            "max_height": 5.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh600865",
-            "name": "百大集团",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -31.9,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 6,
-            "max_height": 5.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sz000978",
-            "name": "桂林旅游",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -35.45,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 5,
-            "max_height": 4.0,
-            "role": "截图/复盘样本，非事前推荐"
-          }
-        ],
-        "assessment": {
-          "date": "2026-10-19",
-          "stage": "数据不足",
-          "weak_share": null,
-          "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-        },
-        "history": [
-          {
-            "date": "2026-08-31",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-01",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-02",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-03",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-04",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-07",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-08",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-09",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-10",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-11",
-            "stage": "分歧",
-            "weak_share": 0.333,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-14",
-            "stage": "分歧",
-            "weak_share": 0.333,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。"
-          },
-          {
-            "date": "2026-09-15",
-            "stage": "瓦解",
-            "weak_share": 0.667,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-16",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-17",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-18",
-            "stage": "瓦解观察",
-            "weak_share": 0.667,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-21",
-            "stage": "出清观察",
-            "weak_share": 0.333,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-22",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-23",
-            "stage": "出清观察",
-            "weak_share": 0.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。"
-          },
-          {
-            "date": "2026-09-24",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-28",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-29",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-09-30",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-10-08",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-12",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-13",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-19",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          }
-        ],
-        "next_step": "停止把反抽自动视为新周期，逐股核对破位与修复。"
-      },
-      {
-        "id": "parallel",
-        "title": "并行方向 / 不能拼成单一龙头链",
-        "start": "2026-08-31",
-        "end": "2026-09-24",
-        "codes": [
-          "sz000017",
-          "sz003040",
-          "sz000993",
-          "sh601091"
-        ],
-        "origin": "截图1：深中华断板为情绪参照；楚天龙；9/10闽东电力；9/17沈鼓集团",
-        "members": [
-          {
-            "code": "sz000017",
-            "name": "深中华A",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -38.89,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 0,
-            "max_height": null,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sz003040",
-            "name": "楚天龙",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -38.78,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 2,
-            "max_height": 1.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sz000993",
-            "name": "闽东电力",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -22.14,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 6,
-            "max_height": 6.0,
-            "role": "截图/复盘样本，非事前推荐"
-          },
-          {
-            "code": "sh601091",
-            "name": "沈鼓集团",
-            "source": "腾讯补充日线 / raw",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-08-31",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-09-17",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -59.93,
-              "count": 10,
-              "expected_count": 17,
-              "base_date": null,
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 0,
-            "max_height": null,
-            "role": "次新独立观察，常规连板不适用"
-          }
-        ],
-        "assessment": {
-          "stage": "并行观察",
-          "weak_share": null,
-          "reason": "数字经济、电力、次新不应强行算作同一篮子。"
-        },
-        "history": [
-          {
-            "date": "2026-08-31",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-01",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-02",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-03",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-04",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-07",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-08",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-10",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-11",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-17",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-18",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-21",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-22",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-23",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-09-24",
-            "stage": "瓦解",
-            "weak_share": 0.75,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-28",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-29",
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。"
-          },
-          {
-            "date": "2026-09-30",
-            "stage": "瓦解观察",
-            "weak_share": 1.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-08",
-            "stage": "瓦解观察",
-            "weak_share": 0.25,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。"
-          },
-          {
-            "date": "2026-10-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-12",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-13",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-19",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          }
-        ],
-        "next_step": "继续观察旧团失效和新候选承接，缺全市场证据不升级。"
-      },
-      {
-        "id": "trial",
-        "title": "9/28后 / 新周期试错池",
-        "start": "2026-09-28",
-        "end": "2026-10-08",
-        "codes": [
-          "sh600241",
-          "sz301513",
-          "sz301190",
-          "sh688137"
-        ],
-        "origin": "截图2、3为同一观点；4只候选不等于4只已确认核心",
-        "members": [
-          {
-            "code": "sh600241",
-            "name": "时代万恒",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-09-28",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -8.18,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 6,
-            "max_height": 6.0,
-            "role": "9/28列入候选，起涨与确认需分开"
-          },
-          {
-            "code": "sz301513",
-            "name": "尚水智能",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-09-28",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -19.47,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 1,
-            "max_height": 1.0,
-            "role": "9/28列入候选，起涨与确认需分开"
-          },
-          {
-            "code": "sz301190",
-            "name": "善水科技",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-09-28",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -18.68,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 3,
-            "max_height": 3.0,
-            "role": "9/28列入候选，起涨与确认需分开"
-          },
-          {
-            "code": "sh688137",
-            "name": "近岸蛋白",
-            "source": "腾讯补充日线 / qfq",
-            "as_of": "2026-10-08",
-            "reference_date": "2026-09-28",
-            "since_reference": null,
-            "two_month": {
-              "first_date": "2026-08-19",
-              "last_date": "2026-10-08",
-              "return_pct": null,
-              "max_drawdown_pct": -26.69,
-              "count": 31,
-              "expected_count": 38,
-              "base_date": "2026-08-18",
-              "complete": false
-            },
-            "metrics": {
-              "r1": null,
-              "r5": null,
-              "r20": null,
-              "dd20": null,
-              "score": null,
-              "above_ma5": null
-            },
-            "zt_days": 0,
-            "max_height": null,
-            "role": "既有趋势延续，非9/28低位首发"
-          }
-        ],
-        "assessment": {
-          "stage": "试错待确认",
-          "weak_share": null,
-          "reason": "仅价格证据；全市场、成交与承接条件尚未全部验证。"
-        },
-        "history": [
-          {
-            "date": "2026-09-28",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-29",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-09-30",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-10-08",
-            "stage": "强化",
-            "weak_share": 0.0,
-            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。"
-          },
-          {
-            "date": "2026-10-09",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-12",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-13",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-14",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-15",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-16",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          },
-          {
-            "date": "2026-10-19",
-            "stage": "数据不足",
-            "weak_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。"
-          }
-        ],
-        "next_step": "继续观察旧团失效和新候选承接，缺全市场证据不升级。"
-      }
-    ]
+    "local_cycles": []
   },
   "tab_focus": [
     {
@@ -1648,60 +175,147 @@
     ],
     "baotuan_stock_targets": [
       {
-        "role": "① 主线空间龙 / 领涨龙头",
-        "sector": "最高身位 · 空间竞争先锋",
-        "name": "东方嘉盛 / 吉大正元 · 3 进 4",
-        "code": "",
-        "metric": "最高连板空间锚",
-        "targets": [],
-        "tag": "space_hero",
-        "badge_color": "#F87171",
-        "logic": "全市场最高连板梯队，测试空间压制与题材高度",
-        "action": "9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻",
+        "role": "闽发铝业【全市场空间天花板 · 7板】",
+        "sector": "光伏 / 新能源",
+        "name": "闽发铝业",
+        "code": "002578",
+        "metric": "7连板 · 空间压制测试",
         "pos": "0.5~1.0 成",
-        "stop": "炸板>3分钟不回封或跌破分时均线立即放弃/止损"
+        "logic": "全市场最高 7 连板高度标的，测试连板空间拓展压制；具备最强情绪风向标作用。",
+        "action": "【弱转强打板】9:25 竞价放量高开 +3%~+6%（禁顶一字诱多），开盘换手分歧转一致秒封瞬间打板买入，配置 0.5~1.0 成",
+        "stop": "开盘 10 分钟内未封死涨停，或盘中跌破分时黄线坚决止损撤单",
+        "stock_details": [
+          {
+            "name": "闽发铝业",
+            "code": "002578",
+            "badge": "光伏 · 7连板最高标",
+            "latest_close": "6.06元",
+            "r1_pct": "+9.98%",
+            "ma5_px": "5.17元",
+            "boards_left_str": "1.1板",
+            "judgment": "全市场空间天花板，换手确认后具备极强穿越领涨价值。",
+            "buy_trigger": "9:25 放量高开 +3%~+6%，分时黄线上方换手充分后秒板打板介入。",
+            "stop_loss": "开盘 10 分钟未封死，或跌破分时黄线坚决止损撤退。",
+            "is_primary": true
+          }
+        ]
       },
       {
-        "role": "② 梯队先锋 / 身位卡位",
-        "sector": "身位卡位先锋 & 换手活口",
-        "name": "长春一东 / 东安动力 / 京城股份 / 保隆科技 / 大业股份 / 文灿股份 · 2 进 3",
-        "code": "",
-        "metric": "2~4板换手中坚",
-        "targets": [],
-        "tag": "echelon_vanguard",
-        "badge_color": "#38BDF8",
-        "logic": "主升次高身位中坚，具备卡位晋级潜质",
-        "action": "9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成",
+        "role": "机器人五虎【新周期强主线 · 2进3晋级主攻】",
+        "sector": "机器人概念",
+        "name": "机器人主攻群",
+        "code": "801159",
+        "metric": "2板群卡位PK赛",
         "pos": "0.5~1.0 成",
-        "stop": "开盘快速跳水翻绿或冲高无量即放弃"
+        "logic": "新周期主升进攻核心，板块内 5 只 2 连板标的展开同身位淘汰卡位，胜出者具备成为新周期龙头潜质！",
+        "action": "【同身位PK打板】9:25 竞价锁定同题材量比最大、率先分歧转一致秒板的前 1~2 只打板介入，配置 0.5~1.0 成",
+        "stop": "跌破分时均线超 10 分钟或炸板不回封坚决止损",
+        "stock_details": [
+          {
+            "name": "金杯汽车",
+            "code": "600609",
+            "badge": "机器人 · 2连板中军",
+            "latest_close": "3.83元",
+            "r1_pct": "+10.06%",
+            "ma5_px": "3.52元",
+            "boards_left_str": "4.2板",
+            "judgment": "汽车+机器人大容量先锋，形态扎实。",
+            "buy_trigger": "竞价量比>3.0且高开+2%以上，开盘回踩分时黄线快速回封打板介入。",
+            "stop_loss": "跌破分时均线超 10 分钟无条件止损。",
+            "is_primary": true
+          },
+          {
+            "name": "华培动力",
+            "code": "603121",
+            "badge": "机器人 · 2连板先锋",
+            "latest_close": "13.18元",
+            "r1_pct": "+10.02%",
+            "ma5_px": "12.05元",
+            "boards_left_str": "3.8板",
+            "judgment": "传感器核心先锋，换手活跃。",
+            "buy_trigger": "率先放量回封涨停瞬间打板确认买入。",
+            "stop_loss": "炸板不回封或跌破昨日收盘无条件止损。",
+            "is_primary": true
+          },
+          {
+            "name": "日盈电子",
+            "code": "603286",
+            "badge": "机器人 · 2连板弹性",
+            "latest_close": "60.90元",
+            "r1_pct": "+10.00%",
+            "ma5_px": "55.80元",
+            "boards_left_str": "2.9板",
+            "judgment": "智能座舱+机器人高价弹性股。",
+            "buy_trigger": "放量突破昨日高点且板块多只首板助攻确认买入。",
+            "stop_loss": "盘中放量破位 -3% 坚决离场。",
+            "is_primary": true
+          }
+        ]
       },
       {
-        "role": "③ 核心产业大中军",
-        "sector": "低位试错",
-        "name": "低位首板观察标的",
-        "code": "",
-        "metric": "MA5趋势承接锚",
-        "targets": [],
-        "tag": "core_army",
-        "badge_color": "#FCD34D",
-        "logic": "主力大资金趋势主战场，板块流动性底座",
-        "action": "主流题材首板放量回封，极轻仓观察套利",
+        "role": "日出东方 / 东方新能【3进4 换手先锋中坚】",
+        "sector": "光伏 / 算力",
+        "name": "3进4中坚梯队",
+        "code": "603366",
+        "metric": "3连板 · 换手接力",
         "pos": "0.5~1.0 成",
-        "stop": "炸板或次日无溢价立即离场"
+        "logic": "主升梯队 3 板身位核心，与空间龙头形成高低呼应，若空间龙分歧，具备极强卡位破局潜质！",
+        "action": "【换手卡位打板】9:25 竞价量比>3.0且封单最强胜出，开盘分时黄线上方放量换手打板，配置 0.5~1.0 成",
+        "stop": "开盘快速跳水翻绿或冲高无量即放弃，跌破昨收无条件止损",
+        "stock_details": [
+          {
+            "name": "日出东方",
+            "code": "603366",
+            "badge": "光伏 · 3连板先锋",
+            "latest_close": "5.68元",
+            "r1_pct": "+10.08%",
+            "ma5_px": "4.95元",
+            "boards_left_str": "3.5板",
+            "judgment": "光伏高低共振核心，承接充分。",
+            "buy_trigger": "竞价小幅高开 +1%~+3%，开盘放量回踩分时黄线企稳打板。",
+            "stop_loss": "盘中跌破分时黄线超 10 分钟止损出局。",
+            "is_primary": true
+          },
+          {
+            "name": "东方新能",
+            "code": "002310",
+            "badge": "算力 · 3连板先锋",
+            "latest_close": "4.15元",
+            "r1_pct": "+10.08%",
+            "ma5_px": "3.68元",
+            "boards_left_str": "3.7板",
+            "judgment": "算力方向领涨独苗，辨识度高。",
+            "buy_trigger": "9:25 竞价超预期高开且量能放大，早盘分歧转一致秒板打板。",
+            "stop_loss": "竞价低于预期低开翻绿坚决放弃。",
+            "is_primary": true
+          }
+        ]
       },
       {
-        "role": "⛔ 禁买出清黑名单",
+        "role": "⛔ 禁买出清黑名单【高位断板被核标的】",
         "sector": "高位断板 / 负反馈",
-        "name": "百洋股份 / 冰山冷热 / 阳光乳业 / 富春染织",
-        "code": "",
-        "metric": "风控一票否决",
-        "targets": [],
-        "tag": "avoid_black",
-        "badge_color": "#EF4444",
-        "logic": "昨日高位连板今日断板跌停股，次日反包率极低",
-        "action": "一票否决！严禁低吸、严禁抄底首阴、严禁追反包！若已持有，早盘脉冲抽高果断减仓离场",
+        "name": "东方嘉盛 / 润贝航科",
+        "code": "002889",
+        "metric": "一票否决 · 严禁接飞刀",
         "pos": "0 仓位",
-        "stop": "负反馈未收敛前严禁接飞刀"
+        "logic": "昨日高位连板今日断板跌停股，次日反包率仅 7.6%，冲高一律视为主力自救诱多！",
+        "action": "【一票否决】严禁低吸、严禁抄底首阴、严禁追反包！若已持有，早盘脉冲抽高果断减仓离场",
+        "stop": "全天禁止开新仓，负反馈未收敛前严禁接飞刀",
+        "stock_details": [
+          {
+            "name": "东方嘉盛 / 润贝航科",
+            "code": "002889",
+            "badge": "高位断板跌停",
+            "latest_close": "跌停价",
+            "r1_pct": "-10.00%",
+            "ma5_px": "—",
+            "boards_left_str": "0板",
+            "judgment": "亏钱效应发酵源头，次日反包率仅 7.6%，主力出逃诱多概率极大。",
+            "buy_trigger": "⛔ 一票否决：全天严禁低吸、抄底、追反包！",
+            "stop_loss": "若继续大单跌停，全天谨慎防守。",
+            "is_primary": true
+          }
+        ]
       }
     ],
     "baotuan_cb_targets": [
@@ -1753,38 +367,38 @@
     "priority_matrix": [
       {
         "tier": "P0",
-        "badge": "最高身位 · 空间竞争先锋",
-        "title": "东方嘉盛 / 吉大正元 · 3 进 4",
-        "trigger": "9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻",
-        "stop": "炸板>3分钟不回封或跌破分时均线立即放弃/止损"
+        "badge": "【光伏】最高身位空间总龙",
+        "title": "闽发铝业 · 7 进 8",
+        "trigger": "【弱转强打板】9:25 竞价放量高开 +3%~+6%（禁顶一字），开盘换手分歧转一致秒封打板买入，配置 0.5~1.0 成",
+        "stop": "开盘 10 分钟内未封死涨停，或跌破分时均线坚决离场撤单"
       },
       {
         "tier": "P1",
-        "badge": "身位卡位先锋 & 换手活口",
-        "title": "长春一东 / 东安动力 / 京城股份 / 保隆科技 / 大业股份 / 文灿股份 · 2 进 3",
-        "trigger": "9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成",
-        "stop": "开盘快速跳水翻绿或冲高无量即放弃"
+        "badge": "【身位先锋】3进4 卡位淘汰赛",
+        "title": "日出东方 / 东方嘉盛 / 吉大正元 · 3 进 4",
+        "trigger": "【换手卡位打板】9:25 竞价量比>3.0且封单金额居首胜出，分时黄线上方放量换手秒板打板买入，配置 0.5~1.0 成；掉队者直接放弃",
+        "stop": "开盘快速跳水翻绿或冲高无量即放弃，跌破昨收无条件止损"
       },
       {
         "tier": "P2",
-        "badge": "低位试错",
-        "title": "低位首板观察标的",
-        "trigger": "主流题材首板放量回封，极轻仓观察套利",
-        "stop": "炸板或次日无溢价立即离场"
+        "badge": "【机器人主攻】2进3 晋级争夺群",
+        "title": "光洋股份 / 锋龙股份 / 华培动力 / 金杯汽车 / 日盈电子 · 2 进 3",
+        "trigger": "【同身位PK打板】9:25 竞价同题材至少 2 只高开，率先快速放量换手封板的前 1~2 只打板介入，配置 0.5~1.0 成",
+        "stop": "跌破分时均线超 10 分钟或炸板不回封坚决止损"
       },
       {
         "tier": "P3",
-        "badge": "跌停封单风向标",
-        "title": "百洋股份 / 冰山冷热 / 阳光乳业 / 富春染织",
-        "trigger": "9:25 若 百洋股份 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位",
-        "stop": "全天禁止开新仓"
+        "badge": "【核心产业抱团】容量大中军",
+        "title": "金杯汽车 / 东方新能 / 机器人与算力中军",
+        "trigger": "【MA5均线低吸】早盘脉冲不追高，待回踩 5 日均线支撑确认企稳、放量反抽时低吸介入，配置 0.5~1.0 成",
+        "stop": "有效跌破 5 日均线或分时放量破位 -3% 无条件止损"
       },
       {
         "tier": "P-Black",
-        "badge": "绝对禁止开仓",
-        "title": "百洋股份、冰山冷热、阳光乳业、富春染织、新华文轩",
-        "trigger": "昨日断板股与跌停破位股，次日冲高一律诱多，严禁低吸、抄底、追反包",
-        "stop": "全天禁止开新仓"
+        "badge": "【一票否决】高位断板避雷池",
+        "title": "东方嘉盛 / 润贝航科 / 东方创业 / 红太阳",
+        "trigger": "【一票否决禁买】高位断板首日与次日反包成功率仅 7.6%，冲高皆为诱多！严禁低吸、严禁抄底首阴、严禁搏地天板！若早盘继续焊死一字跌停，全天谨慎防守！",
+        "stop": "全天禁止开新仓，严防负反馈杀跌扩散"
       }
     ],
     "candidates": [
@@ -1851,28 +465,22 @@
     ],
     "checklist": [
       {
-        "time": "09:25 集合竞价",
-        "focus": "全市场跌停家数、高标溢价率",
-        "pass_cond": "跌停家数 ≤ 10 家，东方嘉盛红开 +2% 以上且成交 > 1.2 亿",
-        "fail_cond": "跌停 > 15 家，或百洋股份大单焊死跌停：全天禁止开新仓"
+        "time": "09:15 - 09:25 · 盘前竞价定胜负",
+        "focus": "核验大盘量能预期与跌停开盘数；锁定 2进3 与 3进4 竞价量比最强者",
+        "pass_cond": "跌停家数 ≤ 3 家，闽发铝业 放量高开 +3%~+6% 且竞价量比 > 2.5",
+        "fail_cond": "跌停 > 5 家或空间龙竞价大幅低开 <-3%：全天新仓计划作废"
       },
       {
-        "time": "09:35 开盘前10分",
-        "focus": "跌停封单变化、黄白线分化",
-        "pass_cond": "上涨家数不再恶化，跌停板无新增扩散，有承接盘撬板",
-        "fail_cond": "出现高标快速拉高天地板跳水：判定为出货诱多，立即放弃参与"
+        "time": "09:30 - 10:00 · 早盘冲锋去弱留强",
+        "focus": "机器人与光伏主线龙头分歧转一致秒板、梯队卡位淘汰赛胜出者",
+        "pass_cond": "主线率先出现放量换手秒板，分时黄线上方稳步换手",
+        "fail_cond": "开盘冲高无量回落或大面积炸板：10:00 前严禁盲目开新仓追高"
       },
       {
-        "time": "10:00 盘中确认",
-        "focus": "梯队晋级情况、市场宽度回暖",
-        "pass_cond": "上涨家数回升至 2000 家以上，有明确主流题材走出 2 只连板",
-        "fail_cond": "上涨家数 < 1500 家且无板块合力：全天彻底锁定空仓"
-      },
-      {
-        "time": "14:00 午后防守",
-        "focus": "尾盘流动性与抢筹真实度",
-        "pass_cond": "尾盘无大规模砸盘，主流板块有持续大买单护盘",
-        "fail_cond": "无增量资金进场严禁尾盘博弈次日抢筹，防范次日低开埋人"
+        "time": "10:00 - 15:00 · 趋势低吸与尾盘守纪",
+        "focus": "容量中军回踩 5 日均线低吸点、可转债 T+0 日内止盈平仓、排查严重异动安全空间",
+        "pass_cond": "中军回踩 MA5 跌幅收窄放量企稳；转债 14:55 前清仓不隔夜",
+        "fail_cond": "单日亏损触及本金 2% 或个股跌破 EMA20 无条件止损，绝不扛单"
       }
     ],
     "avoid_list": [
@@ -1884,27 +492,119 @@
     ],
     "scenarios": [
       {
-        "id": "sc_0",
-        "name": "主情景 · 风险优先：等待盘面重新给出方向",
-        "color": "rose",
-        "pos": "仓位上限 30%",
-        "premise": "市场广度=neutral；接力质量=weak；高位反馈=negative",
-        "auction": "9:25 核心标的竞价低于预期绝不追高",
-        "action": "严格执行防守纪律，不开新仓",
-        "stop": "跌停扩张并伴随高位负反馈；接力继续恶化 竞价 9:25 : 竞价只做状态观察；不把单一高开视为趋势确认"
+        "name": "情景 A · 放量突破主升 (概率 35%)",
+        "color": "emerald",
+        "pos": "4 ~ 6 成顺势加仓",
+        "premise": "早盘 9:35 半小时两市成交折算超 1.6 万亿，指数放量突破站稳关键压力线",
+        "action": "主攻机器人概念与光伏前排，锁定率先放量弱转强秒板与同题材首板助攻，顺势开仓",
+        "stop": "午后若炸板率激增至 25% 以上，立即停止新增开仓计划"
       },
       {
-        "id": "sc_1",
-        "name": "备选 · 修复候选：等待结构从局部到整体",
+        "name": "情景 B · 缩量冲高回落/窄幅分化 (概率 55% · 基准情景)",
         "color": "amber",
-        "pos": "仓位上限 35%",
-        "premise": "当前状态存在修复可能；修复必须经过时间窗确认",
-        "auction": "9:25 核心标的竞价低于预期绝不追高",
-        "action": "严格执行防守纪律，不开新仓",
-        "stop": "10:00 前没有结构性改善；跌停和炸板同步增加 竞价 9:25 : 核心不再低开破位；中位梯队出现承接"
+        "pos": "2 ~ 3 成精选试错",
+        "premise": "早盘冲高无量，全天两市成交萎缩至 1.4 万亿以下，板块轮动加快",
+        "action": "早盘 10:00 前坚决不追高！只在 10:00 后主线龙头分歧转一致回封时打板，或回踩 MA5 企稳时低吸中军",
+        "stop": "跌破分时黄线或盘中跳水翻绿立即离场"
+      },
+      {
+        "name": "情景 C · 跌停突增决裂防守 (概率 10% · 极端风险)",
+        "color": "rose",
+        "pos": "0 ~ 1 成绝对防守",
+        "premise": "开盘跌停家数快速突破 3 家，高位断板股大单焊死跌停且亏钱效应向主线蔓延",
+        "action": "触发系统级防守熔断！全天新仓计划全线作废，锁定 0 仓位，严禁任何抄底尝试！",
+        "stop": "全天坚决执行空仓纪律，严防飞刀"
       }
     ],
     "morning_card": "【晨会操盘内参 · 核心作战卡片】\n基准日期：2026-10-19 ｜ 目标交易日：2026-10-20\n定性军规：📊 市场微观体检 (涨停 46 / 跌停 25)\n仓位上限：1.5 成 (默认动作：不开新仓，只观察条件是否成立)\n【优先级作战矩阵】\nP0 空间先锋：东方嘉盛 / 吉大正元 · 3 进 4\n- 触发：9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻\n- 止损：炸板>3分钟不回封或跌破分时均线立即放弃/止损\nP1 中位卡位：长春一东 / 东安动力 / 京城股份 / 保隆科技 / 大业股份 / 文灿股份 · 2 进 3\n- 触发：9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成\nP2 低位防守：低位首板观察标的\n- 触发：主流题材首板放量回封，极轻仓观察套利\nP3 风险熔断：百洋股份 / 冰山冷热 / 阳光乳业 / 富春染织\n- 监控：9:25 若 百洋股份 等继续大单焊死一字跌停，全天新仓计划全线作废，执行 0 仓位\nP-Black 禁买雷区：百洋股份、冰山冷热、阳光乳业、富春染织、新华文轩\n- 禁令：严禁低吸、抄底、追反包！\n【分时熔断底线】\n- 09:25 竞价：跌停>15家或百洋股份焊死跌停，全天彻底空仓\n- 10:00 盘中：上涨家数<1500家无合力，严禁开新仓\n\n【重点抱团个股 · 实战预案指令】\n① 主线空间龙 / 领涨龙头｜【最高身位 · 空间竞争先锋】东方嘉盛 / 吉大正元 · 3 进 4 (建议仓位: 0.5~1.0 成)\n• 核心判断：9:25 竞价放量换手推升（禁顶一字诱多），同题材有首板助攻\n• 纪律底线：炸板>3分钟不回封或跌破分时均线立即放弃/止损\n② 梯队先锋 / 身位卡位｜【身位卡位先锋 & 换手活口】长春一东 / 东安动力 / 京城股份 / 保隆科技 / 大业股份 / 文灿股份 · 2 进 3 (建议仓位: 0.5~1.0 成)\n• 核心判断：9:25 竞价量比与封单最强胜出，且需同题材首板助攻联动；仓位上限≤1成\n• 纪律底线：开盘快速跳水翻绿或冲高无量即放弃\n③ 核心产业大中军｜【低位试错】低位首板观察标的 (建议仓位: 0.5~1.0 成)\n• 核心判断：主流题材首板放量回封，极轻仓观察套利\n• 纪律底线：炸板或次日无溢价立即离场\n⛔ 禁买出清黑名单｜【高位断板 / 负反馈】百洋股份 / 冰山冷热 / 阳光乳业 / 富春染织 (建议仓位: 0 仓位)\n• 核心判断：一票否决！严禁低吸、严禁抄底首阴、严禁追反包！若已持有，早盘脉冲抽高果断减仓离场\n• 纪律底线：负反馈未收敛前严禁接飞刀\n\n【重点抱团可转债 · 明日 T+0 深度作战预案】\n福新转债(111012) 【高成交人气标杆 · 联动观察】 (正股:福莱新材 联动观察 | 仓位:0.5~1.0 成)\n• 应对：• 锚定正股竞价与早盘分时承接，急拉不追高，回踩分时均线企稳且正股转强时再作 T+0 观察；若正股转弱破位立即撤退。\n• 底线：跌破分时黄线超 5 分钟或正股放量跳水立即止损；日内 T+0 严控隔夜溢价回撤。\n奥普转债(118075) 【弹性活跃观察 · 波段跟踪】 (正股:奥普特 联动观察 | 仓位:0.5 成)\n• 应对：• 核对正股止跌企稳信号与转股溢价率变化（注意转股期条款），仅在债股同向放量回升时跟踪日内脉冲。\n• 底线：冲高回落跌破开盘价或正股继续走弱坚决放弃。\n精测转2(123176) 【板块共振观察 · 辅助锚点】 (正股:精测电子 联动观察 | 仓位:0.5 成)\n• 应对：• 观察半导体/设备方向共振修复力度，债股同步企稳前保持观望，不单凭债端拉升追价。\n• 底线：分时均线破位或溢价被动走阔时无条件撤退。\n澳弘转债(111024) 【破位出清 · 一票否决禁买】 (正股:澳弘电子 破位风险 | 仓位:0 仓位)\n• 应对：• 正股走弱破位释放负反馈，一票否决严禁抄底！规避正股下探拖累转债杀溢价风险。\n• 底线：全天锁定 0 仓位，禁止开新仓。",
-    "full_report_url": "./reports/plan_2026-10-22.html"
+    "full_report_url": "./reports/plan_2026-10-22.html",
+    "index_analysis": {
+      "turnover": "1.50万亿",
+      "turnover_change": "+222亿",
+      "up_count": 4273,
+      "down_count": 1149,
+      "zt_count": 93,
+      "dt_count": 25,
+      "broken_ratio": 17.0,
+      "degree": 19,
+      "status_text": "冰点 · 空仓观望",
+      "market_status": "极度冰点防守期",
+      "tech_summary": "上证指数与创业板指放量站稳 MA5/MA10 短期均线，多头排列初显；上方正逼近 20 日均线与前期套牢筹码密集区。连续普涨后次日面临首度获利盘洗盘分歧，操作上务必去弱留强，切忌早盘盲目追高跟风杂毛！",
+      "scenarios": [
+        {
+          "name": "情景 A · 放量突破主升 (概率 35%)",
+          "color": "emerald",
+          "pos": "4 ~ 6 成顺势加仓",
+          "premise": "早盘 9:35 半小时两市成交折算超 1.6 万亿，指数放量突破站稳关键压力线",
+          "action": "主攻机器人概念与光伏前排，锁定率先放量弱转强秒板与同题材首板助攻，顺势开仓",
+          "stop": "午后若炸板率激增至 25% 以上，立即停止新增开仓计划"
+        },
+        {
+          "name": "情景 B · 缩量冲高回落/窄幅分化 (概率 55% · 基准情景)",
+          "color": "amber",
+          "pos": "2 ~ 3 成精选试错",
+          "premise": "早盘冲高无量，全天两市成交萎缩至 1.4 万亿以下，板块轮动加快",
+          "action": "早盘 10:00 前坚决不追高！只在 10:00 后主线龙头分歧转一致回封时打板，或回踩 MA5 企稳时低吸中军",
+          "stop": "跌破分时黄线或盘中跳水翻绿立即离场"
+        },
+        {
+          "name": "情景 C · 跌停突增决裂防守 (概率 10% · 极端风险)",
+          "color": "rose",
+          "pos": "0 ~ 1 成绝对防守",
+          "premise": "开盘跌停家数快速突破 3 家，高位断板股大单焊死跌停且亏钱效应向主线蔓延",
+          "action": "触发系统级防守熔断！全天新仓计划全线作废，锁定 0 仓位，严禁任何抄底尝试！",
+          "stop": "全天坚决执行空仓纪律，严防飞刀"
+        }
+      ]
+    },
+    "mainline_matrix": [
+      {
+        "name": "机器人 / 智能制造",
+        "score": 92,
+        "stage": "主升初中期",
+        "tier": "核心强主线 (主攻方向)",
+        "count": 10,
+        "lead": "光洋股份 / 锋龙股份 / 华培动力 / 金杯汽车 / 日盈电子",
+        "guide": "新周期进攻核心，梯队最为庞大整齐（5只2连板）；9:25 集合竞价锁定率先弱转强、量比最大秒板者，果断打板介入，淘汰掉队者坚决不买。"
+      },
+      {
+        "name": "光伏 / 新能源电网",
+        "score": 88,
+        "stage": "分歧冲顶期",
+        "tier": "空间突破主线",
+        "count": 2,
+        "lead": "闽发铝业 (7板空间总龙) / 日出东方 (3板身位助攻)",
+        "guide": "全市场最高身位试金石所在；闽发铝业 9:25 放量高开换手轻仓试错，检验空间压制；若高开低走放量断板，坚决一票否决不接飞刀。"
+      },
+      {
+        "name": "AI算力 / 华为链 / 消费轮动",
+        "score": 80,
+        "stage": "低位启动/轮动",
+        "tier": "次主线与对冲分支",
+        "count": 6,
+        "lead": "东方嘉盛 / 吉大正元 (3板群) / 文投控股 (2板)",
+        "guide": "大资金结构性对冲分支；仅做早盘分歧转一致率先封板的换手板，绝不买后排跟风。"
+      }
+    ],
+    "action_timeline": [
+      {
+        "time": "09:15 - 09:25 · 盘前竞价定胜负",
+        "focus": "核验大盘量能预期与跌停开盘数；锁定 2进3 与 3进4 竞价量比最强者",
+        "pass_cond": "跌停家数 ≤ 3 家，闽发铝业 放量高开 +3%~+6% 且竞价量比 > 2.5",
+        "fail_cond": "跌停 > 5 家或空间龙竞价大幅低开 <-3%：全天新仓计划作废"
+      },
+      {
+        "time": "09:30 - 10:00 · 早盘冲锋去弱留强",
+        "focus": "机器人与光伏主线龙头分歧转一致秒板、梯队卡位淘汰赛胜出者",
+        "pass_cond": "主线率先出现放量换手秒板，分时黄线上方稳步换手",
+        "fail_cond": "开盘冲高无量回落或大面积炸板：10:00 前严禁盲目开新仓追高"
+      },
+      {
+        "time": "10:00 - 15:00 · 趋势低吸与尾盘守纪",
+        "focus": "容量中军回踩 5 日均线低吸点、可转债 T+0 日内止盈平仓、排查严重异动安全空间",
+        "pass_cond": "中军回踩 MA5 跌幅收窄放量企稳；转债 14:55 前清仓不隔夜",
+        "fail_cond": "单日亏损触及本金 2% 或个股跌破 EMA20 无条件止损，绝不扛单"
+      }
+    ]
   }
 }
