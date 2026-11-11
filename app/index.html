@@ -728,8 +728,8 @@
       background: rgba(230,0,18,0.10); color: #E60012; }
   
     /* ========================================================
-       机构级量化实战预案看板 (Institutional Quant Terminal)
-       遵循严谨、克制、低噪、无 Emoji、纯专业排版原则
+       经典量化复盘与预案终端配色 (Quant Terminal Signature Palette)
+       1:1 遵循用户截图：#161b22 底色 + #f85149 红表头 + #58a6ff 蓝标的 + #d29922 金黄状态
        ======================================================== */
     .strat-panel {
       padding-bottom: 32px;
@@ -738,8 +738,8 @@
       gap: 12px;
     }
     .strat-card {
-      background: var(--card);
-      border: 1px solid var(--border);
+      background: #161b22;
+      border: 1px solid #30363d;
       border-radius: 8px;
       padding: 14px 16px;
       position: relative;
@@ -749,65 +749,65 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 10px;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 8px;
     }
     .strat-section-title {
       font-size: 13.5px;
-      font-weight: 600;
-      color: #E6EDF3;
+      font-weight: 700;
+      color: #f85149;
       letter-spacing: -0.2px;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
     }
-    .strat-section-title::before {
-      content: "";
-      display: inline-block;
-      width: 3px;
-      height: 12px;
-      background: #58A6FF;
-      border-radius: 1px;
+    .strat-section-title.title-white {
+      color: #f0f6fc;
     }
-    .strat-section-title.title-rose::before { background: #F85149; }
-    .strat-section-title.title-amber::before { background: #D29922; }
-    .strat-section-title.title-emerald::before { background: #3FB950; }
+    .strat-section-title.title-blue {
+      color: #58a6ff;
+    }
+    .strat-section-title.title-amber {
+      color: #d29922;
+    }
 
     .strat-pos-tag {
       font-size: 11px;
       font-weight: 600;
       padding: 2px 8px;
       border-radius: 4px;
-      background: rgba(210, 153, 34, 0.12);
-      color: #E3B341;
-      border: 1px solid rgba(210, 153, 34, 0.28);
+      background: rgba(210, 153, 34, 0.15);
+      color: #d29922;
+      border: 1px solid rgba(210, 153, 34, 0.35);
       font-variant-numeric: tabular-nums;
     }
     .strat-pos-tag.pos-high {
-      background: rgba(63, 185, 80, 0.12);
-      color: #56D364;
-      border-color: rgba(63, 185, 80, 0.28);
+      background: rgba(63, 185, 80, 0.15);
+      color: #3fb950;
+      border-color: rgba(63, 185, 80, 0.35);
     }
     .strat-pos-tag.pos-melt {
-      background: rgba(248, 81, 73, 0.12);
-      color: #FF7B72;
-      border-color: rgba(248, 81, 73, 0.28);
+      background: rgba(248, 81, 73, 0.15);
+      color: #f85149;
+      border-color: rgba(248, 81, 73, 0.35);
     }
 
     .strat-copy-btn {
-      background: rgba(255, 255, 255, 0.04);
-      color: #8B949E;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: #1c2128;
+      color: #58a6ff;
+      border: 1px solid #30363d;
       border-radius: 4px;
       padding: 3px 9px;
       font-size: 11px;
-      font-weight: 500;
+      font-weight: 600;
       cursor: pointer;
       transition: all 0.15s ease;
       touch-action: manipulation;
     }
     .strat-copy-btn:hover, .strat-copy-btn:active {
-      background: rgba(255, 255, 255, 0.08);
-      color: #E6EDF3;
-      border-color: rgba(255, 255, 255, 0.2);
+      background: #21262d;
+      color: #79c0ff;
+      border-color: #58a6ff;
     }
 
     .strat-pill-group {
@@ -817,21 +817,22 @@
       margin-top: 8px;
     }
     .strat-micro-pill {
-      font-size: 10.5px;
-      color: #8B949E;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 1.5px 7px;
-      border-radius: 3px;
+      font-size: 11px;
+      color: #c9d1d9;
+      background: #1c2128;
+      border: 1px solid #30363d;
+      padding: 2px 8px;
+      border-radius: 4px;
       font-weight: 500;
     }
 
+    /* 指数微观 4 栏数据对账条 */
     .strat-ticker-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 1px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: #30363d;
+      border: 1px solid #30363d;
       border-radius: 6px;
       overflow: hidden;
       margin-bottom: 10px;
@@ -842,7 +843,7 @@
       }
     }
     .strat-ticker-cell {
-      background: #0E121A;
+      background: #1c2128;
       padding: 8px 10px;
       display: flex;
       flex-direction: column;
@@ -850,70 +851,72 @@
     }
     .strat-ticker-label {
       font-size: 10.5px;
-      color: #6E7681;
-      text-transform: uppercase;
-      letter-spacing: 0.3px;
+      color: #f85149;
+      font-weight: 600;
+      letter-spacing: 0.2px;
     }
     .strat-ticker-val {
       font-size: 13.5px;
       font-weight: 600;
-      color: #E6EDF3;
+      color: #f0f6fc;
       font-variant-numeric: tabular-nums;
     }
 
     .strat-note-block {
-      background: #0E121A;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-left: 2px solid #58A6FF;
+      background: #1c2128;
+      border: 1px solid #30363d;
+      border-left: 3px solid #58a6ff;
       border-radius: 4px;
       padding: 8px 10px;
       font-size: 11.5px;
       line-height: 1.6;
-      color: #8B949E;
+      color: #8b949e;
       margin-bottom: 10px;
     }
     .strat-note-block b {
-      color: #C9D1D9;
+      color: #58a6ff;
       font-weight: 600;
     }
 
+    /* 三大情景推演列表 */
     .strat-scenario-list {
       display: flex;
       flex-direction: column;
       gap: 6px;
     }
     .strat-sc-row {
-      background: #0E121A;
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-left: 2.5px solid #8B949E;
+      background: #1c2128;
+      border: 1px solid #30363d;
+      border-left: 3px solid #8b949e;
       border-radius: 4px;
       padding: 8px 10px;
       display: flex;
       flex-direction: column;
       gap: 4px;
     }
-    .strat-sc-row.sc-green { border-left-color: #3FB950; }
-    .strat-sc-row.sc-amber { border-left-color: #D29922; }
-    .strat-sc-row.sc-red { border-left-color: #F85149; }
+    .strat-sc-row.sc-green { border-left-color: #3fb950; }
+    .strat-sc-row.sc-amber { border-left-color: #d29922; }
+    .strat-sc-row.sc-red { border-left-color: #f85149; }
     .strat-sc-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .strat-sc-title {
-      font-size: 12px;
-      font-weight: 600;
-      color: #E6EDF3;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #f0f6fc;
     }
     .strat-sc-body {
-      font-size: 11px;
-      color: #8B949E;
+      font-size: 11.5px;
+      color: #8b949e;
       line-height: 1.5;
     }
 
+    /* 主线板块矩阵卡片 (高密度对账条风格) */
     .strat-ml-card {
-      background: #0E121A;
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: #1c2128;
+      border: 1px solid #30363d;
       border-radius: 6px;
       padding: 10px 12px;
       display: flex;
@@ -926,6 +929,7 @@
       align-items: center;
     }
 
+    /* 逐股实操指令卡 (Trader Action Cards) */
     .strat-stock-group {
       display: flex;
       flex-direction: column;
@@ -933,8 +937,8 @@
       margin-bottom: 10px;
     }
     .strat-stock-item {
-      background: #0E121A;
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: #1c2128;
+      border: 1px solid #30363d;
       border-radius: 6px;
       padding: 10px 12px;
       display: flex;
@@ -942,8 +946,8 @@
       gap: 6px;
     }
     .strat-stock-item.is-black {
-      background: rgba(248, 81, 73, 0.04);
-      border-color: rgba(248, 81, 73, 0.2);
+      background: rgba(248, 81, 73, 0.05);
+      border-color: rgba(248, 81, 73, 0.35);
     }
     .strat-stock-header {
       display: flex;
@@ -952,85 +956,91 @@
     }
     .strat-stock-name {
       font-size: 14.5px;
-      font-weight: 600;
-      color: #E6EDF3;
+      font-weight: 700;
+      color: #58a6ff; /* 截图经典标的蓝 */
     }
     .strat-stock-code {
       font-size: 11px;
-      color: #6E7681;
+      color: #8b949e;
       font-variant-numeric: tabular-nums;
       margin-left: 4px;
     }
     .strat-stock-badge {
-      font-size: 10.5px;
-      color: #8B949E;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 1px 5px;
+      font-size: 11px;
+      color: #d29922; /* 截图状态金黄 */
+      background: rgba(210, 153, 34, 0.12);
+      border: 1px solid rgba(210, 153, 34, 0.25);
+      padding: 1px 6px;
       border-radius: 3px;
       margin-left: 6px;
+      font-weight: 600;
     }
     .strat-stock-action-box {
-      background: rgba(0, 0, 0, 0.2);
+      background: #141922;
+      border: 1px solid #21262d;
       border-radius: 4px;
-      padding: 6px 8px;
+      padding: 7px 9px;
       display: flex;
       flex-direction: column;
       gap: 4px;
       font-size: 11.5px;
-      line-height: 1.5;
+      line-height: 1.55;
     }
     .strat-action-tag {
       display: inline-block;
-      font-size: 10px;
-      font-weight: 600;
-      padding: 1px 4px;
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 1px 5px;
       border-radius: 3px;
       margin-right: 6px;
       letter-spacing: 0.2px;
     }
     .tag-buy {
       background: rgba(88, 166, 255, 0.15);
-      color: #79C0FF;
-      border: 1px solid rgba(88, 166, 255, 0.3);
+      color: #58a6ff;
+      border: 1px solid rgba(88, 166, 255, 0.35);
     }
     .tag-stop {
       background: rgba(248, 81, 73, 0.15);
-      color: #FFA198;
-      border: 1px solid rgba(248, 81, 73, 0.3);
+      color: #f85149;
+      border: 1px solid rgba(248, 81, 73, 0.35);
     }
     .tag-forbid {
-      background: rgba(248, 81, 73, 0.2);
-      color: #FF7B72;
-      border: 1px solid rgba(248, 81, 73, 0.4);
+      background: rgba(248, 81, 73, 0.25);
+      color: #ff7b72;
+      border: 1px solid rgba(248, 81, 73, 0.5);
     }
     .strat-stock-meta {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 10.5px;
-      color: #6E7681;
+      font-size: 11px;
+      color: #8b949e;
       font-variant-numeric: tabular-nums;
     }
 
+    /* 决战时刻表格 (1:1 复刻截图中的 #1c2128 + #f85149 表头) */
     .strat-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 11px;
-    }
-    .strat-table th {
-      background: #0E121A;
-      color: #6E7681;
-      font-weight: 500;
-      padding: 6px 8px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 11.5px;
       text-align: left;
     }
+    .strat-table thead tr {
+      background: #1c2128;
+      border-bottom: 1px solid #30363d;
+    }
+    .strat-table th {
+      padding: 8px 10px;
+      color: #f85149; /* 截图经典红表头 */
+      font-weight: 700;
+      white-space: nowrap;
+    }
     .strat-table td {
-      padding: 7px 8px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-      color: #8B949E;
-      line-height: 1.45;
+      padding: 8px 10px;
+      border-bottom: 1px solid #21262d;
+      color: #8b949e;
+      line-height: 1.5;
     }
 </style>
 </head>
@@ -1268,22 +1278,22 @@
     <section id="pane-strategy" class="tab-pane strat-panel">
       
       <!-- 1. 防守熔断/分歧预警横幅 (默认隐藏) -->
-      <div id="plan-melt-box" style="display:none; background:rgba(248,81,73,0.08); border:1px solid rgba(248,81,73,0.3); border-radius:6px; padding:8px 12px; align-items:center; justify-content:space-between; gap:10px;">
+      <div id="plan-melt-box" style="display:none; background:rgba(248,81,73,0.1); border:1px solid #f85149; border-radius:6px; padding:8px 12px; align-items:center; justify-content:space-between; gap:10px;">
       </div>
 
       <!-- 2. 实战推演与交易预案核心总指挥 -->
       <div class="strat-card">
         <div class="strat-header-row">
-          <div class="strat-section-title" id="plan-title">实战推演与交易预案</div>
+          <div class="strat-section-title" id="plan-title">明日实战推演与预案</div>
           <div style="display:flex; align-items:center; gap:8px;">
             <span id="plan-pos-badge" class="strat-pos-tag">建议仓位: --</span>
             <button type="button" class="strat-copy-btn" onclick="copyMorningCardText()" title="复制操盘卡片">复制卡片</button>
           </div>
         </div>
-        <div style="font-size:13px; font-weight:500; color:#E6EDF3; line-height:1.55;" id="plan-slogan">--</div>
+        <div style="font-size:13.5px; font-weight:600; color:#f0f6fc; line-height:1.55;" id="plan-slogan">--</div>
         <div class="strat-pill-group">
           <span class="strat-micro-pill">去弱留强</span>
-          <span class="strat-micro-pill">均线支撑低吸</span>
+          <span class="strat-micro-pill">均线低吸</span>
           <span class="strat-micro-pill">破位一票否决</span>
         </div>
       </div>
@@ -1292,7 +1302,7 @@
       <div class="strat-card">
         <div class="strat-header-row">
           <div class="strat-section-title">宏观全景与多空推演</div>
-          <span id="plan-index-market-status" style="font-size:11px; color:#58A6FF; font-weight:500;">--</span>
+          <span id="plan-index-market-status" style="font-size:11.5px; color:#58a6ff; font-weight:600;">--</span>
         </div>
         
         <!-- 指数微观 4 栏数据对账条 -->
@@ -1304,7 +1314,7 @@
         </div>
 
         <!-- 明日三大情景推演 -->
-        <div style="font-size:11.5px; font-weight:600; color:#8B949E; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.3px;">
+        <div style="font-size:11.5px; font-weight:700; color:#f85149; margin-bottom:6px; letter-spacing:0.2px;">
           三大情景推演与应变方案
         </div>
         <div id="plan-index-scenarios" class="strat-scenario-list">
@@ -1314,8 +1324,8 @@
       <!-- 4. 主线强度追踪与多板块作战矩阵 -->
       <div class="strat-card">
         <div class="strat-header-row">
-          <div class="strat-section-title title-amber">主线强度追踪与板块矩阵</div>
-          <button type="button" class="strat-copy-btn" onclick="currentReportType='mainline'; openReportModal();">主线研报原篇 →</button>
+          <div class="strat-section-title">主线强度追踪与板块矩阵</div>
+          <button type="button" class="strat-copy-btn" onclick="currentReportType='mainline'; openReportModal();">主线大报告原篇 →</button>
         </div>
         <div id="plan-mainline-matrix-box" style="display:flex; flex-direction:column; gap:8px;">
         </div>
@@ -1324,8 +1334,8 @@
       <!-- 5. 核心标的多梯队作战指令卡 -->
       <div class="strat-card">
         <div class="strat-header-row">
-          <div class="strat-section-title title-emerald" id="plan-stocks-heading">核心标的交易指令</div>
-          <span id="plan-stocks-mode-tag" style="font-size:11px; color:#8B949E;">量化执行 · 绝无空洞观察</span>
+          <div class="strat-section-title" id="plan-stocks-heading">核心标的交易指令 (逐股实操)</div>
+          <span id="plan-stocks-mode-tag" style="font-size:11px; color:#d29922; font-weight:600;">量化执行 · 绝无空洞观察</span>
         </div>
         <div id="plan-baotuan-stocks" style="display:flex; flex-direction:column; gap:10px;"></div>
       </div>
@@ -1362,44 +1372,44 @@
       <!-- 8. 断板避雷池 -->
       <div class="strat-card">
         <div class="strat-header-row">
-          <div class="strat-section-title title-rose">不追名单 · 避雷池</div>
-          <span style="font-size:10.5px; color:#8B949E;">反包率极低 · 严禁接飞刀</span>
+          <div class="strat-section-title">不追名单 · 断板避雷池</div>
+          <span style="font-size:11px; color:#d29922; font-weight:600;">次日反包率仅 7.6% · 严禁接飞刀</span>
         </div>
         <div id="plan-avoid-list" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
       </div>
 
       <!-- 9. 严重异动安全雷达 & 工具 -->
-      <details class="strat-card" style="background:#0E121A;">
-        <summary style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; font-size:12px; font-weight:600; color:#8B949E; padding:2px 0;">
-          <span>严重异动涨幅安全空间速算 (10日100% / 30日200%)</span>
-          <span style="font-size:11px; color:#6E7681;">展开测算 ▾</span>
+      <details class="strat-card">
+        <summary style="cursor:pointer; display:flex; justify-content:space-between; align-items:center; font-size:12px; font-weight:600; color:#8b949e; padding:2px 0;">
+          <span style="color:#f0f6fc;">严重异动安全空间 (10日100% / 30日200%) & 速算器</span>
+          <span style="font-size:11px; color:#d29922;">展开测算 ▾</span>
         </summary>
-        <div style="margin-top:10px; padding-top:10px; border-top:1px solid rgba(255,255,255,0.06);">
+        <div style="margin-top:10px; padding-top:10px; border-top:1px solid #21262d;">
           <div id="plan-abnormal-radar-list" style="display:flex; flex-direction:column; gap:6px;">
             <div style="font-size:11px; color:var(--muted); text-align:center; padding:8px;">正在加载异动数据...</div>
           </div>
-          <div style="margin-top:10px; background:#0B0E14; border:1px solid var(--border); border-radius:6px; padding:8px 10px;">
+          <div style="margin-top:10px; background:#1c2128; border:1px solid #30363d; border-radius:6px; padding:8px 10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:600; color:#C9D1D9;">次日涨幅模拟测算</span>
+              <span style="font-size:11px; font-weight:600; color:#58a6ff;">次日涨幅模拟测算</span>
             </div>
             <div style="display:flex; gap:6px; margin-bottom:6px;">
-              <input type="text" id="calc-stock-input" placeholder="输入10日涨幅%(如65)或代码" style="flex:1; background:var(--card); border:1px solid var(--border); border-radius:4px; padding:5px 8px; color:#FFF; font-size:11px;">
-              <select id="calc-limit-type" style="background:var(--card); border:1px solid var(--border); border-radius:4px; padding:5px 8px; color:#FFF; font-size:11px;">
+              <input type="text" id="calc-stock-input" placeholder="输入10日涨幅%(如65)或代码" style="flex:1; background:#141922; border:1px solid #30363d; border-radius:4px; padding:5px 8px; color:#FFF; font-size:11px;">
+              <select id="calc-limit-type" style="background:#141922; border:1px solid #30363d; border-radius:4px; padding:5px 8px; color:#FFF; font-size:11px;">
                 <option value="10">主板 (+10%)</option>
                 <option value="20">创业/科创 (+20%)</option>
               </select>
-              <button onclick="calculateAbnormalQuick()" style="background:rgba(255,255,255,0.08); color:#E6EDF3; border:1px solid rgba(255,255,255,0.12); border-radius:4px; padding:0 10px; font-size:11px; cursor:pointer;">测算</button>
+              <button onclick="calculateAbnormalQuick()" style="background:#1c2128; color:#58a6ff; border:1px solid #30363d; border-radius:4px; padding:0 10px; font-size:11px; font-weight:600; cursor:pointer;">测算</button>
             </div>
-            <div id="calc-result-box" style="font-size:11px; color:var(--muted); line-height:1.5; display:none; background:rgba(255,255,255,0.02); padding:6px 8px; border-radius:4px; border:1px dashed rgba(255,255,255,0.1);">
+            <div id="calc-result-box" style="font-size:11px; color:var(--muted); line-height:1.5; display:none; background:rgba(88,166,255,0.05); padding:6px 8px; border-radius:4px; border:1px dashed #30363d;">
             </div>
           </div>
         </div>
       </details>
 
       <!-- 10. 底部风控线 -->
-      <div style="background:#0E121A; border:1px solid rgba(248,81,73,0.15); border-left:2px solid #F85149; border-radius:6px; padding:10px 12px;">
-        <div style="font-size:11.5px; font-weight:600; color:#F85149;">量化风控纪律底线</div>
-        <div style="font-size:11px; color:#8B949E; margin-top:3px; line-height:1.55;" id="plan-defense">
+      <div style="background:#1c2128; border:1px solid #30363d; border-left:3px solid #f85149; border-radius:6px; padding:10px 12px;">
+        <div style="font-size:12px; font-weight:700; color:#f85149;">量化风控纪律底线</div>
+        <div style="font-size:11.5px; color:#8b949e; margin-top:3px; line-height:1.55;" id="plan-defense">
           单日亏损触及本金 2% 或个股跌破分时均线/EMA20 支撑无条件触发止损纪律，严禁扛单与盲目补仓！
         </div>
       </div>
@@ -3030,13 +3040,13 @@
       resBox.innerHTML = verdict;
     }
 
-        function renderStrategy(strategy) {
+            function renderStrategy(strategy) {
       if (!strategy) return;
       window.__CURRENT_MORNING_CARD__ = strategy.morning_card || '';
 
       // 1. 标题与建议仓位
       const titleEl = document.getElementById('plan-title');
-      if (titleEl) titleEl.textContent = strategy.title || '实战推演与交易预案';
+      if (titleEl) titleEl.textContent = strategy.title || '明日实战推演与预案';
       const posBadge = document.getElementById('plan-pos-badge');
       if (posBadge) {
         const posText = strategy.recommended_position || '--';
@@ -3056,10 +3066,10 @@
         if (strategy.is_melt) {
           meltBox.style.display = 'flex';
           meltBox.innerHTML = `
-            <div style="font-size:12px; font-weight:600; color:#FF7B72;">
+            <div style="font-size:12px; font-weight:700; color:#f85149;">
               ${strategy.melt_text || '分歧熔断生效：严控 0~1 成仓位 · 严禁接飞刀抄底'}
             </div>
-            <span style="background:rgba(248,81,73,0.2); color:#FF7B72; border:1px solid rgba(248,81,73,0.3); padding:1px 6px; border-radius:3px; font-size:10px; font-weight:600;">
+            <span style="background:rgba(248,81,73,0.15); color:#f85149; border:1px solid #f85149; padding:1px 6px; border-radius:3px; font-size:10px; font-weight:700;">
               防守状态
             </span>
           `;
@@ -3095,19 +3105,19 @@
         kpisBox.innerHTML = `
           <div class="strat-ticker-cell">
             <span class="strat-ticker-label">两市总成交额</span>
-            <span class="strat-ticker-val">${toVal} <small style="font-size:10px; color:#7EE787; font-weight:normal;">(${toChg})</small></span>
+            <span class="strat-ticker-val" style="color:#58a6ff;">${toVal} <small style="font-size:10px; color:#3fb950; font-weight:normal;">(${toChg})</small></span>
           </div>
           <div class="strat-ticker-cell">
             <span class="strat-ticker-label">多空分布</span>
-            <span class="strat-ticker-val"><span style="color:#F85149;">涨 ${upNum}</span> / <span style="color:#56D364;">跌 ${dnNum}</span></span>
+            <span class="strat-ticker-val"><span style="color:#f85149;">涨 ${upNum}</span> / <span style="color:#3fb950;">跌 ${dnNum}</span></span>
           </div>
           <div class="strat-ticker-cell">
             <span class="strat-ticker-label">极值涨跌停</span>
-            <span class="strat-ticker-val"><span style="color:#F85149;">停 ${ztNum}</span> / <span style="color:#56D364;">跌 ${dtNum}</span> <small style="font-size:10px; color:#8B949E; font-weight:normal;">(炸${brVal}%)</small></span>
+            <span class="strat-ticker-val"><span style="color:#f85149;">停 ${ztNum}</span> / <span style="color:#3fb950;">跌 ${dtNum}</span> <small style="font-size:10px; color:#d29922; font-weight:normal;">(炸${brVal}%)</small></span>
           </div>
           <div class="strat-ticker-cell">
             <span class="strat-ticker-label">指数综合研判</span>
-            <span class="strat-ticker-val" style="color:#E6EDF3; font-size:12.5px;">均线支撑多头反弹</span>
+            <span class="strat-ticker-val" style="color:#d29922; font-size:12.5px;">均线支撑多头反弹</span>
           </div>
         `;
       }
@@ -3156,19 +3166,19 @@
             <div class="strat-sc-row ${rowClass}">
               <div class="strat-sc-top">
                 <span class="strat-sc-title">${sc.name}</span>
-                <span style="font-size:11px; font-weight:600; color:#C9D1D9; font-variant-numeric:tabular-nums;">${sc.pos}</span>
+                <span style="font-size:11px; font-weight:700; color:#d29922; font-variant-numeric:tabular-nums;">${sc.pos}</span>
               </div>
               <div class="strat-sc-body">
-                <div><span style="color:#6E7681;">条件：</span>${sc.premise}</div>
-                <div><span style="color:#6E7681;">实操：</span><span style="color:#C9D1D9;">${sc.action}</span></div>
-                <div><span style="color:#6E7681;">风控：</span><span style="color:#8B949E;">${sc.stop}</span></div>
+                <div><span style="color:#f85149; font-weight:600;">条件：</span>${sc.premise}</div>
+                <div><span style="color:#58a6ff; font-weight:600;">实操：</span><span style="color:#f0f6fc;">${sc.action}</span></div>
+                <div><span style="color:#d29922; font-weight:600;">风控：</span><span style="color:#8b949e;">${sc.stop}</span></div>
               </div>
             </div>
           `;
         }).join('');
       }
 
-      // 5. 主线强度追踪与多板块作战矩阵
+      // 5. 主线强度追踪与多板块作战矩阵 (1:1 融入截图的高对比度代表标的与战法风格)
       const mlBox = document.getElementById('plan-mainline-matrix-box');
       if (mlBox) {
         const mlList = strategy.mainline_matrix || [
@@ -3205,24 +3215,24 @@
             <div class="strat-ml-card">
               <div class="strat-ml-title-row">
                 <div style="display:flex; align-items:center; gap:6px;">
-                  <span style="font-size:10.5px; color:#8B949E; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); padding:1px 5px; border-radius:3px;">${m.tier}</span>
-                  <b style="font-size:13.5px; color:#E6EDF3;">${m.name}</b>
-                  <span style="font-size:11px; color:#6E7681;">${m.stage}</span>
+                  <span style="font-size:11px; font-weight:700; color:#f0f6fc; background:#141922; border:1px solid #30363d; padding:1px 6px; border-radius:3px;">${m.tier}</span>
+                  <b style="font-size:14px; color:#f0f6fc;">${m.name}</b>
+                  <span style="font-size:11px; color:#d29922;">${m.stage}</span>
                 </div>
-                <div style="font-size:12.5px; font-weight:600; color:#E3B341; font-variant-numeric:tabular-nums;">
+                <div style="font-size:12.5px; font-weight:700; color:#d29922; font-variant-numeric:tabular-nums;">
                   强度: ${m.score}分
                 </div>
               </div>
-              <div style="font-size:11.5px; color:#8B949E; line-height:1.5;">
-                <div><span style="color:#6E7681;">梯队核心：</span><span style="color:#C9D1D9;">${m.lead}</span></div>
-                <div style="margin-top:3px; color:#8B949E;"><span style="color:#6E7681;">操盘战法：</span>${m.guide}</div>
+              <div style="font-size:12px; line-height:1.55;">
+                <div><span style="color:#f85149; font-weight:600;">梯队核心：</span><span style="color:#58a6ff; font-weight:700;">${m.lead}</span></div>
+                <div style="margin-top:4px; color:#8b949e;"><span style="color:#d29922; font-weight:600;">操盘战法：</span>${m.guide}</div>
               </div>
             </div>
           `;
         }).join('');
       }
 
-      // 6. 核心标的多梯队作战指令卡 (Trader Action Cards)
+      // 6. 核心标的多梯队作战指令卡 (Trader Action Cards · 标的电光蓝，状态金黄)
       const bStocksBox = document.getElementById('plan-baotuan-stocks');
       if (bStocksBox) {
         const sList = strategy.baotuan_stock_targets || [];
@@ -3242,28 +3252,28 @@
                       <span class="strat-stock-badge">${d.badge || ''}</span>
                     </div>
                     <div style="font-variant-numeric:tabular-nums;">
-                      <span style="font-size:13px; font-weight:600; color:#E6EDF3;">${d.latest_close || ''}</span>
-                      <span style="font-size:11.5px; font-weight:600; color:${isDanger ? '#56D364' : '#F85149'}; margin-left:4px;">${d.r1_pct || ''}</span>
+                      <span style="font-size:13.5px; font-weight:700; color:#f0f6fc;">${d.latest_close || ''}</span>
+                      <span style="font-size:12px; font-weight:700; color:${isDanger ? '#3fb950' : '#f85149'}; margin-left:4px;">${d.r1_pct || ''}</span>
                     </div>
                   </div>
 
                   <div class="strat-stock-action-box">
                     <div>
                       <span class="strat-action-tag ${isDanger ? 'tag-forbid' : 'tag-buy'}">${isDanger ? '风控禁令' : '买点触发'}</span>
-                      <span style="color:${isDanger ? '#FFA198' : '#C9D1D9'};">${d.buy_trigger || '--'}</span>
+                      <span style="color:${isDanger ? '#f85149' : '#58a6ff'}; font-weight:600;">${d.buy_trigger || '--'}</span>
                     </div>
                     <div>
                       <span class="strat-action-tag tag-stop">止损红线</span>
-                      <span style="color:#8B949E;">${d.stop_loss || '--'}</span>
+                      <span style="color:#8b949e;">${d.stop_loss || '--'}</span>
                     </div>
                   </div>
 
                   <div class="strat-stock-meta">
                     <div>
-                      <span>MA5: <span style="color:#C9D1D9;">${d.ma5_px || '--'}</span></span>
-                      <span style="margin-left:8px;">安全垫: <span style="color:#C9D1D9;">${d.boards_left_str || '--'}</span></span>
+                      <span>MA5: <span style="color:#f0f6fc;">${d.ma5_px || '--'}</span></span>
+                      <span style="margin-left:10px;">安全垫: <span style="color:#58a6ff; font-weight:600;">${d.boards_left_str || '--'}</span></span>
                     </div>
-                    <div>${d.judgment ? `研判: ${d.judgment}` : ''}</div>
+                    <div style="color:#d29922; font-weight:600;">${d.judgment ? `研判: ${d.judgment}` : ''}</div>
                   </div>
                 </div>
               `;
@@ -3272,8 +3282,8 @@
             return `
               <div class="strat-stock-group">
                 <div style="display:flex; justify-content:space-between; align-items:center; padding:0 2px;">
-                  <span style="font-size:12.5px; font-weight:600; color:#E6EDF3;">${s.role.replace(/【|】/g, '')}</span>
-                  <span style="font-size:11px; color:#8B949E;">建议仓位: ${s.pos || '--'}</span>
+                  <span style="font-size:13px; font-weight:700; color:#f0f6fc;">${s.role.replace(/【|】/g, '')}</span>
+                  <span style="font-size:11.5px; color:#d29922; font-weight:600;">建议仓位: ${s.pos || '--'}</span>
                 </div>
                 ${cardsHtml}
               </div>
@@ -3297,21 +3307,21 @@
                     <span class="strat-stock-code">${c.bond_code || ''}</span>
                     <span class="strat-stock-badge">${c.role.replace(/【|】/g, '')}</span>
                   </div>
-                  <div style="font-size:11.5px; color:#8B949E;">
-                    正股: <span style="color:#E6EDF3;">${c.stock_name}</span> (${c.stock_pct || '--'})
+                  <div style="font-size:12px; color:#8b949e;">
+                    正股: <span style="color:#58a6ff; font-weight:600;">${c.stock_name}</span> (${c.stock_pct || '--'})
                   </div>
                 </div>
 
                 <div class="strat-stock-action-box">
                   <div>
                     <span class="strat-action-tag ${isBlack ? 'tag-forbid' : 'tag-buy'}">${isBlack ? '风控' : 'T+0 指令'}</span>
-                    <span style="color:#C9D1D9;">${c.action || '--'}</span>
+                    <span style="color:#f0f6fc;">${c.action || '--'}</span>
                   </div>
                 </div>
 
                 <div class="strat-stock-meta">
                   <span>${c.bond_metrics || ''}</span>
-                  <span style="color:#8B949E;">止损: ${c.stop || '--'}</span>
+                  <span style="color:#f85149; font-weight:600;">止损: ${c.stop || '--'}</span>
                 </div>
               </div>
             `;
@@ -3319,7 +3329,7 @@
         }
       }
 
-      // 8. 盘中实战攻防三大核心时刻
+      // 8. 盘中实战攻防三大核心时刻 (1:1 截图中的红表头对账表)
       const checkTable = document.getElementById('plan-checklist-table');
       if (checkTable) {
         const cks = strategy.action_timeline || strategy.checklist || [
@@ -3344,10 +3354,10 @@
         ];
         checkTable.innerHTML = cks.map(c => `
           <tr>
-            <td style="font-weight:600; color:#E6EDF3; white-space:nowrap;">${c.time}</td>
-            <td>${c.focus}</td>
-            <td style="color:#C9D1D9;">${c.pass_cond}</td>
-            <td style="color:#8B949E;">${c.fail_cond}</td>
+            <td style="font-weight:700; color:#f0f6fc; white-space:nowrap;">${c.time}</td>
+            <td style="color:#58a6ff; font-weight:500;">${c.focus}</td>
+            <td style="color:#d29922;">${c.pass_cond}</td>
+            <td style="color:#f85149;">${c.fail_cond}</td>
           </tr>
         `).join('');
       }
@@ -3357,8 +3367,8 @@
       if (avoidBox) {
         const avList = strategy.avoid_broken_stocks || ['东方嘉盛 / 润贝航科 (高位断板跌停 · 次日反包率极低，主力出逃诱多概率极大)'];
         avoidBox.innerHTML = avList.map(a => `
-          <div style="font-size:11.5px; color:#8B949E; background:#0E121A; border:1px solid rgba(248,81,73,0.18); border-radius:4px; padding:4px 8px;">
-            ${a}
+          <div style="font-size:11.5px; color:#8b949e; background:#1c2128; border:1px solid rgba(248,81,73,0.3); border-radius:4px; padding:5px 9px;">
+            <span style="color:#f85149; font-weight:600;">断板风险：</span>${a}
           </div>
         `).join('');
       }
@@ -3369,16 +3379,16 @@
       if (radarBox) {
         if (abnormalList.length > 0) {
           radarBox.innerHTML = abnormalList.map(item => `
-            <div style="background:#0B0E14; border:1px solid var(--border); border-radius:4px; padding:6px 8px; display:flex; justify-content:space-between; align-items:center; font-size:11px;">
+            <div style="background:#141922; border:1px solid #30363d; border-radius:4px; padding:6px 8px; display:flex; justify-content:space-between; align-items:center; font-size:11.5px;">
               <div>
-                <b style="color:#E6EDF3;">${item.name}</b> <span style="color:#6E7681;">${item.code || ''}</span>
-                <span style="color:#8B949E; margin-left:6px;">10日涨幅: ${item.r10_pct || '--'}%</span>
+                <b style="color:#58a6ff;">${item.name}</b> <span style="color:#8b949e;">${item.code || ''}</span>
+                <span style="color:#d29922; margin-left:6px;">10日涨幅: ${item.r10_pct || '--'}%</span>
               </div>
-              <div style="color:#C9D1D9;">安全垫: ${item.safety_boards || '--'}</div>
+              <div style="color:#f0f6fc;">安全垫: ${item.safety_boards || '--'}</div>
             </div>
           `).join('');
         } else {
-          radarBox.innerHTML = '<div style="font-size:11px; color:#6E7681; text-align:center; padding:6px;">暂无严重异动预警标的</div>';
+          radarBox.innerHTML = '<div style="font-size:11px; color:#8b949e; text-align:center; padding:6px;">暂无严重异动预警标的</div>';
         }
       }
 
@@ -4334,7 +4344,7 @@
     }
 
     // ================= 后台静默 OTA 热更新引擎 (数据 + 界面双通道自动升级) =================
-    const APP_UI_BUILD = '1.2.62cc160195';
+    const APP_UI_BUILD = '1.2.fd3bb6a281';
     let _otaChecking = false;
 
     async function checkCloudOTAUpdate(silent = true) {
