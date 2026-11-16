@@ -1,16 +1,28 @@
 [
   {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "degree": 19,
     "status": "极度冰点期",
     "color_tag": "emerald",
     "turnover": "1.48万亿",
-    "zt_count": 37,
-    "dt_count": 33,
-    "top_stock": "天普股份",
+    "zt_count": 32,
+    "dt_count": 60,
+    "top_stock": "北纬科技",
     "max_height": "5板",
     "position": "0 仓位 · 风向标观察",
     "is_latest": true
+  },
+  {
+    "date": "2026-11-16",
+    "degree": 2,
+    "status": "冰点 · 空仓观望",
+    "color_tag": "emerald",
+    "turnover": "1.85万亿",
+    "zt_count": 32,
+    "dt_count": 60,
+    "top_stock": "北纬科技",
+    "max_height": "4板",
+    "position": "0-2成"
   },
   {
     "date": "2026-11-13",
@@ -202,7 +214,7 @@
     "dt_count": 6,
     "top_stock": "吉大正元",
     "max_height": "4板",
-    "position": "4 ~ 6 成仓"
+    "position": "5 ~ 7 成顺势进攻"
   },
   {
     "date": "2026-10-20",
@@ -358,18 +370,6 @@
     "dt_count": 3,
     "top_stock": "华瓷股份",
     "max_height": "6板",
-    "position": "0 ~ 2 成轻仓"
-  },
-  {
-    "date": "2026-09-21",
-    "degree": 87,
-    "status": "亢奋 · 主升",
-    "color_tag": "rose",
-    "turnover": "1.85万亿",
-    "zt_count": 1103,
-    "dt_count": 2,
-    "top_stock": "--",
-    "max_height": "5板",
-    "position": "4 ~ 6 成仓"
+    "position": "2 ~ 4 成轮动试错"
   }
 ]

@@ -1,10 +1,10 @@
 window.__INITIAL_BUNDLE__ = {
   "meta": {
     "version": "1.3.0",
-    "updated_at": "2026-11-16 15:50:16",
-    "date": "2026-11-16",
-    "report_date": "2026-11-16",
-    "target_date": "2026-11-16",
+    "updated_at": "2026-11-17 00:45:01",
+    "date": "2026-11-17",
+    "report_date": "2026-11-17",
+    "target_date": "2026-11-17",
     "sources": [
       "开盘啦(6.1.6)",
       "财联社(8.5.4)",
@@ -34,7 +34,7 @@ window.__INITIAL_BUNDLE__ = {
       "zt_panorama": "财联社(8.5.4)",
       "plate_detail": "财联社(8.5.4)",
       "up_reason": "财联社(8.5.4)",
-      "anchor": "财联社(8.5.4)",
+      "anchor": "",
       "trading_days": "财联社(8.5.4)",
       "extra": "财联社(8.5.4)"
     },
@@ -48,10 +48,10 @@ window.__INITIAL_BUNDLE__ = {
     "turnover_change": "-1712亿",
     "up_count": 1136,
     "down_count": 4344,
-    "zt_count": 37,
-    "dt_count": 33,
-    "broken_ratio": 36.2,
-    "yesterday_zt_perf": -1.535,
+    "zt_count": 32,
+    "dt_count": 60,
+    "broken_ratio": 33.3,
+    "yesterday_zt_perf": 0.871,
     "distribution_bins": {
       "up_num": 33,
       "up_10": 43,
@@ -69,389 +69,363 @@ window.__INITIAL_BUNDLE__ = {
     },
     "tianti_stocks": [
       {
-        "code": "605255",
-        "symbol": "sh605255",
-        "name": "天普股份",
-        "height": 4,
-        "first_limit_time": 1794533434,
-        "plate_code": "801787",
-        "plate_name": "实控人变更",
-        "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 2,
-        "float_market_val": 9897785600,
-        "total_market_val": 282770999
-      },
-      {
         "code": "002148",
         "symbol": "sz002148",
         "name": "北纬科技",
-        "height": 3,
-        "first_limit_time": 1794533400,
+        "height": 4,
+        "first_limit_time": 1794792300,
         "plate_code": "801095",
         "plate_name": "游戏",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 2,
-        "float_market_val": 4442073074,
-        "total_market_val": 900335522
-      },
-      {
-        "code": "603396",
-        "symbol": "sh603396",
-        "name": "金辰股份",
-        "height": 3,
-        "first_limit_time": 1794533444,
-        "plate_code": "801070",
-        "plate_name": "光伏",
-        "is_first_board": false,
-        "status_mark": 0,
-        "limit_days": 1,
-        "float_market_val": 4892790523,
-        "total_market_val": 694389124
-      },
-      {
-        "code": "001358",
-        "symbol": "sz001358",
-        "name": "兴欣新材",
-        "height": 2,
-        "first_limit_time": 1794533100,
-        "plate_code": "801001",
-        "plate_name": "芯片",
-        "is_first_board": true,
-        "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 3282048000,
-        "total_market_val": 617947761
-      },
-      {
-        "code": "600467",
-        "symbol": "sh600467",
-        "name": "好当家",
-        "height": 2,
-        "first_limit_time": 1794533150,
-        "plate_code": "801464",
-        "plate_name": "农业",
-        "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 3,
-        "float_market_val": 3988514450,
-        "total_market_val": 1665517601
+        "float_market_val": 4889074138,
+        "total_market_val": 2458032892
       },
       {
         "code": "002187",
         "symbol": "sz002187",
         "name": "广百股份",
-        "height": 2,
-        "first_limit_time": 1794533100,
+        "height": 3,
+        "first_limit_time": 1794792603,
         "plate_code": "801053",
         "plate_name": "零售",
         "is_first_board": false,
-        "status_mark": 0,
-        "limit_days": 1,
-        "float_market_val": 4885235592,
-        "total_market_val": 778638369
+        "status_mark": 1,
+        "limit_days": 3,
+        "float_market_val": 5375861835,
+        "total_market_val": 900641072
       },
       {
         "code": "002205",
         "symbol": "sz002205",
         "name": "国统股份",
-        "height": 2,
-        "first_limit_time": 1794533814,
+        "height": 3,
+        "first_limit_time": 1794792885,
         "plate_code": "801270",
         "plate_name": "基础建设",
         "is_first_board": false,
         "status_mark": 0,
         "limit_days": 1,
-        "float_market_val": 2402952938,
-        "total_market_val": 370907549
-      },
-      {
-        "code": "600715",
-        "symbol": "sh600715",
-        "name": "文投控股",
-        "height": 1,
-        "first_limit_time": 1794533440,
-        "plate_code": "801031",
-        "plate_name": "文化传媒",
-        "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 13803501900,
-        "total_market_val": 5996462160
+        "float_market_val": 2642690702,
+        "total_market_val": 520179176
       },
       {
         "code": "002905",
         "symbol": "sz002905",
         "name": "金逸影视",
-        "height": 1,
-        "first_limit_time": 1794533532,
+        "height": 2,
+        "first_limit_time": 1794792300,
         "plate_code": "801031",
         "plate_name": "文化传媒",
-        "is_first_board": false,
+        "is_first_board": true,
         "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 3725568000,
-        "total_market_val": 5996462160
+        "limit_days": 5,
+        "float_market_val": 4098124800,
+        "total_market_val": 6440023639
       },
       {
-        "code": "603103",
-        "symbol": "sh603103",
-        "name": "横店影视",
-        "height": 1,
-        "first_limit_time": 1794533585,
+        "code": "600715",
+        "symbol": "sh600715",
+        "name": "文投控股",
+        "height": 2,
+        "first_limit_time": 1794792624,
         "plate_code": "801031",
         "plate_name": "文化传媒",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 12246402000,
-        "total_market_val": 5996462160
+        "limit_days": 5,
+        "float_market_val": 15183852090,
+        "total_market_val": 6440023639
       },
       {
-        "code": "000665",
-        "symbol": "sz000665",
-        "name": "湖北广电",
-        "height": 1,
-        "first_limit_time": 1794533778,
-        "plate_code": "801031",
-        "plate_name": "文化传媒",
+        "code": "002748",
+        "symbol": "sz002748",
+        "name": "世龙实业",
+        "height": 2,
+        "first_limit_time": 1794795819,
+        "plate_code": "801004",
+        "plate_name": "锂电池",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 5208144687,
-        "total_market_val": 5996462160
+        "limit_days": 4,
+        "float_market_val": 3271200000,
+        "total_market_val": 1287565945
       },
       {
-        "code": "600977",
-        "symbol": "sh600977",
-        "name": "中国电影",
-        "height": 1,
-        "first_limit_time": 1794535696,
-        "plate_code": "801031",
-        "plate_name": "文化传媒",
+        "code": "002425",
+        "symbol": "sz002425",
+        "name": "凯撒文化",
+        "height": 2,
+        "first_limit_time": 1794792600,
+        "plate_code": "801095",
+        "plate_name": "游戏",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 31832350000,
-        "total_market_val": 5996462160
+        "limit_days": 2,
+        "float_market_val": 4171059688,
+        "total_market_val": 2458032892
       },
       {
-        "code": "300528",
-        "symbol": "sz300528",
-        "name": "幸福蓝海",
-        "height": 1,
-        "first_limit_time": 1794535743,
-        "plate_code": "801031",
-        "plate_name": "文化传媒",
+        "code": "000819",
+        "symbol": "sz000819",
+        "name": "岳阳兴长",
+        "height": 2,
+        "first_limit_time": 1794792300,
+        "plate_code": "801235",
+        "plate_name": "化工",
         "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 6703218891,
-        "total_market_val": 5996462160
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 5160883495,
+        "total_market_val": 819767343
       },
       {
-        "code": "002739",
-        "symbol": "sz002739",
-        "name": "儒意电影",
-        "height": 1,
-        "first_limit_time": 1794537513,
-        "plate_code": "801031",
-        "plate_name": "文化传媒",
+        "code": "002548",
+        "symbol": "sz002548",
+        "name": "金新农",
+        "height": 2,
+        "first_limit_time": 1794792600,
+        "plate_code": "801282",
+        "plate_name": "猪肉",
         "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 7,
-        "float_market_val": 21223376015,
-        "total_market_val": 5996462160
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 3486611100,
+        "total_market_val": 228236127
       },
       {
         "code": "002685",
         "symbol": "sz002685",
         "name": "华东重机",
-        "height": 1,
-        "first_limit_time": 1794533100,
-        "plate_code": "801807",
-        "plate_name": "算力",
+        "height": 2,
+        "first_limit_time": 1794792789,
+        "plate_code": "801808",
+        "plate_name": "GPU",
         "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 5582606151,
-        "total_market_val": 3935173702
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 6136836004,
+        "total_market_val": 861278015
       },
       {
-        "code": "600410",
-        "symbol": "sh600410",
-        "name": "华胜天成",
-        "height": 1,
-        "first_limit_time": 1794534606,
-        "plate_code": "801807",
-        "plate_name": "算力",
+        "code": "000595",
+        "symbol": "sz000595",
+        "name": "新能股份",
+        "height": 2,
+        "first_limit_time": 1794798891,
+        "plate_code": "801120",
+        "plate_name": "电力",
         "is_first_board": false,
-        "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 15679873967,
-        "total_market_val": 3935173702
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 6923030705,
+        "total_market_val": 921459465
       },
       {
-        "code": "002042",
-        "symbol": "sz002042",
-        "name": "华孚时尚",
+        "code": "600386",
+        "symbol": "sh600386",
+        "name": "北巴传媒",
         "height": 1,
-        "first_limit_time": 1794534987,
-        "plate_code": "801807",
-        "plate_name": "算力",
+        "first_limit_time": 1794793868,
+        "plate_code": "801031",
+        "plate_name": "文化传媒",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 6156466505,
-        "total_market_val": 3935173702
+        "limit_days": 5,
+        "float_market_val": 3072384000,
+        "total_market_val": 6440023639
       },
       {
-        "code": "605318",
-        "symbol": "sh605318",
-        "name": "法狮龙",
+        "code": "601929",
+        "symbol": "sh601929",
+        "name": "吉视传媒",
         "height": 1,
-        "first_limit_time": 1794539161,
-        "plate_code": "801807",
-        "plate_name": "算力",
+        "first_limit_time": 1794795132,
+        "plate_code": "801031",
+        "plate_name": "文化传媒",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 10593927899,
-        "total_market_val": 3935173702
+        "limit_days": 5,
+        "float_market_val": 10329772977,
+        "total_market_val": 6440023639
       },
       {
-        "code": "603166",
-        "symbol": "sh603166",
-        "name": "福达股份",
+        "code": "000156",
+        "symbol": "sz000156",
+        "name": "华数传媒",
         "height": 1,
-        "first_limit_time": 1794538108,
-        "plate_code": "801159",
-        "plate_name": "机器人概念",
+        "first_limit_time": 1794797610,
+        "plate_code": "801031",
+        "plate_name": "文化传媒",
         "is_first_board": false,
         "status_mark": 1,
-        "limit_days": 4,
-        "float_market_val": 7636452508,
-        "total_market_val": 3188311951
+        "limit_days": 5,
+        "float_market_val": 15824043055,
+        "total_market_val": 6440023639
       },
       {
-        "code": "603686",
-        "symbol": "sh603686",
-        "name": "福龙马",
+        "code": "605378",
+        "symbol": "sh605378",
+        "name": "野马电池",
         "height": 1,
-        "first_limit_time": 1794538581,
-        "plate_code": "801159",
-        "plate_name": "机器人概念",
+        "first_limit_time": 1794793009,
+        "plate_code": "801004",
+        "plate_name": "锂电池",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 5649853494,
-        "total_market_val": 3188311951
+        "float_market_val": 4056096128,
+        "total_market_val": 1287565945
       },
       {
-        "code": "002520",
-        "symbol": "sz002520",
-        "name": "日发精机",
+        "code": "002058",
+        "symbol": "sz002058",
+        "name": "紫竹高科",
         "height": 1,
-        "first_limit_time": 1794540087,
-        "plate_code": "801159",
-        "plate_name": "机器人概念",
+        "first_limit_time": 1794795507,
+        "plate_code": "801004",
+        "plate_name": "锂电池",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 5776887817,
-        "total_market_val": 3188311951
+        "float_market_val": 3213242637,
+        "total_market_val": 1287565945
       },
       {
-        "code": "603286",
-        "symbol": "sh603286",
-        "name": "日盈电子",
+        "code": "300530",
+        "symbol": "sz300530",
+        "name": "领湃科技",
         "height": 1,
-        "first_limit_time": 1794546013,
-        "plate_code": "801159",
-        "plate_name": "机器人概念",
+        "first_limit_time": 1794796557,
+        "plate_code": "801004",
+        "plate_name": "锂电池",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 7658969185,
-        "total_market_val": 3188311951
+        "float_market_val": 4785406182,
+        "total_market_val": 1287565945
       },
       {
-        "code": "002819",
-        "symbol": "sz002819",
-        "name": "东方中科",
+        "code": "000521",
+        "symbol": "sz000521",
+        "name": "长虹美菱",
         "height": 1,
-        "first_limit_time": 1794533418,
-        "plate_code": "801001",
-        "plate_name": "芯片",
+        "first_limit_time": 1794793665,
+        "plate_code": "801069",
+        "plate_name": "家电",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 6468056070,
-        "total_market_val": 617947761
+        "float_market_val": 4438971212,
+        "total_market_val": 914800353
       },
       {
-        "code": "603928",
-        "symbol": "sh603928",
-        "name": "兴业股份",
+        "code": "002035",
+        "symbol": "sz002035",
+        "name": "华帝股份",
         "height": 1,
-        "first_limit_time": 1794533632,
-        "plate_code": "801001",
-        "plate_name": "芯片",
+        "first_limit_time": 1794793725,
+        "plate_code": "801069",
+        "plate_name": "家电",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 4074819840,
-        "total_market_val": 617947761
+        "float_market_val": 3967018932,
+        "total_market_val": 914800353
       },
       {
-        "code": "600651",
-        "symbol": "sh600651",
-        "name": "飞乐音响",
+        "code": "002959",
+        "symbol": "sz002959",
+        "name": "小熊电器",
         "height": 1,
-        "first_limit_time": 1794537534,
-        "plate_code": "801001",
-        "plate_name": "芯片",
+        "first_limit_time": 1794796974,
+        "plate_code": "801069",
+        "plate_name": "家电",
         "is_first_board": false,
         "status_mark": 1,
         "limit_days": 4,
-        "float_market_val": 12986405118,
-        "total_market_val": 617947761
+        "float_market_val": 5652082641,
+        "total_market_val": 914800353
+      },
+      {
+        "code": "300824",
+        "symbol": "sz300824",
+        "name": "北鼎股份",
+        "height": 1,
+        "first_limit_time": 1794797109,
+        "plate_code": "801069",
+        "plate_name": "家电",
+        "is_first_board": false,
+        "status_mark": 1,
+        "limit_days": 4,
+        "float_market_val": 2806538465,
+        "total_market_val": 914800353
+      },
+      {
+        "code": "002419",
+        "symbol": "sz002419",
+        "name": "天虹股份",
+        "height": 1,
+        "first_limit_time": 1794792753,
+        "plate_code": "801053",
+        "plate_name": "零售",
+        "is_first_board": false,
+        "status_mark": 1,
+        "limit_days": 3,
+        "float_market_val": 6162785489,
+        "total_market_val": 900641072
+      },
+      {
+        "code": "002356",
+        "symbol": "sz002356",
+        "name": "鹏飞绿能",
+        "height": 1,
+        "first_limit_time": 1794792960,
+        "plate_code": "801053",
+        "plate_name": "零售",
+        "is_first_board": false,
+        "status_mark": 1,
+        "limit_days": 3,
+        "float_market_val": 3304361393,
+        "total_market_val": 900641072
+      },
+      {
+        "code": "601188",
+        "symbol": "sh601188",
+        "name": "龙江交通",
+        "height": 1,
+        "first_limit_time": 1794793108,
+        "plate_code": "803038",
+        "plate_name": "冰雪产业",
+        "is_first_board": false,
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 6174872698,
+        "total_market_val": 1012325454
+      },
+      {
+        "code": "600822",
+        "symbol": "sh600822",
+        "name": "上海物贸",
+        "height": 1,
+        "first_limit_time": 1794793594,
+        "plate_code": "801706",
+        "plate_name": "汽车服务",
+        "is_first_board": false,
+        "status_mark": 0,
+        "limit_days": 1,
+        "float_market_val": 4686944037,
+        "total_market_val": 151709788
       }
     ],
     "panmian_events": [
       {
-        "time_sec": 1794533159,
-        "tag_name": "领先身位",
-        "tag_type": 2,
-        "plate_name": "芯片",
-        "detail": "芯片兴欣新材领先身位、大单一字，二连板",
-        "stocks": [
-          [
-            "001358",
-            "兴欣新材"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794533400,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "并购重组",
-        "detail": "并购重组新华传媒一字跌停",
-        "stocks": [
-          [
-            "600825",
-            "新华传媒"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794533400,
-        "tag_name": "弱转强",
+        "time_sec": 1794792300,
+        "tag_name": "T字板",
         "tag_type": 2,
         "plate_name": "游戏",
-        "detail": "游戏北纬科技弱转强涨停，二连板",
+        "detail": "游戏北纬科技T字板、大长腿、尾盘炸板回封、直线拉升，四连板",
         "stocks": [
           [
             "002148",
@@ -460,37 +434,24 @@ window.__INITIAL_BUNDLE__ = {
         ]
       },
       {
-        "time_sec": 1794533440,
-        "tag_name": "领先身位",
+        "time_sec": 1794792300,
+        "tag_name": "大单一字",
         "tag_type": 2,
         "plate_name": "文化传媒",
-        "detail": "文化传媒文投控股领先身位、反包结构、直线拉升，五天四板",
+        "detail": "文化传媒金逸影视大单一字，五天三板",
         "stocks": [
           [
-            "600715",
-            "文投控股"
+            "002905",
+            "金逸影视"
           ]
         ]
       },
       {
-        "time_sec": 1794533520,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "海峡两岸",
-        "detail": "海峡两岸福建水泥跌停",
-        "stocks": [
-          [
-            "600802",
-            "福建水泥"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794533709,
-        "tag_name": "反包结构",
+        "time_sec": 1794792600,
+        "tag_name": "T字板",
         "tag_type": 2,
         "plate_name": "游戏",
-        "detail": "游戏凯撒文化反包结构，四天三板",
+        "detail": "游戏凯撒文化T字板、直线拉升，五天四板",
         "stocks": [
           [
             "002425",
@@ -499,33 +460,72 @@ window.__INITIAL_BUNDLE__ = {
         ]
       },
       {
-        "time_sec": 1794533760,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "光伏支架",
-        "detail": "光伏支架（光伏）闽发铝业跌停",
+        "time_sec": 1794792603,
+        "tag_name": "领先身位",
+        "tag_type": 2,
+        "plate_name": "零售",
+        "detail": "零售广百股份领先身位、弱转强，三连板",
         "stocks": [
           [
-            "002578",
-            "闽发铝业"
+            "002187",
+            "广百股份"
           ]
         ]
       },
       {
-        "time_sec": 1794533880,
+        "time_sec": 1794792660,
         "tag_name": "人气股杀跌",
         "tag_type": 0,
-        "plate_name": "商业航天",
-        "detail": "商业航天阳光照明跌停",
+        "plate_name": "太空光伏",
+        "detail": "太空光伏（光伏）金辰股份跌停",
         "stocks": [
           [
-            "600261",
-            "阳光照明"
+            "603396",
+            "金辰股份"
           ]
         ]
       },
       {
-        "time_sec": 1794533940,
+        "time_sec": 1794792753,
+        "tag_name": "直线拉升",
+        "tag_type": 2,
+        "plate_name": "零售",
+        "detail": "零售天虹股份直线拉升首板涨停",
+        "stocks": [
+          [
+            "002419",
+            "天虹股份"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794792789,
+        "tag_name": "直线拉升",
+        "tag_type": 2,
+        "plate_name": "GPU",
+        "detail": "GPU（算力）华东重机直线拉升，二连板",
+        "stocks": [
+          [
+            "002685",
+            "华东重机"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794792840,
+        "tag_name": "人气股杀跌",
+        "tag_type": 0,
+        "plate_name": "优必选机器人",
+        "detail": "优必选机器人（机器人概念）锋龙股份跌停",
+        "stocks": [
+          [
+            "002931",
+            "锋龙股份"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794792840,
         "tag_name": "人气股杀跌",
         "tag_type": 0,
         "plate_name": "零售",
@@ -538,80 +538,80 @@ window.__INITIAL_BUNDLE__ = {
         ]
       },
       {
-        "time_sec": 1794534126,
-        "tag_name": "T字板",
+        "time_sec": 1794792900,
+        "tag_name": "人气股杀跌",
+        "tag_type": 0,
+        "plate_name": "光伏支架",
+        "detail": "光伏支架（光伏）闽发铝业跌停",
+        "stocks": [
+          [
+            "002578",
+            "闽发铝业"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794792960,
+        "tag_name": "人气股杀跌",
+        "tag_type": 0,
+        "plate_name": "并购重组",
+        "detail": "并购重组新华传媒跌停",
+        "stocks": [
+          [
+            "600825",
+            "新华传媒"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794793108,
+        "tag_name": "直线拉升",
         "tag_type": 2,
-        "plate_name": "零售",
-        "detail": "零售广百股份T字板，二连板",
+        "plate_name": "冰雪产业",
+        "detail": "冰雪产业（体育产业）龙江交通直线拉升，七天五板",
         "stocks": [
           [
-            "002187",
-            "广百股份"
+            "601188",
+            "龙江交通"
           ]
         ]
       },
       {
-        "time_sec": 1794534780,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "海峡两岸",
-        "detail": "海峡两岸日上集团盘中触及跌停",
-        "stocks": [
-          [
-            "002593",
-            "日上集团"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794534840,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "光纤概念",
-        "detail": "光纤概念（光通信）天安新材盘中跌超6%",
-        "stocks": [
-          [
-            "603725",
-            "天安新材"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794534900,
+        "time_sec": 1794795600,
         "tag_name": "权重拉升",
         "tag_type": 2,
-        "plate_name": "芯片",
-        "detail": "芯片概念（国产算力）权重燧原科技涨超8%",
+        "plate_name": "固态电池",
+        "detail": "固态电池权重宁德时代涨超2%",
         "stocks": [
           [
-            "688801",
-            "燧原科技"
+            "300750",
+            "宁德时代"
           ]
         ]
       },
       {
-        "time_sec": 1794535020,
-        "tag_name": "人气股杀跌",
-        "tag_type": 0,
-        "plate_name": "脑机接口",
-        "detail": "脑机接口澳洋健康跌停",
-        "stocks": [
-          [
-            "002172",
-            "澳洋健康"
-          ]
-        ]
-      },
-      {
-        "time_sec": 1794535320,
+        "time_sec": 1794795900,
         "tag_name": "权重拉升",
         "tag_type": 2,
-        "plate_name": "芯片",
-        "detail": "芯片权重寒武纪盘中涨超6%",
+        "plate_name": "机器人概念",
+        "detail": "机器人概念权重宇树科技盘中涨超2%",
         "stocks": [
           [
-            "688256",
-            "寒武纪"
+            "688836",
+            "宇树科技"
+          ]
+        ]
+      },
+      {
+        "time_sec": 1794796569,
+        "tag_name": "领先身位",
+        "tag_type": 2,
+        "plate_name": "锂电池",
+        "detail": "锂电池世龙实业领先身位，二连板",
+        "stocks": [
+          [
+            "002748",
+            "世龙实业"
           ]
         ]
       }
@@ -661,7 +661,7 @@ window.__INITIAL_BUNDLE__ = {
               "id": 2534911,
               "title": "市场风险偏好下行红利走强，AI应用赛道酝酿轮动修复",
               "img": "https://image.cls.cn/images/20261116/0L951XFe1X_2500x1500.jpg",
-              "read_count": "296231",
+              "read_count": "435787",
               "time": 1794791532
             }
           }
@@ -759,12 +759,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600721",
             "name": "百花医药",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -777,7 +777,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -787,17 +787,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-08",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -38.22,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -38.56,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -10.03,
+              "r1": -7.4,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -812,12 +812,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600664",
             "name": "哈药股份",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -830,7 +830,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -840,17 +840,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-08",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -43.06,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -44.82,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -8.98,
+              "r1": -3.09,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -865,12 +865,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600613",
             "name": "神奇制药",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -883,7 +883,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -893,17 +893,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-08",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -33.72,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -35.52,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -5.87,
+              "r1": -2.72,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -918,12 +918,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz002412",
             "name": "汉森制药",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -936,7 +936,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -946,17 +946,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-08",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -23.2,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -23.92,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -4.28,
+              "r1": -2.89,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -969,7 +969,7 @@ window.__INITIAL_BUNDLE__ = {
           }
         ],
         "assessment": {
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "last_known_state": "出清观察",
           "was_broken": true,
           "stable_days": 0,
@@ -987,59 +987,15 @@ window.__INITIAL_BUNDLE__ = {
         },
         "history": [
           {
-            "date": "2026-09-14",
+            "date": "2026-09-16",
             "last_known_state": null,
             "was_broken": false,
-            "stable_days": 1,
+            "stable_days": 0,
             "recovery_days": 0,
             "stage": "分歧",
-            "weak_share": 1.0,
-            "strong_share": 0.0,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
-            "supporting_evidence": [
-              "强势成员0/4",
-              "连续止跌1日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下4/4"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
-            "date": "2026-09-15",
-            "last_known_state": "分歧",
-            "was_broken": true,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "strong_share": 0.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。",
-            "supporting_evidence": [
-              "强势成员0/4",
-              "连续止跌0日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下4/4"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
-            "date": "2026-09-16",
-            "last_known_state": "瓦解",
-            "was_broken": true,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "瓦解观察",
             "weak_share": 0.75,
             "strong_share": 0.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员0/4",
               "连续止跌0日"
@@ -1054,14 +1010,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-17",
-            "last_known_state": "瓦解观察",
-            "was_broken": true,
+            "last_known_state": "分歧",
+            "was_broken": false,
             "stable_days": 1,
-            "recovery_days": 1,
-            "stage": "瓦解观察",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 0.75,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员3/4",
               "连续止跌1日"
@@ -1076,14 +1032,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-18",
-            "last_known_state": "瓦解观察",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 2,
-            "recovery_days": 2,
-            "stage": "修复待验证",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 1.0,
-            "reason": "同一固定篮子多数成员连续恢复MA5和正5日收益；保留瓦解历史，不视为新团。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员4/4",
               "连续止跌2日"
@@ -1098,14 +1054,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-21",
-            "last_known_state": "修复待验证",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 3,
-            "recovery_days": 3,
-            "stage": "旧团修复",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 1.0,
-            "reason": "同一固定篮子多数成员连续恢复MA5和正5日收益；保留瓦解历史，不视为新团。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员4/4",
               "连续止跌3日"
@@ -1120,14 +1076,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-22",
-            "last_known_state": "旧团修复",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 4,
-            "recovery_days": 4,
-            "stage": "旧团修复",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 1.0,
-            "reason": "同一固定篮子多数成员连续恢复MA5和正5日收益；保留瓦解历史，不视为新团。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员4/4",
               "连续止跌4日"
@@ -1142,14 +1098,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-23",
-            "last_known_state": "旧团修复",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 5,
-            "recovery_days": 5,
-            "stage": "旧团修复",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.25,
             "strong_share": 0.75,
-            "reason": "同一固定篮子多数成员连续恢复MA5和正5日收益；保留瓦解历史，不视为新团。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员3/4",
               "连续止跌5日"
@@ -1164,7 +1120,7 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-24",
-            "last_known_state": "旧团修复",
+            "last_known_state": "强化",
             "was_broken": true,
             "stable_days": 0,
             "recovery_days": 0,
@@ -1828,6 +1784,23 @@ window.__INITIAL_BUNDLE__ = {
               "固定成员完整价格窗口"
             ],
             "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
+          },
+          {
+            "date": "2026-11-16",
+            "last_known_state": "出清观察",
+            "was_broken": true,
+            "stable_days": 0,
+            "recovery_days": 0,
+            "stage": "数据不足",
+            "weak_share": null,
+            "strong_share": null,
+            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
+            "supporting_evidence": [],
+            "opposing_evidence": [],
+            "missing_evidence": [
+              "固定成员完整价格窗口"
+            ],
+            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
           }
         ],
         "basket_id": "medicine:1da46df68314",
@@ -1866,12 +1839,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600371",
             "name": "万向德农",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -1884,7 +1857,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -1894,17 +1867,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -44.1,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -7.92,
+              "r1": -4.08,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -1919,12 +1892,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600108",
             "name": "亚盛集团",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -1937,7 +1910,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -1947,17 +1920,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -35.1,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -30.39,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -3.01,
+              "r1": -2.17,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -1972,12 +1945,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600127",
             "name": "金健米业",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -1990,7 +1963,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -2000,17 +1973,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -43.04,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -46.87,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -10.01,
+              "r1": -9.18,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -2023,7 +1996,7 @@ window.__INITIAL_BUNDLE__ = {
           }
         ],
         "assessment": {
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "last_known_state": "旧团修复",
           "was_broken": true,
           "stable_days": 0,
@@ -2041,59 +2014,15 @@ window.__INITIAL_BUNDLE__ = {
         },
         "history": [
           {
-            "date": "2026-09-14",
-            "last_known_state": null,
-            "was_broken": true,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "瓦解",
-            "weak_share": 0.667,
-            "strong_share": 0.333,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。",
-            "supporting_evidence": [
-              "强势成员1/3",
-              "连续止跌0日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下2/3"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
-            "date": "2026-09-15",
-            "last_known_state": "瓦解",
-            "was_broken": true,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "瓦解",
-            "weak_share": 1.0,
-            "strong_share": 0.0,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。",
-            "supporting_evidence": [
-              "强势成员0/3",
-              "连续止跌0日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下3/3"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
             "date": "2026-09-16",
-            "last_known_state": "瓦解",
-            "was_broken": true,
+            "last_known_state": null,
+            "was_broken": false,
             "stable_days": 0,
             "recovery_days": 0,
-            "stage": "瓦解观察",
+            "stage": "分歧",
             "weak_share": 0.667,
             "strong_share": 0.0,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员0/3",
               "连续止跌0日"
@@ -2108,14 +2037,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-17",
-            "last_known_state": "瓦解观察",
-            "was_broken": true,
+            "last_known_state": "分歧",
+            "was_broken": false,
             "stable_days": 1,
             "recovery_days": 0,
-            "stage": "瓦解观察",
+            "stage": "分歧",
             "weak_share": 0.333,
             "strong_share": 0.333,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员1/3",
               "连续止跌1日"
@@ -2130,14 +2059,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-18",
-            "last_known_state": "瓦解观察",
-            "was_broken": true,
+            "last_known_state": "分歧",
+            "was_broken": false,
             "stable_days": 2,
             "recovery_days": 0,
-            "stage": "出清观察",
+            "stage": "分歧",
             "weak_share": 0.0,
             "strong_share": 0.667,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员2/3",
               "连续止跌2日"
@@ -2152,14 +2081,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-21",
-            "last_known_state": "出清观察",
-            "was_broken": true,
+            "last_known_state": "分歧",
+            "was_broken": false,
             "stable_days": 3,
-            "recovery_days": 1,
-            "stage": "出清观察",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 1.0,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员3/3",
               "连续止跌3日"
@@ -2174,14 +2103,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-22",
-            "last_known_state": "出清观察",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 4,
-            "recovery_days": 2,
-            "stage": "修复待验证",
+            "recovery_days": 0,
+            "stage": "强化",
             "weak_share": 0.0,
             "strong_share": 1.0,
-            "reason": "同一固定篮子多数成员连续恢复MA5和正5日收益；保留瓦解历史，不视为新团。",
+            "reason": "固定篮子多数在5日均线上且5日收益为正；需量能与广度交叉确认。",
             "supporting_evidence": [
               "强势成员3/3",
               "连续止跌4日"
@@ -2196,14 +2125,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-23",
-            "last_known_state": "修复待验证",
-            "was_broken": true,
+            "last_known_state": "强化",
+            "was_broken": false,
             "stable_days": 5,
             "recovery_days": 0,
-            "stage": "出清观察",
+            "stage": "分歧",
             "weak_share": 0.333,
             "strong_share": 0.667,
-            "reason": "至少2日不再普遍创新低，只能说明抛压暂稳，不等于出清完成。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员2/3",
               "连续止跌5日"
@@ -2218,14 +2147,14 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-24",
-            "last_known_state": "出清观察",
-            "was_broken": true,
+            "last_known_state": "分歧",
+            "was_broken": false,
             "stable_days": 0,
             "recovery_days": 0,
-            "stage": "瓦解观察",
+            "stage": "分歧",
             "weak_share": 0.333,
             "strong_share": 0.333,
-            "reason": "等待旧篮子连续止跌，不急于推断新周期。",
+            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
             "supporting_evidence": [
               "强势成员1/3",
               "连续止跌0日"
@@ -2240,7 +2169,7 @@ window.__INITIAL_BUNDLE__ = {
           },
           {
             "date": "2026-09-28",
-            "last_known_state": "瓦解观察",
+            "last_known_state": "分歧",
             "was_broken": true,
             "stable_days": 0,
             "recovery_days": 0,
@@ -2882,6 +2811,23 @@ window.__INITIAL_BUNDLE__ = {
               "固定成员完整价格窗口"
             ],
             "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
+          },
+          {
+            "date": "2026-11-16",
+            "last_known_state": "旧团修复",
+            "was_broken": true,
+            "stable_days": 0,
+            "recovery_days": 0,
+            "stage": "数据不足",
+            "weak_share": null,
+            "strong_share": null,
+            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
+            "supporting_evidence": [],
+            "opposing_evidence": [],
+            "missing_evidence": [
+              "固定成员完整价格窗口"
+            ],
+            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
           }
         ],
         "basket_id": "farm:0d71d8902164",
@@ -2919,12 +2865,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh601086",
             "name": "国芳集团",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -2937,7 +2883,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -2947,17 +2893,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -38.33,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -39.32,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -10.0,
+              "r1": -9.97,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -2972,12 +2918,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600865",
             "name": "百大集团",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -2990,7 +2936,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -3000,17 +2946,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -23.88,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -17.64,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -7.02,
+              "r1": -3.26,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -3025,12 +2971,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz000978",
             "name": "桂林旅游",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -3043,7 +2989,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -3053,17 +2999,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -47.24,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -41.35,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -1.77,
+              "r1": -1.63,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -3076,7 +3022,7 @@ window.__INITIAL_BUNDLE__ = {
           }
         ],
         "assessment": {
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "last_known_state": "出清观察",
           "was_broken": true,
           "stable_days": 0,
@@ -3094,52 +3040,8 @@ window.__INITIAL_BUNDLE__ = {
         },
         "history": [
           {
-            "date": "2026-09-14",
-            "last_known_state": null,
-            "was_broken": false,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "分歧",
-            "weak_share": 0.333,
-            "strong_share": 0.667,
-            "reason": "固定篮子强弱分化；断板不等于整体瓦解。",
-            "supporting_evidence": [
-              "强势成员2/3",
-              "连续止跌0日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下1/3"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
-            "date": "2026-09-15",
-            "last_known_state": "分歧",
-            "was_broken": true,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "瓦解",
-            "weak_share": 0.667,
-            "strong_share": 0.333,
-            "reason": "多数固定核心深度回撤且当日继续下跌；仅为价格瓦解代理。",
-            "supporting_evidence": [
-              "强势成员1/3",
-              "连续止跌0日"
-            ],
-            "opposing_evidence": [
-              "深度回撤且在MA5下2/3"
-            ],
-            "missing_evidence": [
-              "成交集中、量能及可成交证据"
-            ],
-            "next_condition": "同一篮子多数成员连续2日恢复为修复待验证，3日为旧团价格修复；缺价即暂停。"
-          },
-          {
             "date": "2026-09-16",
-            "last_known_state": "瓦解",
+            "last_known_state": null,
             "was_broken": true,
             "stable_days": 0,
             "recovery_days": 0,
@@ -3935,6 +3837,23 @@ window.__INITIAL_BUNDLE__ = {
               "固定成员完整价格窗口"
             ],
             "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
+          },
+          {
+            "date": "2026-11-16",
+            "last_known_state": "出清观察",
+            "was_broken": true,
+            "stable_days": 0,
+            "recovery_days": 0,
+            "stage": "数据不足",
+            "weak_share": null,
+            "strong_share": null,
+            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
+            "supporting_evidence": [],
+            "opposing_evidence": [],
+            "missing_evidence": [
+              "固定成员完整价格窗口"
+            ],
+            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
           }
         ],
         "basket_id": "consumer:0013771ef95b",
@@ -3973,12 +3892,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz000017",
             "name": "深中华A",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -3991,7 +3910,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -4001,17 +3920,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -32.1,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -4.67,
+              "r1": -2.45,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -4026,12 +3945,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz003040",
             "name": "楚天龙",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -4044,7 +3963,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -4054,17 +3973,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -33.37,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -33.6,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -2.79,
+              "r1": -3.77,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -4079,12 +3998,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz000993",
             "name": "闽东电力",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -4097,7 +4016,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -4107,17 +4026,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-08-31",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -47.39,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -4.05,
+              "r1": -3.12,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -4139,8 +4058,6 @@ window.__INITIAL_BUNDLE__ = {
               "price_basis": "qfq",
               "source_as_of": null,
               "missing_trade_dates": [
-                "2026-09-14",
-                "2026-09-15",
                 "2026-09-16",
                 "2026-09-17",
                 "2026-09-18",
@@ -4177,7 +4094,8 @@ window.__INITIAL_BUNDLE__ = {
                 "2026-11-10",
                 "2026-11-11",
                 "2026-11-12",
-                "2026-11-13"
+                "2026-11-13",
+                "2026-11-16"
               ],
               "source_candidates": [],
               "selection_reason": "仅有原始/未知口径或缺价；不拼接不同复权序列。"
@@ -4190,7 +4108,7 @@ window.__INITIAL_BUNDLE__ = {
               "return_pct": null,
               "max_drawdown_pct": null,
               "count": 0,
-              "expected_count": 39,
+              "expected_count": 38,
               "base_date": null,
               "complete": false
             },
@@ -4208,7 +4126,7 @@ window.__INITIAL_BUNDLE__ = {
           }
         ],
         "assessment": {
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "last_known_state": null,
           "was_broken": false,
           "stable_days": 0,
@@ -4225,40 +4143,6 @@ window.__INITIAL_BUNDLE__ = {
           "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
         },
         "history": [
-          {
-            "date": "2026-09-14",
-            "last_known_state": null,
-            "was_broken": false,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "数据不足",
-            "weak_share": null,
-            "strong_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
-            "supporting_evidence": [],
-            "opposing_evidence": [],
-            "missing_evidence": [
-              "固定成员完整价格窗口"
-            ],
-            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
-          },
-          {
-            "date": "2026-09-15",
-            "last_known_state": null,
-            "was_broken": false,
-            "stable_days": 0,
-            "recovery_days": 0,
-            "stage": "数据不足",
-            "weak_share": null,
-            "strong_share": null,
-            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
-            "supporting_evidence": [],
-            "opposing_evidence": [],
-            "missing_evidence": [
-              "固定成员完整价格窗口"
-            ],
-            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
-          },
           {
             "date": "2026-09-16",
             "last_known_state": null,
@@ -4887,6 +4771,23 @@ window.__INITIAL_BUNDLE__ = {
               "固定成员完整价格窗口"
             ],
             "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
+          },
+          {
+            "date": "2026-11-16",
+            "last_known_state": null,
+            "was_broken": false,
+            "stable_days": 0,
+            "recovery_days": 0,
+            "stage": "数据不足",
+            "weak_share": null,
+            "strong_share": null,
+            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
+            "supporting_evidence": [],
+            "opposing_evidence": [],
+            "missing_evidence": [
+              "固定成员完整价格窗口"
+            ],
+            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
           }
         ],
         "basket_id": "parallel:22813b4b8394",
@@ -4926,12 +4827,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh600241",
             "name": "时代万恒",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -4944,7 +4845,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -4954,17 +4855,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-09-28",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -44.52,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -5.3,
+              "r1": 1.63,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -4979,12 +4880,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz301513",
             "name": "尚水智能",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -4997,7 +4898,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -5007,17 +4908,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-09-28",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -38.27,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -4.08,
+              "r1": 14.21,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -5032,12 +4933,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sz301190",
             "name": "善水科技",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -5050,7 +4951,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -5060,17 +4961,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-09-28",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
-              "max_drawdown_pct": -46.47,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "max_drawdown_pct": -47.57,
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -5.11,
+              "r1": -2.05,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -5085,12 +4986,12 @@ window.__INITIAL_BUNDLE__ = {
             "code": "sh688137",
             "name": "近岸蛋白",
             "source": "全市场本地前复权缓存",
-            "as_of": "2026-11-13",
+            "as_of": "2026-11-16",
             "price_basis": "qfq",
             "source_selection": {
               "source": "全市场本地前复权缓存",
               "price_basis": "qfq",
-              "source_as_of": "2026-11-13",
+              "source_as_of": "2026-11-16",
               "missing_trade_dates": [
                 "2026-11-11"
               ],
@@ -5103,7 +5004,7 @@ window.__INITIAL_BUNDLE__ = {
                 },
                 {
                   "source": "全市场本地前复权缓存",
-                  "as_of": "2026-11-13",
+                  "as_of": "2026-11-16",
                   "valid_recent_count": 20,
                   "complete_recent_window": false
                 }
@@ -5113,17 +5014,17 @@ window.__INITIAL_BUNDLE__ = {
             "reference_date": "2026-09-28",
             "since_reference": null,
             "two_month": {
-              "first_date": "2026-09-14",
-              "last_date": "2026-11-13",
+              "first_date": "2026-09-16",
+              "last_date": "2026-11-16",
               "return_pct": null,
               "max_drawdown_pct": -34.24,
-              "count": 38,
-              "expected_count": 39,
-              "base_date": "2026-09-11",
+              "count": 37,
+              "expected_count": 38,
+              "base_date": "2026-09-15",
               "complete": false
             },
             "metrics": {
-              "r1": -8.99,
+              "r1": -12.68,
               "r5": null,
               "r20": null,
               "dd20": null,
@@ -5136,7 +5037,7 @@ window.__INITIAL_BUNDLE__ = {
           }
         ],
         "assessment": {
-          "date": "2026-11-13",
+          "date": "2026-11-16",
           "last_known_state": "出清观察",
           "was_broken": true,
           "stable_days": 0,
@@ -5797,6 +5698,23 @@ window.__INITIAL_BUNDLE__ = {
               "固定成员完整价格窗口"
             ],
             "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
+          },
+          {
+            "date": "2026-11-16",
+            "last_known_state": "出清观察",
+            "was_broken": true,
+            "stable_days": 0,
+            "recovery_days": 0,
+            "stage": "数据不足",
+            "weak_share": null,
+            "strong_share": null,
+            "reason": "固定篮子有缺价或历史不足；不能据此认定出清。",
+            "supporting_evidence": [],
+            "opposing_evidence": [],
+            "missing_evidence": [
+              "固定成员完整价格窗口"
+            ],
+            "next_condition": "补齐同一固定篮子的连续价格，重新验证；不得删除缺价或掉队成员。"
           }
         ],
         "basket_id": "trial:858968445b44",
@@ -5823,9 +5741,9 @@ window.__INITIAL_BUNDLE__ = {
   },
   "tab_focus": [
     {
-      "name": "天普股份",
-      "code": "sh605255",
-      "sector": "实控人变更",
+      "name": "北纬科技",
+      "code": "sz002148",
+      "sector": "游戏",
       "pool_type": "【4连板梯队】",
       "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
       "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
@@ -5833,843 +5751,6 @@ window.__INITIAL_BUNDLE__ = {
       "status": "green",
       "is_custom": false,
       "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 67.0,
-          "high": 67.94,
-          "low": 66.4,
-          "close": 66.7,
-          "volume": 578604
-        },
-        {
-          "time": "2026-08-31",
-          "open": 66.2,
-          "high": 66.96,
-          "low": 65.11,
-          "close": 65.67,
-          "volume": 609700
-        },
-        {
-          "time": "2026-09-01",
-          "open": 65.0,
-          "high": 66.88,
-          "low": 65.0,
-          "close": 65.87,
-          "volume": 423500
-        },
-        {
-          "time": "2026-09-02",
-          "open": 65.01,
-          "high": 65.71,
-          "low": 64.66,
-          "close": 65.0,
-          "volume": 500500
-        },
-        {
-          "time": "2026-09-03",
-          "open": 65.22,
-          "high": 65.6,
-          "low": 64.91,
-          "close": 65.06,
-          "volume": 361800
-        },
-        {
-          "time": "2026-09-04",
-          "open": 66.12,
-          "high": 66.12,
-          "low": 65.0,
-          "close": 65.01,
-          "volume": 387400
-        },
-        {
-          "time": "2026-09-07",
-          "open": 65.18,
-          "high": 65.62,
-          "low": 64.5,
-          "close": 65.3,
-          "volume": 408000
-        },
-        {
-          "time": "2026-09-08",
-          "open": 65.96,
-          "high": 65.96,
-          "low": 64.4,
-          "close": 64.67,
-          "volume": 405800
-        },
-        {
-          "time": "2026-09-09",
-          "open": 64.67,
-          "high": 65.96,
-          "low": 63.45,
-          "close": 64.86,
-          "volume": 631300
-        },
-        {
-          "time": "2026-09-10",
-          "open": 62.69,
-          "high": 65.95,
-          "low": 61.0,
-          "close": 64.43,
-          "volume": 1129924
-        },
-        {
-          "time": "2026-09-11",
-          "open": 63.55,
-          "high": 63.6,
-          "low": 61.14,
-          "close": 61.27,
-          "volume": 563000
-        },
-        {
-          "time": "2026-09-14",
-          "open": 60.64,
-          "high": 61.99,
-          "low": 59.71,
-          "close": 60.2,
-          "volume": 483700
-        },
-        {
-          "time": "2026-09-15",
-          "open": 60.05,
-          "high": 64.16,
-          "low": 60.05,
-          "close": 61.73,
-          "volume": 819300
-        },
-        {
-          "time": "2026-09-16",
-          "open": 61.38,
-          "high": 62.0,
-          "low": 59.8,
-          "close": 60.6,
-          "volume": 672600
-        },
-        {
-          "time": "2026-09-17",
-          "open": 60.6,
-          "high": 61.57,
-          "low": 60.49,
-          "close": 60.67,
-          "volume": 394847
-        },
-        {
-          "time": "2026-09-18",
-          "open": 60.94,
-          "high": 61.5,
-          "low": 60.7,
-          "close": 61.27,
-          "volume": 496869
-        },
-        {
-          "time": "2026-09-21",
-          "open": 61.14,
-          "high": 63.99,
-          "low": 61.13,
-          "close": 62.53,
-          "volume": 709225
-        },
-        {
-          "time": "2026-09-22",
-          "open": 62.51,
-          "high": 63.54,
-          "low": 61.51,
-          "close": 61.56,
-          "volume": 635997
-        },
-        {
-          "time": "2026-09-23",
-          "open": 61.55,
-          "high": 62.6,
-          "low": 60.07,
-          "close": 60.07,
-          "volume": 737169
-        },
-        {
-          "time": "2026-09-24",
-          "open": 58.99,
-          "high": 59.3,
-          "low": 57.66,
-          "close": 58.1,
-          "volume": 699211
-        },
-        {
-          "time": "2026-09-28",
-          "open": 58.39,
-          "high": 58.39,
-          "low": 55.09,
-          "close": 55.1,
-          "volume": 560111
-        },
-        {
-          "time": "2026-09-29",
-          "open": 54.65,
-          "high": 56.2,
-          "low": 54.65,
-          "close": 56.2,
-          "volume": 442300
-        },
-        {
-          "time": "2026-09-30",
-          "open": 57.04,
-          "high": 61.3,
-          "low": 56.23,
-          "close": 58.87,
-          "volume": 1030872
-        },
-        {
-          "time": "2026-10-08",
-          "open": 57.6,
-          "high": 58.85,
-          "low": 56.1,
-          "close": 56.1,
-          "volume": 702500
-        },
-        {
-          "time": "2026-10-09",
-          "open": 56.29,
-          "high": 56.29,
-          "low": 52.73,
-          "close": 53.9,
-          "volume": 678700
-        },
-        {
-          "time": "2026-10-12",
-          "open": 53.99,
-          "high": 57.99,
-          "low": 53.9,
-          "close": 55.45,
-          "volume": 764300
-        },
-        {
-          "time": "2026-10-13",
-          "open": 54.75,
-          "high": 54.94,
-          "low": 50.0,
-          "close": 54.09,
-          "volume": 1000200
-        },
-        {
-          "time": "2026-10-14",
-          "open": 53.66,
-          "high": 55.71,
-          "low": 53.11,
-          "close": 53.11,
-          "volume": 626700
-        },
-        {
-          "time": "2026-10-15",
-          "open": 51.42,
-          "high": 53.78,
-          "low": 51.42,
-          "close": 52.19,
-          "volume": 571900
-        },
-        {
-          "time": "2026-10-16",
-          "open": 52.19,
-          "high": 52.89,
-          "low": 50.2,
-          "close": 50.8,
-          "volume": 687700
-        },
-        {
-          "time": "2026-10-19",
-          "open": 50.58,
-          "high": 55.88,
-          "low": 50.41,
-          "close": 55.88,
-          "volume": 1071600
-        },
-        {
-          "time": "2026-10-20",
-          "open": 55.5,
-          "high": 58.25,
-          "low": 54.58,
-          "close": 55.38,
-          "volume": 1259600
-        },
-        {
-          "time": "2026-10-21",
-          "open": 55.43,
-          "high": 55.43,
-          "low": 53.68,
-          "close": 53.69,
-          "volume": 784100
-        },
-        {
-          "time": "2026-10-22",
-          "open": 53.88,
-          "high": 53.88,
-          "low": 50.58,
-          "close": 50.69,
-          "volume": 762200
-        },
-        {
-          "time": "2026-10-23",
-          "open": 50.2,
-          "high": 51.15,
-          "low": 47.05,
-          "close": 50.98,
-          "volume": 842978
-        },
-        {
-          "time": "2026-10-26",
-          "open": 50.02,
-          "high": 54.27,
-          "low": 49.94,
-          "close": 51.95,
-          "volume": 921900
-        },
-        {
-          "time": "2026-10-27",
-          "open": 51.87,
-          "high": 52.39,
-          "low": 48.8,
-          "close": 48.8,
-          "volume": 775900
-        },
-        {
-          "time": "2026-10-28",
-          "open": 48.8,
-          "high": 50.99,
-          "low": 48.8,
-          "close": 50.18,
-          "volume": 568700
-        },
-        {
-          "time": "2026-10-29",
-          "open": 50.04,
-          "high": 51.23,
-          "low": 48.02,
-          "close": 48.02,
-          "volume": 640000
-        },
-        {
-          "time": "2026-10-30",
-          "open": 46.65,
-          "high": 52.82,
-          "low": 46.5,
-          "close": 48.62,
-          "volume": 1133300
-        },
-        {
-          "time": "2026-11-02",
-          "open": 48.7,
-          "high": 49.59,
-          "low": 46.81,
-          "close": 47.95,
-          "volume": 844280
-        },
-        {
-          "time": "2026-11-03",
-          "open": 47.28,
-          "high": 48.79,
-          "low": 46.82,
-          "close": 47.12,
-          "volume": 554200
-        },
-        {
-          "time": "2026-11-04",
-          "open": 47.0,
-          "high": 48.93,
-          "low": 46.61,
-          "close": 47.98,
-          "volume": 766283
-        },
-        {
-          "time": "2026-11-05",
-          "open": 48.0,
-          "high": 49.64,
-          "low": 47.66,
-          "close": 49.49,
-          "volume": 718500
-        },
-        {
-          "time": "2026-11-06",
-          "open": 47.23,
-          "high": 48.3,
-          "low": 47.23,
-          "close": 47.71,
-          "volume": 516200
-        },
-        {
-          "time": "2026-11-09",
-          "open": 52.3,
-          "high": 52.32,
-          "low": 49.91,
-          "close": 50.42,
-          "volume": 1043400
-        },
-        {
-          "time": "2026-11-10",
-          "open": 50.55,
-          "high": 55.46,
-          "low": 50.01,
-          "close": 55.46,
-          "volume": 1465001
-        },
-        {
-          "time": "2026-11-11",
-          "open": 54.91,
-          "high": 61.01,
-          "low": 54.5,
-          "close": 61.01,
-          "volume": 2310000
-        },
-        {
-          "time": "2026-11-12",
-          "open": 62.29,
-          "high": 67.11,
-          "low": 62.29,
-          "close": 67.11,
-          "volume": 1925883
-        },
-        {
-          "time": "2026-11-13",
-          "open": 70.32,
-          "high": 73.82,
-          "low": 70.25,
-          "close": 73.82,
-          "volume": 2458782
-        }
-      ],
-      "ema5": [
-        {
-          "time": "2026-08-28",
-          "value": 66.7
-        },
-        {
-          "time": "2026-08-31",
-          "value": 66.36
-        },
-        {
-          "time": "2026-09-01",
-          "value": 66.19
-        },
-        {
-          "time": "2026-09-02",
-          "value": 65.8
-        },
-        {
-          "time": "2026-09-03",
-          "value": 65.55
-        },
-        {
-          "time": "2026-09-04",
-          "value": 65.37
-        },
-        {
-          "time": "2026-09-07",
-          "value": 65.35
-        },
-        {
-          "time": "2026-09-08",
-          "value": 65.12
-        },
-        {
-          "time": "2026-09-09",
-          "value": 65.03
-        },
-        {
-          "time": "2026-09-10",
-          "value": 64.83
-        },
-        {
-          "time": "2026-09-11",
-          "value": 63.65
-        },
-        {
-          "time": "2026-09-14",
-          "value": 62.5
-        },
-        {
-          "time": "2026-09-15",
-          "value": 62.24
-        },
-        {
-          "time": "2026-09-16",
-          "value": 61.69
-        },
-        {
-          "time": "2026-09-17",
-          "value": 61.35
-        },
-        {
-          "time": "2026-09-18",
-          "value": 61.33
-        },
-        {
-          "time": "2026-09-21",
-          "value": 61.73
-        },
-        {
-          "time": "2026-09-22",
-          "value": 61.67
-        },
-        {
-          "time": "2026-09-23",
-          "value": 61.14
-        },
-        {
-          "time": "2026-09-24",
-          "value": 60.12
-        },
-        {
-          "time": "2026-09-28",
-          "value": 58.45
-        },
-        {
-          "time": "2026-09-29",
-          "value": 57.7
-        },
-        {
-          "time": "2026-09-30",
-          "value": 58.09
-        },
-        {
-          "time": "2026-10-08",
-          "value": 57.43
-        },
-        {
-          "time": "2026-10-09",
-          "value": 56.25
-        },
-        {
-          "time": "2026-10-12",
-          "value": 55.98
-        },
-        {
-          "time": "2026-10-13",
-          "value": 55.35
-        },
-        {
-          "time": "2026-10-14",
-          "value": 54.61
-        },
-        {
-          "time": "2026-10-15",
-          "value": 53.8
-        },
-        {
-          "time": "2026-10-16",
-          "value": 52.8
-        },
-        {
-          "time": "2026-10-19",
-          "value": 53.83
-        },
-        {
-          "time": "2026-10-20",
-          "value": 54.34
-        },
-        {
-          "time": "2026-10-21",
-          "value": 54.13
-        },
-        {
-          "time": "2026-10-22",
-          "value": 52.98
-        },
-        {
-          "time": "2026-10-23",
-          "value": 52.31
-        },
-        {
-          "time": "2026-10-26",
-          "value": 52.19
-        },
-        {
-          "time": "2026-10-27",
-          "value": 51.06
-        },
-        {
-          "time": "2026-10-28",
-          "value": 50.77
-        },
-        {
-          "time": "2026-10-29",
-          "value": 49.85
-        },
-        {
-          "time": "2026-10-30",
-          "value": 49.44
-        },
-        {
-          "time": "2026-11-02",
-          "value": 48.94
-        },
-        {
-          "time": "2026-11-03",
-          "value": 48.34
-        },
-        {
-          "time": "2026-11-04",
-          "value": 48.22
-        },
-        {
-          "time": "2026-11-05",
-          "value": 48.64
-        },
-        {
-          "time": "2026-11-06",
-          "value": 48.33
-        },
-        {
-          "time": "2026-11-09",
-          "value": 49.03
-        },
-        {
-          "time": "2026-11-10",
-          "value": 51.17
-        },
-        {
-          "time": "2026-11-11",
-          "value": 54.45
-        },
-        {
-          "time": "2026-11-12",
-          "value": 58.67
-        },
-        {
-          "time": "2026-11-13",
-          "value": 63.72
-        }
-      ],
-      "ema20": [
-        {
-          "time": "2026-08-28",
-          "value": 66.7
-        },
-        {
-          "time": "2026-08-31",
-          "value": 66.6
-        },
-        {
-          "time": "2026-09-01",
-          "value": 66.53
-        },
-        {
-          "time": "2026-09-02",
-          "value": 66.39
-        },
-        {
-          "time": "2026-09-03",
-          "value": 66.26
-        },
-        {
-          "time": "2026-09-04",
-          "value": 66.14
-        },
-        {
-          "time": "2026-09-07",
-          "value": 66.06
-        },
-        {
-          "time": "2026-09-08",
-          "value": 65.93
-        },
-        {
-          "time": "2026-09-09",
-          "value": 65.83
-        },
-        {
-          "time": "2026-09-10",
-          "value": 65.69
-        },
-        {
-          "time": "2026-09-11",
-          "value": 65.27
-        },
-        {
-          "time": "2026-09-14",
-          "value": 64.79
-        },
-        {
-          "time": "2026-09-15",
-          "value": 64.5
-        },
-        {
-          "time": "2026-09-16",
-          "value": 64.13
-        },
-        {
-          "time": "2026-09-17",
-          "value": 63.8
-        },
-        {
-          "time": "2026-09-18",
-          "value": 63.56
-        },
-        {
-          "time": "2026-09-21",
-          "value": 63.46
-        },
-        {
-          "time": "2026-09-22",
-          "value": 63.28
-        },
-        {
-          "time": "2026-09-23",
-          "value": 62.97
-        },
-        {
-          "time": "2026-09-24",
-          "value": 62.51
-        },
-        {
-          "time": "2026-09-28",
-          "value": 61.8
-        },
-        {
-          "time": "2026-09-29",
-          "value": 61.27
-        },
-        {
-          "time": "2026-09-30",
-          "value": 61.04
-        },
-        {
-          "time": "2026-10-08",
-          "value": 60.57
-        },
-        {
-          "time": "2026-10-09",
-          "value": 59.94
-        },
-        {
-          "time": "2026-10-12",
-          "value": 59.51
-        },
-        {
-          "time": "2026-10-13",
-          "value": 58.99
-        },
-        {
-          "time": "2026-10-14",
-          "value": 58.43
-        },
-        {
-          "time": "2026-10-15",
-          "value": 57.84
-        },
-        {
-          "time": "2026-10-16",
-          "value": 57.17
-        },
-        {
-          "time": "2026-10-19",
-          "value": 57.04
-        },
-        {
-          "time": "2026-10-20",
-          "value": 56.89
-        },
-        {
-          "time": "2026-10-21",
-          "value": 56.58
-        },
-        {
-          "time": "2026-10-22",
-          "value": 56.02
-        },
-        {
-          "time": "2026-10-23",
-          "value": 55.54
-        },
-        {
-          "time": "2026-10-26",
-          "value": 55.2
-        },
-        {
-          "time": "2026-10-27",
-          "value": 54.59
-        },
-        {
-          "time": "2026-10-28",
-          "value": 54.17
-        },
-        {
-          "time": "2026-10-29",
-          "value": 53.58
-        },
-        {
-          "time": "2026-10-30",
-          "value": 53.11
-        },
-        {
-          "time": "2026-11-02",
-          "value": 52.62
-        },
-        {
-          "time": "2026-11-03",
-          "value": 52.1
-        },
-        {
-          "time": "2026-11-04",
-          "value": 51.7
-        },
-        {
-          "time": "2026-11-05",
-          "value": 51.49
-        },
-        {
-          "time": "2026-11-06",
-          "value": 51.13
-        },
-        {
-          "time": "2026-11-09",
-          "value": 51.06
-        },
-        {
-          "time": "2026-11-10",
-          "value": 51.48
-        },
-        {
-          "time": "2026-11-11",
-          "value": 52.39
-        },
-        {
-          "time": "2026-11-12",
-          "value": 53.79
-        },
-        {
-          "time": "2026-11-13",
-          "value": 55.7
-        }
-      ],
-      "latest_close": 73.82,
-      "abnormal": {
-        "is_20cm": false,
-        "limit_rate": 0.1,
-        "ret10": 53.95,
-        "safety10": 46.05,
-        "boards_left": 2.7,
-        "ret30": 33.97,
-        "safety30": 166.03,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余2.7板)"
-      }
-    },
-    {
-      "name": "北纬科技",
-      "code": "sz002148",
-      "sector": "游戏",
-      "pool_type": "【3连板梯队】",
-      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
-      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
-      "height": 3,
-      "status": "green",
-      "is_custom": false,
-      "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 6.29,
-          "high": 6.35,
-          "low": 6.25,
-          "close": 6.31,
-          "volume": 8274234
-        },
         {
           "time": "2026-08-31",
           "open": 6.27,
@@ -7061,36 +6142,40 @@ window.__INITIAL_BUNDLE__ = {
           "low": 7.74,
           "close": 7.95,
           "volume": 52515909
+        },
+        {
+          "time": "2026-11-16",
+          "open": 8.75,
+          "high": 8.75,
+          "low": 7.95,
+          "close": 8.75,
+          "volume": 192071335
         }
       ],
       "ema5": [
         {
-          "time": "2026-08-28",
-          "value": 6.31
-        },
-        {
           "time": "2026-08-31",
-          "value": 6.35
+          "value": 6.43
         },
         {
           "time": "2026-09-01",
-          "value": 6.41
+          "value": 6.47
         },
         {
           "time": "2026-09-02",
-          "value": 6.45
+          "value": 6.49
         },
         {
           "time": "2026-09-03",
-          "value": 6.44
+          "value": 6.46
         },
         {
           "time": "2026-09-04",
-          "value": 6.44
+          "value": 6.45
         },
         {
           "time": "2026-09-07",
-          "value": 6.44
+          "value": 6.45
         },
         {
           "time": "2026-09-08",
@@ -7102,7 +6187,7 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-09-10",
-          "value": 6.48
+          "value": 6.49
         },
         {
           "time": "2026-09-11",
@@ -7263,144 +6348,144 @@ window.__INITIAL_BUNDLE__ = {
         {
           "time": "2026-11-13",
           "value": 6.98
+        },
+        {
+          "time": "2026-11-16",
+          "value": 7.57
         }
       ],
       "ema20": [
         {
-          "time": "2026-08-28",
-          "value": 6.31
-        },
-        {
           "time": "2026-08-31",
-          "value": 6.32
+          "value": 6.43
         },
         {
           "time": "2026-09-01",
-          "value": 6.34
+          "value": 6.44
         },
         {
           "time": "2026-09-02",
-          "value": 6.36
+          "value": 6.45
         },
         {
           "time": "2026-09-03",
-          "value": 6.36
+          "value": 6.45
         },
         {
           "time": "2026-09-04",
-          "value": 6.37
+          "value": 6.44
         },
         {
           "time": "2026-09-07",
-          "value": 6.38
+          "value": 6.45
         },
         {
           "time": "2026-09-08",
-          "value": 6.4
+          "value": 6.46
         },
         {
           "time": "2026-09-09",
-          "value": 6.41
+          "value": 6.47
         },
         {
           "time": "2026-09-10",
-          "value": 6.42
+          "value": 6.46
         },
         {
           "time": "2026-09-11",
-          "value": 6.42
+          "value": 6.46
         },
         {
           "time": "2026-09-14",
-          "value": 6.41
+          "value": 6.45
         },
         {
           "time": "2026-09-15",
-          "value": 6.39
+          "value": 6.43
         },
         {
           "time": "2026-09-16",
-          "value": 6.38
+          "value": 6.41
         },
         {
           "time": "2026-09-17",
-          "value": 6.36
+          "value": 6.39
         },
         {
           "time": "2026-09-18",
-          "value": 6.35
+          "value": 6.38
         },
         {
           "time": "2026-09-21",
-          "value": 6.35
+          "value": 6.38
         },
         {
           "time": "2026-09-22",
-          "value": 6.38
+          "value": 6.4
         },
         {
           "time": "2026-09-23",
-          "value": 6.38
+          "value": 6.4
         },
         {
           "time": "2026-09-24",
-          "value": 6.37
+          "value": 6.38
         },
         {
           "time": "2026-09-28",
-          "value": 6.35
+          "value": 6.36
         },
         {
           "time": "2026-09-29",
-          "value": 6.34
+          "value": 6.35
         },
         {
           "time": "2026-09-30",
-          "value": 6.32
+          "value": 6.34
         },
         {
           "time": "2026-10-08",
-          "value": 6.3
+          "value": 6.31
         },
         {
           "time": "2026-10-09",
-          "value": 6.3
+          "value": 6.31
         },
         {
           "time": "2026-10-12",
-          "value": 6.29
+          "value": 6.3
         },
         {
           "time": "2026-10-13",
-          "value": 6.3
+          "value": 6.31
         },
         {
           "time": "2026-10-14",
-          "value": 6.31
+          "value": 6.32
         },
         {
           "time": "2026-10-15",
-          "value": 6.31
+          "value": 6.32
         },
         {
           "time": "2026-10-16",
-          "value": 6.31
+          "value": 6.32
         },
         {
           "time": "2026-10-19",
-          "value": 6.3
+          "value": 6.31
         },
         {
           "time": "2026-10-20",
-          "value": 6.29
+          "value": 6.3
         },
         {
           "time": "2026-10-21",
-          "value": 6.29
+          "value": 6.3
         },
         {
           "time": "2026-10-22",
-          "value": 6.25
+          "value": 6.26
         },
         {
           "time": "2026-10-23",
@@ -7412,15 +6497,15 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-10-27",
-          "value": 6.19
+          "value": 6.2
         },
         {
           "time": "2026-10-28",
-          "value": 6.18
+          "value": 6.19
         },
         {
           "time": "2026-10-29",
-          "value": 6.15
+          "value": 6.16
         },
         {
           "time": "2026-10-30",
@@ -7436,7 +6521,7 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-11-04",
-          "value": 6.02
+          "value": 6.03
         },
         {
           "time": "2026-11-05",
@@ -7456,7 +6541,7 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-11-11",
-          "value": 6.04
+          "value": 6.05
         },
         {
           "time": "2026-11-12",
@@ -7465,25 +6550,29 @@ window.__INITIAL_BUNDLE__ = {
         {
           "time": "2026-11-13",
           "value": 6.33
+        },
+        {
+          "time": "2026-11-16",
+          "value": 6.56
         }
       ],
-      "latest_close": 7.95,
+      "latest_close": 8.75,
       "abnormal": {
         "is_20cm": false,
         "limit_rate": 0.1,
-        "ret10": 37.31,
-        "safety10": 62.69,
-        "boards_left": 3.9,
-        "ret30": 29.27,
-        "safety30": 170.73,
+        "ret10": 51.38,
+        "safety10": 48.62,
+        "boards_left": 2.9,
+        "ret30": 39.78,
+        "safety30": 160.22,
         "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余3.9板)"
+        "risk_text": "安全垫充裕 (余2.9板)"
       }
     },
     {
-      "name": "金辰股份",
-      "code": "sh603396",
-      "sector": "光伏",
+      "name": "广百股份",
+      "code": "sz002187",
+      "sector": "零售",
       "pool_type": "【3连板梯队】",
       "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
       "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
@@ -7491,2501 +6580,6 @@ window.__INITIAL_BUNDLE__ = {
       "status": "green",
       "is_custom": false,
       "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 28.68,
-          "high": 31.9,
-          "low": 28.45,
-          "close": 31.9,
-          "volume": 15741161
-        },
-        {
-          "time": "2026-08-31",
-          "open": 31.0,
-          "high": 32.22,
-          "low": 30.57,
-          "close": 30.86,
-          "volume": 13587996
-        },
-        {
-          "time": "2026-09-01",
-          "open": 31.17,
-          "high": 31.56,
-          "low": 30.17,
-          "close": 30.34,
-          "volume": 9723468
-        },
-        {
-          "time": "2026-09-02",
-          "open": 30.0,
-          "high": 30.35,
-          "low": 29.57,
-          "close": 29.61,
-          "volume": 6622838
-        },
-        {
-          "time": "2026-09-03",
-          "open": 30.1,
-          "high": 30.15,
-          "low": 29.03,
-          "close": 29.3,
-          "volume": 6246604
-        },
-        {
-          "time": "2026-09-04",
-          "open": 29.35,
-          "high": 29.87,
-          "low": 28.7,
-          "close": 28.86,
-          "volume": 5150981
-        },
-        {
-          "time": "2026-09-07",
-          "open": 29.08,
-          "high": 29.2,
-          "low": 28.48,
-          "close": 29.08,
-          "volume": 4636350
-        },
-        {
-          "time": "2026-09-08",
-          "open": 28.96,
-          "high": 29.28,
-          "low": 28.6,
-          "close": 29.14,
-          "volume": 5574908
-        },
-        {
-          "time": "2026-09-09",
-          "open": 29.05,
-          "high": 29.25,
-          "low": 28.04,
-          "close": 28.45,
-          "volume": 5915789
-        },
-        {
-          "time": "2026-09-10",
-          "open": 28.31,
-          "high": 28.38,
-          "low": 27.6,
-          "close": 27.6,
-          "volume": 4384099
-        },
-        {
-          "time": "2026-09-11",
-          "open": 27.16,
-          "high": 27.67,
-          "low": 26.38,
-          "close": 26.9,
-          "volume": 5206272
-        },
-        {
-          "time": "2026-09-14",
-          "open": 26.66,
-          "high": 26.93,
-          "low": 26.35,
-          "close": 26.65,
-          "volume": 2273400
-        },
-        {
-          "time": "2026-09-15",
-          "open": 26.88,
-          "high": 26.93,
-          "low": 26.0,
-          "close": 26.18,
-          "volume": 2654331
-        },
-        {
-          "time": "2026-09-16",
-          "open": 26.09,
-          "high": 26.74,
-          "low": 25.92,
-          "close": 26.65,
-          "volume": 2914424
-        },
-        {
-          "time": "2026-09-17",
-          "open": 26.65,
-          "high": 27.65,
-          "low": 26.38,
-          "close": 26.94,
-          "volume": 5406300
-        },
-        {
-          "time": "2026-09-18",
-          "open": 27.14,
-          "high": 28.5,
-          "low": 27.14,
-          "close": 28.24,
-          "volume": 6901353
-        },
-        {
-          "time": "2026-09-21",
-          "open": 28.0,
-          "high": 30.45,
-          "low": 27.8,
-          "close": 29.9,
-          "volume": 9652539
-        },
-        {
-          "time": "2026-09-22",
-          "open": 29.8,
-          "high": 30.06,
-          "low": 29.42,
-          "close": 29.45,
-          "volume": 5854973
-        },
-        {
-          "time": "2026-09-23",
-          "open": 29.45,
-          "high": 32.4,
-          "low": 29.43,
-          "close": 32.4,
-          "volume": 5648257
-        },
-        {
-          "time": "2026-09-24",
-          "open": 32.77,
-          "high": 35.64,
-          "low": 32.77,
-          "close": 35.64,
-          "volume": 11035843
-        },
-        {
-          "time": "2026-09-28",
-          "open": 39.2,
-          "high": 39.2,
-          "low": 36.4,
-          "close": 39.2,
-          "volume": 23510946
-        },
-        {
-          "time": "2026-09-29",
-          "open": 38.51,
-          "high": 39.25,
-          "low": 35.28,
-          "close": 35.28,
-          "volume": 14793497
-        },
-        {
-          "time": "2026-09-30",
-          "open": 34.8,
-          "high": 38.81,
-          "low": 33.4,
-          "close": 33.5,
-          "volume": 32649798
-        },
-        {
-          "time": "2026-10-08",
-          "open": 32.81,
-          "high": 33.97,
-          "low": 31.85,
-          "close": 31.91,
-          "volume": 22596603
-        },
-        {
-          "time": "2026-10-09",
-          "open": 31.6,
-          "high": 31.98,
-          "low": 29.51,
-          "close": 30.35,
-          "volume": 16296755
-        },
-        {
-          "time": "2026-10-12",
-          "open": 29.8,
-          "high": 29.98,
-          "low": 28.74,
-          "close": 28.78,
-          "volume": 9767896
-        },
-        {
-          "time": "2026-10-13",
-          "open": 28.29,
-          "high": 29.52,
-          "low": 27.83,
-          "close": 29.17,
-          "volume": 9506261
-        },
-        {
-          "time": "2026-10-14",
-          "open": 28.9,
-          "high": 29.35,
-          "low": 28.29,
-          "close": 28.33,
-          "volume": 5630214
-        },
-        {
-          "time": "2026-10-15",
-          "open": 27.48,
-          "high": 28.13,
-          "low": 27.37,
-          "close": 27.66,
-          "volume": 7008147
-        },
-        {
-          "time": "2026-10-16",
-          "open": 28.0,
-          "high": 28.18,
-          "low": 27.0,
-          "close": 27.27,
-          "volume": 6667288
-        },
-        {
-          "time": "2026-10-19",
-          "open": 26.96,
-          "high": 27.38,
-          "low": 26.43,
-          "close": 27.0,
-          "volume": 5270043
-        },
-        {
-          "time": "2026-10-20",
-          "open": 26.98,
-          "high": 27.55,
-          "low": 26.71,
-          "close": 26.92,
-          "volume": 5927500
-        },
-        {
-          "time": "2026-10-21",
-          "open": 27.1,
-          "high": 27.38,
-          "low": 26.41,
-          "close": 26.55,
-          "volume": 5730922
-        },
-        {
-          "time": "2026-10-22",
-          "open": 27.78,
-          "high": 27.97,
-          "low": 25.7,
-          "close": 25.7,
-          "volume": 7457189
-        },
-        {
-          "time": "2026-10-23",
-          "open": 25.66,
-          "high": 25.96,
-          "low": 23.67,
-          "close": 25.85,
-          "volume": 9166242
-        },
-        {
-          "time": "2026-10-26",
-          "open": 25.54,
-          "high": 25.83,
-          "low": 25.16,
-          "close": 25.6,
-          "volume": 4213603
-        },
-        {
-          "time": "2026-10-27",
-          "open": 26.0,
-          "high": 26.26,
-          "low": 25.0,
-          "close": 25.0,
-          "volume": 3836681
-        },
-        {
-          "time": "2026-10-28",
-          "open": 25.4,
-          "high": 25.87,
-          "low": 25.06,
-          "close": 25.68,
-          "volume": 4806000
-        },
-        {
-          "time": "2026-10-29",
-          "open": 25.6,
-          "high": 26.4,
-          "low": 25.38,
-          "close": 25.6,
-          "volume": 5759408
-        },
-        {
-          "time": "2026-10-30",
-          "open": 25.0,
-          "high": 25.48,
-          "low": 23.96,
-          "close": 23.98,
-          "volume": 6323038
-        },
-        {
-          "time": "2026-11-02",
-          "open": 23.98,
-          "high": 24.85,
-          "low": 23.46,
-          "close": 24.65,
-          "volume": 4723413
-        },
-        {
-          "time": "2026-11-03",
-          "open": 24.5,
-          "high": 25.97,
-          "low": 24.44,
-          "close": 24.92,
-          "volume": 6246945
-        },
-        {
-          "time": "2026-11-04",
-          "open": 25.01,
-          "high": 26.09,
-          "low": 24.5,
-          "close": 25.93,
-          "volume": 7998883
-        },
-        {
-          "time": "2026-11-05",
-          "open": 26.42,
-          "high": 28.22,
-          "low": 26.42,
-          "close": 27.38,
-          "volume": 15085079
-        },
-        {
-          "time": "2026-11-06",
-          "open": 26.4,
-          "high": 28.1,
-          "low": 26.18,
-          "close": 26.73,
-          "volume": 12359906
-        },
-        {
-          "time": "2026-11-09",
-          "open": 27.13,
-          "high": 27.98,
-          "low": 26.15,
-          "close": 26.15,
-          "volume": 8257618
-        },
-        {
-          "time": "2026-11-10",
-          "open": 26.41,
-          "high": 26.65,
-          "low": 26.11,
-          "close": 26.54,
-          "volume": 7023376
-        },
-        {
-          "time": "2026-11-11",
-          "open": 29.19,
-          "high": 29.19,
-          "low": 29.19,
-          "close": 29.19,
-          "volume": 2028888
-        },
-        {
-          "time": "2026-11-12",
-          "open": 32.11,
-          "high": 32.11,
-          "low": 32.11,
-          "close": 32.11,
-          "volume": 1235600
-        },
-        {
-          "time": "2026-11-13",
-          "open": 34.97,
-          "high": 35.32,
-          "low": 34.0,
-          "close": 35.32,
-          "volume": 19790780
-        }
-      ],
-      "ema5": [
-        {
-          "time": "2026-08-28",
-          "value": 31.9
-        },
-        {
-          "time": "2026-08-31",
-          "value": 31.55
-        },
-        {
-          "time": "2026-09-01",
-          "value": 31.15
-        },
-        {
-          "time": "2026-09-02",
-          "value": 30.64
-        },
-        {
-          "time": "2026-09-03",
-          "value": 30.19
-        },
-        {
-          "time": "2026-09-04",
-          "value": 29.75
-        },
-        {
-          "time": "2026-09-07",
-          "value": 29.52
-        },
-        {
-          "time": "2026-09-08",
-          "value": 29.4
-        },
-        {
-          "time": "2026-09-09",
-          "value": 29.08
-        },
-        {
-          "time": "2026-09-10",
-          "value": 28.59
-        },
-        {
-          "time": "2026-09-11",
-          "value": 28.02
-        },
-        {
-          "time": "2026-09-14",
-          "value": 27.57
-        },
-        {
-          "time": "2026-09-15",
-          "value": 27.1
-        },
-        {
-          "time": "2026-09-16",
-          "value": 26.95
-        },
-        {
-          "time": "2026-09-17",
-          "value": 26.95
-        },
-        {
-          "time": "2026-09-18",
-          "value": 27.38
-        },
-        {
-          "time": "2026-09-21",
-          "value": 28.22
-        },
-        {
-          "time": "2026-09-22",
-          "value": 28.63
-        },
-        {
-          "time": "2026-09-23",
-          "value": 29.89
-        },
-        {
-          "time": "2026-09-24",
-          "value": 31.8
-        },
-        {
-          "time": "2026-09-28",
-          "value": 34.27
-        },
-        {
-          "time": "2026-09-29",
-          "value": 34.61
-        },
-        {
-          "time": "2026-09-30",
-          "value": 34.24
-        },
-        {
-          "time": "2026-10-08",
-          "value": 33.46
-        },
-        {
-          "time": "2026-10-09",
-          "value": 32.42
-        },
-        {
-          "time": "2026-10-12",
-          "value": 31.21
-        },
-        {
-          "time": "2026-10-13",
-          "value": 30.53
-        },
-        {
-          "time": "2026-10-14",
-          "value": 29.8
-        },
-        {
-          "time": "2026-10-15",
-          "value": 29.08
-        },
-        {
-          "time": "2026-10-16",
-          "value": 28.48
-        },
-        {
-          "time": "2026-10-19",
-          "value": 27.99
-        },
-        {
-          "time": "2026-10-20",
-          "value": 27.63
-        },
-        {
-          "time": "2026-10-21",
-          "value": 27.27
-        },
-        {
-          "time": "2026-10-22",
-          "value": 26.75
-        },
-        {
-          "time": "2026-10-23",
-          "value": 26.45
-        },
-        {
-          "time": "2026-10-26",
-          "value": 26.17
-        },
-        {
-          "time": "2026-10-27",
-          "value": 25.78
-        },
-        {
-          "time": "2026-10-28",
-          "value": 25.74
-        },
-        {
-          "time": "2026-10-29",
-          "value": 25.7
-        },
-        {
-          "time": "2026-10-30",
-          "value": 25.12
-        },
-        {
-          "time": "2026-11-02",
-          "value": 24.97
-        },
-        {
-          "time": "2026-11-03",
-          "value": 24.95
-        },
-        {
-          "time": "2026-11-04",
-          "value": 25.28
-        },
-        {
-          "time": "2026-11-05",
-          "value": 25.98
-        },
-        {
-          "time": "2026-11-06",
-          "value": 26.23
-        },
-        {
-          "time": "2026-11-09",
-          "value": 26.2
-        },
-        {
-          "time": "2026-11-10",
-          "value": 26.32
-        },
-        {
-          "time": "2026-11-11",
-          "value": 27.27
-        },
-        {
-          "time": "2026-11-12",
-          "value": 28.89
-        },
-        {
-          "time": "2026-11-13",
-          "value": 31.03
-        }
-      ],
-      "ema20": [
-        {
-          "time": "2026-08-28",
-          "value": 31.9
-        },
-        {
-          "time": "2026-08-31",
-          "value": 31.8
-        },
-        {
-          "time": "2026-09-01",
-          "value": 31.66
-        },
-        {
-          "time": "2026-09-02",
-          "value": 31.47
-        },
-        {
-          "time": "2026-09-03",
-          "value": 31.26
-        },
-        {
-          "time": "2026-09-04",
-          "value": 31.03
-        },
-        {
-          "time": "2026-09-07",
-          "value": 30.85
-        },
-        {
-          "time": "2026-09-08",
-          "value": 30.68
-        },
-        {
-          "time": "2026-09-09",
-          "value": 30.47
-        },
-        {
-          "time": "2026-09-10",
-          "value": 30.2
-        },
-        {
-          "time": "2026-09-11",
-          "value": 29.88
-        },
-        {
-          "time": "2026-09-14",
-          "value": 29.58
-        },
-        {
-          "time": "2026-09-15",
-          "value": 29.25
-        },
-        {
-          "time": "2026-09-16",
-          "value": 29.0
-        },
-        {
-          "time": "2026-09-17",
-          "value": 28.81
-        },
-        {
-          "time": "2026-09-18",
-          "value": 28.75
-        },
-        {
-          "time": "2026-09-21",
-          "value": 28.86
-        },
-        {
-          "time": "2026-09-22",
-          "value": 28.92
-        },
-        {
-          "time": "2026-09-23",
-          "value": 29.25
-        },
-        {
-          "time": "2026-09-24",
-          "value": 29.86
-        },
-        {
-          "time": "2026-09-28",
-          "value": 30.75
-        },
-        {
-          "time": "2026-09-29",
-          "value": 31.18
-        },
-        {
-          "time": "2026-09-30",
-          "value": 31.4
-        },
-        {
-          "time": "2026-10-08",
-          "value": 31.45
-        },
-        {
-          "time": "2026-10-09",
-          "value": 31.34
-        },
-        {
-          "time": "2026-10-12",
-          "value": 31.1
-        },
-        {
-          "time": "2026-10-13",
-          "value": 30.92
-        },
-        {
-          "time": "2026-10-14",
-          "value": 30.67
-        },
-        {
-          "time": "2026-10-15",
-          "value": 30.38
-        },
-        {
-          "time": "2026-10-16",
-          "value": 30.09
-        },
-        {
-          "time": "2026-10-19",
-          "value": 29.79
-        },
-        {
-          "time": "2026-10-20",
-          "value": 29.52
-        },
-        {
-          "time": "2026-10-21",
-          "value": 29.24
-        },
-        {
-          "time": "2026-10-22",
-          "value": 28.9
-        },
-        {
-          "time": "2026-10-23",
-          "value": 28.61
-        },
-        {
-          "time": "2026-10-26",
-          "value": 28.32
-        },
-        {
-          "time": "2026-10-27",
-          "value": 28.01
-        },
-        {
-          "time": "2026-10-28",
-          "value": 27.78
-        },
-        {
-          "time": "2026-10-29",
-          "value": 27.58
-        },
-        {
-          "time": "2026-10-30",
-          "value": 27.23
-        },
-        {
-          "time": "2026-11-02",
-          "value": 26.99
-        },
-        {
-          "time": "2026-11-03",
-          "value": 26.79
-        },
-        {
-          "time": "2026-11-04",
-          "value": 26.71
-        },
-        {
-          "time": "2026-11-05",
-          "value": 26.77
-        },
-        {
-          "time": "2026-11-06",
-          "value": 26.77
-        },
-        {
-          "time": "2026-11-09",
-          "value": 26.71
-        },
-        {
-          "time": "2026-11-10",
-          "value": 26.69
-        },
-        {
-          "time": "2026-11-11",
-          "value": 26.93
-        },
-        {
-          "time": "2026-11-12",
-          "value": 27.42
-        },
-        {
-          "time": "2026-11-13",
-          "value": 28.18
-        }
-      ],
-      "latest_close": 35.32,
-      "abnormal": {
-        "is_20cm": false,
-        "limit_rate": 0.1,
-        "ret10": 43.29,
-        "safety10": 56.71,
-        "boards_left": 3.5,
-        "ret30": -9.9,
-        "safety30": 209.9,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余3.5板)"
-      }
-    },
-    {
-      "name": "兴欣新材",
-      "code": "sz001358",
-      "sector": "芯片",
-      "pool_type": "【2连板梯队】",
-      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
-      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
-      "height": 2,
-      "status": "yellow",
-      "is_custom": false,
-      "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 25.49,
-          "high": 25.75,
-          "low": 25.2,
-          "close": 25.48,
-          "volume": 2171200
-        },
-        {
-          "time": "2026-08-31",
-          "open": 25.3,
-          "high": 25.76,
-          "low": 25.0,
-          "close": 25.66,
-          "volume": 1772291
-        },
-        {
-          "time": "2026-09-01",
-          "open": 25.91,
-          "high": 25.92,
-          "low": 24.96,
-          "close": 25.05,
-          "volume": 1990800
-        },
-        {
-          "time": "2026-09-02",
-          "open": 24.83,
-          "high": 24.94,
-          "low": 24.46,
-          "close": 24.79,
-          "volume": 1280689
-        },
-        {
-          "time": "2026-09-03",
-          "open": 24.79,
-          "high": 24.95,
-          "low": 24.3,
-          "close": 24.36,
-          "volume": 1091700
-        },
-        {
-          "time": "2026-09-04",
-          "open": 24.44,
-          "high": 24.7,
-          "low": 23.76,
-          "close": 23.89,
-          "volume": 1331124
-        },
-        {
-          "time": "2026-09-07",
-          "open": 23.9,
-          "high": 24.4,
-          "low": 23.38,
-          "close": 24.17,
-          "volume": 1476623
-        },
-        {
-          "time": "2026-09-08",
-          "open": 24.23,
-          "high": 25.05,
-          "low": 23.87,
-          "close": 24.79,
-          "volume": 2399082
-        },
-        {
-          "time": "2026-09-09",
-          "open": 24.79,
-          "high": 24.8,
-          "low": 23.88,
-          "close": 23.92,
-          "volume": 1917100
-        },
-        {
-          "time": "2026-09-10",
-          "open": 23.85,
-          "high": 23.85,
-          "low": 23.3,
-          "close": 23.34,
-          "volume": 1127000
-        },
-        {
-          "time": "2026-09-11",
-          "open": 22.97,
-          "high": 23.34,
-          "low": 22.51,
-          "close": 22.81,
-          "volume": 1169800
-        },
-        {
-          "time": "2026-09-14",
-          "open": 22.83,
-          "high": 23.43,
-          "low": 22.64,
-          "close": 23.12,
-          "volume": 1091516
-        },
-        {
-          "time": "2026-09-15",
-          "open": 23.05,
-          "high": 23.38,
-          "low": 22.81,
-          "close": 23.09,
-          "volume": 1041116
-        },
-        {
-          "time": "2026-09-16",
-          "open": 23.13,
-          "high": 24.9,
-          "low": 22.86,
-          "close": 24.54,
-          "volume": 4234260
-        },
-        {
-          "time": "2026-09-17",
-          "open": 24.15,
-          "high": 24.5,
-          "low": 23.72,
-          "close": 23.95,
-          "volume": 2969329
-        },
-        {
-          "time": "2026-09-18",
-          "open": 23.99,
-          "high": 24.85,
-          "low": 23.73,
-          "close": 24.56,
-          "volume": 2103994
-        },
-        {
-          "time": "2026-09-21",
-          "open": 24.42,
-          "high": 25.25,
-          "low": 24.39,
-          "close": 25.21,
-          "volume": 2368400
-        },
-        {
-          "time": "2026-09-22",
-          "open": 25.21,
-          "high": 25.5,
-          "low": 24.8,
-          "close": 25.0,
-          "volume": 1354543
-        },
-        {
-          "time": "2026-09-23",
-          "open": 24.89,
-          "high": 25.24,
-          "low": 24.44,
-          "close": 24.73,
-          "volume": 1605100
-        },
-        {
-          "time": "2026-09-24",
-          "open": 24.68,
-          "high": 27.08,
-          "low": 24.59,
-          "close": 25.48,
-          "volume": 5174862
-        },
-        {
-          "time": "2026-09-28",
-          "open": 25.73,
-          "high": 25.73,
-          "low": 24.08,
-          "close": 24.68,
-          "volume": 2920806
-        },
-        {
-          "time": "2026-09-29",
-          "open": 24.59,
-          "high": 24.87,
-          "low": 24.37,
-          "close": 24.54,
-          "volume": 1122169
-        },
-        {
-          "time": "2026-09-30",
-          "open": 24.99,
-          "high": 24.99,
-          "low": 24.08,
-          "close": 24.17,
-          "volume": 1038816
-        },
-        {
-          "time": "2026-10-08",
-          "open": 24.16,
-          "high": 24.76,
-          "low": 23.8,
-          "close": 24.01,
-          "volume": 1208864
-        },
-        {
-          "time": "2026-10-09",
-          "open": 23.94,
-          "high": 24.38,
-          "low": 23.5,
-          "close": 24.2,
-          "volume": 1712109
-        },
-        {
-          "time": "2026-10-12",
-          "open": 24.34,
-          "high": 24.34,
-          "low": 23.6,
-          "close": 23.79,
-          "volume": 1100200
-        },
-        {
-          "time": "2026-10-13",
-          "open": 23.89,
-          "high": 24.15,
-          "low": 22.94,
-          "close": 24.0,
-          "volume": 1522498
-        },
-        {
-          "time": "2026-10-14",
-          "open": 23.88,
-          "high": 24.05,
-          "low": 23.0,
-          "close": 23.03,
-          "volume": 1242200
-        },
-        {
-          "time": "2026-10-15",
-          "open": 22.62,
-          "high": 23.06,
-          "low": 22.18,
-          "close": 22.65,
-          "volume": 1449240
-        },
-        {
-          "time": "2026-10-16",
-          "open": 23.26,
-          "high": 24.92,
-          "low": 23.26,
-          "close": 24.92,
-          "volume": 1535480
-        },
-        {
-          "time": "2026-10-19",
-          "open": 24.64,
-          "high": 24.64,
-          "low": 22.45,
-          "close": 22.86,
-          "volume": 6036040
-        },
-        {
-          "time": "2026-10-20",
-          "open": 22.86,
-          "high": 24.4,
-          "low": 22.45,
-          "close": 23.2,
-          "volume": 4155480
-        },
-        {
-          "time": "2026-10-21",
-          "open": 23.11,
-          "high": 23.53,
-          "low": 22.76,
-          "close": 22.88,
-          "volume": 2762629
-        },
-        {
-          "time": "2026-10-22",
-          "open": 22.74,
-          "high": 23.1,
-          "low": 22.34,
-          "close": 22.65,
-          "volume": 2091806
-        },
-        {
-          "time": "2026-10-23",
-          "open": 22.3,
-          "high": 22.83,
-          "low": 21.13,
-          "close": 22.76,
-          "volume": 2427607
-        },
-        {
-          "time": "2026-10-26",
-          "open": 22.65,
-          "high": 23.08,
-          "low": 22.42,
-          "close": 22.76,
-          "volume": 1651800
-        },
-        {
-          "time": "2026-10-27",
-          "open": 22.56,
-          "high": 22.98,
-          "low": 21.62,
-          "close": 21.68,
-          "volume": 1535050
-        },
-        {
-          "time": "2026-10-28",
-          "open": 21.69,
-          "high": 22.19,
-          "low": 21.37,
-          "close": 22.04,
-          "volume": 1249600
-        },
-        {
-          "time": "2026-10-29",
-          "open": 21.86,
-          "high": 22.26,
-          "low": 21.37,
-          "close": 21.43,
-          "volume": 1157100
-        },
-        {
-          "time": "2026-10-30",
-          "open": 21.43,
-          "high": 21.7,
-          "low": 20.53,
-          "close": 20.69,
-          "volume": 1303299
-        },
-        {
-          "time": "2026-11-02",
-          "open": 20.68,
-          "high": 21.18,
-          "low": 20.02,
-          "close": 20.96,
-          "volume": 1161500
-        },
-        {
-          "time": "2026-11-03",
-          "open": 20.82,
-          "high": 21.8,
-          "low": 20.67,
-          "close": 21.05,
-          "volume": 1296040
-        },
-        {
-          "time": "2026-11-04",
-          "open": 21.05,
-          "high": 21.64,
-          "low": 20.67,
-          "close": 21.56,
-          "volume": 1687244
-        },
-        {
-          "time": "2026-11-05",
-          "open": 21.64,
-          "high": 22.39,
-          "low": 21.42,
-          "close": 22.27,
-          "volume": 1422284
-        },
-        {
-          "time": "2026-11-06",
-          "open": 21.61,
-          "high": 22.01,
-          "low": 21.51,
-          "close": 21.53,
-          "volume": 986451
-        },
-        {
-          "time": "2026-11-09",
-          "open": 21.69,
-          "high": 22.09,
-          "low": 21.3,
-          "close": 21.38,
-          "volume": 833729
-        },
-        {
-          "time": "2026-11-10",
-          "open": 21.6,
-          "high": 21.79,
-          "low": 21.45,
-          "close": 21.77,
-          "volume": 703740
-        },
-        {
-          "time": "2026-11-11",
-          "open": 21.76,
-          "high": 22.05,
-          "low": 21.61,
-          "close": 22.02,
-          "volume": 718240
-        },
-        {
-          "time": "2026-11-12",
-          "open": 22.02,
-          "high": 24.22,
-          "low": 22.02,
-          "close": 24.22,
-          "volume": 2867565
-        },
-        {
-          "time": "2026-11-13",
-          "open": 26.64,
-          "high": 26.64,
-          "low": 26.64,
-          "close": 26.64,
-          "volume": 1548014
-        }
-      ],
-      "ema5": [
-        {
-          "time": "2026-08-28",
-          "value": 25.48
-        },
-        {
-          "time": "2026-08-31",
-          "value": 25.54
-        },
-        {
-          "time": "2026-09-01",
-          "value": 25.38
-        },
-        {
-          "time": "2026-09-02",
-          "value": 25.18
-        },
-        {
-          "time": "2026-09-03",
-          "value": 24.91
-        },
-        {
-          "time": "2026-09-04",
-          "value": 24.57
-        },
-        {
-          "time": "2026-09-07",
-          "value": 24.44
-        },
-        {
-          "time": "2026-09-08",
-          "value": 24.55
-        },
-        {
-          "time": "2026-09-09",
-          "value": 24.34
-        },
-        {
-          "time": "2026-09-10",
-          "value": 24.01
-        },
-        {
-          "time": "2026-09-11",
-          "value": 23.61
-        },
-        {
-          "time": "2026-09-14",
-          "value": 23.45
-        },
-        {
-          "time": "2026-09-15",
-          "value": 23.33
-        },
-        {
-          "time": "2026-09-16",
-          "value": 23.73
-        },
-        {
-          "time": "2026-09-17",
-          "value": 23.8
-        },
-        {
-          "time": "2026-09-18",
-          "value": 24.06
-        },
-        {
-          "time": "2026-09-21",
-          "value": 24.44
-        },
-        {
-          "time": "2026-09-22",
-          "value": 24.63
-        },
-        {
-          "time": "2026-09-23",
-          "value": 24.66
-        },
-        {
-          "time": "2026-09-24",
-          "value": 24.93
-        },
-        {
-          "time": "2026-09-28",
-          "value": 24.85
-        },
-        {
-          "time": "2026-09-29",
-          "value": 24.75
-        },
-        {
-          "time": "2026-09-30",
-          "value": 24.55
-        },
-        {
-          "time": "2026-10-08",
-          "value": 24.37
-        },
-        {
-          "time": "2026-10-09",
-          "value": 24.32
-        },
-        {
-          "time": "2026-10-12",
-          "value": 24.14
-        },
-        {
-          "time": "2026-10-13",
-          "value": 24.09
-        },
-        {
-          "time": "2026-10-14",
-          "value": 23.74
-        },
-        {
-          "time": "2026-10-15",
-          "value": 23.38
-        },
-        {
-          "time": "2026-10-16",
-          "value": 23.89
-        },
-        {
-          "time": "2026-10-19",
-          "value": 23.55
-        },
-        {
-          "time": "2026-10-20",
-          "value": 23.43
-        },
-        {
-          "time": "2026-10-21",
-          "value": 23.25
-        },
-        {
-          "time": "2026-10-22",
-          "value": 23.05
-        },
-        {
-          "time": "2026-10-23",
-          "value": 22.95
-        },
-        {
-          "time": "2026-10-26",
-          "value": 22.89
-        },
-        {
-          "time": "2026-10-27",
-          "value": 22.49
-        },
-        {
-          "time": "2026-10-28",
-          "value": 22.34
-        },
-        {
-          "time": "2026-10-29",
-          "value": 22.03
-        },
-        {
-          "time": "2026-10-30",
-          "value": 21.59
-        },
-        {
-          "time": "2026-11-02",
-          "value": 21.38
-        },
-        {
-          "time": "2026-11-03",
-          "value": 21.27
-        },
-        {
-          "time": "2026-11-04",
-          "value": 21.37
-        },
-        {
-          "time": "2026-11-05",
-          "value": 21.67
-        },
-        {
-          "time": "2026-11-06",
-          "value": 21.62
-        },
-        {
-          "time": "2026-11-09",
-          "value": 21.54
-        },
-        {
-          "time": "2026-11-10",
-          "value": 21.62
-        },
-        {
-          "time": "2026-11-11",
-          "value": 21.75
-        },
-        {
-          "time": "2026-11-12",
-          "value": 22.57
-        },
-        {
-          "time": "2026-11-13",
-          "value": 23.93
-        }
-      ],
-      "ema20": [
-        {
-          "time": "2026-08-28",
-          "value": 25.48
-        },
-        {
-          "time": "2026-08-31",
-          "value": 25.5
-        },
-        {
-          "time": "2026-09-01",
-          "value": 25.45
-        },
-        {
-          "time": "2026-09-02",
-          "value": 25.39
-        },
-        {
-          "time": "2026-09-03",
-          "value": 25.29
-        },
-        {
-          "time": "2026-09-04",
-          "value": 25.16
-        },
-        {
-          "time": "2026-09-07",
-          "value": 25.07
-        },
-        {
-          "time": "2026-09-08",
-          "value": 25.04
-        },
-        {
-          "time": "2026-09-09",
-          "value": 24.93
-        },
-        {
-          "time": "2026-09-10",
-          "value": 24.78
-        },
-        {
-          "time": "2026-09-11",
-          "value": 24.59
-        },
-        {
-          "time": "2026-09-14",
-          "value": 24.45
-        },
-        {
-          "time": "2026-09-15",
-          "value": 24.32
-        },
-        {
-          "time": "2026-09-16",
-          "value": 24.34
-        },
-        {
-          "time": "2026-09-17",
-          "value": 24.31
-        },
-        {
-          "time": "2026-09-18",
-          "value": 24.33
-        },
-        {
-          "time": "2026-09-21",
-          "value": 24.41
-        },
-        {
-          "time": "2026-09-22",
-          "value": 24.47
-        },
-        {
-          "time": "2026-09-23",
-          "value": 24.49
-        },
-        {
-          "time": "2026-09-24",
-          "value": 24.59
-        },
-        {
-          "time": "2026-09-28",
-          "value": 24.6
-        },
-        {
-          "time": "2026-09-29",
-          "value": 24.59
-        },
-        {
-          "time": "2026-09-30",
-          "value": 24.55
-        },
-        {
-          "time": "2026-10-08",
-          "value": 24.5
-        },
-        {
-          "time": "2026-10-09",
-          "value": 24.47
-        },
-        {
-          "time": "2026-10-12",
-          "value": 24.41
-        },
-        {
-          "time": "2026-10-13",
-          "value": 24.37
-        },
-        {
-          "time": "2026-10-14",
-          "value": 24.24
-        },
-        {
-          "time": "2026-10-15",
-          "value": 24.09
-        },
-        {
-          "time": "2026-10-16",
-          "value": 24.17
-        },
-        {
-          "time": "2026-10-19",
-          "value": 24.04
-        },
-        {
-          "time": "2026-10-20",
-          "value": 23.96
-        },
-        {
-          "time": "2026-10-21",
-          "value": 23.86
-        },
-        {
-          "time": "2026-10-22",
-          "value": 23.74
-        },
-        {
-          "time": "2026-10-23",
-          "value": 23.65
-        },
-        {
-          "time": "2026-10-26",
-          "value": 23.57
-        },
-        {
-          "time": "2026-10-27",
-          "value": 23.39
-        },
-        {
-          "time": "2026-10-28",
-          "value": 23.26
-        },
-        {
-          "time": "2026-10-29",
-          "value": 23.08
-        },
-        {
-          "time": "2026-10-30",
-          "value": 22.86
-        },
-        {
-          "time": "2026-11-02",
-          "value": 22.68
-        },
-        {
-          "time": "2026-11-03",
-          "value": 22.52
-        },
-        {
-          "time": "2026-11-04",
-          "value": 22.43
-        },
-        {
-          "time": "2026-11-05",
-          "value": 22.41
-        },
-        {
-          "time": "2026-11-06",
-          "value": 22.33
-        },
-        {
-          "time": "2026-11-09",
-          "value": 22.24
-        },
-        {
-          "time": "2026-11-10",
-          "value": 22.19
-        },
-        {
-          "time": "2026-11-11",
-          "value": 22.18
-        },
-        {
-          "time": "2026-11-12",
-          "value": 22.37
-        },
-        {
-          "time": "2026-11-13",
-          "value": 22.78
-        }
-      ],
-      "latest_close": 26.64,
-      "abnormal": {
-        "is_20cm": false,
-        "limit_rate": 0.1,
-        "ret10": 27.1,
-        "safety10": 72.9,
-        "boards_left": 4.8,
-        "ret30": 7.94,
-        "safety30": 192.06,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余4.8板)"
-      }
-    },
-    {
-      "name": "好当家",
-      "code": "sh600467",
-      "sector": "农业",
-      "pool_type": "【2连板梯队】",
-      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
-      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
-      "height": 2,
-      "status": "yellow",
-      "is_custom": false,
-      "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 2.41,
-          "high": 2.47,
-          "low": 2.39,
-          "close": 2.47,
-          "volume": 44366002
-        },
-        {
-          "time": "2026-08-31",
-          "open": 2.46,
-          "high": 2.47,
-          "low": 2.4,
-          "close": 2.41,
-          "volume": 34406300
-        },
-        {
-          "time": "2026-09-01",
-          "open": 2.4,
-          "high": 2.5,
-          "low": 2.4,
-          "close": 2.48,
-          "volume": 55515277
-        },
-        {
-          "time": "2026-09-02",
-          "open": 2.46,
-          "high": 2.47,
-          "low": 2.41,
-          "close": 2.43,
-          "volume": 37086998
-        },
-        {
-          "time": "2026-09-03",
-          "open": 2.43,
-          "high": 2.46,
-          "low": 2.4,
-          "close": 2.4,
-          "volume": 27825793
-        },
-        {
-          "time": "2026-09-04",
-          "open": 2.4,
-          "high": 2.48,
-          "low": 2.38,
-          "close": 2.45,
-          "volume": 34763316
-        },
-        {
-          "time": "2026-09-07",
-          "open": 2.47,
-          "high": 2.54,
-          "low": 2.47,
-          "close": 2.53,
-          "volume": 62994245
-        },
-        {
-          "time": "2026-09-08",
-          "open": 2.52,
-          "high": 2.62,
-          "low": 2.52,
-          "close": 2.6,
-          "volume": 74526500
-        },
-        {
-          "time": "2026-09-09",
-          "open": 2.58,
-          "high": 2.71,
-          "low": 2.56,
-          "close": 2.69,
-          "volume": 100436532
-        },
-        {
-          "time": "2026-09-10",
-          "open": 2.65,
-          "high": 2.71,
-          "low": 2.57,
-          "close": 2.58,
-          "volume": 76866900
-        },
-        {
-          "time": "2026-09-11",
-          "open": 2.56,
-          "high": 2.61,
-          "low": 2.47,
-          "close": 2.48,
-          "volume": 56427299
-        },
-        {
-          "time": "2026-09-14",
-          "open": 2.47,
-          "high": 2.5,
-          "low": 2.43,
-          "close": 2.47,
-          "volume": 47501055
-        },
-        {
-          "time": "2026-09-15",
-          "open": 2.46,
-          "high": 2.47,
-          "low": 2.34,
-          "close": 2.35,
-          "volume": 44747994
-        },
-        {
-          "time": "2026-09-16",
-          "open": 2.36,
-          "high": 2.44,
-          "low": 2.32,
-          "close": 2.42,
-          "volume": 37872102
-        },
-        {
-          "time": "2026-09-17",
-          "open": 2.41,
-          "high": 2.45,
-          "low": 2.36,
-          "close": 2.43,
-          "volume": 33647040
-        },
-        {
-          "time": "2026-09-18",
-          "open": 2.42,
-          "high": 2.44,
-          "low": 2.38,
-          "close": 2.39,
-          "volume": 39601382
-        },
-        {
-          "time": "2026-09-21",
-          "open": 2.39,
-          "high": 2.5,
-          "low": 2.39,
-          "close": 2.49,
-          "volume": 53871034
-        },
-        {
-          "time": "2026-09-22",
-          "open": 2.5,
-          "high": 2.51,
-          "low": 2.41,
-          "close": 2.44,
-          "volume": 43385900
-        },
-        {
-          "time": "2026-09-23",
-          "open": 2.43,
-          "high": 2.44,
-          "low": 2.39,
-          "close": 2.41,
-          "volume": 31478800
-        },
-        {
-          "time": "2026-09-24",
-          "open": 2.41,
-          "high": 2.43,
-          "low": 2.36,
-          "close": 2.38,
-          "volume": 32734600
-        },
-        {
-          "time": "2026-09-28",
-          "open": 2.37,
-          "high": 2.41,
-          "low": 2.36,
-          "close": 2.41,
-          "volume": 29561913
-        },
-        {
-          "time": "2026-09-29",
-          "open": 2.4,
-          "high": 2.43,
-          "low": 2.37,
-          "close": 2.42,
-          "volume": 32193300
-        },
-        {
-          "time": "2026-09-30",
-          "open": 2.43,
-          "high": 2.45,
-          "low": 2.4,
-          "close": 2.44,
-          "volume": 27279597
-        },
-        {
-          "time": "2026-10-08",
-          "open": 2.43,
-          "high": 2.46,
-          "low": 2.37,
-          "close": 2.39,
-          "volume": 38501038
-        },
-        {
-          "time": "2026-10-09",
-          "open": 2.38,
-          "high": 2.45,
-          "low": 2.36,
-          "close": 2.45,
-          "volume": 37343197
-        },
-        {
-          "time": "2026-10-12",
-          "open": 2.45,
-          "high": 2.49,
-          "low": 2.35,
-          "close": 2.36,
-          "volume": 45701500
-        },
-        {
-          "time": "2026-10-13",
-          "open": 2.35,
-          "high": 2.43,
-          "low": 2.31,
-          "close": 2.42,
-          "volume": 45001909
-        },
-        {
-          "time": "2026-10-14",
-          "open": 2.42,
-          "high": 2.47,
-          "low": 2.38,
-          "close": 2.4,
-          "volume": 30919500
-        },
-        {
-          "time": "2026-10-15",
-          "open": 2.36,
-          "high": 2.37,
-          "low": 2.3,
-          "close": 2.32,
-          "volume": 34079600
-        },
-        {
-          "time": "2026-10-16",
-          "open": 2.33,
-          "high": 2.38,
-          "low": 2.29,
-          "close": 2.31,
-          "volume": 44550500
-        },
-        {
-          "time": "2026-10-19",
-          "open": 2.3,
-          "high": 2.33,
-          "low": 2.22,
-          "close": 2.26,
-          "volume": 35500302
-        },
-        {
-          "time": "2026-10-20",
-          "open": 2.27,
-          "high": 2.29,
-          "low": 2.24,
-          "close": 2.26,
-          "volume": 22959910
-        },
-        {
-          "time": "2026-10-21",
-          "open": 2.26,
-          "high": 2.36,
-          "low": 2.25,
-          "close": 2.29,
-          "volume": 40100800
-        },
-        {
-          "time": "2026-10-22",
-          "open": 2.29,
-          "high": 2.32,
-          "low": 2.2,
-          "close": 2.21,
-          "volume": 36632200
-        },
-        {
-          "time": "2026-10-23",
-          "open": 2.2,
-          "high": 2.21,
-          "low": 2.1,
-          "close": 2.2,
-          "volume": 43809193
-        },
-        {
-          "time": "2026-10-26",
-          "open": 2.19,
-          "high": 2.22,
-          "low": 2.16,
-          "close": 2.19,
-          "volume": 38483420
-        },
-        {
-          "time": "2026-10-27",
-          "open": 2.18,
-          "high": 2.24,
-          "low": 2.17,
-          "close": 2.18,
-          "volume": 38852959
-        },
-        {
-          "time": "2026-10-28",
-          "open": 2.17,
-          "high": 2.22,
-          "low": 2.16,
-          "close": 2.18,
-          "volume": 32900800
-        },
-        {
-          "time": "2026-10-29",
-          "open": 2.18,
-          "high": 2.21,
-          "low": 2.14,
-          "close": 2.16,
-          "volume": 33285651
-        },
-        {
-          "time": "2026-10-30",
-          "open": 2.15,
-          "high": 2.21,
-          "low": 2.12,
-          "close": 2.15,
-          "volume": 42491619
-        },
-        {
-          "time": "2026-11-02",
-          "open": 2.15,
-          "high": 2.19,
-          "low": 2.12,
-          "close": 2.19,
-          "volume": 41362400
-        },
-        {
-          "time": "2026-11-03",
-          "open": 2.19,
-          "high": 2.29,
-          "low": 2.18,
-          "close": 2.26,
-          "volume": 60435300
-        },
-        {
-          "time": "2026-11-04",
-          "open": 2.24,
-          "high": 2.25,
-          "low": 2.17,
-          "close": 2.23,
-          "volume": 68961381
-        },
-        {
-          "time": "2026-11-05",
-          "open": 2.22,
-          "high": 2.25,
-          "low": 2.21,
-          "close": 2.24,
-          "volume": 43883427
-        },
-        {
-          "time": "2026-11-06",
-          "open": 2.2,
-          "high": 2.25,
-          "low": 2.18,
-          "close": 2.22,
-          "volume": 38758700
-        },
-        {
-          "time": "2026-11-09",
-          "open": 2.23,
-          "high": 2.24,
-          "low": 2.2,
-          "close": 2.21,
-          "volume": 35154941
-        },
-        {
-          "time": "2026-11-10",
-          "open": 2.22,
-          "high": 2.24,
-          "low": 2.2,
-          "close": 2.24,
-          "volume": 29612397
-        },
-        {
-          "time": "2026-11-11",
-          "open": 2.24,
-          "high": 2.26,
-          "low": 2.23,
-          "close": 2.25,
-          "volume": 26545780
-        },
-        {
-          "time": "2026-11-12",
-          "open": 2.25,
-          "high": 2.48,
-          "low": 2.24,
-          "close": 2.48,
-          "volume": 136225623
-        },
-        {
-          "time": "2026-11-13",
-          "open": 2.73,
-          "high": 2.73,
-          "low": 2.62,
-          "close": 2.73,
-          "volume": 273006042
-        }
-      ],
-      "ema5": [
-        {
-          "time": "2026-08-28",
-          "value": 2.47
-        },
-        {
-          "time": "2026-08-31",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-01",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-02",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-03",
-          "value": 2.43
-        },
-        {
-          "time": "2026-09-04",
-          "value": 2.44
-        },
-        {
-          "time": "2026-09-07",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-08",
-          "value": 2.51
-        },
-        {
-          "time": "2026-09-09",
-          "value": 2.57
-        },
-        {
-          "time": "2026-09-10",
-          "value": 2.57
-        },
-        {
-          "time": "2026-09-11",
-          "value": 2.54
-        },
-        {
-          "time": "2026-09-14",
-          "value": 2.52
-        },
-        {
-          "time": "2026-09-15",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-16",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-17",
-          "value": 2.44
-        },
-        {
-          "time": "2026-09-18",
-          "value": 2.42
-        },
-        {
-          "time": "2026-09-21",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-22",
-          "value": 2.44
-        },
-        {
-          "time": "2026-09-23",
-          "value": 2.43
-        },
-        {
-          "time": "2026-09-24",
-          "value": 2.42
-        },
-        {
-          "time": "2026-09-28",
-          "value": 2.41
-        },
-        {
-          "time": "2026-09-29",
-          "value": 2.42
-        },
-        {
-          "time": "2026-09-30",
-          "value": 2.42
-        },
-        {
-          "time": "2026-10-08",
-          "value": 2.41
-        },
-        {
-          "time": "2026-10-09",
-          "value": 2.43
-        },
-        {
-          "time": "2026-10-12",
-          "value": 2.4
-        },
-        {
-          "time": "2026-10-13",
-          "value": 2.41
-        },
-        {
-          "time": "2026-10-14",
-          "value": 2.41
-        },
-        {
-          "time": "2026-10-15",
-          "value": 2.38
-        },
-        {
-          "time": "2026-10-16",
-          "value": 2.35
-        },
-        {
-          "time": "2026-10-19",
-          "value": 2.32
-        },
-        {
-          "time": "2026-10-20",
-          "value": 2.3
-        },
-        {
-          "time": "2026-10-21",
-          "value": 2.3
-        },
-        {
-          "time": "2026-10-22",
-          "value": 2.27
-        },
-        {
-          "time": "2026-10-23",
-          "value": 2.25
-        },
-        {
-          "time": "2026-10-26",
-          "value": 2.23
-        },
-        {
-          "time": "2026-10-27",
-          "value": 2.21
-        },
-        {
-          "time": "2026-10-28",
-          "value": 2.2
-        },
-        {
-          "time": "2026-10-29",
-          "value": 2.19
-        },
-        {
-          "time": "2026-10-30",
-          "value": 2.17
-        },
-        {
-          "time": "2026-11-02",
-          "value": 2.18
-        },
-        {
-          "time": "2026-11-03",
-          "value": 2.21
-        },
-        {
-          "time": "2026-11-04",
-          "value": 2.21
-        },
-        {
-          "time": "2026-11-05",
-          "value": 2.22
-        },
-        {
-          "time": "2026-11-06",
-          "value": 2.22
-        },
-        {
-          "time": "2026-11-09",
-          "value": 2.22
-        },
-        {
-          "time": "2026-11-10",
-          "value": 2.23
-        },
-        {
-          "time": "2026-11-11",
-          "value": 2.23
-        },
-        {
-          "time": "2026-11-12",
-          "value": 2.32
-        },
-        {
-          "time": "2026-11-13",
-          "value": 2.45
-        }
-      ],
-      "ema20": [
-        {
-          "time": "2026-08-28",
-          "value": 2.47
-        },
-        {
-          "time": "2026-08-31",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-01",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-02",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-03",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-04",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-07",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-08",
-          "value": 2.48
-        },
-        {
-          "time": "2026-09-09",
-          "value": 2.5
-        },
-        {
-          "time": "2026-09-10",
-          "value": 2.5
-        },
-        {
-          "time": "2026-09-11",
-          "value": 2.5
-        },
-        {
-          "time": "2026-09-14",
-          "value": 2.5
-        },
-        {
-          "time": "2026-09-15",
-          "value": 2.48
-        },
-        {
-          "time": "2026-09-16",
-          "value": 2.48
-        },
-        {
-          "time": "2026-09-17",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-18",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-21",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-22",
-          "value": 2.47
-        },
-        {
-          "time": "2026-09-23",
-          "value": 2.46
-        },
-        {
-          "time": "2026-09-24",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-28",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-29",
-          "value": 2.45
-        },
-        {
-          "time": "2026-09-30",
-          "value": 2.45
-        },
-        {
-          "time": "2026-10-08",
-          "value": 2.44
-        },
-        {
-          "time": "2026-10-09",
-          "value": 2.44
-        },
-        {
-          "time": "2026-10-12",
-          "value": 2.43
-        },
-        {
-          "time": "2026-10-13",
-          "value": 2.43
-        },
-        {
-          "time": "2026-10-14",
-          "value": 2.43
-        },
-        {
-          "time": "2026-10-15",
-          "value": 2.42
-        },
-        {
-          "time": "2026-10-16",
-          "value": 2.41
-        },
-        {
-          "time": "2026-10-19",
-          "value": 2.39
-        },
-        {
-          "time": "2026-10-20",
-          "value": 2.38
-        },
-        {
-          "time": "2026-10-21",
-          "value": 2.37
-        },
-        {
-          "time": "2026-10-22",
-          "value": 2.36
-        },
-        {
-          "time": "2026-10-23",
-          "value": 2.34
-        },
-        {
-          "time": "2026-10-26",
-          "value": 2.33
-        },
-        {
-          "time": "2026-10-27",
-          "value": 2.31
-        },
-        {
-          "time": "2026-10-28",
-          "value": 2.3
-        },
-        {
-          "time": "2026-10-29",
-          "value": 2.29
-        },
-        {
-          "time": "2026-10-30",
-          "value": 2.27
-        },
-        {
-          "time": "2026-11-02",
-          "value": 2.27
-        },
-        {
-          "time": "2026-11-03",
-          "value": 2.27
-        },
-        {
-          "time": "2026-11-04",
-          "value": 2.26
-        },
-        {
-          "time": "2026-11-05",
-          "value": 2.26
-        },
-        {
-          "time": "2026-11-06",
-          "value": 2.26
-        },
-        {
-          "time": "2026-11-09",
-          "value": 2.25
-        },
-        {
-          "time": "2026-11-10",
-          "value": 2.25
-        },
-        {
-          "time": "2026-11-11",
-          "value": 2.25
-        },
-        {
-          "time": "2026-11-12",
-          "value": 2.27
-        },
-        {
-          "time": "2026-11-13",
-          "value": 2.32
-        }
-      ],
-      "latest_close": 2.73,
-      "abnormal": {
-        "is_20cm": false,
-        "limit_rate": 0.1,
-        "ret10": 24.66,
-        "safety10": 75.34,
-        "boards_left": 5.0,
-        "ret30": 13.28,
-        "safety30": 186.72,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余5.0板)"
-      }
-    },
-    {
-      "name": "广百股份",
-      "code": "sz002187",
-      "sector": "零售",
-      "pool_type": "【2连板梯队】",
-      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
-      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
-      "height": 2,
-      "status": "yellow",
-      "is_custom": false,
-      "candles": [
-        {
-          "time": "2026-08-28",
-          "open": 5.48,
-          "high": 5.75,
-          "low": 5.47,
-          "close": 5.66,
-          "volume": 17276400
-        },
         {
           "time": "2026-08-31",
           "open": 5.62,
@@ -10377,44 +6971,48 @@ window.__INITIAL_BUNDLE__ = {
           "low": 6.54,
           "close": 6.97,
           "volume": 112687860
+        },
+        {
+          "time": "2026-11-16",
+          "open": 7.6,
+          "high": 7.67,
+          "low": 7.45,
+          "close": 7.67,
+          "volume": 43025577
         }
       ],
       "ema5": [
         {
-          "time": "2026-08-28",
-          "value": 5.66
-        },
-        {
           "time": "2026-08-31",
-          "value": 5.62
+          "value": 5.55
         },
         {
           "time": "2026-09-01",
-          "value": 5.68
+          "value": 5.63
         },
         {
           "time": "2026-09-02",
-          "value": 5.68
+          "value": 5.65
         },
         {
           "time": "2026-09-03",
-          "value": 5.68
+          "value": 5.66
         },
         {
           "time": "2026-09-04",
-          "value": 5.71
+          "value": 5.69
         },
         {
           "time": "2026-09-07",
-          "value": 5.78
+          "value": 5.77
         },
         {
           "time": "2026-09-08",
-          "value": 5.85
+          "value": 5.84
         },
         {
           "time": "2026-09-09",
-          "value": 5.9
+          "value": 5.89
         },
         {
           "time": "2026-09-10",
@@ -10579,140 +7177,140 @@ window.__INITIAL_BUNDLE__ = {
         {
           "time": "2026-11-13",
           "value": 6.3
+        },
+        {
+          "time": "2026-11-16",
+          "value": 6.76
         }
       ],
       "ema20": [
         {
-          "time": "2026-08-28",
-          "value": 5.66
-        },
-        {
           "time": "2026-08-31",
-          "value": 5.65
-        },
-        {
-          "time": "2026-09-01",
-          "value": 5.66
-        },
-        {
-          "time": "2026-09-02",
-          "value": 5.66
-        },
-        {
-          "time": "2026-09-03",
-          "value": 5.67
-        },
-        {
-          "time": "2026-09-04",
-          "value": 5.67
-        },
-        {
-          "time": "2026-09-07",
-          "value": 5.7
-        },
-        {
-          "time": "2026-09-08",
-          "value": 5.73
-        },
-        {
-          "time": "2026-09-09",
-          "value": 5.75
-        },
-        {
-          "time": "2026-09-10",
-          "value": 5.77
-        },
-        {
-          "time": "2026-09-11",
-          "value": 5.76
-        },
-        {
-          "time": "2026-09-14",
-          "value": 5.76
-        },
-        {
-          "time": "2026-09-15",
-          "value": 5.73
-        },
-        {
-          "time": "2026-09-16",
-          "value": 5.7
-        },
-        {
-          "time": "2026-09-17",
-          "value": 5.68
-        },
-        {
-          "time": "2026-09-18",
-          "value": 5.68
-        },
-        {
-          "time": "2026-09-21",
-          "value": 5.68
-        },
-        {
-          "time": "2026-09-22",
-          "value": 5.67
-        },
-        {
-          "time": "2026-09-23",
-          "value": 5.66
-        },
-        {
-          "time": "2026-09-24",
-          "value": 5.63
-        },
-        {
-          "time": "2026-09-28",
-          "value": 5.61
-        },
-        {
-          "time": "2026-09-29",
-          "value": 5.6
-        },
-        {
-          "time": "2026-09-30",
-          "value": 5.59
-        },
-        {
-          "time": "2026-10-08",
-          "value": 5.58
-        },
-        {
-          "time": "2026-10-09",
-          "value": 5.59
-        },
-        {
-          "time": "2026-10-12",
-          "value": 5.58
-        },
-        {
-          "time": "2026-10-13",
-          "value": 5.59
-        },
-        {
-          "time": "2026-10-14",
-          "value": 5.59
-        },
-        {
-          "time": "2026-10-15",
-          "value": 5.57
-        },
-        {
-          "time": "2026-10-16",
           "value": 5.55
         },
         {
+          "time": "2026-09-01",
+          "value": 5.57
+        },
+        {
+          "time": "2026-09-02",
+          "value": 5.58
+        },
+        {
+          "time": "2026-09-03",
+          "value": 5.59
+        },
+        {
+          "time": "2026-09-04",
+          "value": 5.61
+        },
+        {
+          "time": "2026-09-07",
+          "value": 5.64
+        },
+        {
+          "time": "2026-09-08",
+          "value": 5.67
+        },
+        {
+          "time": "2026-09-09",
+          "value": 5.7
+        },
+        {
+          "time": "2026-09-10",
+          "value": 5.72
+        },
+        {
+          "time": "2026-09-11",
+          "value": 5.72
+        },
+        {
+          "time": "2026-09-14",
+          "value": 5.72
+        },
+        {
+          "time": "2026-09-15",
+          "value": 5.69
+        },
+        {
+          "time": "2026-09-16",
+          "value": 5.67
+        },
+        {
+          "time": "2026-09-17",
+          "value": 5.66
+        },
+        {
+          "time": "2026-09-18",
+          "value": 5.65
+        },
+        {
+          "time": "2026-09-21",
+          "value": 5.66
+        },
+        {
+          "time": "2026-09-22",
+          "value": 5.65
+        },
+        {
+          "time": "2026-09-23",
+          "value": 5.64
+        },
+        {
+          "time": "2026-09-24",
+          "value": 5.62
+        },
+        {
+          "time": "2026-09-28",
+          "value": 5.6
+        },
+        {
+          "time": "2026-09-29",
+          "value": 5.58
+        },
+        {
+          "time": "2026-09-30",
+          "value": 5.58
+        },
+        {
+          "time": "2026-10-08",
+          "value": 5.57
+        },
+        {
+          "time": "2026-10-09",
+          "value": 5.58
+        },
+        {
+          "time": "2026-10-12",
+          "value": 5.57
+        },
+        {
+          "time": "2026-10-13",
+          "value": 5.58
+        },
+        {
+          "time": "2026-10-14",
+          "value": 5.58
+        },
+        {
+          "time": "2026-10-15",
+          "value": 5.56
+        },
+        {
+          "time": "2026-10-16",
+          "value": 5.54
+        },
+        {
           "time": "2026-10-19",
-          "value": 5.52
+          "value": 5.51
         },
         {
           "time": "2026-10-20",
-          "value": 5.5
+          "value": 5.49
         },
         {
           "time": "2026-10-21",
-          "value": 5.48
+          "value": 5.47
         },
         {
           "time": "2026-10-22",
@@ -10752,7 +7350,7 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-11-04",
-          "value": 5.6
+          "value": 5.59
         },
         {
           "time": "2026-11-05",
@@ -10772,7 +7370,7 @@ window.__INITIAL_BUNDLE__ = {
         },
         {
           "time": "2026-11-11",
-          "value": 5.68
+          "value": 5.67
         },
         {
           "time": "2026-11-12",
@@ -10781,30 +7379,3350 @@ window.__INITIAL_BUNDLE__ = {
         {
           "time": "2026-11-13",
           "value": 5.86
+        },
+        {
+          "time": "2026-11-16",
+          "value": 6.03
         }
       ],
-      "latest_close": 6.97,
+      "latest_close": 7.67,
       "abnormal": {
         "is_20cm": false,
         "limit_rate": 0.1,
-        "ret10": 20.17,
-        "safety10": 79.83,
-        "boards_left": 5.3,
-        "ret30": 29.07,
-        "safety30": 170.93,
+        "ret10": 34.09,
+        "safety10": 65.91,
+        "boards_left": 4.2,
+        "ret30": 40.48,
+        "safety30": 159.52,
         "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余5.3板)"
+        "risk_text": "安全垫充裕 (余4.2板)"
+      }
+    },
+    {
+      "name": "国统股份",
+      "code": "sz002205",
+      "sector": "基础建设",
+      "pool_type": "【3连板梯队】",
+      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
+      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
+      "height": 3,
+      "status": "green",
+      "is_custom": false,
+      "candles": [
+        {
+          "time": "2026-08-31",
+          "open": 10.64,
+          "high": 11.02,
+          "low": 10.64,
+          "close": 10.98,
+          "volume": 2752800
+        },
+        {
+          "time": "2026-09-01",
+          "open": 10.93,
+          "high": 11.11,
+          "low": 10.88,
+          "close": 11.02,
+          "volume": 2536540
+        },
+        {
+          "time": "2026-09-02",
+          "open": 10.95,
+          "high": 11.12,
+          "low": 10.76,
+          "close": 11.02,
+          "volume": 3194200
+        },
+        {
+          "time": "2026-09-03",
+          "open": 11.1,
+          "high": 11.16,
+          "low": 10.73,
+          "close": 10.83,
+          "volume": 3379700
+        },
+        {
+          "time": "2026-09-04",
+          "open": 10.91,
+          "high": 11.48,
+          "low": 10.81,
+          "close": 11.06,
+          "volume": 5660403
+        },
+        {
+          "time": "2026-09-07",
+          "open": 11.04,
+          "high": 11.15,
+          "low": 10.88,
+          "close": 11.06,
+          "volume": 3546799
+        },
+        {
+          "time": "2026-09-08",
+          "open": 11.03,
+          "high": 11.31,
+          "low": 10.95,
+          "close": 11.24,
+          "volume": 3100800
+        },
+        {
+          "time": "2026-09-09",
+          "open": 11.19,
+          "high": 11.35,
+          "low": 11.1,
+          "close": 11.23,
+          "volume": 2548000
+        },
+        {
+          "time": "2026-09-10",
+          "open": 11.17,
+          "high": 11.48,
+          "low": 10.91,
+          "close": 11.21,
+          "volume": 4011049
+        },
+        {
+          "time": "2026-09-11",
+          "open": 11.04,
+          "high": 11.23,
+          "low": 10.81,
+          "close": 10.89,
+          "volume": 3678900
+        },
+        {
+          "time": "2026-09-14",
+          "open": 10.84,
+          "high": 11.06,
+          "low": 10.75,
+          "close": 10.92,
+          "volume": 3168160
+        },
+        {
+          "time": "2026-09-15",
+          "open": 10.9,
+          "high": 10.93,
+          "low": 10.23,
+          "close": 10.29,
+          "volume": 4110000
+        },
+        {
+          "time": "2026-09-16",
+          "open": 10.25,
+          "high": 10.59,
+          "low": 10.08,
+          "close": 10.51,
+          "volume": 3460800
+        },
+        {
+          "time": "2026-09-17",
+          "open": 10.5,
+          "high": 10.68,
+          "low": 10.23,
+          "close": 10.63,
+          "volume": 3358103
+        },
+        {
+          "time": "2026-09-18",
+          "open": 10.68,
+          "high": 10.79,
+          "low": 10.35,
+          "close": 10.35,
+          "volume": 3058303
+        },
+        {
+          "time": "2026-09-21",
+          "open": 10.35,
+          "high": 10.78,
+          "low": 10.34,
+          "close": 10.68,
+          "volume": 3223500
+        },
+        {
+          "time": "2026-09-22",
+          "open": 10.7,
+          "high": 11.19,
+          "low": 10.54,
+          "close": 10.87,
+          "volume": 4086001
+        },
+        {
+          "time": "2026-09-23",
+          "open": 10.83,
+          "high": 11.96,
+          "low": 10.67,
+          "close": 11.62,
+          "volume": 10726551
+        },
+        {
+          "time": "2026-09-24",
+          "open": 11.33,
+          "high": 12.78,
+          "low": 10.83,
+          "close": 12.78,
+          "volume": 17494206
+        },
+        {
+          "time": "2026-09-28",
+          "open": 12.2,
+          "high": 12.84,
+          "low": 11.5,
+          "close": 11.6,
+          "volume": 22850000
+        },
+        {
+          "time": "2026-09-29",
+          "open": 10.86,
+          "high": 12.76,
+          "low": 10.84,
+          "close": 12.76,
+          "volume": 25596489
+        },
+        {
+          "time": "2026-09-30",
+          "open": 12.44,
+          "high": 13.68,
+          "low": 11.8,
+          "close": 12.16,
+          "volume": 24256950
+        },
+        {
+          "time": "2026-10-08",
+          "open": 12.26,
+          "high": 12.44,
+          "low": 11.76,
+          "close": 12.08,
+          "volume": 16343051
+        },
+        {
+          "time": "2026-10-09",
+          "open": 12.16,
+          "high": 12.28,
+          "low": 11.49,
+          "close": 12.1,
+          "volume": 11738700
+        },
+        {
+          "time": "2026-10-12",
+          "open": 12.05,
+          "high": 12.23,
+          "low": 11.52,
+          "close": 11.59,
+          "volume": 8993580
+        },
+        {
+          "time": "2026-10-13",
+          "open": 11.42,
+          "high": 11.92,
+          "low": 11.17,
+          "close": 11.85,
+          "volume": 9315770
+        },
+        {
+          "time": "2026-10-14",
+          "open": 11.75,
+          "high": 11.99,
+          "low": 11.24,
+          "close": 11.3,
+          "volume": 6872600
+        },
+        {
+          "time": "2026-10-15",
+          "open": 11.01,
+          "high": 11.29,
+          "low": 10.65,
+          "close": 10.7,
+          "volume": 8241580
+        },
+        {
+          "time": "2026-10-16",
+          "open": 10.9,
+          "high": 11.65,
+          "low": 10.8,
+          "close": 10.98,
+          "volume": 10390570
+        },
+        {
+          "time": "2026-10-19",
+          "open": 10.98,
+          "high": 11.04,
+          "low": 10.31,
+          "close": 10.6,
+          "volume": 6600300
+        },
+        {
+          "time": "2026-10-20",
+          "open": 10.53,
+          "high": 10.72,
+          "low": 10.3,
+          "close": 10.44,
+          "volume": 4053708
+        },
+        {
+          "time": "2026-10-21",
+          "open": 10.44,
+          "high": 11.1,
+          "low": 10.44,
+          "close": 10.65,
+          "volume": 6523100
+        },
+        {
+          "time": "2026-10-22",
+          "open": 10.71,
+          "high": 11.28,
+          "low": 10.17,
+          "close": 10.24,
+          "volume": 7503492
+        },
+        {
+          "time": "2026-10-23",
+          "open": 9.99,
+          "high": 10.63,
+          "low": 9.62,
+          "close": 10.3,
+          "volume": 9192000
+        },
+        {
+          "time": "2026-10-26",
+          "open": 10.2,
+          "high": 10.71,
+          "low": 10.0,
+          "close": 10.36,
+          "volume": 7864400
+        },
+        {
+          "time": "2026-10-27",
+          "open": 10.2,
+          "high": 11.4,
+          "low": 10.19,
+          "close": 11.4,
+          "volume": 11760349
+        },
+        {
+          "time": "2026-10-28",
+          "open": 11.4,
+          "high": 11.92,
+          "low": 10.6,
+          "close": 11.06,
+          "volume": 23381249
+        },
+        {
+          "time": "2026-10-29",
+          "open": 10.92,
+          "high": 11.35,
+          "low": 10.57,
+          "close": 10.58,
+          "volume": 14715583
+        },
+        {
+          "time": "2026-10-30",
+          "open": 10.49,
+          "high": 10.68,
+          "low": 9.72,
+          "close": 9.76,
+          "volume": 11161203
+        },
+        {
+          "time": "2026-11-02",
+          "open": 9.73,
+          "high": 10.45,
+          "low": 9.3,
+          "close": 10.11,
+          "volume": 10831572
+        },
+        {
+          "time": "2026-11-03",
+          "open": 10.11,
+          "high": 10.77,
+          "low": 9.83,
+          "close": 10.27,
+          "volume": 13405110
+        },
+        {
+          "time": "2026-11-04",
+          "open": 10.14,
+          "high": 10.26,
+          "low": 9.58,
+          "close": 10.0,
+          "volume": 11817860
+        },
+        {
+          "time": "2026-11-05",
+          "open": 9.89,
+          "high": 10.37,
+          "low": 9.86,
+          "close": 10.23,
+          "volume": 6902044
+        },
+        {
+          "time": "2026-11-06",
+          "open": 9.85,
+          "high": 10.15,
+          "low": 9.7,
+          "close": 9.95,
+          "volume": 5091300
+        },
+        {
+          "time": "2026-11-09",
+          "open": 10.13,
+          "high": 10.47,
+          "low": 10.01,
+          "close": 10.02,
+          "volume": 4165344
+        },
+        {
+          "time": "2026-11-10",
+          "open": 10.11,
+          "high": 10.42,
+          "low": 10.0,
+          "close": 10.35,
+          "volume": 4705600
+        },
+        {
+          "time": "2026-11-11",
+          "open": 10.35,
+          "high": 10.85,
+          "low": 10.35,
+          "close": 10.68,
+          "volume": 7226399
+        },
+        {
+          "time": "2026-11-12",
+          "open": 10.71,
+          "high": 11.75,
+          "low": 10.48,
+          "close": 11.75,
+          "volume": 12339840
+        },
+        {
+          "time": "2026-11-13",
+          "open": 12.25,
+          "high": 12.93,
+          "low": 11.77,
+          "close": 12.93,
+          "volume": 29302209
+        },
+        {
+          "time": "2026-11-16",
+          "open": 13.09,
+          "high": 14.22,
+          "low": 12.3,
+          "close": 14.22,
+          "volume": 37901624
+        }
+      ],
+      "ema5": [
+        {
+          "time": "2026-08-31",
+          "value": 10.98
+        },
+        {
+          "time": "2026-09-01",
+          "value": 10.99
+        },
+        {
+          "time": "2026-09-02",
+          "value": 11.0
+        },
+        {
+          "time": "2026-09-03",
+          "value": 10.94
+        },
+        {
+          "time": "2026-09-04",
+          "value": 10.98
+        },
+        {
+          "time": "2026-09-07",
+          "value": 11.01
+        },
+        {
+          "time": "2026-09-08",
+          "value": 11.09
+        },
+        {
+          "time": "2026-09-09",
+          "value": 11.13
+        },
+        {
+          "time": "2026-09-10",
+          "value": 11.16
+        },
+        {
+          "time": "2026-09-11",
+          "value": 11.07
+        },
+        {
+          "time": "2026-09-14",
+          "value": 11.02
+        },
+        {
+          "time": "2026-09-15",
+          "value": 10.78
+        },
+        {
+          "time": "2026-09-16",
+          "value": 10.69
+        },
+        {
+          "time": "2026-09-17",
+          "value": 10.67
+        },
+        {
+          "time": "2026-09-18",
+          "value": 10.56
+        },
+        {
+          "time": "2026-09-21",
+          "value": 10.6
+        },
+        {
+          "time": "2026-09-22",
+          "value": 10.69
+        },
+        {
+          "time": "2026-09-23",
+          "value": 11.0
+        },
+        {
+          "time": "2026-09-24",
+          "value": 11.59
+        },
+        {
+          "time": "2026-09-28",
+          "value": 11.6
+        },
+        {
+          "time": "2026-09-29",
+          "value": 11.98
+        },
+        {
+          "time": "2026-09-30",
+          "value": 12.04
+        },
+        {
+          "time": "2026-10-08",
+          "value": 12.06
+        },
+        {
+          "time": "2026-10-09",
+          "value": 12.07
+        },
+        {
+          "time": "2026-10-12",
+          "value": 11.91
+        },
+        {
+          "time": "2026-10-13",
+          "value": 11.89
+        },
+        {
+          "time": "2026-10-14",
+          "value": 11.69
+        },
+        {
+          "time": "2026-10-15",
+          "value": 11.36
+        },
+        {
+          "time": "2026-10-16",
+          "value": 11.23
+        },
+        {
+          "time": "2026-10-19",
+          "value": 11.02
+        },
+        {
+          "time": "2026-10-20",
+          "value": 10.83
+        },
+        {
+          "time": "2026-10-21",
+          "value": 10.77
+        },
+        {
+          "time": "2026-10-22",
+          "value": 10.59
+        },
+        {
+          "time": "2026-10-23",
+          "value": 10.5
+        },
+        {
+          "time": "2026-10-26",
+          "value": 10.45
+        },
+        {
+          "time": "2026-10-27",
+          "value": 10.77
+        },
+        {
+          "time": "2026-10-28",
+          "value": 10.86
+        },
+        {
+          "time": "2026-10-29",
+          "value": 10.77
+        },
+        {
+          "time": "2026-10-30",
+          "value": 10.43
+        },
+        {
+          "time": "2026-11-02",
+          "value": 10.33
+        },
+        {
+          "time": "2026-11-03",
+          "value": 10.31
+        },
+        {
+          "time": "2026-11-04",
+          "value": 10.2
+        },
+        {
+          "time": "2026-11-05",
+          "value": 10.21
+        },
+        {
+          "time": "2026-11-06",
+          "value": 10.13
+        },
+        {
+          "time": "2026-11-09",
+          "value": 10.09
+        },
+        {
+          "time": "2026-11-10",
+          "value": 10.18
+        },
+        {
+          "time": "2026-11-11",
+          "value": 10.34
+        },
+        {
+          "time": "2026-11-12",
+          "value": 10.81
+        },
+        {
+          "time": "2026-11-13",
+          "value": 11.52
+        },
+        {
+          "time": "2026-11-16",
+          "value": 12.42
+        }
+      ],
+      "ema20": [
+        {
+          "time": "2026-08-31",
+          "value": 10.98
+        },
+        {
+          "time": "2026-09-01",
+          "value": 10.98
+        },
+        {
+          "time": "2026-09-02",
+          "value": 10.99
+        },
+        {
+          "time": "2026-09-03",
+          "value": 10.97
+        },
+        {
+          "time": "2026-09-04",
+          "value": 10.98
+        },
+        {
+          "time": "2026-09-07",
+          "value": 10.99
+        },
+        {
+          "time": "2026-09-08",
+          "value": 11.01
+        },
+        {
+          "time": "2026-09-09",
+          "value": 11.03
+        },
+        {
+          "time": "2026-09-10",
+          "value": 11.05
+        },
+        {
+          "time": "2026-09-11",
+          "value": 11.03
+        },
+        {
+          "time": "2026-09-14",
+          "value": 11.02
+        },
+        {
+          "time": "2026-09-15",
+          "value": 10.95
+        },
+        {
+          "time": "2026-09-16",
+          "value": 10.91
+        },
+        {
+          "time": "2026-09-17",
+          "value": 10.88
+        },
+        {
+          "time": "2026-09-18",
+          "value": 10.83
+        },
+        {
+          "time": "2026-09-21",
+          "value": 10.82
+        },
+        {
+          "time": "2026-09-22",
+          "value": 10.82
+        },
+        {
+          "time": "2026-09-23",
+          "value": 10.9
+        },
+        {
+          "time": "2026-09-24",
+          "value": 11.08
+        },
+        {
+          "time": "2026-09-28",
+          "value": 11.13
+        },
+        {
+          "time": "2026-09-29",
+          "value": 11.28
+        },
+        {
+          "time": "2026-09-30",
+          "value": 11.37
+        },
+        {
+          "time": "2026-10-08",
+          "value": 11.44
+        },
+        {
+          "time": "2026-10-09",
+          "value": 11.5
+        },
+        {
+          "time": "2026-10-12",
+          "value": 11.51
+        },
+        {
+          "time": "2026-10-13",
+          "value": 11.54
+        },
+        {
+          "time": "2026-10-14",
+          "value": 11.52
+        },
+        {
+          "time": "2026-10-15",
+          "value": 11.44
+        },
+        {
+          "time": "2026-10-16",
+          "value": 11.4
+        },
+        {
+          "time": "2026-10-19",
+          "value": 11.32
+        },
+        {
+          "time": "2026-10-20",
+          "value": 11.24
+        },
+        {
+          "time": "2026-10-21",
+          "value": 11.18
+        },
+        {
+          "time": "2026-10-22",
+          "value": 11.09
+        },
+        {
+          "time": "2026-10-23",
+          "value": 11.02
+        },
+        {
+          "time": "2026-10-26",
+          "value": 10.95
+        },
+        {
+          "time": "2026-10-27",
+          "value": 11.0
+        },
+        {
+          "time": "2026-10-28",
+          "value": 11.0
+        },
+        {
+          "time": "2026-10-29",
+          "value": 10.96
+        },
+        {
+          "time": "2026-10-30",
+          "value": 10.85
+        },
+        {
+          "time": "2026-11-02",
+          "value": 10.78
+        },
+        {
+          "time": "2026-11-03",
+          "value": 10.73
+        },
+        {
+          "time": "2026-11-04",
+          "value": 10.66
+        },
+        {
+          "time": "2026-11-05",
+          "value": 10.62
+        },
+        {
+          "time": "2026-11-06",
+          "value": 10.55
+        },
+        {
+          "time": "2026-11-09",
+          "value": 10.5
+        },
+        {
+          "time": "2026-11-10",
+          "value": 10.49
+        },
+        {
+          "time": "2026-11-11",
+          "value": 10.51
+        },
+        {
+          "time": "2026-11-12",
+          "value": 10.63
+        },
+        {
+          "time": "2026-11-13",
+          "value": 10.85
+        },
+        {
+          "time": "2026-11-16",
+          "value": 11.17
+        }
+      ],
+      "latest_close": 14.22,
+      "abnormal": {
+        "is_20cm": false,
+        "limit_rate": 0.1,
+        "ret10": 38.46,
+        "safety10": 61.54,
+        "boards_left": 3.9,
+        "ret30": 11.44,
+        "safety30": 188.56,
+        "risk_level": "safe",
+        "risk_text": "安全垫充裕 (余3.9板)"
+      }
+    },
+    {
+      "name": "金逸影视",
+      "code": "sz002905",
+      "sector": "文化传媒",
+      "pool_type": "【2连板梯队】",
+      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
+      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
+      "height": 2,
+      "status": "yellow",
+      "is_custom": false,
+      "candles": [
+        {
+          "time": "2026-08-31",
+          "open": 7.8,
+          "high": 8.24,
+          "low": 7.76,
+          "close": 8.2,
+          "volume": 20429590
+        },
+        {
+          "time": "2026-09-01",
+          "open": 8.18,
+          "high": 8.4,
+          "low": 8.12,
+          "close": 8.37,
+          "volume": 14806940
+        },
+        {
+          "time": "2026-09-02",
+          "open": 8.25,
+          "high": 8.48,
+          "low": 8.2,
+          "close": 8.28,
+          "volume": 9104340
+        },
+        {
+          "time": "2026-09-03",
+          "open": 8.35,
+          "high": 8.57,
+          "low": 8.19,
+          "close": 8.22,
+          "volume": 11551620
+        },
+        {
+          "time": "2026-09-04",
+          "open": 8.23,
+          "high": 8.59,
+          "low": 8.22,
+          "close": 8.46,
+          "volume": 10048400
+        },
+        {
+          "time": "2026-09-07",
+          "open": 8.39,
+          "high": 8.76,
+          "low": 8.38,
+          "close": 8.69,
+          "volume": 8362600
+        },
+        {
+          "time": "2026-09-08",
+          "open": 8.65,
+          "high": 8.88,
+          "low": 8.58,
+          "close": 8.88,
+          "volume": 9595440
+        },
+        {
+          "time": "2026-09-09",
+          "open": 8.81,
+          "high": 9.5,
+          "low": 8.77,
+          "close": 9.3,
+          "volume": 19335620
+        },
+        {
+          "time": "2026-09-10",
+          "open": 9.22,
+          "high": 9.27,
+          "low": 8.69,
+          "close": 8.76,
+          "volume": 12582400
+        },
+        {
+          "time": "2026-09-11",
+          "open": 8.62,
+          "high": 8.81,
+          "low": 8.43,
+          "close": 8.57,
+          "volume": 7366948
+        },
+        {
+          "time": "2026-09-14",
+          "open": 8.46,
+          "high": 8.64,
+          "low": 8.43,
+          "close": 8.45,
+          "volume": 5338900
+        },
+        {
+          "time": "2026-09-15",
+          "open": 8.52,
+          "high": 8.54,
+          "low": 8.15,
+          "close": 8.19,
+          "volume": 6306900
+        },
+        {
+          "time": "2026-09-16",
+          "open": 8.2,
+          "high": 8.37,
+          "low": 8.03,
+          "close": 8.33,
+          "volume": 5214700
+        },
+        {
+          "time": "2026-09-17",
+          "open": 8.32,
+          "high": 8.44,
+          "low": 8.18,
+          "close": 8.43,
+          "volume": 5229700
+        },
+        {
+          "time": "2026-09-18",
+          "open": 8.48,
+          "high": 8.69,
+          "low": 8.36,
+          "close": 8.56,
+          "volume": 6357700
+        },
+        {
+          "time": "2026-09-21",
+          "open": 8.65,
+          "high": 9.07,
+          "low": 8.42,
+          "close": 9.04,
+          "volume": 8954720
+        },
+        {
+          "time": "2026-09-22",
+          "open": 9.1,
+          "high": 9.39,
+          "low": 8.69,
+          "close": 9.0,
+          "volume": 10881600
+        },
+        {
+          "time": "2026-09-23",
+          "open": 8.92,
+          "high": 9.09,
+          "low": 8.84,
+          "close": 8.94,
+          "volume": 5785700
+        },
+        {
+          "time": "2026-09-24",
+          "open": 8.95,
+          "high": 9.02,
+          "low": 8.71,
+          "close": 8.78,
+          "volume": 5626300
+        },
+        {
+          "time": "2026-09-28",
+          "open": 8.77,
+          "high": 8.95,
+          "low": 8.61,
+          "close": 8.76,
+          "volume": 5375600
+        },
+        {
+          "time": "2026-09-29",
+          "open": 8.61,
+          "high": 8.9,
+          "low": 8.61,
+          "close": 8.85,
+          "volume": 4266759
+        },
+        {
+          "time": "2026-09-30",
+          "open": 8.84,
+          "high": 9.15,
+          "low": 8.68,
+          "close": 8.72,
+          "volume": 4329600
+        },
+        {
+          "time": "2026-10-08",
+          "open": 8.69,
+          "high": 8.79,
+          "low": 8.57,
+          "close": 8.72,
+          "volume": 3816900
+        },
+        {
+          "time": "2026-10-09",
+          "open": 8.71,
+          "high": 9.1,
+          "low": 8.61,
+          "close": 9.05,
+          "volume": 7277060
+        },
+        {
+          "time": "2026-10-12",
+          "open": 9.0,
+          "high": 9.31,
+          "low": 8.94,
+          "close": 9.25,
+          "volume": 9981799
+        },
+        {
+          "time": "2026-10-13",
+          "open": 9.11,
+          "high": 9.45,
+          "low": 9.01,
+          "close": 9.44,
+          "volume": 9984424
+        },
+        {
+          "time": "2026-10-14",
+          "open": 9.39,
+          "high": 9.6,
+          "low": 9.14,
+          "close": 9.16,
+          "volume": 9160420
+        },
+        {
+          "time": "2026-10-15",
+          "open": 9.0,
+          "high": 9.1,
+          "low": 8.8,
+          "close": 8.85,
+          "volume": 8010519
+        },
+        {
+          "time": "2026-10-16",
+          "open": 9.03,
+          "high": 9.12,
+          "low": 8.7,
+          "close": 8.77,
+          "volume": 6601616
+        },
+        {
+          "time": "2026-10-19",
+          "open": 9.33,
+          "high": 9.52,
+          "low": 8.4,
+          "close": 8.61,
+          "volume": 13035500
+        },
+        {
+          "time": "2026-10-20",
+          "open": 8.41,
+          "high": 8.73,
+          "low": 8.41,
+          "close": 8.52,
+          "volume": 9084900
+        },
+        {
+          "time": "2026-10-21",
+          "open": 8.52,
+          "high": 8.74,
+          "low": 8.41,
+          "close": 8.47,
+          "volume": 5842800
+        },
+        {
+          "time": "2026-10-22",
+          "open": 8.6,
+          "high": 8.63,
+          "low": 7.86,
+          "close": 7.91,
+          "volume": 6794200
+        },
+        {
+          "time": "2026-10-23",
+          "open": 7.81,
+          "high": 8.09,
+          "low": 7.43,
+          "close": 8.07,
+          "volume": 9163588
+        },
+        {
+          "time": "2026-10-26",
+          "open": 7.99,
+          "high": 8.1,
+          "low": 7.76,
+          "close": 8.03,
+          "volume": 6185100
+        },
+        {
+          "time": "2026-10-27",
+          "open": 8.01,
+          "high": 8.09,
+          "low": 7.79,
+          "close": 7.82,
+          "volume": 4397800
+        },
+        {
+          "time": "2026-10-28",
+          "open": 7.78,
+          "high": 7.97,
+          "low": 7.7,
+          "close": 7.92,
+          "volume": 5387630
+        },
+        {
+          "time": "2026-10-29",
+          "open": 7.91,
+          "high": 8.27,
+          "low": 7.79,
+          "close": 8.04,
+          "volume": 6682400
+        },
+        {
+          "time": "2026-10-30",
+          "open": 7.91,
+          "high": 8.03,
+          "low": 7.61,
+          "close": 7.64,
+          "volume": 7415200
+        },
+        {
+          "time": "2026-11-02",
+          "open": 7.64,
+          "high": 8.27,
+          "low": 7.43,
+          "close": 8.24,
+          "volume": 9488240
+        },
+        {
+          "time": "2026-11-03",
+          "open": 8.19,
+          "high": 8.59,
+          "low": 8.07,
+          "close": 8.27,
+          "volume": 6301000
+        },
+        {
+          "time": "2026-11-04",
+          "open": 8.41,
+          "high": 8.5,
+          "low": 7.99,
+          "close": 8.25,
+          "volume": 7002000
+        },
+        {
+          "time": "2026-11-05",
+          "open": 8.24,
+          "high": 8.6,
+          "low": 8.23,
+          "close": 8.58,
+          "volume": 6109200
+        },
+        {
+          "time": "2026-11-06",
+          "open": 8.27,
+          "high": 8.62,
+          "low": 8.21,
+          "close": 8.51,
+          "volume": 5549000
+        },
+        {
+          "time": "2026-11-09",
+          "open": 8.58,
+          "high": 9.36,
+          "low": 8.41,
+          "close": 8.49,
+          "volume": 14443608
+        },
+        {
+          "time": "2026-11-10",
+          "open": 8.58,
+          "high": 9.34,
+          "low": 8.48,
+          "close": 9.34,
+          "volume": 21560743
+        },
+        {
+          "time": "2026-11-11",
+          "open": 9.34,
+          "high": 9.5,
+          "low": 8.77,
+          "close": 9.05,
+          "volume": 26505609
+        },
+        {
+          "time": "2026-11-12",
+          "open": 8.95,
+          "high": 9.11,
+          "low": 8.83,
+          "close": 9.0,
+          "volume": 16788131
+        },
+        {
+          "time": "2026-11-13",
+          "open": 9.07,
+          "high": 9.9,
+          "low": 9.03,
+          "close": 9.9,
+          "volume": 8251220
+        },
+        {
+          "time": "2026-11-16",
+          "open": 10.89,
+          "high": 10.89,
+          "low": 10.89,
+          "close": 10.89,
+          "volume": 4519028
+        }
+      ],
+      "ema5": [
+        {
+          "time": "2026-08-31",
+          "value": 8.2
+        },
+        {
+          "time": "2026-09-01",
+          "value": 8.26
+        },
+        {
+          "time": "2026-09-02",
+          "value": 8.26
+        },
+        {
+          "time": "2026-09-03",
+          "value": 8.25
+        },
+        {
+          "time": "2026-09-04",
+          "value": 8.32
+        },
+        {
+          "time": "2026-09-07",
+          "value": 8.44
+        },
+        {
+          "time": "2026-09-08",
+          "value": 8.59
+        },
+        {
+          "time": "2026-09-09",
+          "value": 8.83
+        },
+        {
+          "time": "2026-09-10",
+          "value": 8.8
+        },
+        {
+          "time": "2026-09-11",
+          "value": 8.73
+        },
+        {
+          "time": "2026-09-14",
+          "value": 8.63
+        },
+        {
+          "time": "2026-09-15",
+          "value": 8.49
+        },
+        {
+          "time": "2026-09-16",
+          "value": 8.43
+        },
+        {
+          "time": "2026-09-17",
+          "value": 8.43
+        },
+        {
+          "time": "2026-09-18",
+          "value": 8.48
+        },
+        {
+          "time": "2026-09-21",
+          "value": 8.66
+        },
+        {
+          "time": "2026-09-22",
+          "value": 8.78
+        },
+        {
+          "time": "2026-09-23",
+          "value": 8.83
+        },
+        {
+          "time": "2026-09-24",
+          "value": 8.81
+        },
+        {
+          "time": "2026-09-28",
+          "value": 8.8
+        },
+        {
+          "time": "2026-09-29",
+          "value": 8.81
+        },
+        {
+          "time": "2026-09-30",
+          "value": 8.78
+        },
+        {
+          "time": "2026-10-08",
+          "value": 8.76
+        },
+        {
+          "time": "2026-10-09",
+          "value": 8.86
+        },
+        {
+          "time": "2026-10-12",
+          "value": 8.99
+        },
+        {
+          "time": "2026-10-13",
+          "value": 9.14
+        },
+        {
+          "time": "2026-10-14",
+          "value": 9.15
+        },
+        {
+          "time": "2026-10-15",
+          "value": 9.05
+        },
+        {
+          "time": "2026-10-16",
+          "value": 8.95
+        },
+        {
+          "time": "2026-10-19",
+          "value": 8.84
+        },
+        {
+          "time": "2026-10-20",
+          "value": 8.73
+        },
+        {
+          "time": "2026-10-21",
+          "value": 8.65
+        },
+        {
+          "time": "2026-10-22",
+          "value": 8.4
+        },
+        {
+          "time": "2026-10-23",
+          "value": 8.29
+        },
+        {
+          "time": "2026-10-26",
+          "value": 8.2
+        },
+        {
+          "time": "2026-10-27",
+          "value": 8.08
+        },
+        {
+          "time": "2026-10-28",
+          "value": 8.02
+        },
+        {
+          "time": "2026-10-29",
+          "value": 8.03
+        },
+        {
+          "time": "2026-10-30",
+          "value": 7.9
+        },
+        {
+          "time": "2026-11-02",
+          "value": 8.01
+        },
+        {
+          "time": "2026-11-03",
+          "value": 8.1
+        },
+        {
+          "time": "2026-11-04",
+          "value": 8.15
+        },
+        {
+          "time": "2026-11-05",
+          "value": 8.29
+        },
+        {
+          "time": "2026-11-06",
+          "value": 8.37
+        },
+        {
+          "time": "2026-11-09",
+          "value": 8.41
+        },
+        {
+          "time": "2026-11-10",
+          "value": 8.72
+        },
+        {
+          "time": "2026-11-11",
+          "value": 8.83
+        },
+        {
+          "time": "2026-11-12",
+          "value": 8.89
+        },
+        {
+          "time": "2026-11-13",
+          "value": 9.22
+        },
+        {
+          "time": "2026-11-16",
+          "value": 9.78
+        }
+      ],
+      "ema20": [
+        {
+          "time": "2026-08-31",
+          "value": 8.2
+        },
+        {
+          "time": "2026-09-01",
+          "value": 8.22
+        },
+        {
+          "time": "2026-09-02",
+          "value": 8.22
+        },
+        {
+          "time": "2026-09-03",
+          "value": 8.22
+        },
+        {
+          "time": "2026-09-04",
+          "value": 8.24
+        },
+        {
+          "time": "2026-09-07",
+          "value": 8.29
+        },
+        {
+          "time": "2026-09-08",
+          "value": 8.34
+        },
+        {
+          "time": "2026-09-09",
+          "value": 8.43
+        },
+        {
+          "time": "2026-09-10",
+          "value": 8.47
+        },
+        {
+          "time": "2026-09-11",
+          "value": 8.48
+        },
+        {
+          "time": "2026-09-14",
+          "value": 8.47
+        },
+        {
+          "time": "2026-09-15",
+          "value": 8.45
+        },
+        {
+          "time": "2026-09-16",
+          "value": 8.44
+        },
+        {
+          "time": "2026-09-17",
+          "value": 8.43
+        },
+        {
+          "time": "2026-09-18",
+          "value": 8.45
+        },
+        {
+          "time": "2026-09-21",
+          "value": 8.5
+        },
+        {
+          "time": "2026-09-22",
+          "value": 8.55
+        },
+        {
+          "time": "2026-09-23",
+          "value": 8.59
+        },
+        {
+          "time": "2026-09-24",
+          "value": 8.61
+        },
+        {
+          "time": "2026-09-28",
+          "value": 8.62
+        },
+        {
+          "time": "2026-09-29",
+          "value": 8.64
+        },
+        {
+          "time": "2026-09-30",
+          "value": 8.65
+        },
+        {
+          "time": "2026-10-08",
+          "value": 8.66
+        },
+        {
+          "time": "2026-10-09",
+          "value": 8.69
+        },
+        {
+          "time": "2026-10-12",
+          "value": 8.75
+        },
+        {
+          "time": "2026-10-13",
+          "value": 8.81
+        },
+        {
+          "time": "2026-10-14",
+          "value": 8.85
+        },
+        {
+          "time": "2026-10-15",
+          "value": 8.85
+        },
+        {
+          "time": "2026-10-16",
+          "value": 8.84
+        },
+        {
+          "time": "2026-10-19",
+          "value": 8.82
+        },
+        {
+          "time": "2026-10-20",
+          "value": 8.79
+        },
+        {
+          "time": "2026-10-21",
+          "value": 8.76
+        },
+        {
+          "time": "2026-10-22",
+          "value": 8.68
+        },
+        {
+          "time": "2026-10-23",
+          "value": 8.62
+        },
+        {
+          "time": "2026-10-26",
+          "value": 8.56
+        },
+        {
+          "time": "2026-10-27",
+          "value": 8.49
+        },
+        {
+          "time": "2026-10-28",
+          "value": 8.44
+        },
+        {
+          "time": "2026-10-29",
+          "value": 8.4
+        },
+        {
+          "time": "2026-10-30",
+          "value": 8.33
+        },
+        {
+          "time": "2026-11-02",
+          "value": 8.32
+        },
+        {
+          "time": "2026-11-03",
+          "value": 8.31
+        },
+        {
+          "time": "2026-11-04",
+          "value": 8.31
+        },
+        {
+          "time": "2026-11-05",
+          "value": 8.33
+        },
+        {
+          "time": "2026-11-06",
+          "value": 8.35
+        },
+        {
+          "time": "2026-11-09",
+          "value": 8.36
+        },
+        {
+          "time": "2026-11-10",
+          "value": 8.46
+        },
+        {
+          "time": "2026-11-11",
+          "value": 8.51
+        },
+        {
+          "time": "2026-11-12",
+          "value": 8.56
+        },
+        {
+          "time": "2026-11-13",
+          "value": 8.69
+        },
+        {
+          "time": "2026-11-16",
+          "value": 8.9
+        }
+      ],
+      "latest_close": 10.89,
+      "abnormal": {
+        "is_20cm": false,
+        "limit_rate": 0.1,
+        "ret10": 31.68,
+        "safety10": 68.32,
+        "boards_left": 4.4,
+        "ret30": 23.05,
+        "safety30": 176.95,
+        "risk_level": "safe",
+        "risk_text": "安全垫充裕 (余4.4板)"
+      }
+    },
+    {
+      "name": "文投控股",
+      "code": "sh600715",
+      "sector": "文化传媒",
+      "pool_type": "【2连板梯队】",
+      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
+      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
+      "height": 2,
+      "status": "yellow",
+      "is_custom": false,
+      "candles": [
+        {
+          "time": "2026-08-31",
+          "open": 1.62,
+          "high": 1.69,
+          "low": 1.6,
+          "close": 1.68,
+          "volume": 60426201
+        },
+        {
+          "time": "2026-09-01",
+          "open": 1.67,
+          "high": 1.8,
+          "low": 1.67,
+          "close": 1.75,
+          "volume": 72414792
+        },
+        {
+          "time": "2026-09-02",
+          "open": 1.75,
+          "high": 1.76,
+          "low": 1.69,
+          "close": 1.71,
+          "volume": 47480000
+        },
+        {
+          "time": "2026-09-03",
+          "open": 1.7,
+          "high": 1.76,
+          "low": 1.65,
+          "close": 1.67,
+          "volume": 47633920
+        },
+        {
+          "time": "2026-09-04",
+          "open": 1.66,
+          "high": 1.74,
+          "low": 1.66,
+          "close": 1.7,
+          "volume": 45231121
+        },
+        {
+          "time": "2026-09-07",
+          "open": 1.69,
+          "high": 1.75,
+          "low": 1.69,
+          "close": 1.74,
+          "volume": 44195084
+        },
+        {
+          "time": "2026-09-08",
+          "open": 1.73,
+          "high": 1.79,
+          "low": 1.73,
+          "close": 1.76,
+          "volume": 41901808
+        },
+        {
+          "time": "2026-09-09",
+          "open": 1.76,
+          "high": 1.76,
+          "low": 1.7,
+          "close": 1.72,
+          "volume": 40651099
+        },
+        {
+          "time": "2026-09-10",
+          "open": 1.71,
+          "high": 1.72,
+          "low": 1.69,
+          "close": 1.7,
+          "volume": 21461138
+        },
+        {
+          "time": "2026-09-11",
+          "open": 1.69,
+          "high": 1.7,
+          "low": 1.65,
+          "close": 1.68,
+          "volume": 37855081
+        },
+        {
+          "time": "2026-09-14",
+          "open": 1.68,
+          "high": 1.71,
+          "low": 1.65,
+          "close": 1.68,
+          "volume": 36735999
+        },
+        {
+          "time": "2026-09-15",
+          "open": 1.69,
+          "high": 1.69,
+          "low": 1.61,
+          "close": 1.62,
+          "volume": 31504200
+        },
+        {
+          "time": "2026-09-16",
+          "open": 1.61,
+          "high": 1.64,
+          "low": 1.59,
+          "close": 1.62,
+          "volume": 24380200
+        },
+        {
+          "time": "2026-09-17",
+          "open": 1.63,
+          "high": 1.65,
+          "low": 1.61,
+          "close": 1.64,
+          "volume": 30032700
+        },
+        {
+          "time": "2026-09-18",
+          "open": 1.64,
+          "high": 1.66,
+          "low": 1.62,
+          "close": 1.63,
+          "volume": 27293200
+        },
+        {
+          "time": "2026-09-21",
+          "open": 1.62,
+          "high": 1.66,
+          "low": 1.61,
+          "close": 1.65,
+          "volume": 32438762
+        },
+        {
+          "time": "2026-09-22",
+          "open": 1.65,
+          "high": 1.76,
+          "low": 1.63,
+          "close": 1.69,
+          "volume": 79413899
+        },
+        {
+          "time": "2026-09-23",
+          "open": 1.68,
+          "high": 1.69,
+          "low": 1.63,
+          "close": 1.65,
+          "volume": 50818000
+        },
+        {
+          "time": "2026-09-24",
+          "open": 1.64,
+          "high": 1.78,
+          "low": 1.62,
+          "close": 1.69,
+          "volume": 91446400
+        },
+        {
+          "time": "2026-09-28",
+          "open": 1.67,
+          "high": 1.7,
+          "low": 1.58,
+          "close": 1.62,
+          "volume": 63488100
+        },
+        {
+          "time": "2026-09-29",
+          "open": 1.61,
+          "high": 1.66,
+          "low": 1.6,
+          "close": 1.65,
+          "volume": 46898810
+        },
+        {
+          "time": "2026-09-30",
+          "open": 1.67,
+          "high": 1.69,
+          "low": 1.62,
+          "close": 1.64,
+          "volume": 33013500
+        },
+        {
+          "time": "2026-10-08",
+          "open": 1.63,
+          "high": 1.65,
+          "low": 1.58,
+          "close": 1.6,
+          "volume": 33674100
+        },
+        {
+          "time": "2026-10-09",
+          "open": 1.6,
+          "high": 1.76,
+          "low": 1.58,
+          "close": 1.76,
+          "volume": 125212455
+        },
+        {
+          "time": "2026-10-12",
+          "open": 1.85,
+          "high": 1.94,
+          "low": 1.78,
+          "close": 1.84,
+          "volume": 247337385
+        },
+        {
+          "time": "2026-10-13",
+          "open": 1.8,
+          "high": 1.81,
+          "low": 1.72,
+          "close": 1.77,
+          "volume": 169990665
+        },
+        {
+          "time": "2026-10-14",
+          "open": 1.76,
+          "high": 1.95,
+          "low": 1.72,
+          "close": 1.88,
+          "volume": 274283980
+        },
+        {
+          "time": "2026-10-15",
+          "open": 1.81,
+          "high": 1.89,
+          "low": 1.76,
+          "close": 1.77,
+          "volume": 189452961
+        },
+        {
+          "time": "2026-10-16",
+          "open": 1.77,
+          "high": 1.84,
+          "low": 1.73,
+          "close": 1.74,
+          "volume": 116688093
+        },
+        {
+          "time": "2026-10-19",
+          "open": 1.73,
+          "high": 1.74,
+          "low": 1.66,
+          "close": 1.7,
+          "volume": 89386128
+        },
+        {
+          "time": "2026-10-20",
+          "open": 1.69,
+          "high": 1.76,
+          "low": 1.67,
+          "close": 1.7,
+          "volume": 78298700
+        },
+        {
+          "time": "2026-10-21",
+          "open": 1.7,
+          "high": 1.87,
+          "low": 1.7,
+          "close": 1.87,
+          "volume": 189838576
+        },
+        {
+          "time": "2026-10-22",
+          "open": 1.85,
+          "high": 1.9,
+          "low": 1.76,
+          "close": 1.76,
+          "volume": 224158600
+        },
+        {
+          "time": "2026-10-23",
+          "open": 1.74,
+          "high": 1.76,
+          "low": 1.59,
+          "close": 1.73,
+          "volume": 175070300
+        },
+        {
+          "time": "2026-10-26",
+          "open": 1.74,
+          "high": 1.76,
+          "low": 1.65,
+          "close": 1.7,
+          "volume": 104509800
+        },
+        {
+          "time": "2026-10-27",
+          "open": 1.72,
+          "high": 1.87,
+          "low": 1.69,
+          "close": 1.87,
+          "volume": 254084467
+        },
+        {
+          "time": "2026-10-28",
+          "open": 1.84,
+          "high": 2.06,
+          "low": 1.79,
+          "close": 2.06,
+          "volume": 227849886
+        },
+        {
+          "time": "2026-10-29",
+          "open": 2.2,
+          "high": 2.27,
+          "low": 2.12,
+          "close": 2.27,
+          "volume": 514388573
+        },
+        {
+          "time": "2026-10-30",
+          "open": 2.05,
+          "high": 2.2,
+          "low": 2.04,
+          "close": 2.04,
+          "volume": 332419944
+        },
+        {
+          "time": "2026-11-02",
+          "open": 1.84,
+          "high": 2.24,
+          "low": 1.84,
+          "close": 2.24,
+          "volume": 446504509
+        },
+        {
+          "time": "2026-11-03",
+          "open": 2.26,
+          "high": 2.46,
+          "low": 2.26,
+          "close": 2.46,
+          "volume": 666495319
+        },
+        {
+          "time": "2026-11-04",
+          "open": 2.43,
+          "high": 2.71,
+          "low": 2.33,
+          "close": 2.47,
+          "volume": 820150865
+        },
+        {
+          "time": "2026-11-05",
+          "open": 2.43,
+          "high": 2.65,
+          "low": 2.28,
+          "close": 2.52,
+          "volume": 754104123
+        },
+        {
+          "time": "2026-11-06",
+          "open": 2.3,
+          "high": 2.45,
+          "low": 2.27,
+          "close": 2.35,
+          "volume": 523504350
+        },
+        {
+          "time": "2026-11-09",
+          "open": 2.35,
+          "high": 2.59,
+          "low": 2.34,
+          "close": 2.59,
+          "volume": 427706294
+        },
+        {
+          "time": "2026-11-10",
+          "open": 2.65,
+          "high": 2.85,
+          "low": 2.65,
+          "close": 2.85,
+          "volume": 183670550
+        },
+        {
+          "time": "2026-11-11",
+          "open": 3.14,
+          "high": 3.14,
+          "low": 2.88,
+          "close": 3.14,
+          "volume": 699393041
+        },
+        {
+          "time": "2026-11-12",
+          "open": 3.35,
+          "high": 3.45,
+          "low": 2.99,
+          "close": 3.09,
+          "volume": 1077893157
+        },
+        {
+          "time": "2026-11-13",
+          "open": 3.21,
+          "high": 3.4,
+          "low": 3.2,
+          "close": 3.4,
+          "volume": 311982946
+        },
+        {
+          "time": "2026-11-16",
+          "open": 3.65,
+          "high": 3.74,
+          "low": 3.5,
+          "close": 3.74,
+          "volume": 1082508066
+        }
+      ],
+      "ema5": [
+        {
+          "time": "2026-08-31",
+          "value": 1.68
+        },
+        {
+          "time": "2026-09-01",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-02",
+          "value": 1.71
+        },
+        {
+          "time": "2026-09-03",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-04",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-07",
+          "value": 1.71
+        },
+        {
+          "time": "2026-09-08",
+          "value": 1.73
+        },
+        {
+          "time": "2026-09-09",
+          "value": 1.72
+        },
+        {
+          "time": "2026-09-10",
+          "value": 1.72
+        },
+        {
+          "time": "2026-09-11",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-14",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-15",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-16",
+          "value": 1.65
+        },
+        {
+          "time": "2026-09-17",
+          "value": 1.65
+        },
+        {
+          "time": "2026-09-18",
+          "value": 1.64
+        },
+        {
+          "time": "2026-09-21",
+          "value": 1.65
+        },
+        {
+          "time": "2026-09-22",
+          "value": 1.66
+        },
+        {
+          "time": "2026-09-23",
+          "value": 1.66
+        },
+        {
+          "time": "2026-09-24",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-28",
+          "value": 1.65
+        },
+        {
+          "time": "2026-09-29",
+          "value": 1.65
+        },
+        {
+          "time": "2026-09-30",
+          "value": 1.65
+        },
+        {
+          "time": "2026-10-08",
+          "value": 1.63
+        },
+        {
+          "time": "2026-10-09",
+          "value": 1.67
+        },
+        {
+          "time": "2026-10-12",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-13",
+          "value": 1.74
+        },
+        {
+          "time": "2026-10-14",
+          "value": 1.79
+        },
+        {
+          "time": "2026-10-15",
+          "value": 1.78
+        },
+        {
+          "time": "2026-10-16",
+          "value": 1.77
+        },
+        {
+          "time": "2026-10-19",
+          "value": 1.75
+        },
+        {
+          "time": "2026-10-20",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-21",
+          "value": 1.78
+        },
+        {
+          "time": "2026-10-22",
+          "value": 1.77
+        },
+        {
+          "time": "2026-10-23",
+          "value": 1.76
+        },
+        {
+          "time": "2026-10-26",
+          "value": 1.74
+        },
+        {
+          "time": "2026-10-27",
+          "value": 1.78
+        },
+        {
+          "time": "2026-10-28",
+          "value": 1.87
+        },
+        {
+          "time": "2026-10-29",
+          "value": 2.01
+        },
+        {
+          "time": "2026-10-30",
+          "value": 2.02
+        },
+        {
+          "time": "2026-11-02",
+          "value": 2.09
+        },
+        {
+          "time": "2026-11-03",
+          "value": 2.21
+        },
+        {
+          "time": "2026-11-04",
+          "value": 2.3
+        },
+        {
+          "time": "2026-11-05",
+          "value": 2.37
+        },
+        {
+          "time": "2026-11-06",
+          "value": 2.37
+        },
+        {
+          "time": "2026-11-09",
+          "value": 2.44
+        },
+        {
+          "time": "2026-11-10",
+          "value": 2.58
+        },
+        {
+          "time": "2026-11-11",
+          "value": 2.76
+        },
+        {
+          "time": "2026-11-12",
+          "value": 2.87
+        },
+        {
+          "time": "2026-11-13",
+          "value": 3.05
+        },
+        {
+          "time": "2026-11-16",
+          "value": 3.28
+        }
+      ],
+      "ema20": [
+        {
+          "time": "2026-08-31",
+          "value": 1.68
+        },
+        {
+          "time": "2026-09-01",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-02",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-03",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-04",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-07",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-08",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-09",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-10",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-11",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-14",
+          "value": 1.7
+        },
+        {
+          "time": "2026-09-15",
+          "value": 1.69
+        },
+        {
+          "time": "2026-09-16",
+          "value": 1.68
+        },
+        {
+          "time": "2026-09-17",
+          "value": 1.68
+        },
+        {
+          "time": "2026-09-18",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-21",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-22",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-23",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-24",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-28",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-29",
+          "value": 1.67
+        },
+        {
+          "time": "2026-09-30",
+          "value": 1.66
+        },
+        {
+          "time": "2026-10-08",
+          "value": 1.66
+        },
+        {
+          "time": "2026-10-09",
+          "value": 1.67
+        },
+        {
+          "time": "2026-10-12",
+          "value": 1.68
+        },
+        {
+          "time": "2026-10-13",
+          "value": 1.69
+        },
+        {
+          "time": "2026-10-14",
+          "value": 1.71
+        },
+        {
+          "time": "2026-10-15",
+          "value": 1.72
+        },
+        {
+          "time": "2026-10-16",
+          "value": 1.72
+        },
+        {
+          "time": "2026-10-19",
+          "value": 1.72
+        },
+        {
+          "time": "2026-10-20",
+          "value": 1.71
+        },
+        {
+          "time": "2026-10-21",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-22",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-23",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-26",
+          "value": 1.73
+        },
+        {
+          "time": "2026-10-27",
+          "value": 1.74
+        },
+        {
+          "time": "2026-10-28",
+          "value": 1.77
+        },
+        {
+          "time": "2026-10-29",
+          "value": 1.82
+        },
+        {
+          "time": "2026-10-30",
+          "value": 1.84
+        },
+        {
+          "time": "2026-11-02",
+          "value": 1.88
+        },
+        {
+          "time": "2026-11-03",
+          "value": 1.93
+        },
+        {
+          "time": "2026-11-04",
+          "value": 1.99
+        },
+        {
+          "time": "2026-11-05",
+          "value": 2.04
+        },
+        {
+          "time": "2026-11-06",
+          "value": 2.07
+        },
+        {
+          "time": "2026-11-09",
+          "value": 2.12
+        },
+        {
+          "time": "2026-11-10",
+          "value": 2.19
+        },
+        {
+          "time": "2026-11-11",
+          "value": 2.28
+        },
+        {
+          "time": "2026-11-12",
+          "value": 2.35
+        },
+        {
+          "time": "2026-11-13",
+          "value": 2.45
+        },
+        {
+          "time": "2026-11-16",
+          "value": 2.58
+        }
+      ],
+      "latest_close": 3.74,
+      "abnormal": {
+        "is_20cm": false,
+        "limit_rate": 0.1,
+        "ret10": 52.03,
+        "safety10": 47.97,
+        "boards_left": 2.9,
+        "ret30": 126.67,
+        "safety30": 73.33,
+        "risk_level": "safe",
+        "risk_text": "安全垫充裕 (余2.9板)"
+      }
+    },
+    {
+      "name": "世龙实业",
+      "code": "sz002748",
+      "sector": "锂电池",
+      "pool_type": "【2连板梯队】",
+      "entry_rule": "连板风向标。核验早盘竞价承接与分时换手回封强度，严防无量一字炸板。",
+      "defense_rule": "5日均线或前一日涨停收盘价为防守参考位。",
+      "height": 2,
+      "status": "yellow",
+      "is_custom": false,
+      "candles": [
+        {
+          "time": "2026-08-31",
+          "open": 12.26,
+          "high": 12.3,
+          "low": 12.03,
+          "close": 12.26,
+          "volume": 4178400
+        },
+        {
+          "time": "2026-09-01",
+          "open": 12.28,
+          "high": 12.5,
+          "low": 12.24,
+          "close": 12.31,
+          "volume": 4256522
+        },
+        {
+          "time": "2026-09-02",
+          "open": 12.24,
+          "high": 12.5,
+          "low": 12.13,
+          "close": 12.41,
+          "volume": 5005100
+        },
+        {
+          "time": "2026-09-03",
+          "open": 12.42,
+          "high": 12.46,
+          "low": 12.18,
+          "close": 12.2,
+          "volume": 3793000
+        },
+        {
+          "time": "2026-09-04",
+          "open": 12.23,
+          "high": 12.38,
+          "low": 12.06,
+          "close": 12.14,
+          "volume": 3661300
+        },
+        {
+          "time": "2026-09-07",
+          "open": 12.07,
+          "high": 12.28,
+          "low": 12.02,
+          "close": 12.23,
+          "volume": 3269300
+        },
+        {
+          "time": "2026-09-08",
+          "open": 12.29,
+          "high": 12.58,
+          "low": 12.14,
+          "close": 12.53,
+          "volume": 4294200
+        },
+        {
+          "time": "2026-09-09",
+          "open": 12.53,
+          "high": 12.66,
+          "low": 12.3,
+          "close": 12.39,
+          "volume": 3183000
+        },
+        {
+          "time": "2026-09-10",
+          "open": 12.29,
+          "high": 12.58,
+          "low": 12.2,
+          "close": 12.38,
+          "volume": 3608200
+        },
+        {
+          "time": "2026-09-11",
+          "open": 12.35,
+          "high": 12.35,
+          "low": 11.87,
+          "close": 12.03,
+          "volume": 4465800
+        },
+        {
+          "time": "2026-09-14",
+          "open": 12.01,
+          "high": 12.08,
+          "low": 11.76,
+          "close": 12.01,
+          "volume": 2888900
+        },
+        {
+          "time": "2026-09-15",
+          "open": 12.16,
+          "high": 12.16,
+          "low": 11.6,
+          "close": 11.62,
+          "volume": 4756300
+        },
+        {
+          "time": "2026-09-16",
+          "open": 11.61,
+          "high": 12.18,
+          "low": 11.57,
+          "close": 12.04,
+          "volume": 5723200
+        },
+        {
+          "time": "2026-09-17",
+          "open": 11.96,
+          "high": 12.1,
+          "low": 11.81,
+          "close": 12.02,
+          "volume": 3709582
+        },
+        {
+          "time": "2026-09-18",
+          "open": 12.04,
+          "high": 12.37,
+          "low": 12.0,
+          "close": 12.32,
+          "volume": 6082400
+        },
+        {
+          "time": "2026-09-21",
+          "open": 12.3,
+          "high": 12.42,
+          "low": 12.14,
+          "close": 12.31,
+          "volume": 5555700
+        },
+        {
+          "time": "2026-09-22",
+          "open": 12.26,
+          "high": 12.38,
+          "low": 12.16,
+          "close": 12.29,
+          "volume": 4100600
+        },
+        {
+          "time": "2026-09-23",
+          "open": 12.29,
+          "high": 12.4,
+          "low": 12.18,
+          "close": 12.34,
+          "volume": 2707500
+        },
+        {
+          "time": "2026-09-24",
+          "open": 12.34,
+          "high": 12.38,
+          "low": 12.07,
+          "close": 12.11,
+          "volume": 3190300
+        },
+        {
+          "time": "2026-09-28",
+          "open": 12.13,
+          "high": 12.19,
+          "low": 11.8,
+          "close": 11.92,
+          "volume": 3168600
+        },
+        {
+          "time": "2026-09-29",
+          "open": 11.95,
+          "high": 12.04,
+          "low": 11.82,
+          "close": 12.0,
+          "volume": 3127200
+        },
+        {
+          "time": "2026-09-30",
+          "open": 11.9,
+          "high": 12.23,
+          "low": 11.9,
+          "close": 12.09,
+          "volume": 2483415
+        },
+        {
+          "time": "2026-10-08",
+          "open": 12.22,
+          "high": 12.65,
+          "low": 12.01,
+          "close": 12.45,
+          "volume": 6980000
+        },
+        {
+          "time": "2026-10-09",
+          "open": 12.46,
+          "high": 12.5,
+          "low": 11.89,
+          "close": 12.26,
+          "volume": 7468300
+        },
+        {
+          "time": "2026-10-12",
+          "open": 12.34,
+          "high": 12.36,
+          "low": 11.72,
+          "close": 11.91,
+          "volume": 6675022
+        },
+        {
+          "time": "2026-10-13",
+          "open": 11.77,
+          "high": 13.1,
+          "low": 11.75,
+          "close": 13.1,
+          "volume": 13585882
+        },
+        {
+          "time": "2026-10-14",
+          "open": 13.76,
+          "high": 13.99,
+          "low": 12.38,
+          "close": 12.41,
+          "volume": 32530073
+        },
+        {
+          "time": "2026-10-15",
+          "open": 11.99,
+          "high": 13.65,
+          "low": 11.91,
+          "close": 13.65,
+          "volume": 31680959
+        },
+        {
+          "time": "2026-10-16",
+          "open": 13.39,
+          "high": 13.6,
+          "low": 12.63,
+          "close": 12.9,
+          "volume": 32461400
+        },
+        {
+          "time": "2026-10-19",
+          "open": 12.89,
+          "high": 14.19,
+          "low": 12.11,
+          "close": 13.43,
+          "volume": 42328230
+        },
+        {
+          "time": "2026-10-20",
+          "open": 13.15,
+          "high": 13.27,
+          "low": 12.51,
+          "close": 12.71,
+          "volume": 30210300
+        },
+        {
+          "time": "2026-10-21",
+          "open": 12.67,
+          "high": 12.98,
+          "low": 12.26,
+          "close": 12.48,
+          "volume": 21662677
+        },
+        {
+          "time": "2026-10-22",
+          "open": 12.3,
+          "high": 12.48,
+          "low": 11.23,
+          "close": 11.23,
+          "volume": 24390673
+        },
+        {
+          "time": "2026-10-23",
+          "open": 10.79,
+          "high": 11.3,
+          "low": 10.5,
+          "close": 11.26,
+          "volume": 17365914
+        },
+        {
+          "time": "2026-10-26",
+          "open": 10.99,
+          "high": 11.09,
+          "low": 10.47,
+          "close": 10.56,
+          "volume": 13169400
+        },
+        {
+          "time": "2026-10-27",
+          "open": 10.66,
+          "high": 10.77,
+          "low": 10.23,
+          "close": 10.24,
+          "volume": 9221800
+        },
+        {
+          "time": "2026-10-28",
+          "open": 10.35,
+          "high": 10.86,
+          "low": 10.09,
+          "close": 10.74,
+          "volume": 12248400
+        },
+        {
+          "time": "2026-10-29",
+          "open": 10.68,
+          "high": 11.08,
+          "low": 10.53,
+          "close": 10.64,
+          "volume": 11069400
+        },
+        {
+          "time": "2026-10-30",
+          "open": 10.5,
+          "high": 10.85,
+          "low": 10.17,
+          "close": 10.25,
+          "volume": 8674900
+        },
+        {
+          "time": "2026-11-02",
+          "open": 10.2,
+          "high": 10.37,
+          "low": 9.95,
+          "close": 10.17,
+          "volume": 8262200
+        },
+        {
+          "time": "2026-11-03",
+          "open": 10.1,
+          "high": 10.68,
+          "low": 10.0,
+          "close": 10.21,
+          "volume": 9302600
+        },
+        {
+          "time": "2026-11-04",
+          "open": 10.26,
+          "high": 10.31,
+          "low": 9.98,
+          "close": 10.28,
+          "volume": 9194300
+        },
+        {
+          "time": "2026-11-05",
+          "open": 10.21,
+          "high": 10.68,
+          "low": 10.17,
+          "close": 10.59,
+          "volume": 9102600
+        },
+        {
+          "time": "2026-11-06",
+          "open": 10.26,
+          "high": 10.69,
+          "low": 10.25,
+          "close": 10.62,
+          "volume": 5648400
+        },
+        {
+          "time": "2026-11-09",
+          "open": 10.83,
+          "high": 11.36,
+          "low": 10.68,
+          "close": 10.74,
+          "volume": 9901900
+        },
+        {
+          "time": "2026-11-10",
+          "open": 10.89,
+          "high": 10.94,
+          "low": 10.6,
+          "close": 10.9,
+          "volume": 6025422
+        },
+        {
+          "time": "2026-11-11",
+          "open": 10.84,
+          "high": 10.96,
+          "low": 10.78,
+          "close": 10.93,
+          "volume": 4328999
+        },
+        {
+          "time": "2026-11-12",
+          "open": 11.49,
+          "high": 11.77,
+          "low": 11.16,
+          "close": 11.26,
+          "volume": 16374100
+        },
+        {
+          "time": "2026-11-13",
+          "open": 11.44,
+          "high": 12.39,
+          "low": 11.43,
+          "close": 12.39,
+          "volume": 28292647
+        },
+        {
+          "time": "2026-11-16",
+          "open": 13.21,
+          "high": 13.63,
+          "low": 12.51,
+          "close": 13.63,
+          "volume": 31810195
+        }
+      ],
+      "ema5": [
+        {
+          "time": "2026-08-31",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-01",
+          "value": 12.28
+        },
+        {
+          "time": "2026-09-02",
+          "value": 12.32
+        },
+        {
+          "time": "2026-09-03",
+          "value": 12.28
+        },
+        {
+          "time": "2026-09-04",
+          "value": 12.23
+        },
+        {
+          "time": "2026-09-07",
+          "value": 12.23
+        },
+        {
+          "time": "2026-09-08",
+          "value": 12.33
+        },
+        {
+          "time": "2026-09-09",
+          "value": 12.35
+        },
+        {
+          "time": "2026-09-10",
+          "value": 12.36
+        },
+        {
+          "time": "2026-09-11",
+          "value": 12.25
+        },
+        {
+          "time": "2026-09-14",
+          "value": 12.17
+        },
+        {
+          "time": "2026-09-15",
+          "value": 11.99
+        },
+        {
+          "time": "2026-09-16",
+          "value": 12.0
+        },
+        {
+          "time": "2026-09-17",
+          "value": 12.01
+        },
+        {
+          "time": "2026-09-18",
+          "value": 12.11
+        },
+        {
+          "time": "2026-09-21",
+          "value": 12.18
+        },
+        {
+          "time": "2026-09-22",
+          "value": 12.22
+        },
+        {
+          "time": "2026-09-23",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-24",
+          "value": 12.21
+        },
+        {
+          "time": "2026-09-28",
+          "value": 12.11
+        },
+        {
+          "time": "2026-09-29",
+          "value": 12.07
+        },
+        {
+          "time": "2026-09-30",
+          "value": 12.08
+        },
+        {
+          "time": "2026-10-08",
+          "value": 12.2
+        },
+        {
+          "time": "2026-10-09",
+          "value": 12.22
+        },
+        {
+          "time": "2026-10-12",
+          "value": 12.12
+        },
+        {
+          "time": "2026-10-13",
+          "value": 12.45
+        },
+        {
+          "time": "2026-10-14",
+          "value": 12.43
+        },
+        {
+          "time": "2026-10-15",
+          "value": 12.84
+        },
+        {
+          "time": "2026-10-16",
+          "value": 12.86
+        },
+        {
+          "time": "2026-10-19",
+          "value": 13.05
+        },
+        {
+          "time": "2026-10-20",
+          "value": 12.94
+        },
+        {
+          "time": "2026-10-21",
+          "value": 12.78
+        },
+        {
+          "time": "2026-10-22",
+          "value": 12.27
+        },
+        {
+          "time": "2026-10-23",
+          "value": 11.93
+        },
+        {
+          "time": "2026-10-26",
+          "value": 11.47
+        },
+        {
+          "time": "2026-10-27",
+          "value": 11.06
+        },
+        {
+          "time": "2026-10-28",
+          "value": 10.96
+        },
+        {
+          "time": "2026-10-29",
+          "value": 10.85
+        },
+        {
+          "time": "2026-10-30",
+          "value": 10.65
+        },
+        {
+          "time": "2026-11-02",
+          "value": 10.49
+        },
+        {
+          "time": "2026-11-03",
+          "value": 10.4
+        },
+        {
+          "time": "2026-11-04",
+          "value": 10.36
+        },
+        {
+          "time": "2026-11-05",
+          "value": 10.44
+        },
+        {
+          "time": "2026-11-06",
+          "value": 10.5
+        },
+        {
+          "time": "2026-11-09",
+          "value": 10.58
+        },
+        {
+          "time": "2026-11-10",
+          "value": 10.69
+        },
+        {
+          "time": "2026-11-11",
+          "value": 10.77
+        },
+        {
+          "time": "2026-11-12",
+          "value": 10.93
+        },
+        {
+          "time": "2026-11-13",
+          "value": 11.42
+        },
+        {
+          "time": "2026-11-16",
+          "value": 12.15
+        }
+      ],
+      "ema20": [
+        {
+          "time": "2026-08-31",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-01",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-02",
+          "value": 12.28
+        },
+        {
+          "time": "2026-09-03",
+          "value": 12.27
+        },
+        {
+          "time": "2026-09-04",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-07",
+          "value": 12.26
+        },
+        {
+          "time": "2026-09-08",
+          "value": 12.28
+        },
+        {
+          "time": "2026-09-09",
+          "value": 12.29
+        },
+        {
+          "time": "2026-09-10",
+          "value": 12.3
+        },
+        {
+          "time": "2026-09-11",
+          "value": 12.27
+        },
+        {
+          "time": "2026-09-14",
+          "value": 12.25
+        },
+        {
+          "time": "2026-09-15",
+          "value": 12.19
+        },
+        {
+          "time": "2026-09-16",
+          "value": 12.18
+        },
+        {
+          "time": "2026-09-17",
+          "value": 12.16
+        },
+        {
+          "time": "2026-09-18",
+          "value": 12.18
+        },
+        {
+          "time": "2026-09-21",
+          "value": 12.19
+        },
+        {
+          "time": "2026-09-22",
+          "value": 12.2
+        },
+        {
+          "time": "2026-09-23",
+          "value": 12.21
+        },
+        {
+          "time": "2026-09-24",
+          "value": 12.2
+        },
+        {
+          "time": "2026-09-28",
+          "value": 12.18
+        },
+        {
+          "time": "2026-09-29",
+          "value": 12.16
+        },
+        {
+          "time": "2026-09-30",
+          "value": 12.15
+        },
+        {
+          "time": "2026-10-08",
+          "value": 12.18
+        },
+        {
+          "time": "2026-10-09",
+          "value": 12.19
+        },
+        {
+          "time": "2026-10-12",
+          "value": 12.16
+        },
+        {
+          "time": "2026-10-13",
+          "value": 12.25
+        },
+        {
+          "time": "2026-10-14",
+          "value": 12.27
+        },
+        {
+          "time": "2026-10-15",
+          "value": 12.4
+        },
+        {
+          "time": "2026-10-16",
+          "value": 12.45
+        },
+        {
+          "time": "2026-10-19",
+          "value": 12.54
+        },
+        {
+          "time": "2026-10-20",
+          "value": 12.56
+        },
+        {
+          "time": "2026-10-21",
+          "value": 12.55
+        },
+        {
+          "time": "2026-10-22",
+          "value": 12.42
+        },
+        {
+          "time": "2026-10-23",
+          "value": 12.31
+        },
+        {
+          "time": "2026-10-26",
+          "value": 12.15
+        },
+        {
+          "time": "2026-10-27",
+          "value": 11.96
+        },
+        {
+          "time": "2026-10-28",
+          "value": 11.85
+        },
+        {
+          "time": "2026-10-29",
+          "value": 11.73
+        },
+        {
+          "time": "2026-10-30",
+          "value": 11.59
+        },
+        {
+          "time": "2026-11-02",
+          "value": 11.46
+        },
+        {
+          "time": "2026-11-03",
+          "value": 11.34
+        },
+        {
+          "time": "2026-11-04",
+          "value": 11.24
+        },
+        {
+          "time": "2026-11-05",
+          "value": 11.17
+        },
+        {
+          "time": "2026-11-06",
+          "value": 11.12
+        },
+        {
+          "time": "2026-11-09",
+          "value": 11.09
+        },
+        {
+          "time": "2026-11-10",
+          "value": 11.07
+        },
+        {
+          "time": "2026-11-11",
+          "value": 11.05
+        },
+        {
+          "time": "2026-11-12",
+          "value": 11.07
+        },
+        {
+          "time": "2026-11-13",
+          "value": 11.2
+        },
+        {
+          "time": "2026-11-16",
+          "value": 11.43
+        }
+      ],
+      "latest_close": 13.63,
+      "abnormal": {
+        "is_20cm": false,
+        "limit_rate": 0.1,
+        "ret10": 33.5,
+        "safety10": 66.5,
+        "boards_left": 4.2,
+        "ret30": 13.58,
+        "safety30": 186.42,
+        "risk_level": "safe",
+        "risk_text": "安全垫充裕 (余4.2板)"
       }
     }
   ],
   "tab_strategy": {
-    "report_date": "2026-11-16",
-    "target_date": "2026-11-16",
+    "report_date": "2026-11-17",
+    "target_date": "2026-11-17",
     "title": "明日实战推演与交易预案",
-    "action_slogan": "极端退潮杀跌期 · 默认不开新仓 (跌停 33 家)",
+    "action_slogan": "极端退潮杀跌期 · 默认不开新仓 (跌停 60 家)",
     "recommended_position": "0 仓位 · 风向标观察",
     "is_melt": true,
-    "melt_text": "防守熔断生效中：全市场跌停高达 33 家，处于退潮防守期，默认执行 0 仓位，以下标的仅作盘面风向标观察！",
+    "melt_text": "防守熔断生效中：全市场跌停高达 60 家，处于退潮防守期，默认执行 0 仓位，以下标的仅作盘面风向标观察！",
     "iron_rules": [
       {
         "tag": "🚨 铁律一 · 断板反包禁令",
@@ -10819,9 +10737,9 @@ window.__INITIAL_BUNDLE__ = {
     ],
     "baotuan_stock_targets": [
       {
-        "role": "金辰股份【全市场空间天花板 · 7板】",
+        "role": "闽发铝业【全市场空间天花板 · 7板】",
         "sector": "光伏 / 新能源",
-        "name": "金辰股份",
+        "name": "闽发铝业",
         "code": "002578",
         "metric": "7连板 · 空间压制测试",
         "pos": "0.5~1.0 成",
@@ -10830,7 +10748,7 @@ window.__INITIAL_BUNDLE__ = {
         "stop": "开盘 10 分钟内未封死涨停，或盘中跌破分时黄线坚决止损撤单",
         "stock_details": [
           {
-            "name": "金辰股份",
+            "name": "闽发铝业",
             "code": "002578",
             "badge": "光伏 · 7连板最高标",
             "latest_close": "6.06元",
@@ -11012,14 +10930,14 @@ window.__INITIAL_BUNDLE__ = {
       {
         "tier": "P0",
         "badge": "【光伏】最高身位空间总龙",
-        "title": "金辰股份 · 7 进 8",
+        "title": "闽发铝业 · 7 进 8",
         "trigger": "【弱转强打板】9:25 竞价放量高开 +3%~+6%（禁顶一字），开盘换手分歧转一致秒封打板买入，配置 0.5~1.0 成",
         "stop": "开盘 10 分钟内未封死涨停，或跌破分时均线坚决离场撤单"
       },
       {
         "tier": "P1",
         "badge": "【身位先锋】3进4 卡位淘汰赛",
-        "title": "日出东方 / 北纬科技 · 3 进 4",
+        "title": "日出东方 / 广百股份 / 国统股份 · 3 进 4",
         "trigger": "【换手卡位打板】9:25 竞价量比>3.0且封单金额居首胜出，分时黄线上方放量换手秒板打板买入，配置 0.5~1.0 成；掉队者直接放弃",
         "stop": "开盘快速跳水翻绿或冲高无量即放弃，跌破昨收无条件止损"
       },
@@ -11050,7 +10968,7 @@ window.__INITIAL_BUNDLE__ = {
       {
         "time": "09:15 - 09:25 · 盘前竞价定胜负",
         "focus": "核验大盘量能预期与跌停开盘数；锁定 2进3 与 3进4 竞价量比最强者",
-        "pass_cond": "跌停家数 ≤ 3 家，金辰股份 放量高开 +3%~+6% 且竞价量比 > 2.5",
+        "pass_cond": "跌停家数 ≤ 3 家，闽发铝业 放量高开 +3%~+6% 且竞价量比 > 2.5",
         "fail_cond": "跌停 > 5 家或空间龙竞价大幅低开 <-3%：全天新仓计划作废"
       },
       {
@@ -11068,7 +10986,7 @@ window.__INITIAL_BUNDLE__ = {
     ],
     "avoid_list": [
       "昨日高位断板放量大阴标的（次日反包胜率极低，脉冲冲高一律防范诱多，严禁抄底首阴）",
-      "当日跌停及破位负反馈池（当前跌停 33 家，未止跌收敛前严禁接飞刀）"
+      "当日跌停及破位负反馈池（当前跌停 60 家，未止跌收敛前严禁接飞刀）"
     ],
     "scenarios": [
       {
@@ -11096,16 +11014,16 @@ window.__INITIAL_BUNDLE__ = {
         "stop": "全天坚决执行空仓纪律，严防飞刀"
       }
     ],
-    "morning_card": "【晨会操盘内参 · 核心作战卡片】\n基准日期：2026-11-16\n定性军规：极端退潮杀跌期 · 默认不开新仓 (跌停 33 家)\n仓位建议：0 仓位 · 风向标观察\n\n【优先级作战矩阵】\nP0 空间先锋：【实控人变更】天普股份 (4B)\nP1 中位卡位：【游戏】北纬科技 (3B)\nP2 分支观察：【光伏】金辰股份 (3B)\nP3 风险熔断：跌停负反馈池（跌停 33 家）\n\n【重点抱团个股 · 实战预案指令】\n① 主线空间龙 / 领涨龙头｜【实控人变更】天普股份(sh605255) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【风向标观察 · 默认不开新仓】核验 9:25 天普股份 竞价封单与换手承接，观察同题材是否有首板助攻，严禁顶一字或盲目打板\n• 纪律底线：盘中跌破分时黄线或炸板不回封坚决离场\n② 梯队先锋 / 身位卡位｜【游戏】北纬科技(sz002148) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【梯队核验 · 默认不开新仓】9:35 观察 北纬科技 分时均线承接与同身位晋级率，掉队转弱则维持全天防守\n• 纪律底线：跌破分时均线超过 10 分钟或同身位掉队无条件止损\n③ 核心产业大中军｜【光伏】金辰股份(sh603396) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【承接观察 · 默认不开新仓】观察 金辰股份 及板块容量中军在 5 日均线附近的承接力度，不追日内脉冲\n• 纪律底线：有效跌破 5 日均线或分时放量破位 -3% 无条件止损\n⛔ 禁买出清黑名单｜【高位断板 / 跌停雷区】昨日断板高标及跌停池（共 33 家跌停） (建议仓位: 0 仓位)\n• 核心判断：一票否决！严禁低吸、严禁抄底首阴、严禁追反包！若已持有，早盘脉冲抽高果断减仓离场\n• 纪律底线：负反馈未收敛前严禁接飞刀\n\n【重点抱团可转债 · 明日 T+0 深度作战预案】\n福新转债(111012) 【高成交人气标杆 · 联动观察】 (正股:福莱新材 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 锚定正股竞价与早盘分时承接，急拉不追高，回踩分时均线企稳且正股转强时再作 T+0 观察；若正股转弱破位立即撤退。\n• 底线：跌破分时黄线超 5 分钟或正股放量跳水立即止损；日内 T+0 严控隔夜溢价回撤。\n奥普转债(118075) 【弹性活跃观察 · 波段跟踪】 (正股:奥普特 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 核对正股止跌企稳信号与转股溢价率变化（注意转股期条款），仅在债股同向放量回升时跟踪日内脉冲。\n• 底线：冲高回落跌破开盘价或正股继续走弱坚决放弃。\n精测转2(123176) 【板块共振观察 · 辅助锚点】 (正股:精测电子 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 观察半导体/设备方向共振修复力度，债股同步企稳前保持观望，不单凭债端拉升追价。\n• 底线：分时均线破位或溢价被动走阔时无条件撤退。\n澳弘转债(111024) 【破位出清 · 一票否决禁买】 (正股:澳弘电子 破位风险 | 仓位:0 仓位)\n• 应对：• 正股走弱破位释放负反馈，一票否决严禁抄底！规避正股下探拖累转债杀溢价风险。\n• 底线：全天锁定 0 仓位，禁止开新仓。",
-    "full_report_url": "./reports/plan_2026-11-16.html",
+    "morning_card": "【晨会操盘内参 · 核心作战卡片】\n基准日期：2026-11-17\n定性军规：极端退潮杀跌期 · 默认不开新仓 (跌停 60 家)\n仓位建议：0 仓位 · 风向标观察\n\n【优先级作战矩阵】\nP0 空间先锋：【游戏】北纬科技 (4B)\nP1 中位卡位：【零售】广百股份 (3B)\nP2 分支观察：【基础建设】国统股份 (3B)\nP3 风险熔断：跌停负反馈池（跌停 60 家）\n\n【重点抱团个股 · 实战预案指令】\n① 主线空间龙 / 领涨龙头｜【游戏】北纬科技(sz002148) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【风向标观察 · 默认不开新仓】核验 9:25 北纬科技 竞价封单与换手承接，观察同题材是否有首板助攻，严禁顶一字或盲目打板\n• 纪律底线：盘中跌破分时黄线或炸板不回封坚决离场\n② 梯队先锋 / 身位卡位｜【零售】广百股份(sz002187) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【梯队核验 · 默认不开新仓】9:35 观察 广百股份 分时均线承接与同身位晋级率，掉队转弱则维持全天防守\n• 纪律底线：跌破分时均线超过 10 分钟或同身位掉队无条件止损\n③ 核心产业大中军｜【基础建设】国统股份(sz002205) (建议仓位: 0 仓位 · 风向标观察)\n• 核心判断：【承接观察 · 默认不开新仓】观察 国统股份 及板块容量中军在 5 日均线附近的承接力度，不追日内脉冲\n• 纪律底线：有效跌破 5 日均线或分时放量破位 -3% 无条件止损\n⛔ 禁买出清黑名单｜【高位断板 / 跌停雷区】昨日断板高标及跌停池（共 60 家跌停） (建议仓位: 0 仓位)\n• 核心判断：一票否决！严禁低吸、严禁抄底首阴、严禁追反包！若已持有，早盘脉冲抽高果断减仓离场\n• 纪律底线：负反馈未收敛前严禁接飞刀\n\n【重点抱团可转债 · 明日 T+0 深度作战预案】\n福新转债(111012) 【高成交人气标杆 · 联动观察】 (正股:福莱新材 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 锚定正股竞价与早盘分时承接，急拉不追高，回踩分时均线企稳且正股转强时再作 T+0 观察；若正股转弱破位立即撤退。\n• 底线：跌破分时黄线超 5 分钟或正股放量跳水立即止损；日内 T+0 严控隔夜溢价回撤。\n奥普转债(118075) 【弹性活跃观察 · 波段跟踪】 (正股:奥普特 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 核对正股止跌企稳信号与转股溢价率变化（注意转股期条款），仅在债股同向放量回升时跟踪日内脉冲。\n• 底线：冲高回落跌破开盘价或正股继续走弱坚决放弃。\n精测转2(123176) 【板块共振观察 · 辅助锚点】 (正股:精测电子 联动观察 | 仓位:0 仓位 (仅T+0观察))\n• 应对：• 观察半导体/设备方向共振修复力度，债股同步企稳前保持观望，不单凭债端拉升追价。\n• 底线：分时均线破位或溢价被动走阔时无条件撤退。\n澳弘转债(111024) 【破位出清 · 一票否决禁买】 (正股:澳弘电子 破位风险 | 仓位:0 仓位)\n• 应对：• 正股走弱破位释放负反馈，一票否决严禁抄底！规避正股下探拖累转债杀溢价风险。\n• 底线：全天锁定 0 仓位，禁止开新仓。",
+    "full_report_url": "./reports/plan_2026-11-17.html",
     "index_analysis": {
-      "turnover": "1.48万亿",
-      "turnover_change": "-1712亿",
-      "up_count": 1136,
-      "down_count": 4344,
-      "zt_count": 37,
-      "dt_count": 33,
-      "broken_ratio": 36.2,
+      "turnover": "1.50万亿",
+      "turnover_change": "+222亿",
+      "up_count": 4273,
+      "down_count": 1149,
+      "zt_count": 93,
+      "dt_count": 60,
+      "broken_ratio": 17.0,
       "degree": 19,
       "status_text": "极度冰点期",
       "market_status": "极度冰点防守期",
@@ -11143,7 +11061,7 @@ window.__INITIAL_BUNDLE__ = {
         "score": 92,
         "stage": "主升初中期",
         "tier": "核心强主线 (主攻方向)",
-        "count": 4,
+        "count": 10,
         "lead": "光洋股份 / 锋龙股份 / 华培动力 / 金杯汽车 / 日盈电子",
         "guide": "新周期进攻核心，梯队最为庞大整齐（5只2连板）；9:25 集合竞价锁定率先弱转强、量比最大秒板者，果断打板介入，淘汰掉队者坚决不买。"
       },
@@ -11152,9 +11070,9 @@ window.__INITIAL_BUNDLE__ = {
         "score": 88,
         "stage": "分歧冲顶期",
         "tier": "空间突破主线",
-        "count": 1,
-        "lead": "金辰股份 (7板空间总龙) / 日出东方 (3板身位助攻)",
-        "guide": "全市场最高身位试金石所在；金辰股份 9:25 放量高开换手轻仓试错，检验空间压制；若高开低走放量断板，坚决一票否决不接飞刀。"
+        "count": 2,
+        "lead": "闽发铝业 (7板空间总龙) / 日出东方 (3板身位助攻)",
+        "guide": "全市场最高身位试金石所在；闽发铝业 9:25 放量高开换手轻仓试错，检验空间压制；若高开低走放量断板，坚决一票否决不接飞刀。"
       },
       {
         "name": "AI算力 / 华为链 / 消费轮动",
@@ -11162,7 +11080,7 @@ window.__INITIAL_BUNDLE__ = {
         "stage": "低位启动/轮动",
         "tier": "次主线与对冲分支",
         "count": 6,
-        "lead": "北纬科技 (3板群) / 文投控股 (2板)",
+        "lead": "广百股份 / 国统股份 (3板群) / 文投控股 (2板)",
         "guide": "大资金结构性对冲分支；仅做早盘分歧转一致率先封板的换手板，绝不买后排跟风。"
       }
     ],
@@ -11170,7 +11088,7 @@ window.__INITIAL_BUNDLE__ = {
       {
         "time": "09:15 - 09:25 · 盘前竞价定胜负",
         "focus": "核验大盘量能预期与跌停开盘数；锁定 2进3 与 3进4 竞价量比最强者",
-        "pass_cond": "跌停家数 ≤ 3 家，金辰股份 放量高开 +3%~+6% 且竞价量比 > 2.5",
+        "pass_cond": "跌停家数 ≤ 3 家，闽发铝业 放量高开 +3%~+6% 且竞价量比 > 2.5",
         "fail_cond": "跌停 > 5 家或空间龙竞价大幅低开 <-3%：全天新仓计划作废"
       },
       {
@@ -11184,92 +11102,6 @@ window.__INITIAL_BUNDLE__ = {
         "focus": "容量中军回踩 5 日均线低吸点、可转债 T+0 日内止盈平仓、排查严重异动安全空间",
         "pass_cond": "中军回踩 MA5 跌幅收窄放量企稳；转债 14:55 前清仓不隔夜",
         "fail_cond": "单日亏损触及本金 2% 或个股跌破 EMA20 无条件止损，绝不扛单"
-      }
-    ],
-    "abnormal_radar": [
-      {
-        "name": "天普股份",
-        "code": "sh605255",
-        "sector": "实控人变更",
-        "latest_close": 73.82,
-        "is_20cm": false,
-        "ret10": 53.95,
-        "safety10": 46.05,
-        "boards_left": 2.7,
-        "ret30": 33.97,
-        "safety30": 166.03,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余2.7板)"
-      },
-      {
-        "name": "金辰股份",
-        "code": "sh603396",
-        "sector": "光伏",
-        "latest_close": 35.32,
-        "is_20cm": false,
-        "ret10": 43.29,
-        "safety10": 56.71,
-        "boards_left": 3.5,
-        "ret30": -9.9,
-        "safety30": 209.9,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余3.5板)"
-      },
-      {
-        "name": "北纬科技",
-        "code": "sz002148",
-        "sector": "游戏",
-        "latest_close": 7.95,
-        "is_20cm": false,
-        "ret10": 37.31,
-        "safety10": 62.69,
-        "boards_left": 3.9,
-        "ret30": 29.27,
-        "safety30": 170.73,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余3.9板)"
-      },
-      {
-        "name": "兴欣新材",
-        "code": "sz001358",
-        "sector": "芯片",
-        "latest_close": 26.64,
-        "is_20cm": false,
-        "ret10": 27.1,
-        "safety10": 72.9,
-        "boards_left": 4.8,
-        "ret30": 7.94,
-        "safety30": 192.06,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余4.8板)"
-      },
-      {
-        "name": "好当家",
-        "code": "sh600467",
-        "sector": "农业",
-        "latest_close": 2.73,
-        "is_20cm": false,
-        "ret10": 24.66,
-        "safety10": 75.34,
-        "boards_left": 5.0,
-        "ret30": 13.28,
-        "safety30": 186.72,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余5.0板)"
-      },
-      {
-        "name": "广百股份",
-        "code": "sz002187",
-        "sector": "零售",
-        "latest_close": 6.97,
-        "is_20cm": false,
-        "ret10": 20.17,
-        "safety10": 79.83,
-        "boards_left": 5.3,
-        "ret30": 29.07,
-        "safety30": 170.93,
-        "risk_level": "safe",
-        "risk_text": "安全垫充裕 (余5.3板)"
       }
     ]
   },
@@ -11387,12 +11219,12 @@ window.__INITIAL_BUNDLE__ = {
         "limit_down_count": 63,
         "crosscheck": {
           "source": "开盘啦(6.1.6)",
-          "up_count": 765,
-          "down_count": 4748,
-          "limit_up_count": 37,
-          "limit_down_count": 33,
-          "broken_ratio": 36.21,
-          "yesterday_zt_perf": -1.53
+          "up_count": 1136,
+          "down_count": 4344,
+          "limit_up_count": 32,
+          "limit_down_count": 60,
+          "broken_ratio": 33.33,
+          "yesterday_zt_perf": 0.87
         }
       },
       "heat": {
@@ -11433,8 +11265,8 @@ window.__INITIAL_BUNDLE__ = {
         },
         "crosscheck": {
           "source": "开盘啦(6.1.6)",
-          "broken_ratio": 36.21,
-          "yesterday_zt_perf": -1.53
+          "broken_ratio": 33.33,
+          "yesterday_zt_perf": 0.87
         }
       },
       "fund_heat": {
@@ -12903,83 +12735,34 @@ window.__INITIAL_BUNDLE__ = {
     ],
     "live": [
       {
-        "id": 2535439,
-        "title": "调查显示欧元区第四季度通胀率预计将升至4%",
-        "content": "【调查显示欧元区第四季度通胀率预计将升至4%】财联社11月16日电，调查显示，在10月价格涨幅是欧洲央行目标的两倍后，经济学家们纷纷上调预测，料今年最后一个季度欧元区通胀率将达到4%。根据11月6日至11日对19位经济学家进行的调查，他们对欧元区第四季度通胀率的预估中值从上月调查时的3.8%上调至4%。西班牙、意大利和法国的通胀预期也被上调，德国的预期则被下调。",
-        "time": 1794815277,
+        "id": 2535986,
+        "title": "GE Vernova推出中压不间断电源稳定系统 以平滑AI电力需求",
+        "content": "【GE Vernova推出中压不间断电源稳定系统 以平滑AI电力需求】财联社11月17日电，通用电气旗下能源业务公司GE Vernova推出中压不间断电源（MV-UPS）稳定系统，并将其规模化，以平滑AI快速变化的电力需求。",
+        "time": 1794847166,
         "level": "C",
-        "reading_num": 24724,
+        "reading_num": 10630,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535430,
-        "title": "11月16日连板股分析：连板股晋级率超四成 文投控股走出19天11板",
-        "content": "【11月16日连板股分析：连板股晋级率超四成 文投控股走出19天11板】今日共32股涨停，连板股总数11只，其中三连板及以上个股3只，上一交易日共7只连板股，连板股晋级率42.86%（不含ST股、退市股）。个股方面，全市场连续第三个交易日超4300只个股下跌，跌停家数大幅增加，近60股跌停，其中襄阳轴承、青岛食品、澳洋健康、闽发铝业、百洋股份等一批高位人气股2连跌停，短线情绪持续降温。人气标杆九阳股份竞价涨停，但受大盘拖累最终尾盘炸板。连板股方面，天普股份停牌核查，北纬科技放量T字板晋级4连板，成为新的高度板。板块方面，传媒板块反复活跃，文投控股走出19天11板录得2连板，凯撒文化5天4板，金逸影视5天3板，吉视传媒3天2板；受九阳股份带动，小家电概念股盘中异动拉升，北鼎股份20cm涨停，长虹美菱、小熊电器、华帝股份涨停。",
-        "time": 1794815255,
+        "id": 2535985,
+        "title": "欧足联：法国足协主席迪亚洛将参选国际足联主席",
+        "content": "【欧足联：法国足协主席迪亚洛将参选国际足联主席】财联社11月17日电，当地时间11月16日，欧洲足球协会联盟（欧足联）执行委员会决定，支持法国足球协会主席菲利普·迪亚洛参选国际足联主席，与寻求连任的现任主席因凡蒂诺展开竞争。 （央视新闻）",
+        "time": 1794846868,
         "level": "C",
-        "reading_num": 24555,
+        "reading_num": 11933,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535435,
-        "title": "兴齐眼药：41个产品纳入国家医保目录",
-        "content": "【兴齐眼药：41个产品纳入国家医保目录】财联社11月16日电，兴齐眼药(300573.SZ)公告称，公司产品纳入国家医保目录，共有41个产品继续纳入，其中甲类8个，乙类33个。环孢素滴眼液(Ⅱ)、玻璃酸钠滴眼液等多种产品继续纳入，复方电解质眼内冲洗液续约成功。双黄连滴眼液调出目录，该产品近年未涉及生产和销售，不会对经营业绩产生影响。新版目录将于2027年1月1日起执行。",
-        "time": 1794815227,
+        "id": 2535984,
+        "title": "欧洲三大股指小幅收跌",
+        "content": "【欧洲三大股指小幅收跌】财联社11月17日电，英国富时100指数收盘下跌0.09%，法国CAC40指数下跌0.08%，德国DAX指数下跌0.45%。",
+        "time": 1794846769,
         "level": "C",
-        "reading_num": 35189,
-        "is_top": true,
-        "plate_list": [],
-        "stock_list": [
-          {
-            "code": "sz300573",
-            "name": "兴齐眼药"
-          }
-        ]
-      },
-      {
-        "id": 0,
-        "title": "",
-        "content": "",
-        "time": 0,
-        "level": "",
-        "reading_num": 0,
-        "is_top": false,
-        "plate_list": [],
-        "stock_list": []
-      },
-      {
-        "id": 2535433,
-        "title": "机构：预估2027年全球电视品牌出货量将降至1亿9117万台 年减1.2%",
-        "content": "【机构：预估2027年全球电视品牌出货量将降至1亿9117万台 年减1.2%】财联社11月16日电，TrendForce集邦咨询表示，回顾2026年，在存储器价格剧增的情况下，即便品牌通过产品尺寸放大、规格升级来提高平均销售单价（ASP），以缓解整机成本上升带来的盈利压力，仍难以抵销终端需求疲弱的影响。预估全年出货量将年减1.4%，为1亿9,348万台。展望2027年，随着存储器价格涨势可能延续，加上面板及其他上游零部件同样面临成本上涨压力，预估全球电视品牌出货量将降至1亿9,117万台，年减1.2%。",
-        "time": 1794815057,
-        "level": "C",
-        "reading_num": 58268,
-        "is_top": false,
-        "plate_list": [],
-        "stock_list": []
-      },
-      {
-        "id": 2535432,
-        "title": "我国规模最大的风光制氢一体化工程在内蒙古启动",
-        "content": "【我国规模最大的风光制氢一体化工程在内蒙古启动】财联社11月16日电，从中国石化获悉，乌兰察布绿氢及输氢管道项目正式启动，项目是我国首个跨省区、大规模、长距离纯氢输送的氢能制储输用全链条一体化工程。项目充分发挥当地风光资源优势，将可再生能源电力转化为绿氢，将分两期建设，一期年制氢能力10万吨，二期提升至20万吨。一期工程配套245万千瓦风光新能源、805公里输氢管道，输氢管线途经内蒙古、河北、天津、北京四地21个县区，将制备的绿氢直供燕山石化、天津石化，替代传统灰氢，同时拓展天然气掺氢、氢冶金、氢能交通、绿氢贸易等多元应用场景，完整打通氢能全产业链条。一期建成后，每年可实现净碳减排约173万吨。 （央视新闻）",
-        "time": 1794815048,
-        "level": "C",
-        "reading_num": 53607,
-        "is_top": false,
-        "plate_list": [],
-        "stock_list": []
-      },
-      {
-        "id": 2535431,
-        "title": "财联社11月16日电，截至目前，南向资金净卖出额达20亿港元。",
-        "content": "财联社11月16日电，截至目前，南向资金净卖出额超20亿港元。",
-        "time": 1794814969,
-        "level": "C",
-        "reading_num": 62500,
+        "reading_num": 11644,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
@@ -12996,105 +12779,144 @@ window.__INITIAL_BUNDLE__ = {
         "stock_list": []
       },
       {
-        "id": 2535428,
-        "title": "马来西亚11月1-15日棕榈油出口755,222吨 环比下降3.9%",
-        "content": "【马来西亚11月1-15日棕榈油出口755,222吨 环比下降3.9%】财联社11月16日电，据马来西亚独立检验机构AmSpec，马来西亚11月1-15日棕榈油出口755,222吨，环比下降3.9%。",
-        "time": 1794814898,
+        "id": 2535982,
+        "title": "财联社11月17日电，惠誉将戴文能源评级上调至“A-”，展望稳定。",
+        "content": "财联社11月17日电，惠誉将戴文能源评级上调至“A-”，展望稳定。",
+        "time": 1794846441,
         "level": "C",
-        "reading_num": 69434,
+        "reading_num": 10553,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535427,
-        "title": "财联社11月16日电，杰富瑞将Spotify目标价从700美元上调至710美元。",
-        "content": "财联社11月16日电，杰富瑞将Spotify目标价从700美元上调至710美元。",
-        "time": 1794814890,
+        "id": 2535981,
+        "title": "财联社11月17日电，微软数据显示，Claude在Office中落后于Copilot。",
+        "content": "财联社11月17日电，微软数据显示，Claude在Office中落后于Copilot。",
+        "time": 1794846020,
         "level": "C",
-        "reading_num": 74115,
+        "reading_num": 11862,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535426,
-        "title": "里昂：降中芯国际H股目标价至87.5港元 维持“跑赢大市”评级",
-        "content": "【里昂：降中芯国际H股目标价至87.5港元 维持“跑赢大市”评级】财联社11月16日电，里昂发布报告称，中芯国际第三季收入环比升6%至31.9亿美元，高于环比升2%至4%的指引；毛利率环比升4.6个百分点至29.9%，高于26%至28%的指引。净利润同比升123%、环比跌11%至4.28亿美元，大致符合市场预期。产能利用率环比升3.6个百分点至97.3%。第四季收入指引环比升4%至6%，中位数约33.5亿美元，高于市场预期的32.3亿美元；毛利率指引26%至28%，高于市场预期的25.1%。该行认为AI动能仍然强劲，同时管理供应链紧张。该行上调2026至2028年盈利预测分别23%、30%及32%，惟因行业估值下调，将H股2027年预测市账率由4.2倍降至3.5倍，H股目标价由97.5港元降至87.5港元，A股目标价由180.2元微调至180元，维持“跑赢大市”评级。",
-        "time": 1794814853,
+        "id": 2535980,
+        "title": "英伟达推出面向高性能计算的Vera CPU机架级平台",
+        "content": "【英伟达推出面向高性能计算的Vera CPU机架级平台】财联社11月17日电，英伟达今日宣布推出面向高性能计算的Vera CPU机架级平台。Vera为智能体科学带来更高性能，能效比x86 CPU提升一倍。完整的Vera CPU平台将由戴尔科技、HPE、联想和Supermicro提供。",
+        "time": 1794845420,
         "level": "C",
-        "reading_num": 77035,
-        "is_top": false,
-        "plate_list": [],
-        "stock_list": [
-          {
-            "code": "sh688981",
-            "name": "中芯国际"
-          }
-        ]
-      },
-      {
-        "id": 2535421,
-        "title": "财联社11月16日电，巴基斯坦KSE-100指数上涨1%，至179,681.70点。",
-        "content": "财联社11月16日电，巴基斯坦KSE-100指数上涨1%，至179,681.70点。",
-        "time": 1794814720,
-        "level": "C",
-        "reading_num": 93407,
+        "reading_num": 15311,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535420,
-        "title": "财联社11月16日电，加皇银行将Burberry目标价从1200便士上调至1300便士。",
-        "content": "财联社11月16日电，加皇银行将Burberry目标价从1200便士上调至1300便士。",
-        "time": 1794814716,
-        "level": "C",
-        "reading_num": 100373,
+        "id": 0,
+        "title": "",
+        "content": "",
+        "time": 0,
+        "level": "",
+        "reading_num": 0,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535419,
-        "title": "摩根大通策略师：预计欧洲企业2027年利润增长10%及以上",
-        "content": "【摩根大通策略师：预计欧洲企业2027年利润增长10%及以上】财联社11月16日电，摩根大通策略师预计，欧洲市场2027年每股收益至少增长10%。在经历三年盈利停滞之后，这将是连续第二年实现盈利正增长。由Mislav Matejka牵头的团队表示，经济韧性、债券收益率回落、地缘局势趋于稳定以及能源成本下行，都将构成利好因素。策略师继续看好欧洲股市，预计股指会在今年末几个月以及2027年一季度创出新高。该团队在研报中写道：“对于市场，我们判断自10月初以来的避险阶段已经结束，市场会对债券收益率见顶以及中期财报给出更积极的解读。”在这样的环境下，银行、基础资源、工业以及半导体板块具备优势。",
-        "time": 1794814703,
+        "id": 2535975,
+        "title": "IBM、费米实验室与英伟达将推出量子协同设计平台",
+        "content": "【IBM、费米实验室与英伟达将推出量子协同设计平台】财联社11月16日电，英伟达宣布与IBM及费米国家加速器实验室合作推出量子-经典协同设计平台，并实现纠错突破以推动实用化量子计算发展。",
+        "time": 1794844873,
         "level": "C",
-        "reading_num": 93200,
+        "reading_num": 22931,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535418,
-        "title": "2026年APEC工商界活动形成14份成果文件",
-        "content": "【2026年APEC工商界活动形成14份成果文件】财联社11月16日电，在16日举行的2026年亚太经合组织工商咨询理事会（ABAC）第四次会议新闻发布会上，2026年ABAC主席、中国中化集团董事长李凡荣说，今年四次会议先后在雅加达、墨西哥城、曼谷和深圳举行，形成致领导人信函、政策建议报告等共14份成果文件，其中ABAC《关于支持亚太自贸区的声明》和《关于支持互联互通的声明》受到各方高度关注，为领导人非正式会议贡献了高含金量的工商界成果。 （央视新闻）",
-        "time": 1794814597,
+        "id": 2535974,
+        "title": "财联社11月16日电，据报道，OpenAI曾探讨以50多亿美元收购一家解码AI“思维”方式的初创公司。",
+        "content": "财联社11月16日电，据报道，OpenAI曾探讨以50多亿美元收购一家解码AI“思维”方式的初创公司。",
+        "time": 1794844728,
         "level": "C",
-        "reading_num": 107260,
+        "reading_num": 472095,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535417,
-        "title": "财联社11月16日电，欧盟航空安全局表示，针对沙特阿拉伯领空的冲突区信息公告已延长至2027年1月31日。",
-        "content": "财联社11月16日电，欧盟航空安全局表示，针对沙特阿拉伯领空的冲突区信息公告已延长至2027年1月31日。",
-        "time": 1794814571,
+        "id": 2535973,
+        "title": "财联社11月16日电，欧元兑美元自2025年以来首次跌破1.10。",
+        "content": "财联社11月16日电，欧元兑美元自2025年以来首次跌破1.10。",
+        "time": 1794844628,
         "level": "C",
-        "reading_num": 108129,
+        "reading_num": 486891,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
       },
       {
-        "id": 2535416,
-        "title": "财联社11月16日电，杰富瑞将迪士尼目标价从125美元上调至140美元。",
-        "content": "财联社11月16日电，杰富瑞将迪士尼目标价从125美元上调至140美元。",
-        "time": 1794814568,
+        "id": 2535971,
+        "title": "罗伯特・帕丁森成为新一任007",
+        "content": "【罗伯特・帕丁森成为新一任007】财联社11月16日电，“詹姆斯·邦德”官方帐号发文，宣布英国演员罗伯特・帕丁森将接棒丹尼尔・克雷格，成为影史第七位詹姆斯・邦德。罗伯特・帕丁森1986年生于伦敦，早年凭借电影《哈利・波特与火焰杯》“塞德里克·迪戈里”走入大众视野，后因《暮光之城》系列“爱德华”成为全球知名演员。 （澎湃新闻）",
+        "time": 1794844354,
         "level": "C",
-        "reading_num": 114866,
+        "reading_num": 498533,
+        "is_top": false,
+        "plate_list": [],
+        "stock_list": []
+      },
+      {
+        "id": 2535968,
+        "title": "俄称下轮俄美乌三方会谈仍在阿布扎比举行 时间待定",
+        "content": "【俄称下轮俄美乌三方会谈仍在阿布扎比举行 时间待定】财联社11月16日电，俄罗斯总统助理乌沙科夫称，下一轮乌克兰问题俄美乌三方会谈将继续在阿布扎比举行，时间待定。乌沙科夫称，当俄方收到欧洲关于乌克兰问题调解的建设性建议时，欧盟参与会谈的问题才会提上日程。为期两天的俄美乌三方会谈本月11日在阿布扎比结束，各方就大规模交换被俘人员达成协议，但在结束冲突、领土争议、乌克兰安全保障及欧洲未来安全架构等关键问题上仍存“重大分歧”。 （央视新闻）",
+        "time": 1794843262,
+        "level": "C",
+        "reading_num": 492589,
+        "is_top": false,
+        "plate_list": [],
+        "stock_list": []
+      },
+      {
+        "id": 2535967,
+        "title": "伊朗称多艘油轮在霍尔木兹海峡触雷",
+        "content": "【伊朗称多艘油轮在霍尔木兹海峡触雷】财联社11月16日电，伊朗伊斯兰革命卫队和伊朗海军11月16日称，多艘油轮在霍尔木兹海峡触雷。伊朗方面强调，“关闭导航系统且未经伊朗授权擅自进入限制区域或不安全海域，会使违规船只面临严重风险。” （CCTV国际时讯）",
+        "time": 1794843056,
+        "level": "C",
+        "reading_num": 482917,
+        "is_top": false,
+        "plate_list": [],
+        "stock_list": []
+      },
+      {
+        "id": 2535966,
+        "title": "财联社11月16日电，布伦特原油期货跌幅扩大至3%，报92.969美元/桶。",
+        "content": "财联社11月16日电，布伦特原油期货跌幅扩大至3%，报92.969美元/桶。",
+        "time": 1794842709,
+        "level": "C",
+        "reading_num": 511030,
+        "is_top": false,
+        "plate_list": [],
+        "stock_list": []
+      },
+      {
+        "id": 2535965,
+        "title": "财联社11月16日电，现货白银日内跌幅扩大至4%，报46.71美元/盎司。",
+        "content": "财联社11月16日电，现货白银日内跌幅扩大至4%，报46.71美元/盎司。",
+        "time": 1794842523,
+        "level": "C",
+        "reading_num": 496504,
+        "is_top": false,
+        "plate_list": [],
+        "stock_list": []
+      },
+      {
+        "id": 2535964,
+        "title": "财联社11月16日电，埃克森美孚已在圭亚那Uaru项目启动生产，该国石油装机产能随之升至110万桶/日。",
+        "content": "财联社11月16日电，埃克森美孚已在圭亚那Uaru项目启动生产，该国石油装机产能随之升至110万桶/日。",
+        "time": 1794842426,
+        "level": "C",
+        "reading_num": 524510,
         "is_top": false,
         "plate_list": [],
         "stock_list": []
@@ -14159,7 +13981,7 @@ window.__INITIAL_BUNDLE__ = {
                 "id": 2534911,
                 "title": "市场风险偏好下行红利走强，AI应用赛道酝酿轮动修复",
                 "img": "https://image.cls.cn/images/20261116/0L951XFe1X_2500x1500.jpg",
-                "read_count": "296632",
+                "read_count": "435787",
                 "time": 1794791532
               }
             }
@@ -14298,725 +14120,584 @@ window.__INITIAL_BUNDLE__ = {
     },
     "big_rise": [
       {
-        "code": "600715",
-        "symbol": "sh600715",
-        "name": "文投控股",
+        "code": "600386",
+        "symbol": "sh600386",
+        "name": "北巴传媒",
         "limit_count": 1,
         "plate_name": "文化传媒",
-        "first_limit_time": 1794533440,
-        "float_market_cap": 13803501900
+        "first_limit_time": 1794793868,
+        "float_market_cap": 3072384000
       },
       {
-        "code": "002905",
-        "symbol": "sz002905",
-        "name": "金逸影视",
+        "code": "601929",
+        "symbol": "sh601929",
+        "name": "吉视传媒",
         "limit_count": 1,
         "plate_name": "文化传媒",
-        "first_limit_time": 1794533532,
-        "float_market_cap": 3725568000
+        "first_limit_time": 1794795132,
+        "float_market_cap": 10329772977
       },
       {
-        "code": "603103",
-        "symbol": "sh603103",
-        "name": "横店影视",
+        "code": "000156",
+        "symbol": "sz000156",
+        "name": "华数传媒",
         "limit_count": 1,
         "plate_name": "文化传媒",
-        "first_limit_time": 1794533585,
-        "float_market_cap": 12246402000
+        "first_limit_time": 1794797610,
+        "float_market_cap": 15824043055
       },
       {
-        "code": "000665",
-        "symbol": "sz000665",
-        "name": "湖北广电",
+        "code": "605378",
+        "symbol": "sh605378",
+        "name": "野马电池",
         "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794533778,
-        "float_market_cap": 5208144687
+        "plate_name": "锂电池",
+        "first_limit_time": 1794793009,
+        "float_market_cap": 4056096128
       },
       {
-        "code": "600977",
-        "symbol": "sh600977",
-        "name": "中国电影",
+        "code": "002058",
+        "symbol": "sz002058",
+        "name": "紫竹高科",
         "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794535696,
-        "float_market_cap": 31832350000
+        "plate_name": "锂电池",
+        "first_limit_time": 1794795507,
+        "float_market_cap": 3213242637
       },
       {
-        "code": "300528",
-        "symbol": "sz300528",
-        "name": "幸福蓝海",
+        "code": "300530",
+        "symbol": "sz300530",
+        "name": "领湃科技",
         "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794535743,
-        "float_market_cap": 6703218891
+        "plate_name": "锂电池",
+        "first_limit_time": 1794796557,
+        "float_market_cap": 4785406182
       },
       {
-        "code": "002739",
-        "symbol": "sz002739",
-        "name": "儒意电影",
+        "code": "000521",
+        "symbol": "sz000521",
+        "name": "长虹美菱",
         "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794537513,
-        "float_market_cap": 21223376015
+        "plate_name": "家电",
+        "first_limit_time": 1794793665,
+        "float_market_cap": 4438971212
       },
       {
-        "code": "002685",
-        "symbol": "sz002685",
-        "name": "华东重机",
+        "code": "002035",
+        "symbol": "sz002035",
+        "name": "华帝股份",
         "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794533100,
-        "float_market_cap": 5582606151
+        "plate_name": "家电",
+        "first_limit_time": 1794793725,
+        "float_market_cap": 3967018932
       },
       {
-        "code": "600410",
-        "symbol": "sh600410",
-        "name": "华胜天成",
+        "code": "002959",
+        "symbol": "sz002959",
+        "name": "小熊电器",
         "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794534606,
-        "float_market_cap": 15679873967
+        "plate_name": "家电",
+        "first_limit_time": 1794796974,
+        "float_market_cap": 5652082641
       },
       {
-        "code": "002042",
-        "symbol": "sz002042",
-        "name": "华孚时尚",
+        "code": "300824",
+        "symbol": "sz300824",
+        "name": "北鼎股份",
         "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794534987,
-        "float_market_cap": 6156466505
+        "plate_name": "家电",
+        "first_limit_time": 1794797109,
+        "float_market_cap": 2806538465
       },
       {
-        "code": "605318",
-        "symbol": "sh605318",
-        "name": "法狮龙",
+        "code": "002419",
+        "symbol": "sz002419",
+        "name": "天虹股份",
         "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794539161,
-        "float_market_cap": 10593927899
+        "plate_name": "零售",
+        "first_limit_time": 1794792753,
+        "float_market_cap": 6162785489
       },
       {
-        "code": "603166",
-        "symbol": "sh603166",
-        "name": "福达股份",
+        "code": "002356",
+        "symbol": "sz002356",
+        "name": "鹏飞绿能",
+        "limit_count": 1,
+        "plate_name": "零售",
+        "first_limit_time": 1794792960,
+        "float_market_cap": 3304361393
+      },
+      {
+        "code": "601188",
+        "symbol": "sh601188",
+        "name": "龙江交通",
+        "limit_count": 1,
+        "plate_name": "冰雪产业",
+        "first_limit_time": 1794793108,
+        "float_market_cap": 6174872698
+      },
+      {
+        "code": "600822",
+        "symbol": "sh600822",
+        "name": "上海物贸",
+        "limit_count": 1,
+        "plate_name": "汽车服务",
+        "first_limit_time": 1794793594,
+        "float_market_cap": 4686944037
+      },
+      {
+        "code": "600936",
+        "symbol": "sh600936",
+        "name": "北投科技",
         "limit_count": 1,
         "plate_name": "机器人概念",
-        "first_limit_time": 1794538108,
-        "float_market_cap": 7636452508
+        "first_limit_time": 1794793661,
+        "float_market_cap": 6717525481
       },
       {
-        "code": "603686",
-        "symbol": "sh603686",
-        "name": "福龙马",
+        "code": "001318",
+        "symbol": "sz001318",
+        "name": "阳光乳业",
         "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794538581,
-        "float_market_cap": 5649853494
+        "plate_name": "乳业",
+        "first_limit_time": 1794794223,
+        "float_market_cap": 4132489200
       },
       {
-        "code": "002520",
-        "symbol": "sz002520",
-        "name": "日发精机",
+        "code": "603983",
+        "symbol": "sh603983",
+        "name": "丸美生物",
         "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794540087,
-        "float_market_cap": 5776887817
+        "plate_name": "美容护理",
+        "first_limit_time": 1794796573,
+        "float_market_cap": 10718730000
       },
       {
-        "code": "603286",
-        "symbol": "sh603286",
-        "name": "日盈电子",
+        "code": "000533",
+        "symbol": "sz000533",
+        "name": "顺钠股份",
         "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794546013,
-        "float_market_cap": 7658969185
+        "plate_name": "智能电网",
+        "first_limit_time": 1794798849,
+        "float_market_cap": 6783813120
       },
       {
-        "code": "002819",
-        "symbol": "sz002819",
-        "name": "东方中科",
+        "code": "000628",
+        "symbol": "sz000628",
+        "name": "高新发展",
         "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794533418,
-        "float_market_cap": 6468056070
+        "plate_name": "国有企业",
+        "first_limit_time": 1794798891,
+        "float_market_cap": 16398634000
       },
       {
-        "code": "603928",
-        "symbol": "sh603928",
-        "name": "兴业股份",
+        "code": "603118",
+        "symbol": "sh603118",
+        "name": "共进股份",
         "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794533632,
-        "float_market_cap": 4074819840
+        "plate_name": "交换机",
+        "first_limit_time": 1794799334,
+        "float_market_cap": 11580835932
       },
       {
-        "code": "600651",
-        "symbol": "sh600651",
-        "name": "飞乐音响",
+        "code": "002861",
+        "symbol": "sz002861",
+        "name": "瀛通通讯",
         "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794537534,
-        "float_market_cap": 12986405118
-      },
-      {
-        "code": "002548",
-        "symbol": "sz002548",
-        "name": "金新农",
-        "limit_count": 1,
-        "plate_name": "农业",
-        "first_limit_time": 1794536274,
-        "float_market_cap": 3171905110
-      },
-      {
-        "code": "002124",
-        "symbol": "sz002124",
-        "name": "天邦食品",
-        "limit_count": 1,
-        "plate_name": "农业",
-        "first_limit_time": 1794536451,
-        "float_market_cap": 5132667152
-      },
-      {
-        "code": "002425",
-        "symbol": "sz002425",
-        "name": "凯撒文化",
-        "limit_count": 1,
-        "plate_name": "游戏",
-        "first_limit_time": 1794533709,
-        "float_market_cap": 3788393661
-      },
-      {
-        "code": "002748",
-        "symbol": "sz002748",
-        "name": "世龙实业",
-        "limit_count": 1,
-        "plate_name": "化工",
-        "first_limit_time": 1794538359,
-        "float_market_cap": 2973600000
-      },
-      {
-        "code": "000819",
-        "symbol": "sz000819",
-        "name": "岳阳兴长",
-        "limit_count": 1,
-        "plate_name": "化工",
-        "first_limit_time": 1794550779,
-        "float_market_cap": 4692377759
-      },
-      {
-        "code": "002853",
-        "symbol": "sz002853",
-        "name": "皮阿诺",
-        "limit_count": 1,
-        "plate_name": "实控人变更",
-        "first_limit_time": 1794534960,
-        "float_market_cap": 3982080188
-      },
-      {
-        "code": "603767",
-        "symbol": "sh603767",
-        "name": "中马传动",
-        "limit_count": 1,
-        "plate_name": "减速器",
-        "first_limit_time": 1794534097,
-        "float_market_cap": 5475122810
-      },
-      {
-        "code": "000766",
-        "symbol": "sz000766",
-        "name": "通化金马",
-        "limit_count": 1,
-        "plate_name": "阿尔茨海默",
-        "first_limit_time": 1794534204,
-        "float_market_cap": 15947162666
-      },
-      {
-        "code": "300237",
-        "symbol": "sz300237",
-        "name": "美晨科技",
-        "limit_count": 1,
-        "plate_name": "ST摘帽",
-        "first_limit_time": 1794537495,
-        "float_market_cap": 4700642672
-      },
-      {
-        "code": "001393",
-        "symbol": "sz001393",
-        "name": "维通利",
-        "limit_count": 1,
-        "plate_name": "电气设备",
-        "first_limit_time": 1794539079,
-        "float_market_cap": 10756240029
-      },
-      {
-        "code": "000595",
-        "symbol": "sz000595",
-        "name": "新能股份",
-        "limit_count": 1,
-        "plate_name": "绿色电力",
-        "first_limit_time": 1794539823,
-        "float_market_cap": 6296769704
-      },
-      {
-        "code": "603636",
-        "symbol": "sh603636",
-        "name": "南威软件",
-        "limit_count": 1,
-        "plate_name": "AI应用",
-        "first_limit_time": 1794548190,
-        "float_market_cap": 5513424968
+        "plate_name": "AI眼镜",
+        "first_limit_time": 1794805557,
+        "float_market_cap": 2533461883
       }
     ],
     "big_rise_plates": [
       {
-        "name": "文化传媒",
-        "count": 7,
+        "name": "家电",
+        "count": 4,
         "codes": [
-          "600715",
-          "002905",
-          "603103",
-          "000665",
-          "600977",
-          "300528",
-          "002739"
+          "000521",
+          "002035",
+          "002959",
+          "300824"
+        ]
+      },
+      {
+        "name": "文化传媒",
+        "count": 3,
+        "codes": [
+          "600386",
+          "601929",
+          "000156"
+        ]
+      },
+      {
+        "name": "锂电池",
+        "count": 3,
+        "codes": [
+          "605378",
+          "002058",
+          "300530"
+        ]
+      },
+      {
+        "name": "零售",
+        "count": 2,
+        "codes": [
+          "002419",
+          "002356"
+        ]
+      },
+      {
+        "name": "AI眼镜",
+        "count": 1,
+        "codes": [
+          "002861"
+        ]
+      },
+      {
+        "name": "乳业",
+        "count": 1,
+        "codes": [
+          "001318"
+        ]
+      },
+      {
+        "name": "交换机",
+        "count": 1,
+        "codes": [
+          "603118"
+        ]
+      },
+      {
+        "name": "冰雪产业",
+        "count": 1,
+        "codes": [
+          "601188"
+        ]
+      },
+      {
+        "name": "国有企业",
+        "count": 1,
+        "codes": [
+          "000628"
+        ]
+      },
+      {
+        "name": "智能电网",
+        "count": 1,
+        "codes": [
+          "000533"
         ]
       },
       {
         "name": "机器人概念",
-        "count": 4,
-        "codes": [
-          "603166",
-          "603686",
-          "002520",
-          "603286"
-        ]
-      },
-      {
-        "name": "算力",
-        "count": 4,
-        "codes": [
-          "002685",
-          "600410",
-          "002042",
-          "605318"
-        ]
-      },
-      {
-        "name": "芯片",
-        "count": 3,
-        "codes": [
-          "002819",
-          "603928",
-          "600651"
-        ]
-      },
-      {
-        "name": "农业",
-        "count": 2,
-        "codes": [
-          "002548",
-          "002124"
-        ]
-      },
-      {
-        "name": "化工",
-        "count": 2,
-        "codes": [
-          "002748",
-          "000819"
-        ]
-      },
-      {
-        "name": "AI应用",
         "count": 1,
         "codes": [
-          "603636"
+          "600936"
         ]
       },
       {
-        "name": "ST摘帽",
+        "name": "汽车服务",
         "count": 1,
         "codes": [
-          "300237"
+          "600822"
         ]
       },
       {
-        "name": "减速器",
+        "name": "美容护理",
         "count": 1,
         "codes": [
-          "603767"
-        ]
-      },
-      {
-        "name": "实控人变更",
-        "count": 1,
-        "codes": [
-          "002853"
-        ]
-      },
-      {
-        "name": "游戏",
-        "count": 1,
-        "codes": [
-          "002425"
-        ]
-      },
-      {
-        "name": "电气设备",
-        "count": 1,
-        "codes": [
-          "001393"
-        ]
-      },
-      {
-        "name": "绿色电力",
-        "count": 1,
-        "codes": [
-          "000595"
-        ]
-      },
-      {
-        "name": "阿尔茨海默",
-        "count": 1,
-        "codes": [
-          "000766"
+          "603983"
         ]
       }
     ],
     "zt_bao": [
       {
-        "code": "605255",
-        "symbol": "sh605255",
-        "name": "天普股份",
-        "limit_count": 4,
-        "plate_name": "实控人变更",
-        "first_limit_time": 1794533434,
-        "float_market_cap": 9897785600
-      },
-      {
         "code": "002148",
         "symbol": "sz002148",
         "name": "北纬科技",
-        "limit_count": 3,
+        "limit_count": 4,
         "plate_name": "游戏",
-        "first_limit_time": 1794533400,
-        "float_market_cap": 4442073074
-      },
-      {
-        "code": "603396",
-        "symbol": "sh603396",
-        "name": "金辰股份",
-        "limit_count": 3,
-        "plate_name": "光伏",
-        "first_limit_time": 1794533444,
-        "float_market_cap": 4892790523
-      },
-      {
-        "code": "001358",
-        "symbol": "sz001358",
-        "name": "兴欣新材",
-        "limit_count": 2,
-        "plate_name": "芯片",
-        "first_limit_time": 1794533100,
-        "float_market_cap": 3282048000
-      },
-      {
-        "code": "600467",
-        "symbol": "sh600467",
-        "name": "好当家",
-        "limit_count": 2,
-        "plate_name": "农业",
-        "first_limit_time": 1794533150,
-        "float_market_cap": 3988514450
+        "first_limit_time": 1794792300,
+        "float_market_cap": 4889074138
       },
       {
         "code": "002187",
         "symbol": "sz002187",
         "name": "广百股份",
-        "limit_count": 2,
+        "limit_count": 3,
         "plate_name": "零售",
-        "first_limit_time": 1794533100,
-        "float_market_cap": 4885235592
+        "first_limit_time": 1794792603,
+        "float_market_cap": 5375861835
       },
       {
         "code": "002205",
         "symbol": "sz002205",
         "name": "国统股份",
-        "limit_count": 2,
+        "limit_count": 3,
         "plate_name": "基础建设",
-        "first_limit_time": 1794533814,
-        "float_market_cap": 2402952938
-      },
-      {
-        "code": "600715",
-        "symbol": "sh600715",
-        "name": "文投控股",
-        "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794533440,
-        "float_market_cap": 13803501900
+        "first_limit_time": 1794792885,
+        "float_market_cap": 2642690702
       },
       {
         "code": "002905",
         "symbol": "sz002905",
         "name": "金逸影视",
-        "limit_count": 1,
+        "limit_count": 2,
         "plate_name": "文化传媒",
-        "first_limit_time": 1794533532,
-        "float_market_cap": 3725568000
+        "first_limit_time": 1794792300,
+        "float_market_cap": 4098124800
       },
       {
-        "code": "603103",
-        "symbol": "sh603103",
-        "name": "横店影视",
-        "limit_count": 1,
+        "code": "600715",
+        "symbol": "sh600715",
+        "name": "文投控股",
+        "limit_count": 2,
         "plate_name": "文化传媒",
-        "first_limit_time": 1794533585,
-        "float_market_cap": 12246402000
-      },
-      {
-        "code": "000665",
-        "symbol": "sz000665",
-        "name": "湖北广电",
-        "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794533778,
-        "float_market_cap": 5208144687
-      },
-      {
-        "code": "600977",
-        "symbol": "sh600977",
-        "name": "中国电影",
-        "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794535696,
-        "float_market_cap": 31832350000
-      },
-      {
-        "code": "300528",
-        "symbol": "sz300528",
-        "name": "幸福蓝海",
-        "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794535743,
-        "float_market_cap": 6703218891
-      },
-      {
-        "code": "002739",
-        "symbol": "sz002739",
-        "name": "儒意电影",
-        "limit_count": 1,
-        "plate_name": "文化传媒",
-        "first_limit_time": 1794537513,
-        "float_market_cap": 21223376015
-      },
-      {
-        "code": "002685",
-        "symbol": "sz002685",
-        "name": "华东重机",
-        "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794533100,
-        "float_market_cap": 5582606151
-      },
-      {
-        "code": "600410",
-        "symbol": "sh600410",
-        "name": "华胜天成",
-        "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794534606,
-        "float_market_cap": 15679873967
-      },
-      {
-        "code": "002042",
-        "symbol": "sz002042",
-        "name": "华孚时尚",
-        "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794534987,
-        "float_market_cap": 6156466505
-      },
-      {
-        "code": "605318",
-        "symbol": "sh605318",
-        "name": "法狮龙",
-        "limit_count": 1,
-        "plate_name": "算力",
-        "first_limit_time": 1794539161,
-        "float_market_cap": 10593927899
-      },
-      {
-        "code": "603166",
-        "symbol": "sh603166",
-        "name": "福达股份",
-        "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794538108,
-        "float_market_cap": 7636452508
-      },
-      {
-        "code": "603686",
-        "symbol": "sh603686",
-        "name": "福龙马",
-        "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794538581,
-        "float_market_cap": 5649853494
-      },
-      {
-        "code": "002520",
-        "symbol": "sz002520",
-        "name": "日发精机",
-        "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794540087,
-        "float_market_cap": 5776887817
-      },
-      {
-        "code": "603286",
-        "symbol": "sh603286",
-        "name": "日盈电子",
-        "limit_count": 1,
-        "plate_name": "机器人概念",
-        "first_limit_time": 1794546013,
-        "float_market_cap": 7658969185
-      },
-      {
-        "code": "002819",
-        "symbol": "sz002819",
-        "name": "东方中科",
-        "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794533418,
-        "float_market_cap": 6468056070
-      },
-      {
-        "code": "603928",
-        "symbol": "sh603928",
-        "name": "兴业股份",
-        "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794533632,
-        "float_market_cap": 4074819840
-      },
-      {
-        "code": "600651",
-        "symbol": "sh600651",
-        "name": "飞乐音响",
-        "limit_count": 1,
-        "plate_name": "芯片",
-        "first_limit_time": 1794537534,
-        "float_market_cap": 12986405118
-      },
-      {
-        "code": "002548",
-        "symbol": "sz002548",
-        "name": "金新农",
-        "limit_count": 1,
-        "plate_name": "农业",
-        "first_limit_time": 1794536274,
-        "float_market_cap": 3171905110
-      },
-      {
-        "code": "002124",
-        "symbol": "sz002124",
-        "name": "天邦食品",
-        "limit_count": 1,
-        "plate_name": "农业",
-        "first_limit_time": 1794536451,
-        "float_market_cap": 5132667152
-      },
-      {
-        "code": "002425",
-        "symbol": "sz002425",
-        "name": "凯撒文化",
-        "limit_count": 1,
-        "plate_name": "游戏",
-        "first_limit_time": 1794533709,
-        "float_market_cap": 3788393661
+        "first_limit_time": 1794792624,
+        "float_market_cap": 15183852090
       },
       {
         "code": "002748",
         "symbol": "sz002748",
         "name": "世龙实业",
-        "limit_count": 1,
-        "plate_name": "化工",
-        "first_limit_time": 1794538359,
-        "float_market_cap": 2973600000
+        "limit_count": 2,
+        "plate_name": "锂电池",
+        "first_limit_time": 1794795819,
+        "float_market_cap": 3271200000
+      },
+      {
+        "code": "002425",
+        "symbol": "sz002425",
+        "name": "凯撒文化",
+        "limit_count": 2,
+        "plate_name": "游戏",
+        "first_limit_time": 1794792600,
+        "float_market_cap": 4171059688
       },
       {
         "code": "000819",
         "symbol": "sz000819",
         "name": "岳阳兴长",
-        "limit_count": 1,
+        "limit_count": 2,
         "plate_name": "化工",
-        "first_limit_time": 1794550779,
-        "float_market_cap": 4692377759
+        "first_limit_time": 1794792300,
+        "float_market_cap": 5160883495
       },
       {
-        "code": "002853",
-        "symbol": "sz002853",
-        "name": "皮阿诺",
-        "limit_count": 1,
-        "plate_name": "实控人变更",
-        "first_limit_time": 1794534960,
-        "float_market_cap": 3982080188
+        "code": "002548",
+        "symbol": "sz002548",
+        "name": "金新农",
+        "limit_count": 2,
+        "plate_name": "猪肉",
+        "first_limit_time": 1794792600,
+        "float_market_cap": 3486611100
       },
       {
-        "code": "603767",
-        "symbol": "sh603767",
-        "name": "中马传动",
-        "limit_count": 1,
-        "plate_name": "减速器",
-        "first_limit_time": 1794534097,
-        "float_market_cap": 5475122810
-      },
-      {
-        "code": "000766",
-        "symbol": "sz000766",
-        "name": "通化金马",
-        "limit_count": 1,
-        "plate_name": "阿尔茨海默",
-        "first_limit_time": 1794534204,
-        "float_market_cap": 15947162666
-      },
-      {
-        "code": "300237",
-        "symbol": "sz300237",
-        "name": "美晨科技",
-        "limit_count": 1,
-        "plate_name": "ST摘帽",
-        "first_limit_time": 1794537495,
-        "float_market_cap": 4700642672
-      },
-      {
-        "code": "001393",
-        "symbol": "sz001393",
-        "name": "维通利",
-        "limit_count": 1,
-        "plate_name": "电气设备",
-        "first_limit_time": 1794539079,
-        "float_market_cap": 10756240029
+        "code": "002685",
+        "symbol": "sz002685",
+        "name": "华东重机",
+        "limit_count": 2,
+        "plate_name": "GPU",
+        "first_limit_time": 1794792789,
+        "float_market_cap": 6136836004
       },
       {
         "code": "000595",
         "symbol": "sz000595",
         "name": "新能股份",
-        "limit_count": 1,
-        "plate_name": "绿色电力",
-        "first_limit_time": 1794539823,
-        "float_market_cap": 6296769704
+        "limit_count": 2,
+        "plate_name": "电力",
+        "first_limit_time": 1794798891,
+        "float_market_cap": 6923030705
       },
       {
-        "code": "603636",
-        "symbol": "sh603636",
-        "name": "南威软件",
+        "code": "600386",
+        "symbol": "sh600386",
+        "name": "北巴传媒",
         "limit_count": 1,
-        "plate_name": "AI应用",
-        "first_limit_time": 1794548190,
-        "float_market_cap": 5513424968
+        "plate_name": "文化传媒",
+        "first_limit_time": 1794793868,
+        "float_market_cap": 3072384000
+      },
+      {
+        "code": "601929",
+        "symbol": "sh601929",
+        "name": "吉视传媒",
+        "limit_count": 1,
+        "plate_name": "文化传媒",
+        "first_limit_time": 1794795132,
+        "float_market_cap": 10329772977
+      },
+      {
+        "code": "000156",
+        "symbol": "sz000156",
+        "name": "华数传媒",
+        "limit_count": 1,
+        "plate_name": "文化传媒",
+        "first_limit_time": 1794797610,
+        "float_market_cap": 15824043055
+      },
+      {
+        "code": "605378",
+        "symbol": "sh605378",
+        "name": "野马电池",
+        "limit_count": 1,
+        "plate_name": "锂电池",
+        "first_limit_time": 1794793009,
+        "float_market_cap": 4056096128
+      },
+      {
+        "code": "002058",
+        "symbol": "sz002058",
+        "name": "紫竹高科",
+        "limit_count": 1,
+        "plate_name": "锂电池",
+        "first_limit_time": 1794795507,
+        "float_market_cap": 3213242637
+      },
+      {
+        "code": "300530",
+        "symbol": "sz300530",
+        "name": "领湃科技",
+        "limit_count": 1,
+        "plate_name": "锂电池",
+        "first_limit_time": 1794796557,
+        "float_market_cap": 4785406182
+      },
+      {
+        "code": "000521",
+        "symbol": "sz000521",
+        "name": "长虹美菱",
+        "limit_count": 1,
+        "plate_name": "家电",
+        "first_limit_time": 1794793665,
+        "float_market_cap": 4438971212
+      },
+      {
+        "code": "002035",
+        "symbol": "sz002035",
+        "name": "华帝股份",
+        "limit_count": 1,
+        "plate_name": "家电",
+        "first_limit_time": 1794793725,
+        "float_market_cap": 3967018932
+      },
+      {
+        "code": "002959",
+        "symbol": "sz002959",
+        "name": "小熊电器",
+        "limit_count": 1,
+        "plate_name": "家电",
+        "first_limit_time": 1794796974,
+        "float_market_cap": 5652082641
+      },
+      {
+        "code": "300824",
+        "symbol": "sz300824",
+        "name": "北鼎股份",
+        "limit_count": 1,
+        "plate_name": "家电",
+        "first_limit_time": 1794797109,
+        "float_market_cap": 2806538465
+      },
+      {
+        "code": "002419",
+        "symbol": "sz002419",
+        "name": "天虹股份",
+        "limit_count": 1,
+        "plate_name": "零售",
+        "first_limit_time": 1794792753,
+        "float_market_cap": 6162785489
+      },
+      {
+        "code": "002356",
+        "symbol": "sz002356",
+        "name": "鹏飞绿能",
+        "limit_count": 1,
+        "plate_name": "零售",
+        "first_limit_time": 1794792960,
+        "float_market_cap": 3304361393
+      },
+      {
+        "code": "601188",
+        "symbol": "sh601188",
+        "name": "龙江交通",
+        "limit_count": 1,
+        "plate_name": "冰雪产业",
+        "first_limit_time": 1794793108,
+        "float_market_cap": 6174872698
+      },
+      {
+        "code": "600822",
+        "symbol": "sh600822",
+        "name": "上海物贸",
+        "limit_count": 1,
+        "plate_name": "汽车服务",
+        "first_limit_time": 1794793594,
+        "float_market_cap": 4686944037
+      },
+      {
+        "code": "600936",
+        "symbol": "sh600936",
+        "name": "北投科技",
+        "limit_count": 1,
+        "plate_name": "机器人概念",
+        "first_limit_time": 1794793661,
+        "float_market_cap": 6717525481
+      },
+      {
+        "code": "001318",
+        "symbol": "sz001318",
+        "name": "阳光乳业",
+        "limit_count": 1,
+        "plate_name": "乳业",
+        "first_limit_time": 1794794223,
+        "float_market_cap": 4132489200
+      },
+      {
+        "code": "603983",
+        "symbol": "sh603983",
+        "name": "丸美生物",
+        "limit_count": 1,
+        "plate_name": "美容护理",
+        "first_limit_time": 1794796573,
+        "float_market_cap": 10718730000
+      },
+      {
+        "code": "000533",
+        "symbol": "sz000533",
+        "name": "顺钠股份",
+        "limit_count": 1,
+        "plate_name": "智能电网",
+        "first_limit_time": 1794798849,
+        "float_market_cap": 6783813120
+      },
+      {
+        "code": "000628",
+        "symbol": "sz000628",
+        "name": "高新发展",
+        "limit_count": 1,
+        "plate_name": "国有企业",
+        "first_limit_time": 1794798891,
+        "float_market_cap": 16398634000
+      },
+      {
+        "code": "603118",
+        "symbol": "sh603118",
+        "name": "共进股份",
+        "limit_count": 1,
+        "plate_name": "交换机",
+        "first_limit_time": 1794799334,
+        "float_market_cap": 11580835932
+      },
+      {
+        "code": "002861",
+        "symbol": "sz002861",
+        "name": "瀛通通讯",
+        "limit_count": 1,
+        "plate_name": "AI眼镜",
+        "first_limit_time": 1794805557,
+        "float_market_cap": 2533461883
       }
     ],
     "ranking": {
@@ -15581,6 +15262,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -38.8
               },
               {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
+              },
+              {
                 "plate_code": "cls80562",
                 "plate_name": "百日新高",
                 "change_px": -21.56
@@ -15698,6 +15384,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": 3896.74
               },
               {
+                "plate_code": "cls80562",
+                "plate_name": "百日新高",
+                "change_px": -21.56
+              },
+              {
                 "plate_code": "cls80582",
                 "plate_name": "新型城镇化",
                 "change_px": -21.1
@@ -15765,6 +15456,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -12.1
               },
               {
+                "plate_code": "cls80364",
+                "plate_name": "昨日高换手",
+                "change_px": -5.53
+              },
+              {
                 "plate_code": "cls80368",
                 "plate_name": "昨日涨停",
                 "change_px": 224.74
@@ -15778,6 +15474,16 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80438",
                 "plate_name": "口罩",
                 "change_px": -27.19
+              },
+              {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
+              },
+              {
+                "plate_code": "cls80562",
+                "plate_name": "百日新高",
+                "change_px": -21.56
               },
               {
                 "plate_code": "cls80568",
@@ -15877,6 +15583,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -79.04
               },
               {
+                "plate_code": "cls80364",
+                "plate_name": "昨日高换手",
+                "change_px": -5.53
+              },
+              {
                 "plate_code": "cls80367",
                 "plate_name": "摘帽",
                 "change_px": -40.38
@@ -15890,6 +15601,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80544",
                 "plate_name": "绿色电力",
                 "change_px": -3.55
+              },
+              {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
               },
               {
                 "plate_code": "cls80568",
@@ -15972,6 +15688,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80364",
                 "plate_name": "昨日高换手",
                 "change_px": -5.53
+              },
+              {
+                "plate_code": "cls80365",
+                "plate_name": "昨日大额成交",
+                "change_px": -36.89
               },
               {
                 "plate_code": "cls80368",
@@ -16121,6 +15842,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -76.53
               },
               {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
+              },
+              {
                 "plate_code": "cls80574",
                 "plate_name": "通用设备",
                 "change_px": -75.46
@@ -16206,6 +15932,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80541",
                 "plate_name": "氯碱工业",
                 "change_px": -3.74
+              },
+              {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
               },
               {
                 "plate_code": "cls81969",
@@ -16310,6 +16041,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -38.8
               },
               {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
+              },
+              {
                 "plate_code": "cls80562",
                 "plate_name": "百日新高",
                 "change_px": -21.56
@@ -16375,11 +16111,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80218",
                 "plate_name": "国企改革",
                 "change_px": -19.52
-              },
-              {
-                "plate_code": "cls80364",
-                "plate_name": "昨日高换手",
-                "change_px": -5.53
               },
               {
                 "plate_code": "cls80368",
@@ -16464,11 +16195,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": 1.97
               },
               {
-                "plate_code": "cls80358",
-                "plate_name": "低价股",
-                "change_px": -13.62
-              },
-              {
                 "plate_code": "cls80368",
                 "plate_name": "昨日涨停",
                 "change_px": 224.74
@@ -16477,6 +16203,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80393",
                 "plate_name": "深圳本地",
                 "change_px": -48.53
+              },
+              {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
               },
               {
                 "plate_code": "cls80593",
@@ -16524,6 +16255,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80368",
                 "plate_name": "昨日涨停",
                 "change_px": 224.74
+              },
+              {
+                "plate_code": "cls80557",
+                "plate_name": "昨日连板",
+                "change_px": 3896.74
               },
               {
                 "plate_code": "cls80562",
@@ -16672,6 +16408,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -13.62
               },
               {
+                "plate_code": "cls80364",
+                "plate_name": "昨日高换手",
+                "change_px": -5.53
+              },
+              {
                 "plate_code": "cls80367",
                 "plate_name": "摘帽",
                 "change_px": -40.38
@@ -16734,6 +16475,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -31.58
               },
               {
+                "plate_code": "cls80562",
+                "plate_name": "百日新高",
+                "change_px": -21.56
+              },
+              {
                 "plate_code": "cls82091",
                 "plate_name": "食品饮料行业",
                 "change_px": 1.7
@@ -16794,11 +16540,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80268",
                 "plate_name": "汽车",
                 "change_px": -47.8
-              },
-              {
-                "plate_code": "cls80563",
-                "plate_name": "百日新低",
-                "change_px": -8.44
               },
               {
                 "plate_code": "cls80596",
@@ -17194,11 +16935,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": 3.94
               },
               {
-                "plate_code": "cls82535",
-                "plate_name": "微盘股",
-                "change_px": -50.84
-              },
-              {
                 "plate_code": "cls82542",
                 "plate_name": "统一大市场",
                 "change_px": -1.84
@@ -17271,6 +17007,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -29.13
               },
               {
+                "plate_code": "cls80364",
+                "plate_name": "昨日高换手",
+                "change_px": -5.53
+              },
+              {
                 "plate_code": "cls80368",
                 "plate_name": "昨日涨停",
                 "change_px": 224.74
@@ -17289,6 +17030,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80550",
                 "plate_name": "算力工程",
                 "change_px": -76.53
+              },
+              {
+                "plate_code": "cls80562",
+                "plate_name": "百日新高",
+                "change_px": -21.56
               },
               {
                 "plate_code": "cls80621",
@@ -17601,11 +17347,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -5.53
               },
               {
-                "plate_code": "cls80562",
-                "plate_name": "百日新高",
-                "change_px": -21.56
-              },
-              {
                 "plate_code": "cls80584",
                 "plate_name": "出海概念",
                 "change_px": -40.96
@@ -17666,6 +17407,11 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80223",
                 "plate_name": "央企改革",
                 "change_px": -12.1
+              },
+              {
+                "plate_code": "cls80365",
+                "plate_name": "昨日大额成交",
+                "change_px": -36.89
               },
               {
                 "plate_code": "cls80623",
@@ -17753,11 +17499,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80365",
                 "plate_name": "昨日大额成交",
                 "change_px": -36.89
-              },
-              {
-                "plate_code": "cls80562",
-                "plate_name": "百日新高",
-                "change_px": -21.56
               },
               {
                 "plate_code": "cls82033",
@@ -17953,11 +17694,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -41.93
               },
               {
-                "plate_code": "cls80364",
-                "plate_name": "昨日高换手",
-                "change_px": -5.53
-              },
-              {
                 "plate_code": "cls80562",
                 "plate_name": "百日新高",
                 "change_px": -21.56
@@ -18008,11 +17744,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80196",
                 "plate_name": "充电桩",
                 "change_px": -44.36
-              },
-              {
-                "plate_code": "cls80364",
-                "plate_name": "昨日高换手",
-                "change_px": -5.53
               },
               {
                 "plate_code": "cls80457",
@@ -18206,11 +17937,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -67.44
               },
               {
-                "plate_code": "cls80563",
-                "plate_name": "百日新低",
-                "change_px": -8.44
-              },
-              {
                 "plate_code": "cls80622",
                 "plate_name": "复合集流体",
                 "change_px": -76.7
@@ -18286,11 +18012,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80537",
                 "plate_name": "功率半导体",
                 "change_px": -58.43
-              },
-              {
-                "plate_code": "cls80563",
-                "plate_name": "百日新低",
-                "change_px": -8.44
               },
               {
                 "plate_code": "cls80573",
@@ -18959,11 +18680,6 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": 0.63
               },
               {
-                "plate_code": "cls80364",
-                "plate_name": "昨日高换手",
-                "change_px": -5.53
-              },
-              {
                 "plate_code": "cls80486",
                 "plate_name": "蚂蚁集团概念",
                 "change_px": -21.31
@@ -19069,11 +18785,6 @@ window.__INITIAL_BUNDLE__ = {
                 "plate_code": "cls80543",
                 "plate_name": "培育钻石",
                 "change_px": -119.58
-              },
-              {
-                "plate_code": "cls80563",
-                "plate_name": "百日新低",
-                "change_px": -8.44
               },
               {
                 "plate_code": "cls80574",
@@ -19225,6 +18936,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -22.89
               },
               {
+                "plate_code": "cls80364",
+                "plate_name": "昨日高换手",
+                "change_px": -5.53
+              },
+              {
                 "plate_code": "cls81963",
                 "plate_name": "广西",
                 "change_px": -23.76
@@ -19277,6 +18993,11 @@ window.__INITIAL_BUNDLE__ = {
                 "change_px": -5.53
               },
               {
+                "plate_code": "cls80365",
+                "plate_name": "昨日大额成交",
+                "change_px": -36.89
+              },
+              {
                 "plate_code": "cls80393",
                 "plate_name": "深圳本地",
                 "change_px": -48.53
@@ -19318,7 +19039,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "高速公路",
           "change": 0.0173,
           "change_str": "+1.73%",
-          "main_fund_diff": 434756146,
+          "main_fund_diff": 434689152,
           "limit_up": 20,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19334,7 +19055,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "消费精选",
           "change": 0.0143,
           "change_str": "+1.43%",
-          "main_fund_diff": 312917838,
+          "main_fund_diff": 315831868,
           "limit_up": 29,
           "limit_up_num": 2,
           "limit_down_num": 0,
@@ -19350,7 +19071,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "离境退税",
           "change": 0.013,
           "change_str": "+1.30%",
-          "main_fund_diff": 28260722,
+          "main_fund_diff": 24889551,
           "limit_up": 6,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19366,7 +19087,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "港口",
           "change": 0.0127,
           "change_str": "+1.27%",
-          "main_fund_diff": 54709383,
+          "main_fund_diff": 52236325,
           "limit_up": 14,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19382,7 +19103,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "煤炭",
           "change": 0.0103,
           "change_str": "+1.03%",
-          "main_fund_diff": -50425107,
+          "main_fund_diff": -39688830,
           "limit_up": 28,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19398,7 +19119,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "广电系",
           "change": 0.0088,
           "change_str": "+0.88%",
-          "main_fund_diff": 622988099,
+          "main_fund_diff": 632542777,
           "limit_up": 10,
           "limit_up_num": 3,
           "limit_down_num": 0,
@@ -19414,7 +19135,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "大金融",
           "change": 0.0071,
           "change_str": "+0.71%",
-          "main_fund_diff": -185623982,
+          "main_fund_diff": -159246756,
           "limit_up": 87,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19430,7 +19151,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "民航",
           "change": 0.007,
           "change_str": "+0.70%",
-          "main_fund_diff": -38618246,
+          "main_fund_diff": -33491078,
           "limit_up": 8,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19446,7 +19167,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "重庆国资",
           "change": 0.0058,
           "change_str": "+0.58%",
-          "main_fund_diff": 1218891,
+          "main_fund_diff": 1662566,
           "limit_up": 7,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19462,7 +19183,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "乳业奶粉",
           "change": 0.0049,
           "change_str": "+0.49%",
-          "main_fund_diff": 110617374,
+          "main_fund_diff": 110311599,
           "limit_up": 11,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19478,7 +19199,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "电信运营",
           "change": 0.0046,
           "change_str": "+0.46%",
-          "main_fund_diff": 89360523,
+          "main_fund_diff": 91262545,
           "limit_up": 4,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19494,7 +19215,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "数字乡村",
           "change": 0.0031,
           "change_str": "+0.31%",
-          "main_fund_diff": -6023608,
+          "main_fund_diff": -1329131,
           "limit_up": 8,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19510,7 +19231,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "猪肉产业",
           "change": 0.0027,
           "change_str": "+0.27%",
-          "main_fund_diff": -334918990,
+          "main_fund_diff": -341644185,
           "limit_up": 23,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19526,7 +19247,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "免税",
           "change": 0.0018,
           "change_str": "+0.18%",
-          "main_fund_diff": -164652387,
+          "main_fund_diff": -170500368,
           "limit_up": 16,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19542,7 +19263,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "芬太尼概念",
           "change": 0.0015,
           "change_str": "+0.15%",
-          "main_fund_diff": 26026585,
+          "main_fund_diff": 28438195,
           "limit_up": 5,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19558,7 +19279,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "保险概念",
           "change": 0.0013,
           "change_str": "+0.13%",
-          "main_fund_diff": 298773237,
+          "main_fund_diff": 304819175,
           "limit_up": 7,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19574,7 +19295,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "PTA",
           "change": 0.001,
           "change_str": "+0.10%",
-          "main_fund_diff": -65134493,
+          "main_fund_diff": -63665613,
           "limit_up": 4,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19590,7 +19311,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "盐",
           "change": 0.0006,
           "change_str": "+0.06%",
-          "main_fund_diff": -37974021,
+          "main_fund_diff": -36038333,
           "limit_up": 4,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19606,7 +19327,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "航运",
           "change": 0.0002,
           "change_str": "+0.02%",
-          "main_fund_diff": 75162781,
+          "main_fund_diff": 75922532,
           "limit_up": 10,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19622,7 +19343,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "家禽",
           "change": -0.0002,
           "change_str": "-0.02%",
-          "main_fund_diff": -188955007,
+          "main_fund_diff": -189164729,
           "limit_up": 6,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19638,7 +19359,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "白酒",
           "change": -0.0004,
           "change_str": "-0.04%",
-          "main_fund_diff": 584377865,
+          "main_fund_diff": 580711464,
           "limit_up": 21,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19654,7 +19375,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "血制品",
           "change": -0.0004,
           "change_str": "-0.04%",
-          "main_fund_diff": -10426151,
+          "main_fund_diff": -12059485,
           "limit_up": 8,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19670,7 +19391,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "冰雪产业",
           "change": -0.0008,
           "change_str": "-0.08%",
-          "main_fund_diff": 177017442,
+          "main_fund_diff": 176819336,
           "limit_up": 10,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -19686,7 +19407,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "冷链",
           "change": -0.0009,
           "change_str": "-0.09%",
-          "main_fund_diff": -1007196312,
+          "main_fund_diff": -1004760908,
           "limit_up": 21,
           "limit_up_num": 1,
           "limit_down_num": 1,
@@ -19702,7 +19423,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "统一大市场",
           "change": -0.0013,
           "change_str": "-0.13%",
-          "main_fund_diff": -84595176,
+          "main_fund_diff": -82753146,
           "limit_up": 43,
           "limit_up_num": 2,
           "limit_down_num": 1,
@@ -19718,7 +19439,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "啤酒",
           "change": -0.0013,
           "change_str": "-0.13%",
-          "main_fund_diff": 4225937,
+          "main_fund_diff": 5576555,
           "limit_up": 8,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19734,7 +19455,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "电池",
           "change": -0.0015,
           "change_str": "-0.15%",
-          "main_fund_diff": 102400873,
+          "main_fund_diff": 103855937,
           "limit_up": 17,
           "limit_up_num": 2,
           "limit_down_num": 0,
@@ -19750,7 +19471,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "电力改革",
           "change": -0.0015,
           "change_str": "-0.15%",
-          "main_fund_diff": 298469915,
+          "main_fund_diff": 298519526,
           "limit_up": 25,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19766,7 +19487,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "水电",
           "change": -0.002,
           "change_str": "-0.20%",
-          "main_fund_diff": 209213652,
+          "main_fund_diff": 209904639,
           "limit_up": 15,
           "limit_up_num": 0,
           "limit_down_num": 0,
@@ -19782,7 +19503,7 @@ window.__INITIAL_BUNDLE__ = {
           "name": "酿酒",
           "change": -0.002,
           "change_str": "-0.20%",
-          "main_fund_diff": 533413740,
+          "main_fund_diff": 530139737,
           "limit_up": 31,
           "limit_up_num": 1,
           "limit_down_num": 0,
@@ -20078,19 +19799,19 @@ window.__INITIAL_BUNDLE__ = {
       ],
       "articles": [
         {
-          "id": 2535430,
-          "title": "11月16日连板股分析：连板股晋级率超四成 文投控股走出19天11板",
-          "brief": "今日共32股涨停，连板股总数11只，其中三连板及以上个股3只，上一交易日共7只连板股，连板股晋级率42.86%（不含ST股、退市股）。个股方面，全市场连续第三个交易日超4300只个股下跌，跌停家数大幅增加，近60股跌停，其中襄阳轴承、青岛食品、澳洋健康、闽发铝业、百洋股份等一批高位人气股2连跌停，短线情绪持续降温。人气标杆九阳股份竞价涨停，但受大盘拖累最终尾盘炸板。连板股方面，天普股份停牌核查，北纬科技放量T字板晋级4连板，成为新的高度板。板块方面，传媒板块反复活跃，文投控股走出19天11板录得2连板，凯撒文化5天4板，金逸影视5天3板，吉视传媒3天2板；受九阳股份带动，小家电概念股盘中异动拉升，北鼎股份20cm涨停，长虹美菱、小熊电器、华帝股份涨停。",
-          "time": 1794815255,
+          "id": 2535564,
+          "title": "【数据看盘】外资和机构激烈博弈沪电股份，多只宽基ETF上周份额明显减少",
+          "brief": "①PCB人气股沪电股份今日跌停，遭三家机构卖出3.17亿，同时获四家机构买入5.84亿，深股通买入1.89亿。\n②多只宽基ETF上周份额明显减少，其中科创50ETF华夏（588000）上周份额减少43.32亿份。",
+          "time": 1794820400,
           "img": "",
           "plate_name": "",
           "stock_list": []
         },
         {
-          "id": 2535395,
-          "title": "今日投资舆情热点",
-          "brief": "\n1）短剧：AI从成本、产能、出海三个维度重塑中国短剧行业，以短剧为首的多类AI产品正在快速渗透日常生活。\n2）家电：前十个月，中国家电出口量达40.09亿台、同比增长8.0%，出口金额893.65亿美元、同比增长10.4%。\n3）锂电池：国轩高科称，2GWh全固态量产线工作已启动，设备订单将根据验证结果、项目节奏分批落地。\n4）机器人：世界模型加速迭代，推动更多应用场景的突破，从而带动机器人商业化进程。",
-          "time": 1794814160,
+          "id": 2535595,
+          "title": "【焦点复盘】创业板指跌4.37%再创年内新低，全市场超250股跌超9%，资金持续逆势抱团红利股",
+          "brief": "①连板晋级率升至四成以上，但昨日连板股仅有3股晋级。高位人气股亏钱效应持续释放，大东方、百洋股份、襄阳轴承等多股遭遇2连跌停； ②资金持续抱团高股息红利股，“工、中、建”三大行以及美的集团、长江电力等多股创历史新高。",
+          "time": 1794820321,
           "img": "",
           "plate_name": "",
           "stock_list": []
@@ -47335,167 +47056,39 @@ window.__INITIAL_BUNDLE__ = {
     "up_reason": {
       "available": true,
       "items": {
-        "600715": "游戏+短剧+AI|1.公司主要从事影视、游戏和产业投资三大业务。全资子公司都玩网络着力于对移动游戏和H5游戏的研发能力，研发格局的重心从网络游戏转化到了移动游戏。\n2.公司已针对短剧行业进行深入研究，并计划依托自身IP资源孵化优势，结合AIGC等工具的发展应用，探索文化内容与科技手段相融合的新型创作模式。",
-        "002905": "影视|公司是国内具有领先优势且极具发展潜力的影视传媒集团，主营业务涵盖院线发行、电影放映及相关衍生业务、影视制作投资。",
-        "603103": "",
-        "000665": "",
-        "600977": "",
-        "300528": "",
-        "002739": "",
-        "002685": "算力芯片+工业母机|1.子公司厦门锐信图芯的GPU已经与国内主流CPU、操作系统等生态厂商完成适配，在国产化台式机、一体机、笔记本和平板电脑当中批量应用，产品已切入到党政办公、交通、教育、税务、电力和轨道交通等行业。\n2.全资子公司润星科技是专业从事高端智能装备的研发、制造、销售和服务的高新技术企业，主要产品包括中高档数控机床、工业机器人、以及自动化交钥匙工程等。",
-        "600410": "",
-        "002042": "",
-        "605318": "",
-        "603166": "",
-        "603686": "",
-        "002520": "",
-        "603286": "",
-        "002819": "",
-        "603928": "",
-        "600651": "",
-        "002548": "猪肉|定位于为规模化养猪企业和家庭农场提供综合解决方案，并形成了贯穿猪饲料业务上下游较为完整的产业链。生猪养殖业务是以“自繁自养”模式为主，生猪产品主要包括种猪、仔猪和育肥猪。",
-        "002124": ""
+        "600386": "汽车+传媒|1.子公司天交公司主营报废汽车的收购、解体；废旧物资的回收与再生利用等，是北京市公安局、公安交通管理局对社会营运车辆、公交车辆、涉外牌照车辆和罚没车辆的指定拆解厂家。\n2.公司的主营业务有公交媒体业务、汽车销售及服务业务和旅游业务。",
+        "601929": "短剧+AI|1.公司与吉林广播电视台、长影集团有限责任公司、深圳市来画科技文化有限公司联合签署战略合作协议，发挥四方优势，以联合出品、联合制作、委托制作、国际版制作等形式，共同策划推出微短剧、影视剧、专题片、虚实影像互动剧、社交游戏等精品视频内容与应用服务等精品内容。\n2.2024年6月14日，公司与长影集团、吉林广播电视台、深圳市来画科技文化有限公司共同签署了《战略合作框架协议》，四方将在AI产品生产及销售、广播电视AI音视频智能业务、动漫产业等领域开展合作。",
+        "000156": "短剧|公司积极关注相关行业的发展机遇，探索结合公司主营业务的产业机会，将发挥公司牌照、渠道、平台等优势，整合上下游产业链资源，赋能微短剧精品内容创作，已尝试和部分短剧平台公司开展内容审核业务合作。",
+        "605378": "锂电池|公司销售的锂电池主要为纽扣电池，应用于微型电子产品等。\n",
+        "002058": "铝塑膜|旗下紫江新材专注铝塑膜产品的研发，同时积极布局固态电池用铝塑膜产品，以适应未来固态电池行业发展带动的新增需求。",
+        "300530": "固态电池|公司注重基础研发和前瞻技术开发，已经完成了NCM811电池化学体系研发，固态电解质及固态电池、干法电极及其制备技术的基础试验，相关专利正在申请或已获得授权。",
+        "000521": "家电|中国知名电器制造商之一，拥有冰箱、冰柜、空调等多条产品线。拥有国家级技术中心,在节能、风冷、变频、智慧、深冷方面拥有超前、领先于同行的核心技术。在空调领域，公司与小米签订了合作框架合同。",
+        "002035": "家电|主要产品包括吸油烟机、灶具、热水器、消毒柜、电蒸箱、电烤箱、蒸烤一体机、微波炉、空气净化器、净水器、橱柜等。公司燃气热水器业务有望成为强劲增长动力。 ",
+        "002959": "家电|公司以自主品牌“小熊”为核心，运用互联网大数据进行创意小家电研发、设计、生产和销售。",
+        "300824": "业绩|公司2025年1-3月实现营业收入2.13亿元，同比增长33.41%；净利润3337.27万元，同比增长47.71%。",
+        "002419": "零售|公司拥有“天虹”、“君尚”、“sp@ce”三大品牌。2021年，公司在广东、湖南、江西、江苏省共计开设8家购物中心，在广东、江苏、湖南、江西、福建省共计开设18家超市。",
+        "002356": "氢能|公司控股子公司氢云科技在氢能源应用领域进行投入运营；公司旗下鹏飞氢美定位于氢能源战略的控股投资平台，下设子公司聚能新燃料，主要负责综合能源站的建设与运营，为终端客户提供LNG、汽柴油、氢气等加注服务。",
+        "601188": "东北+高速公路|公司地处黑龙江，黑龙江省唯一一家高速公路板块上市公司。",
+        "600822": "物流+数据要素|1.目前公司主要在上海地区从事汽车贸易（包括新车、二手车交易、维修等）、化工等生产资料的批发与零售业务、有色金属交易及仓储物流业务。\n2.旗下上海有色金属交易中心有限公司有研发的数据产品——有色金属现货指数查询，已在上海数据交易所备案并挂牌。",
+        "600936": "机器人|公司研发的隧道检测机器人、拉索检测机器人、桥梁检测机器人，均为公司围绕交通基础设施智能检测方向开展的研发成果，相关产品已在部分交通基础设施场景中开展了示范应用和试点验证。",
+        "001318": "乳制品|公司专注于乳制品及乳饮料的研发、生产和销售，并以低温乳制品、低温乳饮料为主打产品。公司针对儿童提高免疫力开发的“初乳” 产品。公司从事液态乳、含乳饮料等产品的研发、生产、销售。",
+        "603983": "医美|公司自成立以来主要从事各类化妆品的研发、设计、生产、销售及服务，产品涵盖眼霜、精华、乳液、面霜、洁面、面膜等多个种。",
+        "000533": "电网设备|面向数据中心领域，公司能够提供涵盖中压配电柜到变压器、低压一级配电柜、二级配电柜、列头柜、终端动力柜、配电箱以及配套的直流操作电源的全套配电设备解决方案。",
+        "000628": "功率半导体|1.1.高新发展2024年4月28日公告，公司重大资产重组事项已终止，后续能否继续推进存在重大不确定性风险。\n2.公司拟2.82亿元购买成都森未科技有限公司股权及其上层股东权益，交易完成后，公司以直接和间接方式控制森未科技69.4%的股权；以195.97万元购买成都高投芯未半导体有限公司98%的股权，购买芯未半导体控股权以购买森未科技控股权的成功实施为前提。交易完成以后，公司将具备功率半导体IGBT的研发及设计能力，主营业务将会增加功率半导体设计与销售等业务。",
+        "603118": "AI服务器|公司目前产品中的数据中心交换机和开拓中的服务器项目，均能为数据中心的发展提供协同支持。\n"
       },
       "note": ""
     },
     "anchor": {
-      "available": true,
-      "items": [
-        {
-          "code": "cls80573",
-          "name": "商业零售",
-          "time": "2026-11-16 09:35:37",
-          "float": "up",
-          "article_id": 2534943,
-          "schema": "cailianshe://plate_detail?plate_id=cls80573"
-        },
-        {
-          "code": "cls80007",
-          "name": "猪肉产业",
-          "time": "2026-11-16 09:35:44",
-          "float": "up",
-          "article_id": 2534944,
-          "schema": "cailianshe://plate_detail?plate_id=cls80007"
-        },
-        {
-          "code": "cls80140",
-          "name": "光伏",
-          "time": "2026-11-16 09:35:59",
-          "float": "down",
-          "article_id": 2534939,
-          "schema": "cailianshe://plate_detail?plate_id=cls80140"
-        },
-        {
-          "code": "sz002623",
-          "name": "亚玛顿",
-          "time": "2026-11-16 09:40:45",
-          "float": "down",
-          "article_id": 2534950,
-          "schema": "cailianshe://stock_detail?stock_id=sz002623"
-        },
-        {
-          "code": "cls82477",
-          "name": "冰雪产业",
-          "time": "2026-11-16 09:41:06",
-          "float": "up",
-          "article_id": 2534953,
-          "schema": "cailianshe://plate_detail?plate_id=cls82477"
-        },
-        {
-          "code": "sz000333",
-          "name": "美的集团",
-          "time": "2026-11-16 09:43:51",
-          "float": "up",
-          "article_id": 2534954,
-          "schema": "cailianshe://stock_detail?stock_id=sz000333"
-        },
-        {
-          "code": "cls80044",
-          "name": "创新药",
-          "time": "2026-11-16 09:46:42",
-          "float": "down",
-          "article_id": 2534956,
-          "schema": "cailianshe://plate_detail?plate_id=cls80044"
-        },
-        {
-          "code": "cls80051",
-          "name": "家电",
-          "time": "2026-11-16 09:54:33",
-          "float": "up",
-          "article_id": 2534962,
-          "schema": "cailianshe://plate_detail?plate_id=cls80051"
-        },
-        {
-          "code": "cls80056",
-          "name": "煤炭",
-          "time": "2026-11-16 09:55:27",
-          "float": "up",
-          "article_id": 2534965,
-          "schema": "cailianshe://plate_detail?plate_id=cls80056"
-        },
-        {
-          "code": "cls80079",
-          "name": "银行",
-          "time": "2026-11-16 10:02:24",
-          "float": "up",
-          "article_id": 2534973,
-          "schema": "cailianshe://plate_detail?plate_id=cls80079"
-        },
-        {
-          "code": "cls82446",
-          "name": "短剧",
-          "time": "2026-11-16 10:15:26",
-          "float": "up",
-          "article_id": 2535002,
-          "schema": "cailianshe://plate_detail?plate_id=cls82446"
-        },
-        {
-          "code": "cls81950",
-          "name": "算力芯片",
-          "time": "2026-11-16 10:20:28",
-          "float": "down",
-          "article_id": 2535005,
-          "schema": "cailianshe://plate_detail?plate_id=cls81950"
-        },
-        {
-          "code": "cls81936",
-          "name": "固态电池",
-          "time": "2026-11-16 10:40:46",
-          "float": "up",
-          "article_id": 2535029,
-          "schema": "cailianshe://plate_detail?plate_id=cls81936"
-        },
-        {
-          "code": "cls82064",
-          "name": "人形机器人",
-          "time": "2026-11-16 10:53:56",
-          "float": "up",
-          "article_id": 2535044,
-          "schema": "cailianshe://plate_detail?plate_id=cls82064"
-        },
-        {
-          "code": "cls80327",
-          "name": "智能电网",
-          "time": "2026-11-16 11:16:13",
-          "float": "up",
-          "article_id": 2535075,
-          "schema": "cailianshe://plate_detail?plate_id=cls80327"
-        },
-        {
-          "code": "cls81935",
-          "name": "CPO",
-          "time": "2026-11-16 13:31:36",
-          "float": "down",
-          "article_id": 2535188,
-          "schema": "cailianshe://plate_detail?plate_id=cls81935"
-        }
-      ],
-      "note": ""
+      "available": false,
+      "items": [],
+      "note": "未取到板块异动锚点"
     },
     "trading_days": {
       "available": true,
-      "closest": "2026-11-16",
+      "closest": "2026-11-17",
       "days": [
+        "2026-11-17",
         "2026-11-16",
         "2026-11-13",
         "2026-11-12",
@@ -48307,14 +47900,15 @@ window.__INITIAL_BUNDLE__ = {
       "zt_panorama": "财联社(8.5.4)",
       "plate_detail": "财联社(8.5.4)",
       "up_reason": "财联社(8.5.4)",
-      "anchor": "财联社(8.5.4)",
+      "anchor": "",
       "trading_days": "财联社(8.5.4)",
       "extra": "财联社(8.5.4)"
     },
     "unavailable": [
+      "anchor",
       "commentary"
     ],
     "degraded": false,
-    "generated_at": "2026-11-16 15:50:38"
+    "generated_at": "2026-11-17 00:45:12"
   }
 };
