@@ -1,10 +1,10 @@
 [
   {
-    "date": "2026-11-15",
-    "degree": 13,
+    "date": "2026-11-16",
+    "degree": 19,
     "status": "极度冰点期",
     "color_tag": "emerald",
-    "turnover": "1.66万亿",
+    "turnover": "1.48万亿",
     "zt_count": 37,
     "dt_count": 33,
     "top_stock": "天普股份",
@@ -238,7 +238,7 @@
     "dt_count": 26,
     "top_stock": "慈文传媒",
     "max_height": "缺4板",
-    "position": "0 ~ 2 成轻仓"
+    "position": "≤1成"
   },
   {
     "date": "2026-10-15",
