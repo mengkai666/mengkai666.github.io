@@ -1,16 +1,28 @@
 [
   {
-    "date": "2026-11-18",
-    "degree": 22,
+    "date": "2026-11-19",
+    "degree": 11,
     "status": "极度冰点期",
     "color_tag": "emerald",
-    "turnover": "1.37万亿",
-    "zt_count": 41,
-    "dt_count": 40,
-    "top_stock": "华东重机",
+    "turnover": "1.31万亿",
+    "zt_count": 23,
+    "dt_count": 68,
+    "top_stock": "全筑股份",
     "max_height": "5板",
     "position": "0-2成",
     "is_latest": true
+  },
+  {
+    "date": "2026-11-18",
+    "degree": 14,
+    "status": "冰点 · 空仓观望",
+    "color_tag": "emerald",
+    "turnover": "1.85万亿",
+    "zt_count": 141,
+    "dt_count": 40,
+    "top_stock": "华东重机",
+    "max_height": "缺3板",
+    "position": "0-2成"
   },
   {
     "date": "2026-11-17",
@@ -347,17 +359,5 @@
     "top_stock": "新华传媒",
     "max_height": "缺5板",
     "position": "≤1成"
-  },
-  {
-    "date": "2026-09-28",
-    "degree": 2,
-    "status": "冰点 · 空仓观望",
-    "color_tag": "emerald",
-    "turnover": "1.85万亿",
-    "zt_count": 33,
-    "dt_count": 56,
-    "top_stock": "新华传媒",
-    "max_height": "缺4板",
-    "position": "控制在 2.0 成内。"
   }
 ]
