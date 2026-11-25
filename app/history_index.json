@@ -1,13 +1,13 @@
 [
   {
-    "date": "2026-11-22",
-    "degree": 5,
+    "date": "2026-11-25",
+    "degree": 10,
     "status": "极度冰点期",
     "color_tag": "emerald",
-    "turnover": "1.42万亿",
-    "zt_count": 28,
-    "dt_count": 58,
-    "top_stock": "盛剑科技",
+    "turnover": "1.38万亿",
+    "zt_count": 51,
+    "dt_count": 43,
+    "top_stock": "中京电子",
     "max_height": "5板",
     "position": "0-2成",
     "is_latest": true
@@ -358,18 +358,6 @@
     "dt_count": 8,
     "top_stock": "新华传媒",
     "max_height": "缺3板、缺7板、缺8板",
-    "position": "≤1成"
-  },
-  {
-    "date": "2026-10-08",
-    "degree": 21,
-    "status": "冰点 · 空仓观望",
-    "color_tag": "emerald",
-    "turnover": "1.85万亿",
-    "zt_count": 143,
-    "dt_count": 13,
-    "top_stock": "新华传媒",
-    "max_height": "缺5板、缺7板",
     "position": "≤1成"
   }
 ]
