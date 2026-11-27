@@ -1,16 +1,28 @@
 [
   {
-    "date": "2026-11-26",
-    "degree": 29,
-    "status": "极度冰点期",
-    "color_tag": "emerald",
-    "turnover": "1.32万亿",
-    "zt_count": 65,
-    "dt_count": 5,
+    "date": "2026-11-27",
+    "degree": 99,
+    "status": "亢奋共振期",
+    "color_tag": "rose",
+    "turnover": "2.0万亿",
+    "zt_count": 417,
+    "dt_count": 0,
     "top_stock": "克来机电",
     "max_height": "5板",
     "position": "0-2成",
     "is_latest": true
+  },
+  {
+    "date": "2026-11-26",
+    "degree": 32,
+    "status": "偏冷 · 防守",
+    "color_tag": "blue",
+    "turnover": "1.85万亿",
+    "zt_count": 65,
+    "dt_count": 5,
+    "top_stock": "克来机电",
+    "max_height": "5板",
+    "position": "0-2成"
   },
   {
     "date": "2026-11-25",
@@ -346,18 +358,6 @@
     "dt_count": 8,
     "top_stock": "新经典",
     "max_height": "3板",
-    "position": "≤1成"
-  },
-  {
-    "date": "2026-10-12",
-    "degree": 15,
-    "status": "冰点 · 空仓观望",
-    "color_tag": "emerald",
-    "turnover": "2.16万亿",
-    "zt_count": 146,
-    "dt_count": 19,
-    "top_stock": "新华传媒",
-    "max_height": "10板",
     "position": "≤1成"
   }
 ]
